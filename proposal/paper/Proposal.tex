@@ -1,0 +1,1589 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[dvips]{epsfig,geometry}
+%\usepackage{multicol}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+\usepackage{nicefrac}
+\usepackage{indentfirst}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{comment}
+\usepackage{overcite}
+\usepackage{citesort}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage[]{caption}
+%\usepackage{aip}
+\usepackage{bm}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+\geometry{letterpaper,textwidth=6.5in,textheight=9.0in,left=1.in,right=1in,top=1in}
+\setlength{\parindent}{0.25in}
+\renewcommand{\baselinestretch}{1.25}
+\baselineskip = 13pt
+
+\columnsep = 0.125in
+
+%Definition of new commands
+\newcommand{\f}[2]{\ensuremath{\frac{\displaystyle{#1}}{\displaystyle{#2}}}}
+\newcommand{\lr}[1]{\langle{#1}\rangle}
+\newcommand{\colv}[2] {\left(\begin{array}{c} #1 \\ #2 \end{array}\right)}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+
+\begin{document}
+
+\begin{center}
+
+
+
+\centering
+
+\vspace{1.1in}
+
+\LARGE Thermal Transport in Disordered Materials\Large
+
+\vspace{1in} A thesis proposal by\\Jason M. Larkin\\
+\vspace{1.1in}
+
+
+\parbox[h]{4in}{\center{April 25, 2008\\224 Scaife Hall\\Department of
+Mechanical Engineering\\Carnegie Mellon University}}
+
+\thispagestyle{empty}
+\end{center}
+\vspace{2.in}
+\parbox[b]{6.5in}{\noindent \underline{Thesis Committee}\\
+\noindent Associate Professor Alan McGaughey (Committee Chair), Mechanical Engineering\\
+Professor Jonathan A. Malen, Mechanical Engineering \\
+Professor Michael Widom, Physics \\
+Professor Craig Maloney, Civil and Environmental Enginering\\}
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\section{\label{S-Intro}Introduction}
+
+\subsection{\label{S-Intro-Motivation}Motivation}
+
+Superlattices are periodic nanostructures containing alternating
+material layers with thicknesses as small as a few nanometers (see
+Fig.
+\ref{F-SL_picture}).\cite{capinski1999,chakraborty2003,caylor2005,ezzahri2005,borca-tasciuc2000,borca-tasciuc2002,huxtablethesis,venkata2000}
+
+ \textit{It is
+likely that the thermoelectric performance potential of
+superlattices has yet to be fully realized.}
+
+%\begin{figure}[h]
+%\centerline{\epsfig{figure=SL_picture}}
+%\caption{\label{F-SL_picture} \small{Image of
+%Si/Si$_{0.78}$Ge$_{0.22}$ superlattice obtained by transmission
+%electron microscopy.\cite{aubertine2005}}}
+%\end{figure}
+
+\subsection{\label{S-Intro-Review}Literature review}
+
+\subsubsection*{Superlattice thermal conductivity}
+
+Superlattices can have high values of the thermoelectric
+figure-of-merit because of their low cross-plane thermal
+conductivities, which in some cases, have been observed to be less
+than the that of an alloy of similar
+composition.\cite{capinski1999,chakraborty2003,borca-tasciuc2000,borca-tasciuc2002,venkata2000,caylor2005,lee1997}
+For some of these cases, the reduction below the alloy thermal
+conductivity is due to defects and dislocations that result from the
+strain associated with the lattice mismatch.\cite{kim2006,kim2007}
+Reductions below the alloy thermal conductivity have also been
+observed, however, for superlattices without significant defects or
+dislocations.\cite{kim2007,capinski1999,venkata2000,borca-tasciuc2002}
+The effect of the superlattice period length on the experimentally
+observed thermal conductivity is conflicting. Some studies have
+found that the thermal conductivity initially decreases with
+increasing period length until a minimum is reached, beyond which
+the thermal conductivity
+increases.\cite{chakraborty2003,venkata2000,caylor2005} Others have
+observed the thermal conductivity to increase monotonically with
+increasing period length.\cite{capinski1999,huxtablethesis}
+
+Lattice dynamics calculations,
+\cite{simkin2000,yang2003,broido2004,yang2001,ren2006,tamura1999,kiselev2000,hyldgaard1997,bies2000}
+and molecular dynamics (MD) simulations
+\cite{abramson2002,chen2005,daly2002,imamura2003,volz2000,mcgaughey2006,chiritescu2007}
+have been applied to investigate the experimental trends.
+Traditional lattice dynamics calculations require the assumption of
+coherent phonon transport. This assumption is only valid when the
+superlattice period length is not larger than the phonon mean free
+path. Lattice dynamics calculations performed under this assumption
+have been used to explain the trend of decreasing thermal
+conductivity with increasing period length that is sometimes
+observed for small-period
+superlattices.\cite{kiselev2000,tamura1999,yang2001,bies2000} This
+trend is due to the formation of minibands (i.e., frequency gaps) in
+the phonon dispersion and reductions in the average phonon group
+velocity as the superlattice period length increases. Most of the
+traditional lattice dynamics-based approaches make the additional
+assumption that all phonon modes have the same relaxation time
+[i.e., the constant relaxation time approximation
+(CRTA)].\cite{yang2001,ren2006,tamura1999,kiselev2000,hyldgaard1997,bies2000}
+Broido and Reinecke \cite{broido2004} used an anharmonic lattice
+dynamics model to obtain the mode-specific relaxation times for
+Si/Ge superlattices, finding a thermal conductivity trend similar to
+that obtained under the CRTA. They note, however, that the agreement
+between the trends is fortuitous and due to a cancelation of errors
+in the CRTA approach. When the superlattice period length exceeds
+the phonon mean free path, the phonon transport is incoherent (i.e.,
+phonons scatter at the superlattice interfaces and the phonon
+properties are distinct within each layer). In this regime, the
+mechanism of thermal conductivity reduction is phonon scattering at
+the interfaces. Therefore, the thermal conductivity increases with
+increasing period length due to decreasing interface density. Simkin
+and Mahan \cite{simkin2000} incorporated the effects of incoherent
+phonon transport in lattice dynamics calculations by giving the
+phonons a finite mean free path. This task was accomplished through
+the addition of an imaginary component to the wavevector. The
+resulting model predicted a minimum in the thermal conductivity,
+corresponding to the period length where phonon transport
+transitions between the coherent and incoherent regimes. Yang and
+Chen \cite{yang2003} later expanded this model by adding a second
+imaginary component to the wavevector to account for diffuse phonon
+scattering at the interfaces. Qualitative agreement with the
+experimental trends for GaAs/AlAs superlattices was obtained.
+
+Chen \textit{et al.} \cite{chen2005} applied MD to model
+Lennard-Jones (LJ) superlattices in order to examine the conditions
+required to produce a minimum thermal conductivity. It was found
+that a minimum exists when there is no lattice mismatch, but when
+the species were given a lattice mismatch of 4\%, the thermal
+conductivity increased monotonically with increasing period length.
+Daly \textit{et al.} \cite{daly2002} and Imamura \textit{et al.}
+\cite{imamura2003} predicted the effect of interface roughness on
+the minimum thermal conductivity for model GaAs/AlAs superlattices.
+Both groups found that the addition of rough interfaces decreased
+the thermal conductivity and removed the minimum that they observed
+for superlattices with perfect interfaces. Apart from our recent
+work,\cite{landry2008a} all of the experimental and theoretical
+effort to date has focused on simple superlattice designs with two
+layers in the unit cell (e.g., the superlattice shown in Fig.
+\ref{F-SL_picture}).
+
+\subsubsection*{Thermal boundary resistance}
+
+In order to design superlattices with low thermal conductivity, an
+understanding of the nature of thermal transport across the internal
+interfaces is required. While experimental methods exist to measure
+the thermal boundary resistance of isolated interfaces (i.e., where
+the separation between the interfaces is much greater than the bulk
+phonon mean free path) where at least one of the species is a metal,
+there is no method to measure the thermal boundary resistance of
+semiconductor/semiconductor
+interfaces.\cite{costescu2003,stevens2005}
+
+To date, little theoretical work has been performed to predict the
+thermal boundary resistance for closely-spaced interfaces. For
+isolated interfaces, the two most common theoretical models for the
+thermal boundary resistance are the acoustic mismatch and diffuse
+mismatch models.\cite{swartz1989}. Both models treat the interface
+as a two dimensional object and assume that the phonon properties of
+the bulk materials exists right up to the interface. In the acoustic
+mismatch model, the mismatch between the interface species is
+defined by the ratio of the material's acoustic impedances, where
+the acoustic impedance is defined as the product of the density and
+sound speed. The phonons are assumed to be continuum elastic waves
+in the acoustic mismatch model. In the diffuse mismatch model, the
+degree of mismatch is defined in terms of the bulk phonon density of
+states. While both models are in reasonable agreement with
+experiment at temperatures less than $\sim$30 K, they do not predict
+the correct magnitude or temperature dependence of the thermal
+boundary resistance at higher temperatures.\cite{swartz1989}
+
+Recent theoretical work has focused on improving the high
+temperature-accuracy of the acoustic mismatch and diffuse mismatch
+models by incorporating the effects of exact phonon
+dispersion,\cite{reddy2005} species mixing,\cite{beechem2007} and
+phonon-phonon scattering\cite{prasher2001} at the interface. While
+these models have been shown to be in better agreement with
+experiment, they typically require fitting parameters and make many
+of the same assumptions that are required in the original acoustic
+mismatch and diffuse mismatch models.
+
+Molecular dynamics simulations have also been used to predict
+thermal transport across isolated interfaces. Stevens \textit{et
+al.}\cite{stevens2007} applied MD (and the direct method) to predict
+the thermal boundary resistance of isolated interfaces described by
+the Lennard-Jones potential. It was found that species mixing at the
+interface decreased the thermal boundary resistance by nearly a
+factor of two for highly mismatched interfaces. The results also
+indicated that inelastic phonon scattering is important at high
+temperature, which may explain the failure of the diffuse mismatch
+model to predict the correct temperature dependence of the thermal
+boundary resistance (the diffuse mismatch model assumes elastic
+scattering events\cite{swartz1989}). Molecular dynamics simulations
+have also been used to model thermal transport across
+silicon\cite{schelling2004} and diamond\cite{angadi2006} grain
+boundaries. Schelling \textit{et al.}\cite{schelling2003} applied MD
+to model the interactions of single phonon wave packets incident on
+an interface at zero temperature. For long wavelength phonons, the
+fraction of the incident phonon energy transmitted across the
+interface was found to be in agreement with the predictions of the
+acoustic mismatch model. For short wavelength phonons, however, the
+predictions of the acoustic mismatch model were not in agreement
+with the simulation results. This discrepancy is due to the
+invalidity of the continuum elastic waves when the phonon wavelength
+is on the order of the interatomic distance. In summary, while
+thermal transport across isolated interfaces has been examined
+theoretically, the current models are not in agreement with
+experiment. Furthermore, little effort has been made to examine the
+effect of closely-spaced interfaces on the thermal boundary
+resistance.
+
+\clearpage
+
+\subsection{\label{S-Intro-Objectives}Objectives and overview}
+
+The objectives of the proposed research are to
+
+\begin{itemize}
+\item Quantitatively describe thermal transport across isolated and
+closely-spaced Si/Si$_{1-x}$Ge$_x$ interfaces,
+
+\item Identify metrics for low cross-plane thermal conductivity in
+superlattices, and
+
+\item Design Si/Si$_{1-x}$Ge$_x$ superlattices for low cross-plane
+thermal conductivity, desirable in thermoelectric energy conversion.
+
+\end{itemize}
+
+Silicon- and germanium-based superlattices and interfaces are the
+focus of this work because (i) Si$_{1-x}$Ge$_x$ alloys are among the
+best commercially available thermoelectric
+materials,\cite{bottner2006,chen2003} (ii) the thermal conductivity
+of Si/Ge superlattices has been observed to be below an alloy of
+similar composition,\cite{lee1997,chakraborty2003,borca-tasciuc2000}
+and (iii) suitable interatomic potential functions exist to model
+silicon and germanium.
+
+Molecular dynamics simulations will be the primary tool used to
+achieve the research objectives. Details related to the MD
+simulations and the thermal conductivity and thermal boundary
+resistance prediction methodologies are presented in Section
+\ref{S-MD}. The prediction methodology is then validated by
+comparing the MD predicted and experimentally measured thermal
+conductivities for a variety of silicon and germanium-based samples.
+This comparison is discussed in Section \ref{S-validation}. The
+proposed research is then discussed in Sections
+\ref{S-ProposedWork-Interfaces} and \ref{S-ProposedWorkSLs}.
+
+In several places in this proposal (e.g., in the comparison between
+the Green-Kubo and direct thermal conductivity predictions methods,
+and in motivating the design strategies for reducing the
+superlattice thermal conductivity), the results of my preliminary
+study\cite{landry2008a} on model Lennard-Jones superlattices are
+discussed. In this preliminary study, the atomic interactions were
+described using the Lennard-Jones interatomic potential. The simple
+form of the this potential allowed for fast simulations, and for the
+elucidation of phenomena and development of analysis techniques that
+would not be possible in more complicated systems. The model
+superlattices were comprised of two species, $A$ and $B$, that
+differed only in their mass (i.e., there is no lattice mismatch).
+Mass ratios, $R_m$, of two and five were considered, spanning a
+typical range for superlattices used in application (e.g., the mass
+ratio between germanium and silicon is 2.6).
+
+
+
+
+\clearpage
+
+\section{\label{S-MD}Molecular dynamics simulations}
+
+\subsection{\label{S-MD-intro}Introduction}
+
+In an MD simulation, the Newtonian equations of motion are used to
+predict the time history of the positions and velocities of a set of
+atoms. Such simulations are an ideal tool for analyzing thermal
+transport in superlattices and across interfaces because, unlike
+lattice dynamics-based approaches, no assumptions about the nature
+of phonon transport (e.g., the CRTA) are required. The only required
+input is a suitable interatomic potential to determine the total
+system potential energy, $\Phi$, and net force on each atom
+(proportional to the spatial derivative of $\Phi$). We use the
+Stillinger-Weber interatomic potential because it has been used
+extensively to model thermal transport in bulk and composite
+materials,\cite{zhao2005,schelling2002,schelling2003,volz2000,bodapati2006,becker2006}
+and has been parameterized for both silicon\cite{stillinger1985} and
+germanium.\cite{ding1986} In our simulations, the Newtonian
+equations of motion are integrated using the velocity Verlet
+algorithm with a time step of 0.55 fs.
+
+\subsection{\label{S-MD-SW}Stillinger-Weber interatomic potential}
+
+In the Stillinger-Weber potential, the total system potential energy
+is the sum of two- and three-body terms, and is given by
+\begin{equation}
+\Phi = \sum_i \sum_{j>i} v_2(i,j) + \sum_i \sum_j \sum_{k>j}
+v_3(i,j,k), \label{E-SW}
+\end{equation}
+where $v_2$ and $v_3$ are functions of the positions and species of
+atoms $i$, $j$, and $k$ \cite{stillinger1985}. The first term is a
+summation over all atom pairs, and the second term is a summation
+over all triplets with atom $i$ at the vertex. The two-body term is
+\begin{equation}
+v_2(i,j) = \left\{ \begin{array}{ll} \epsilon_{ij} A(B y_{ij}^{-p}
+- y_{ij}^{-q})\exp[(y_{ij} - c)^{-1}], & \mbox{if $y_{ij} < c$} \\
+0 & \mbox{otherwise}, \end{array} \right. \label{E-SWv2}
+\end{equation}
+where $A$, $B$, $p$, and $q$ are constants and $c$ is the
+nondimensional cutoff radius. The variable $y_{ij}$ is a
+dimensionless pair separation defined as $r_{ij}/\sigma_{ij}$, where
+$r_{ij} = |\mathbf{r}_i - \mathbf{r}_j|$, and $\mathbf{r}_i$ and
+$\mathbf{r}_j$ are the positions of atoms $i$ and $j$. The
+parameters $\epsilon_{ij}$ and $\sigma_{ij}$ are the energy and
+length scales for the atomic pair ($i$,$j$). The three-body term is
+\begin{equation}
+v_3(i,j,k) = (\epsilon_{ij}\epsilon_{ik})^{1/2} (\lambda_j
+\lambda_i^2 \lambda_k)^{1/4} \exp\left[\frac{\gamma}{y_{ij} - c} +
+\frac{\gamma}{y_{ik} - c} \right] \left( \cos \theta_{jik} +
+\frac{1}{3} \right)^2, \label{E-SWv3}
+\end{equation}
+for both $y_{ij} < c$ and $y_{ik} < c$, and zero otherwise. In Eq.
+(\ref{E-SWv3}), $\theta_{jik}$ is the angle between atoms $i$, $j$,
+and $k$ with atom $i$ at the vertex, and $\lambda$ and $\gamma$ are
+constants. The energy and length scales for silicon and germanium
+were determined by the potential developers by fitting the potential
+to the crystal cohesive energy and
+density.\cite{stillinger1985,ding1986} The constants $A$, $B$, $p$,
+$q$, $c$, $\lambda$, and $\gamma$ were parameterized for silicon by
+fitting the simulation predictions of the liquid structure (i.e.,
+the radial distribution function) and melting temperature to
+experimental data while ensuring that the crystal structure with the
+lowest energy is the diamond lattice.\cite{stillinger1985} For
+germanium, the values of $A$, $B$, $p$, $q$, $c$, and $\gamma$ were
+chosen to be the same as the values for silicon.\cite{ding1986} The
+value of $\lambda$ was parameterized by fitting the potential to the
+zero-temperature elastic constants.\cite{ding1986} We use the mixing
+rules described by Laradji \textit{et al.} to model the Si-Ge
+interactions.\cite{laradji1995}
+
+\subsection{\label{S-MD-k}Methods to predict thermal conductivity and thermal boundary resistance}
+
+\subsubsection*{\label{S-MD-overview}Overview}
+
+The Green-Kubo and direct methods are the two most common methods
+for predicting thermal conductivity using molecular dynamics
+simulations. While the thermal boundary resistance may also be
+predicted using a Green-Kubo approach,\cite{mcgaughey2006b} the
+direct method is more straight forward for these predictions. In
+this section, the Green-Kubo method for predicting thermal
+conductivity and the direct method for predicting thermal
+conductivity and thermal boundary resistance are discussed. The
+results of my recent comparison\cite{landry2008a} between the
+Green-Kubo and direct method predictions of the thermal
+conductivities of model Lennard-Jones superlattices are then
+presented. To my knowledge, that work represented the first
+quantitative comparison between the thermal conductivity prediction
+methods for nanostructures such as superlattices.
+
+\subsubsection*{\label{S-MD-GK}Green-Kubo method for predicting thermal conductivity}
+
+The Green-Kubo method is an equilibrium molecular dynamics approach
+that relates the equilibrium fluctuations of the heat current
+vector, \textbf{S}, to the thermal conductivity, $k$, via the
+fluctuation-dissipation theorem. The superlattice thermal
+conductivity in the $l$-th direction (either the cross-plane or
+in-plane direction) is given by \cite{mcquarrie}
+\begin{equation}
+k_l=\frac{1}{k_{\mathrm{B}}VT^2}\int_0^{\infty}\langle S_l(t)S_l(0)
+\rangle dt, \label{E-GK}
+\end{equation}
+where $t$ is time, $V$ and $T$ are the system volume and
+temperature, and $S_l$ and $\langle S_l(t)S_l(0) \rangle$ are the
+$l$-th components of the heat current vector and the heat current
+autocorrelation function (HCACF).
+
+There are multiple ways to define the heat current
+vector.\cite{mcgaughey2006book,ladd1986,julithesis} The most
+commonly used definition is
+\begin{equation}
+\mathbf{S}_1 = \f{d}{dt} \sum_i \mathbf{r}_i E_i, \label{E-Sreal}
+\end{equation}
+where $E_i$ is the energy of atom $i$, and the summation is over all
+of the atoms in the system. In a solid, where there is no net atomic
+motion, the heat flux can also be written using the equilibrium
+positions ($\mathbf{r}_{i,o}$) as
+\begin{equation}
+\mathbf{S}_2 = \f{d}{dt} \sum_i \mathbf{r}_{i,o} E_i. \label{E-Seq}
+\end{equation}
+The thermal conductivity predictions obtained using both definitions
+of the heat current vector were compared in my previous
+work.\cite{landry2008a} While both definitions result in the same
+prediction for the thermal conductivity, the $\mathbf{S_2}$
+definition was found to be preferable for solid-phase simulations.
+This definition is preferred because strong oscillations that are
+present in the HCACF when using the $\mathbf{S_1}$ definition are
+avoided. These oscillations were found to complicate the
+specification of the thermal conductivity in simulations of several
+different material
+systems.\cite{che2000,landry2008a,mcgaughey2006,mcgaughey2004b} An
+additional benefit is that the heat current vector is less
+computationally expensive with the $\mathbf{S_2}$ definition than
+the $\mathbf{S_1}$ definition [although not immediately obvious from
+Eqs. (\ref{E-Sreal}) and (\ref{E-Seq}), the $\mathbf{S_1}$
+definition requires the calculation of the potential energy of each
+atom while the $\mathbf{S_2}$ definition does
+not\cite{landry2008a}]. All of the Green-Kubo results presented here
+were obtained using the $\mathbf{S_2}$ definition of the heat
+current vector.
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=5x5_GK-2}} \caption{\label{F-5x5_GK}
+%\small{In-plane and cross-plane HCACFs for a model $R_m = 2$,
+%$5\times5$ Lennard-Jones superlattice (shown on right). The HCACFs
+%have been normalized by their initial values. The integrals of the
+%HCACFs (the thermal conductivity) and their converged values (dashed
+%lines) are shown in the figure inset.}}
+%\end{figure}
+
+Two challenges are encountered when applying the Green-Kubo method
+to predict the thermal conductivity. The first challenge is properly
+addressing the effect of the finite simulation cell-size on the
+predicted thermal conductivity. The thermal conductivity may depend
+on the size of the simulation cell if there are not enough phonon
+modes to accurately reproduce the phonon scattering in the
+associated bulk material. This size dependence is removed by
+increasing the simulation cell-size until the thermal conductivity
+reaches a size-independent value.
+
+The second challenge is accurately specifying the converged value of
+the HCACF integral, which is proportional to the thermal
+conductivity through Eq. (\ref{E-GK}). The HCACF and its integral
+are shown in Fig$.$ \ref{F-5x5_GK} for a model $R_m = 2$, $5\times5$
+Lennard-Jones superlattice as an example. Note that specific
+superlattices are referred to in the format $a \times b$, where $a$
+and $b$ are the number of monolayers of the first and second
+materials. Due to noise in the HCACF that may still exist at long
+correlation times (even after averaging the results of multiple
+simulations), it can be difficult to specify the region where the
+HCACF integral has converged. For the structure shown in Fig$.$
+\ref{F-5x5_GK}, the in-plane and cross-plane thermal conductivities
+are specified by averaging the HCACF integrals between correlation
+times of $\sim$50 ps to $\sim$200 ps.
+
+\subsubsection*{\label{S-MD-DM}Direct methods for predicting thermal conductivity and thermal boundary resistance}
+
+The direct method is a nonequilibrium, steady-state approach for
+predicting thermal conductivity or thermal boundary
+resistance.\cite{schelling2002,mcgaughey2006book} A schematic of the
+direct method simulation cell is shown in Fig$.$ \ref{F-DMsimcell}.
+The system consists of a sample bordered by hot and cold reservoirs
+and fixed boundaries in the $z$-direction. The fixed boundary
+regions each contain four layers of fixed atoms in order to prevent
+the sublimation of the reservoir atoms. Periodic boundary conditions
+are imposed in the $x$- and $y$-directions.
+
+In the direct method, a known heat flux, $q$, is applied across the
+sample, causing a temperature profile to develop. The heat flux is
+generated by adding a constant amount of kinetic energy to the hot
+reservoir and removing the same amount of kinetic energy from the
+cold reservoir at every time step using the method described by
+Ikeshoji and Hafskjold.\cite{ikeshoji1994} Example temperature
+profiles are shown for samples of bulk germanium and an isolated
+Si/Ge interface in Figs. \ref{F-DMsimcell}(b) and
+\ref{F-DMsimcell}(c). For predictions of the thermal conductivity,
+the temperature gradient within the sample region is specified and
+the thermal conductivity is determined using the Fourier law,
+\begin{equation}
+k = \frac{-q}{\partial T/\partial z}. \label{E-kFourier}
+\end{equation}
+For predictions of the thermal boundary resistance, the temperature
+drop at the interface is specified and the thermal boundary
+resistance is determined by
+\begin{equation}
+R = \frac{\Delta T}{q}. \label{E-DM-R}
+\end{equation}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=direct}} \caption{\label{F-DMsimcell}
+%\small{(a) Schematic of the simulation cell used in the direct
+%method. Example temperature profiles for (b) bulk germanium, and (c)
+%an isolated Si/Ge interface.}}
+%\end{figure}
+
+As with the Green-Kubo method, a challenge associated with the
+direct method is obtaining thermal conductivity predictions that are
+independent of the simulation cell-size. The size of the simulation
+cell may influence the thermal conductivity when it is not
+significantly greater than the bulk phonon mean free path. For
+example, when the sample length, $L_S$, is on the order of the bulk
+phonon mean free path, the amount of phonon scattering at the
+boundaries between the reservoirs and the sample is comparable to
+that occurring within the sample itself. Furthermore, phonons can
+potentially travel from the hot reservoir to the cold reservoir
+without scattering (i.e., ballistic transport). Both of these
+effects lead to phonon dynamics not representative of the bulk
+sample and a dependence between the thermal conductivity and the
+sample length.
+
+For the predictions of the thermal conductivity, we apply the
+extrapolation procedure described by Schelling \textit{et
+al.}\cite{schelling2002} This procedure is based on the prediction
+(obtained from Matthiessen's rule and the kinetic theory expression
+for thermal conductivity) that the inverse of the thermal
+conductivity decreases linearly with the inverse of the sample
+length. Therefore, the thermal conductivity corresponding to a
+sample of infinite length can be determined by extrapolating to the
+$1/L_S \rightarrow 0$ limit. This extrapolation procedure is
+illustrated in Fig$.$ \ref{F-kextrapolation} for bulk germanium, the
+Si$_{0.5}$Ge$_{0.5}$ alloy, and the $24\times24$ Si/Ge and
+$32\times16$ Si/Si$_{0.7}$Ge$_{0.3}$ superlattices. In all cases,
+the trend of $1/k$ versus $1/L_S$ is linear, verifying the use of
+the extrapolation procedure to remove the finite sample size effect.
+For the predictions of the thermal boundary resistance, the finite
+sample length-effect is removed by increasing the sample length
+until size-independent predictions are obtained. We find that the
+thermal boundary resistance of the Si/Si$_{1-x}$Ge$_x$ interfaces is
+not dependent on the sample length when the sample length is greater
+than or equal to 800 monolayers ($\sim$110 nm).
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=kextrapolation}}
+%\caption{\label{F-kextrapolation} \small{Inverse of the predicted
+%thermal conductivity versus the inverse of the total sample length.
+%Finite-size effects are removed by extrapolating to an infinite
+%system size ($1/L_{S} \rightarrow 0$).}}
+%\end{figure}
+
+\subsubsection*{\label{S-MD-prediction}Quantitative comparison between the Green-Kubo and direct method predictions of the thermal conductivity}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=DM_GK_Comp}}
+%\caption{\label{F-DM_GK_Comp} \small{Comparison between the
+%cross-plane thermal conductivity predictions obtained by the
+%Green-Kubo and direct methods for $R_m = 2$ and $R_m = 5$, $L_A =
+%L_B$ Lennard-Jones superlattices. The cross-plane thermal
+%conductivity is plotted as a function of total period length ($L =
+%L_A + L_B$). Error bars have been included for a selection of the
+%results.}}
+%\end{figure}
+
+Despite the substantial differences in theory and implementation
+between the Green-Kubo and direct methods, little work has been
+conducted to quantitatively compare the thermal conductivity
+predictions obtained by both methods. One exception is the work of
+Schelling \textit{et al.} \cite{schelling2002} In that work, the
+thermal conductivity of crystalline silicon at a temperature of 1000
+K was predicted using both methods and found to agree to within the
+measurement uncertainties. Until my recent work on model
+Lennard-Jones superlattices,\cite{landry2008a} however, no such
+quantitative comparison had been made for nanostructured materials.
+In this section, the results of that comparison are discussed.
+
+The thermal conductivity prediction methods were compared by
+predicting the cross-plane thermal conductivity of model
+Lennard-Jones superlattices with two layers of equal thickness in
+the unit cell. These results are shown in Fig$.$ \ref{F-DM_GK_Comp}.
+Error bars corresponding to the measurement uncertainties (estimated
+to be $\pm$10\% for the direct method and $\pm$20\% for the
+Green-Kubo method) are provided for several points. For all but one
+point ($R_m = 5$, $5\times5$), the two sets of predictions are in
+agreement and neither method consistently underpredicts or
+overpredicts the other. We conclude, therefore, that either the
+Green-Kubo method or direct method can be used to predict the
+superlattice cross-plane thermal conductivity. We note that the
+comparison between the thermal conductivity prediction methods was
+only made for the cross-plane direction because it is difficult to
+predict the in-plane thermal conductivity using the direct method.
+This difficulty is due to the very large simulation cell
+cross-sectional area [$A_c$, see Fig. \ref{F-DMsimcell}(a)] that is
+required to remove the finite cell size-effect on the in-plane
+thermal conductivity.
+
+Even though the Green-Kubo method has several advantages over the
+direct method (e.g., it predicts both the in-plane and cross-plane
+thermal conductivities from one simulation), we prefer to use the
+direct method for the thermal conductivity predictions. This choice
+is primarily based on the larger prediction uncertainty associated
+with the Green-Kubo method than the direct method. All data reported
+in the remainder of this proposal correspond to predictions obtained
+using the direct method.
+
+\clearpage
+
+\section{\label{S-validation}Validation of the thermal conductivity prediction methodology}
+
+\subsection{\label{S-validation-samples}Samples}
+
+In order to ensure that the MD-predicted thermal conductivity trends
+will be observable in experiment, thermal conductivity predictions
+were made using the direct method for a series of samples for which
+experimental data is available.\cite{landry2008b} Thermal
+conductivity predictions were made for bulk Si, bulk Ge,
+Si$_{1-x}$Ge$_x$ alloys, and two types of Si/Si$_{1-x}$Ge$_x$
+superlattices. In all of the samples, the atoms are initially
+located on diamond lattice sites, and the mass of each atom is
+randomly assigned according to the natural isotope abundance for
+each species.\cite{CRChandbook} The two types of superlattice
+studied are (i) Si/Si$_{0.7}$Ge$_{0.3}$ superlattices with the Si
+layer being twice as thick as the alloy layer, and (ii) Si/Ge
+superlattices with equal Si and Ge layer thicknesses. The
+$32\times16$ Si/Si$_{0.7}$Ge$_{0.3}$ and $24\times24$ Si/Ge
+superlattices are shown in Fig$.$ \ref{F-unitcells}. The period
+length is provided for both superlattices. Note that the interfaces
+between the species are perfect (no species mixing or defects) and
+are parallel to the (001) crystallographic plane (i.e., the
+$xy$-plane, see Fig. \ref{F-unitcells}). Because MD simulations are
+only strictly valid in the classical limit, the thermal conductivity
+predictions are made at a temperature of 500 K. Quantum effects are
+expected to be negligible at this temperature because it is close to
+or greater than the experimental Debye temperatures of 658 K and 376
+K for Si and Ge.\cite{capinski1997}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=unitcells.eps}}
+%\caption{\label{F-unitcells} \small{One period of the the
+%$32\times16$ Si/Si$_{0.7}$Ge$_{0.3}$ and $24\times24$ Si/Ge
+%superlattices.}}
+%\end{figure}
+
+The thermal conductivity predictions are made using relaxed,
+zero-stress samples. The zero-stress simulation cell dimensions are
+determined from separate MD simulations run in the $NPT$ (constant
+mass, pressure, and temperature) ensemble where the stress in each
+direction is controlled independently. For bulk Si, bulk Ge, and the
+Si$_{1-x}$Ge$_x$ alloys, we find that the zero-stress lattice
+constant, $a$, is well-approximated (to within 0.03\%) by
+\begin{equation}
+a(x) = 5.441 + 0.227x + 0.002x^2   \hspace{2mm} [\textrm{\AA}].
+\label{E-a}
+\end{equation}
+For the Si/Si$_{1-x}$Ge$_x$ superlattices, the lattice constant that
+leads to zero-stress in the in-plane directions (the $x$- and
+$y$-directions) lies between the bulk lattice constants for Si and
+Si$_{1-x}$Ge$_x$, leading to a positive in-plane strain in Si and a
+negative in-plane strain in Si$_{1-x}$Ge$_x$. For example, the
+zero-stress in-plane lattice constants for the $32\times16$
+Si/Si$_{0.7}$Ge$_{0.3}$ and $24\times24$ Si/Ge superlattices are
+predicted to be 5.464 \AA \hspace{1mm} and 5.564 \AA \hspace{1mm}
+while the bulk lattice constants for Si, Ge, and
+Si$_{0.7}$Ge$_{0.3}$ are 5.441 \AA, 5.670 \AA, and 5.509 \AA
+\hspace{1mm} [see Eq. (\ref{E-a})]. The zero-stress cross-plane (the
+$z$-direction) lattice constants are also different from the bulk
+lattice constants due to the in-plane strain. In Fig$.$
+\ref{F-layer_spacing}, the predicted layer separations for one
+period of the $32\times16$ Si/Si$_{0.7}$Ge$_{0.3}$ and $24\times24$
+Si/Ge superlattices are shown. These results are obtained by
+averaging the layer separation data over ten different superlattice
+periods and 55 ps ($1\times10^5$ time steps). The cross-plane strain
+is negative in the Si layer and positive in the Ge and
+Si$_{0.7}$Ge$_{0.3}$ layers.
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=layer_spacing}}
+%\caption{\label{F-layer_spacing} \small{Separation between the
+%atomic layers for one period of the the $32\times16$
+%Si/Si$_{0.7}$Ge$_{0.3}$ and $24\times24$ Si/Ge superlattices.}}
+%\end{figure}
+
+The superlattices modeled are symmetrically strained, meaning that
+the in-plane tensile strain in the Si layer balances the in-plane
+compressive strain in the Si$_{1-x}$Ge$_x$ layer. In practice,
+symmetrically strained superlattices are fabricated by growing (e.g.
+with molecular beam epitaxy\cite{huxtablethesis,borca-tasciuc2000})
+alternating Si and Si$_{1-x}$Ge$_x$ layers on a substrate that has a
+lattice constant equal to the average of the bulk Si and
+Si$_{1-x}$Ge$_x$ lattice constants. The advantage that symmetrically
+strained superlattices have over non-symmetrically strained
+superlattices is that the critical thickness for the formation of
+misfit dislocations is greater.\cite{pearsall1999} For example,
+symmetrically strained Si/Ge superlattices can be grown with layer
+thicknesses up to $\sim$5 nm ($\sim$40 atomic layers) while Si/Ge
+superlattices grown on a Si substrate have a maximum layer thickness
+of $\sim$1 nm.\cite{pearsall1999}
+
+\subsection{\label{S-validation-k}Thermal conductivity predictions and comparison with experiment}
+
+\subsubsection*{Bulk Si, bulk Ge, and Si$_{1-x}$Ge$_{x}$ alloy}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=designspace_labeled.eps}}
+%\caption{\label{F-designspace} \small{Predicted thermal
+%conductivities for bulk Si, bulk Ge, the Si$_{1-x}$Ge$_{x}$ alloys,
+%and the Si/Si$_{0.7}$Ge$_{0.3}$ and Si/Ge superlattices plotted
+%against the fraction of Ge in the unit cell. A second-order
+%polynomial fit is included through the alloy data to guide the eye.
+%The diffuse and high-scatter limits are provided for comparison.}}
+%\end{figure}
+
+The thermal conductivity predictions for bulk Si, bulk Ge, and the
+Si$_{1-x}$Ge$_{x}$ alloys at a temperature of 500 K are plotted in
+Fig$.$ \ref{F-designspace} against the atomic fraction of Ge in the
+unit cell. We predict the thermal conductivities of bulk Si and bulk
+Ge to be 103$\pm$21 W/m-K and 61$\pm$12 W/m-K, 35\% and 80\% greater
+than the experimental values of 76.2 W/m-K and 33.8
+W/m-K.\cite{CRChandbook} For the Si$_{1-x}$Ge$_{x}$ alloys, the
+thermal conductivity initially decreases with increasing Ge
+concentration until $x \approx 0.3$, beyond which the thermal
+conductivity increases with increasing Ge concentration. This trend
+is in agreement with experimental measurements at a temperature of
+300 K.\cite{maycock1967} To our knowledge, the thermal conductivity
+of undoped Si$_{1-x}$Ge$_{x}$ alloys at a temperature of 500 K has
+only been been measured experimentally for $x \approx 0.3$ and $x
+\approx 0.7$.\cite{abeles1963} At these Ge concentrations, the
+MD-predicted thermal conductivities are 50\% and 30\% less than the
+experimental measurements of $\sim$5-6 W/m-K.\cite{abeles1963}
+
+\subsubsection*{Diffuse and high-scatter limits}
+
+The thermal conductivity at the diffuse and high-scatter limits is
+also provided in Fig$.$ \ref{F-designspace}. The diffuse limit is an
+upper bound on the superlattice thermal conductivity. This limit is
+reached when (i) the phonon scattering is diffuse within the
+superlattice layers (i.e., the layer thicknesses are much greater
+than the bulk phonon mean free paths), and (ii) the thermal boundary
+resistance at the superlattice interfaces is negligible compared to
+the resistance due to conduction within the superlattice layers
+(also reached in the limit of large layer thicknesses). The
+cross-plane thermal conductivity for a superlattice with two layers
+in the unit cell comprised of species $A$ and $B$ at the diffuse
+limit, $k_{CP,diff}$, is
+\begin{equation}
+k_{CP, diff} = \frac{t_A + t_B}{t_Ak_A^{-1} + t_Bk_B^{-1}}
+\label{E-kcp},
+\end{equation}
+where $t_A$ and $t_B$ are the layer thicknesses, and $k_A$ and $k_B$
+are bulk thermal conductivities of species $A$ and $B$. The diffuse
+limit shown in Fig$.$ \ref{F-designspace} corresponds to that for
+Si/Ge superlattices.
+
+The high-scatter limit is a lower bound on the thermal conductivity
+and is based on a model proposed by Cahill \textit{et al.}
+\cite{cahill1992} This limit is reached when all phonons have a mean
+free path equal to half of their wavelength, corresponding to a
+material that lacks long range order (e.g., an amorphous phase).
+Assuming isotropic and linear phonon dispersion, fully excited
+phonon modes (valid for the classical MD system), and harmonic
+specific heats, the thermal conductivity at the high-scatter limit,
+$k_{HS}$, is
+\begin{equation}
+k_{HS} = \f{1}{2}\left(\f{\pi}{6}\right)^{1/3} k_{\mathrm{B}}
+n_v^{2/3} \sum_i v_i,
+\end{equation}
+where $n_v$ is the atomic number density and $v_i$ is the sound
+speed (i.e., the phonon group velocity in the zero-wavevector limit)
+for polarization $i$ (there are two transverse and one longitudinal
+polarizations). We estimate $v_i$ for the amorphous phase by scaling
+the [100] sound speeds for the Si$_{1-x}$Ge$_x$ alloy by a factor of
+0.8 (a typical value for the ratio of the amorphous to crystalline
+sound speeds for Si and Ge \cite{cahill1992,holland1963}). The alloy
+sound speeds are evaluated using the continuum elastic constants,
+which we calculate for the Stillinger-Weber potential using the
+analytical approach described by Cowley.\cite{cowley1988} We
+estimate the elastic constant dependence on the Ge concentration by
+interpolating between the values for bulk Si and bulk Ge, an
+approximation that is justified by experimental observations and
+theoretical predictions.\cite{baker2000} We note that all of the
+MD-predicted thermal conductivities in Fig$.$ \ref{F-designspace}
+are above the high-scatter limit.
+
+\subsubsection*{Si/Si$_{0.7}$Ge$_{0.3}$ superlattices}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=alloySLs.eps}}
+%\caption{\label{F-Si-alloySLs} \small{Molecular dynamics-predicted
+%(body) and experimentally measured\cite{huxtablethesis} (inset)
+%thermal conductivities for the Si/Si$_{0.7}$Ge$_{0.3}$
+%superlattices. The diffuse limit and the thermal conductivity of an
+%alloy with identical Ge composition are provided for
+%comparison.\cite{huxtablethesis,dismukes1964}}}
+%\end{figure}
+
+The cross-plane thermal conductivity predictions for the
+Si/Si$_{0.7}$Ge$_{0.3}$ superlattices are plotted against the
+superlattice period length in Fig$.$ \ref{F-Si-alloySLs}. The
+experimental thermal conductivity measurements obtained by Huxtable
+\textit{et al.} \cite{huxtablethesis} for Si/Si$_{0.7}$Ge$_{0.3}$
+superlattices at a temperature of 320 K are provided in the inset of
+Fig$.$ \ref{F-Si-alloySLs} for comparison. Huxtable \textit{et al.}
+found that the thermal conductivity is nearly independent of
+temperature between temperatures of 200 K and 320 K. Therefore, we
+can compare our MD predictions to the experimental results at 320 K
+by assuming that the thermal conductivity remains
+temperature-independent up to a temperature of 500 K.
+
+The predicted thermal conductivities of the Si/Si$_{0.7}$Ge$_{0.3}$
+superlattices are between the diffuse limit and the value for an
+alloy with the same Ge concentration (i.e., the Si$_{0.9}$Ge$_{0.1}$
+alloy), a finding that is in agreement with the experimental
+observations. We predict the superlattice thermal conductivity to
+decrease with decreasing period length until a period length of 6.55
+nm (the $32\times16$ superlattice), beyond which there is a slight
+increase in the thermal conductivity. Due to the prediction
+uncertainty, however, we cannot conclude that a minimum exists in
+the Si/Si$_{0.7}$Ge$_{0.3}$ superlattice thermal conductivity as a
+function of period length. We note that thermal conductivity is
+experimentally observed to decrease monotonically with decreasing
+period length (see the inset in Fig$.$ \ref{F-Si-alloySLs}). This
+trend is expected when the phonon transport is incoherent across the
+interfaces due to the increasing interface density (see Section
+\ref{S-SLs-background}). For the entire period-length range, the MD
+predictions are a factor of $\sim$2-3 below the experimental values.
+
+
+\subsubsection*{Si/Ge superlattices}
+%
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=Si-GeSLs2.eps}}
+%\caption{\label{F-Si-GeSLs} \small{Molecular dynamics-predicted
+%(body) and experimentally measured\cite{borca-tasciuc2000} (inset)
+%thermal conductivity of the Si/Ge superlattices. The diffuse limit
+%and the thermal conductivity of an alloy with identical Ge
+%composition are provided for comparison.\cite{lee1997}}}
+%\end{figure}
+
+The MD predictions for the cross-plane thermal conductivity of the
+Si/Ge superlattices are shown in Fig$.$ \ref{F-Si-GeSLs} along with
+the experimental measurements made by Borca-Tasciuc \textit{et
+al.}\cite{borca-tasciuc2000} The thermal conductivity of alloys with
+identical Ge concentration are also included for
+comparison.\cite{lee1997} The MD predictions are made at a
+temperature of 500 K while the experimental measurements were made
+at a temperature of 300 K. As with the Si/Si$_{0.7}$Ge$_{0.3}$
+superlattices, we can compare these predictions and measurements due
+to the weak temperature-dependence of the thermal conductivity
+observed between temperatures of 200 K and 300
+K.\cite{borca-tasciuc2000}
+
+We predict the thermal conductivity of the Si/Ge superlattices to
+decrease with increasing period length and then to reach a constant
+value of $\sim$12 W/m-K for period lengths greater than or equal to
+6.64 nm. The trend of decreasing thermal conductivity with
+increasing period length is also observed in the experimental data
+of Borca-Tasciuc \textit{et al.} and is indicative of coherent
+phonon transport (see Section \ref{S-SLs-background}). The magnitude
+of the predicted thermal conductivity, however, is a factor of
+$\sim$4 greater than the experimental measurements. A major
+qualitative difference is observed between the MD predictions and
+experimental measurements as well. We predict the Si/Ge superlattice
+thermal conductivities to be greater than that of the
+Si$_{0.5}$Ge$_{0.5}$ alloy, while experimentally, the opposite trend
+is observed.
+
+\subsection{\label{S-validation-justification}Summary}
+
+The predicted thermal conductivity trends for bulk Si, bulk Ge, the
+Si$_{1-x}$Ge$_{x}$ alloys, and the Si/Si$_{0.7}$Ge$_{0.3}$
+superlattices are in qualitative agreement with the available
+experimental data. This agreement suggests that the MD predicted
+thermal conductivity trends will be observable in experiment and
+that a mapping function (i.e., a correction factor) can be applied
+to the MD data to improve the prediction accuracy. More experimental
+data is required to generate such a mapping function. For the Si/Ge
+superlattices, the predicted period length dependence is in
+agreement with the experimental observations. There is a major
+qualitative difference, however, in that the Si/Ge superlattice
+thermal conductivities are predicted to be greater than an alloy
+with identical Ge concentration while the opposite trend is observed
+experimentally. This discrepancy is likely due to the fact that our
+superlattices have atomically smooth interfaces and are exactly
+periodic. In realistic samples, there is always some degree of
+species mixing at the superlattice interfaces. Also, when
+superlattices are grown experimentally, there may be some deviation
+in the length of each period. Both of these factors may reduce the
+ability for phonons to travel coherently through the superlattice
+and lead to a lower thermal conductivity. We note that the thermal
+conductivity of the Si/Si$_{0.7}$Ge$_{0.3}$ superlattices will not
+be as dependent on the sample quality because the phonon transport
+is incoherent in these structures. Both effects of species mixing at
+the Si/Ge interfaces (see Section
+\ref{S-proposed-interfaces-proposed} for details on how species
+mixing will be incorporated into the model) and variations in the
+period length will be examined in my proposed work.
+
+\clearpage
+
+\section{\label{S-ProposedWork-Interfaces}Proposed research: Quantitatively describe thermal transport across Si/Si$_{1-x}$Ge$_x$ interfaces}
+
+\subsection{\label{S-proposed-interfaces-overview}Overview}
+
+In order to design superlattices with low thermal conductivity, an
+understanding of the nature of thermal transport across the
+interfaces is required. The current models for thermal boundary
+resistance (e.g., the acoustic mismatch and diffuse mismatch
+models), however, are not in agreement with experiment at high
+temperature and require many assumptions about the nature of the
+phonon scattering (e.g., the diffuse mismatch model assumes bulk
+material properties and that all phonon scattering is diffuse and
+elastic\cite{swartz1989}). In addition, these models do not properly
+account for the case of closely-spaced interfaces, where the phonon
+properties on either side of the interface cannot be assumed to be
+the same as in the bulk materials. \textit{The objective of this
+portion of my research is to quantitatively describe the thermal
+boundary resistance dependence on (i) alloy composition for isolated
+Si/Si$_{1-x}$Ge$_x$ interfaces, (ii) distance between closely-spaced
+Si/Ge interfaces, and (iii) degree of species mixing at the isolated
+Si/Ge interface.} My preliminary results for the first two items are
+discussed in Section \ref{S-proposed-interfaces-preliminary}. The
+third item is discussed in Section
+\ref{S-proposed-interfaces-proposed} along with additional
+equilibrium MD simulations that will be used to gain insight into
+the observed trends.
+
+\subsection{\label{S-proposed-interfaces-preliminary}Preliminary results}
+
+\subsubsection*{Thermal boundary resistance dependence on alloy
+composition for the isolated Si/Si$_{1-x}$Ge$_x$ interface}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=Si-alloy.eps}}
+%\caption{\label{F-Si-alloy} \small{Thermal boundary resistance of an
+%isolated Si/Si$_{1-x}$Ge$_x$ interface as a function of the atomic
+%fraction of germanium in the alloy layer.}}
+%\end{figure}
+
+My preliminary predictions of the thermal boundary resistance of the
+isolated Si/Si$_{1-x}$Ge$_x$ interface are shown in Fig.
+\ref{F-Si-alloy} as a function of germanium composition in the alloy
+layer. The thermal boundary resistance is observed to increase
+linearly with increasing germanium concentration in the alloy layer
+until $x\approx0.8$, beyond which the thermal boundary resistance
+decreases to the value for the isolated Si/Ge interface. For the
+isolated Si/Ge interface, the thermal boundary resistance is
+predicted to be $2.70 \times 10^{-9}$ m$^2$-K/W, in good agreement
+with the value of $2.85 \times 10^{-9}$ m$^2$-K/W predicted by Zhao
+and Freund\cite{zhao2005} using a lattice dynamics-based model and
+the Stillinger-Weber potential. To our knowledge, no predictions of
+the thermal boundary resistance for Si/Si$_{1-x}$Ge$_x$ interfaces
+with $x \neq 1$ have been reported.
+
+The thermal boundary resistance trend is different than that
+predicted by the acoustic mismatch and diffuse mismatch models,
+which predict the thermal boundary resistance to increase
+monotonically with increasing dissimilarity (in terms of acoustic
+mismatch or mismatch between the density of states, see Section
+\ref{S-Intro-Review}) between the interface materials. Equilibrium
+simulations are discussed in Section
+\ref{S-proposed-interfaces-proposed} which will provide insight and
+a possible explanation for this observed trend. The maximum of the
+thermal boundary resistance as a function of the alloy composition
+suggests that there is an optimum alloy composition that can be used
+to minimize the thermal conductivity of Si/Si$_{1-x}$Ge$_x$
+superlattices (discussed in Section \ref{S-ProposedWorkSLs}). The
+location of this maximum will be more precisely resolved in my
+future work by making additional predictions for germanium
+concentrations between $0.8 < x < 1.0$. In addition, predictions of
+the thermal boundary resistance will be made for several isolated
+Si$_{1-y}$Ge$_y$/Si$_{1-x}$Ge$_x$ interfaces. From the results of
+these simulations, the effect of acoustic mismatch on the thermal
+boundary resistance will be examined by comparing the thermal
+boundary resistances of Si/Si$_{1-x}$Ge$_x$ and
+Si$_{1-y}$Ge$_y$/Si$_{1-x}$Ge$_x$ interfaces with identical acoustic
+mismatch.
+
+\subsubsection*{Thermal boundary resistance dependence on distance
+between closely-spaced Si/Ge interfaces}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=sandwich.eps}}
+%\caption{\label{F-sandwich} \small{(a) Total thermal resistance (sum
+%of the thermal boundary resistances for the two Si/Ge interfaces and
+%the conduction resistance of the middle layer) of the Si/Ge/Si and
+%Ge/Si/Ge structures as a function of the thickness of the middle
+%layer. (b) Example temperature profiles in the interface region for
+%a Si/Ge/Si (top) and Ge/Si/Ge (bottom) structure. (c) Schematic of a
+%simulation cell containing three closely-spaced interfaces.}}
+%\end{figure}
+
+In order to examine the effect of distance between closely-spaced
+Si/Ge interfaces, two types of simulation cells were initially
+considered. In one case, the simulation cell consists of a germanium
+layer sandwiched between two large extents of silicon. In the
+opposite case, a silicon layer is placed between two large extents
+of germanium. The total thermal resistance, $R_{tot}$, of these
+Si/Ge/Si and Ge/Si/Ge structures is plotted in Fig.
+\ref{F-sandwich}(a) as a function of the middle layer thickness. The
+total thermal resistance is the sum of the thermal boundary
+resistances for both interfaces and the conduction resistance of the
+middle layer. The diffuse limit (i.e., the total resistance of two
+isolated Si/Ge interfaces plus the conduction resistance of the
+middle layer assuming bulk thermal conductivities) is also provided
+for comparison. For both structures, the total thermal resistance
+increases with increasing thickness of the middle layer. The thermal
+resistance of the Ge/Si/Ge structure, however, increases at a slower
+rate than the Si/Ge/Si structure. This behavior is not yet
+understood.
+
+Differences between the Si/Ge/Si and Ge/Si/Ge structures are also
+observed in the temperature profiles. The temperature profiles near
+the interface region are provided for the Si/Ge/Si and Ge/Si/Ge
+structures with middle layer thickness of 28.8 nm and 26.6 nm (a
+thickness of 50 conventional diamond unit cells) in Fig.
+\ref{F-sandwich}(b). In the Si/Ge/Si structure, approximately 17\%
+of the total thermal resistance is due to the conduction resistance
+in the Ge middle layer. In the Ge/Si/Ge structure, the conduction
+resistance of the Si middle layer is essentially zero, suggesting
+ballistic phonon transport. The phonon transport is expected to have
+a ballistic component in these structures because the thickness of
+the middle layer is smaller than the bulk phonon mean free path
+(estimated to be $\sim$50 nm at a temperature of 500 K for both bulk
+Si and bulk Ge using the kinetic theory expression for thermal
+conductivity). In order to further explore the effect of interface
+spacing on the thermal boundary resistance, additional direct method
+simulations will be run using a simulation cell like that shown
+schematically in Fig. \ref{F-sandwich}(c). This simulation cell will
+contain three closely-spaced interfaces. The predicted thermal
+boundary resistance dependence on interface spacing will be useful
+in determining if there is an optimum interface spacing to maximize
+the thermal resistance per unit length and therefore, minimize the
+superlattice thermal conductivity.
+
+\subsection{\label{S-proposed-interfaces-proposed}Proposed work}
+
+\subsubsection*{Thermal boundary resistance dependence on species
+mixing for the isolated Si/Ge interface}
+
+In realistic interfaces, species can diffuse from one side of the
+interface to the other side, forming a thin alloy region near the
+interface. The effect of species mixing at the interface on the
+thermal boundary resistance has previously been predicted for model
+interface systems.\cite{stevens2007,kechrakos1991,twu2003,daly2002}
+The results, however, are conflicting. Some
+authors\cite{stevens2007,kechrakos1991} have predicted that species
+mixing decreases the thermal boundary resistance while
+others\cite{twu2003,daly2002} have predicted the opposite trend. In
+order to determine the effect of species mixing on thermal transport
+across the isolated Si/Ge interface, the thermal boundary resistance
+will be predicted for a series of interfaces with varying thickness
+of the species mixing region, $D$. The species profile near the
+interface will be modeled as
+\begin{equation}
+x(z) = \frac{1}{2}\left[1 + \tanh\left(\frac{2z}{D}\right)\right],
+\label{E-x}
+\end{equation}
+where $x$ is the germanium concentration and $z$ is the distance
+from the interface. Equation (\ref{E-x}) was chosen because it
+smoothly transitions between the correct asymptotic limits of $x =
+0$ (pure silicon) as $z \rightarrow -\infty$ and $x = 1$ (pure
+germanium) as $z \rightarrow \infty$ over a distance approximately
+equal to $D$. The thermal boundary resistance will be predicted for
+interface thicknesses of one to ten monolayers, which is on the
+order of the species mixing region observed in real Si/Ge
+superlattices.\cite{soo2001}
+
+\subsubsection*{Identifying the extent of the interface region and
+determining the role of phonon coherence in thermal transport across
+interfaces}
+
+Equilibrium MD simulations will be used to identify the extent of
+the interface region and determine the role of phonon coherence in
+thermal transport across interfaces. From these simulations,
+important differences in thermal transport behavior between the
+various types of interfaces considered in my research will be
+identified. My goal is to use these differences to gain insight to
+explain the observed thermal boundary resistance trends.
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=dos.eps}} \caption{\label{F-dos}
+%\small{Molecular dynamics-predicted phonon density of states for
+%silicon atoms at the interface and in the bulk region far from the
+%interface.}}
+%\end{figure}
+
+We define the interface extent to be the region surrounding the
+interface where the phonon density of states is different than that
+in the bulk regions far from the interface. The phonon density of
+states will be calculated from the MD simulations by taking the
+Fourier transform of the velocity autocorrelation function. This
+calculation can be performed for any atom in the simulation cell,
+and therefore, the phonon density of states can be determined as a
+function of distance from the interface. For example, the phonon
+density of states of a silicon atom located immediately adjacent to
+the isolated Si/Ge interface is compared to that for a silicon atom
+in the bulk region far from the interface is shown in Fig.
+\ref{F-dos}. It is clear that the interface strongly modifies the
+phonon density of states. These calculations will be performed for
+isolated Si/Si$_{1-x}$Ge$_x$ interfaces with no interfacial species
+mixing and isolated Si/Ge interfaces with varying degrees of species
+mixing. These calculations will also be performed in the center of
+the middle layer in the Si/Ge/Si and Ge/Si/Ge closely-spaced
+interface structures.
+
+The role of phonon coherence in thermal transport across interfaces
+will be explored using equilibrium MD simulations by examining
+correlations of the planar heat flux. The planar heat flux can be
+calculated for any plane in the simulation cell and is defined as
+the instantaneous flow of heat across that plane. For a system at
+equilibrium, the planar heat flux fluctuates about zero. My
+hypothesis is that by taking the cross-correlation of these
+fluctuations for planes located on either side of the interface, the
+role of phonon coherence can be examined. I anticipate that
+interfaces with large values of the thermal boundary resistance will
+have lower correlation than interfaces with small values of the
+thermal boundary resistance. I also suspect that the
+Si/Si$_{1-x}$Ge$_x$ interfaces with $x < 1$ will have less
+correlation than the Si/Ge interface due to the lack of well defined
+phonon modes in the alloy layer (phonons can only exist in an
+ordered crystal). Therefore, these calculations may lead to an
+explanation for the observed maximum in the thermal boundary
+resistance of isolated Si/Si$_{1-x}$Ge$_x$ interfaces. The
+correlation between the planar heat flux will also be examined for
+points on either side of the middle layer in the Si/Ge/Si and
+Ge/Si/Ge interface structures. From these calculations, the level of
+phonon coherence across the middle layer can be examined,
+potentially leading to an explanation for the observed differences
+between the Si/Ge/Si and Ge/Si/Ge structures.
+
+\clearpage
+
+\section{\label{S-ProposedWorkSLs}Proposed research: Designing Si/Si$_{1-x}$Ge$_x$ superlattices for low cross-plane thermal conductivity}
+
+\subsection{\label{S-SLs-background}Background}
+
+Previous experimental and theoretical studies have demonstrated that
+superlattices can have very low cross-plane thermal conductivity, a
+property desirable for thermoelectric energy conversion. To date,
+only a limited number of superlattice designs have been considered
+experimentally and theoretically. My hypothesis is that the
+previously examined superlattices are not the optimal designs to
+minimize the thermal conductivity. Therefore, the current
+perspective of the thermoelectric performance of superlattices may
+be far from optimum. \textit{The objective of this portion of my
+proposed research is to explore the effect of unit cell design on
+the thermal transport in superlattices in order to minimize the
+cross-plane thermal conductivity of Si/Si$_{1-x}$Ge$_x$
+superlattices.} Using a combination of MD simulations, harmonic and
+anharmonic lattice dynamics calculations, and the Boltzmann
+transport equation, three strategies will be employed to develop
+superlattices with low thermal conductivity. These design strategies
+are discussed in Section \ref{S-SLs-strategies}.
+
+\subsection{\label{S-SLs-strategies}Strategies for reducing the superlattice thermal conductivity}
+
+\subsubsection*{Strategy 1. Optimize the design of
+superlattices with two layers in the unit cell}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=LAeqLB_CPonly.eps}}
+%\caption{\label{F-LAeqLB} \small{Cross-plane thermal conductivity of
+%the model $L_A = L_B$ Lennard-Jones superlattices plotted as a
+%function of total period length ($L = L_A + L_B$). The thermal
+%conductivity at the diffuse and alloy limits are also provided for
+%comparison.}}
+%\end{figure}
+
+The first design strategy is to optimize the design (e.g., alloy
+composition and layer thicknesses) of superlattices with two layers
+in the unit cell for superlattices in the incoherent phonon
+transport regime. In this regime, phonons scatter at the
+superlattice interfaces. Therefore, the phonon populations are
+distinct within each layer. The cross-plane thermal conductivity of
+superlattices with two layers in the unit cell can be predicted in
+this regime by adding the thermal resistance of the superlattice
+layers and interfaces in series, i.e.,
+\begin{equation}
+k_{CP} = \frac{t_A + t_B}{(t_Ak_A^{-1} + t_Bk_B^{-1}) + 2R_{A|B}}
+\label{E-kcpD},
+\end{equation}
+where $R_{A|B}$ is the thermal resistance of the $A|B$ interface,
+and $t_A$, $t_B$, $k_A$, and $k_B$ are the thicknesses and thermal
+conductivities of species $A$ and $B$. For superlattiecs in the
+incoherent regime with two layers in the unit cell, Eq.
+(\ref{E-kcpD}) predicts the cross-plane thermal conductivity to
+decrease with decreasing period length. This trend was observed in
+my preliminary study of model $R_m = 2$, $L_A = L_B$ Lennard-Jones
+superlattices for superlattices with period lengths greater than
+four monolayers (see Fig$.$ \ref{F-LAeqLB}). These results are
+presented in Fig$.$ \ref{F-LAeqLB}.
+
+In this design strategy, I will use the predictions of the thermal
+boundary resistance (proposed in Section
+\ref{S-proposed-interfaces-preliminary}) and thermal conductivity
+(described in Section \ref{S-validation-k}) to select the
+superlattice species and layer thicknesses that minimize the
+cross-plane thermal conductivity given by Eq. (\ref{E-kcpD}). As
+presented in Figs. \ref{F-designspace} and \ref{F-Si-alloy}, the
+thermal conductivity of Si$_{1-x}$Ge$_x$ and the thermal boundary
+resistance of the isolated Si/Si$_{1-x}$Ge$_x$ interface are
+functions of the germanium concentration. The thermal boundary
+resistance is also a function of the layer spacing [see Fig.
+\ref{F-sandwich}(a)]. There is also a constraint on the layer
+thickness because the phonon transport will eventually transition
+from incoherent to coherent when the phonon mean free path exceeds
+the superlattice period length (this regime is the focus of Strategy
+2). The thermal conductivity of the optimized superlattices will
+then be predicted using MD simulations to examine the validity of
+the incoherent assumption and Eq. (\ref{E-kcpD}).
+
+\subsubsection*{Strategy 2. Reduce the phonon group velocities and relaxation
+times using complex layering configurations}
+
+The second design strategy is to use complex layering configurations
+(i.e., unit cells containing more than two layers) to optimize the
+phonon dispersion and scattering properties in the regime where
+phonon transport is coherent. The phonon transport is coherent when
+the bulk phonon mean free path is greater than the superlattice
+period length. In this regime, the phonon scattering is diffusive
+(i.e., phonons scatter with other phonons), and the thermal
+conductivity can be written as
+\begin{equation}
+k_{CP} = \sum_i c_{v,i} v_{CP,i}^2 \tau_i, \label{E-kmodes}
+\end{equation}
+where $c_{v,i}$, $v_{CP,i}$, and $\tau_i$ are the specific heat,
+group velocity in the cross-plane direction, and relaxation time for
+phonon mode $i$, and the summation is over all available phonon
+modes. In the classical limit (realized at all temperatures in MD
+simulations and above the Debye temperature in experiment), every
+phonon mode is fully excited and the $c_{v,i}$ can be assumed to be
+phonon mode-independent. Therefore, the thermal conductivity can be
+reduced by finding superlattice designs that have low phonon group
+velocities and relaxation times. For superlattices in the coherent
+regime with two layers in the unit cell, the average phonon group
+velocity in the cross-plane direction has been predicted to increase
+with decreasing period
+length,\cite{kiselev2000,tamura1999,yang2001,bies2000,broido2004}
+leading to a thermal conductivity that increases with decreasing
+period length. This trend was observed for the model Lennard-Jones
+superlattices for period lengths less than or equal to four
+monolayers [see Fig$.$ \ref{F-LAeqLB}].
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=dispersion.eps}}
+%\caption{\label{F-dispersion} \small{Phonon dispersion curves in the
+%[001] direction (see Fig. \ref{F-unitcells} for the definition of
+%the coordinate system) for (a) bulk Si and (b) a $2\times2$ Si/Ge
+%superlattice calculated from harmonic lattice dynamics.}}
+%\end{figure}
+
+A three step process will be used to quickly search the superlattice
+unit cell design space for structures that have low phonon group
+velocities and relaxation times. The search will be limited to Si/Ge
+superlattices with period lengths less than 5 nm because the phonon
+transport is believed to be coherent within these structures (see
+Fig. \ref{F-Si-GeSLs}). The first step will be to use lattice
+dynamics calculations under the harmonic approximation to identify
+superlattices with complex layering configurations that have low
+phonon group velocities. In the harmonic approximation, a Taylor
+series expansion of the system potential energy about its minimum
+value is truncated after the second-order
+term.\cite{dove,mcgaughey2006} This approach leads to harmonic
+equations of motion that can be solved numerically (by generating
+and diagonalizing the dynamical matrix) with calculations taking on
+the order of seconds. The primary drawback of this approximation,
+however, is that no information about the phonon scattering (e.g.,
+the phonon relaxation times) can be obtained because the phonon
+modes are decoupled. In this step, the superlattice designs will be
+generated using genetic algorithms developed by our
+collaborator,\cite{landry2008a,mcgaughey2006} Professor Mahmoud
+Hussein at the University of Colorado at Boulder. Professor Hussein
+has previously shown that genetic algorithms can be used to optimize
+the dispersion properties in phononic crystals\cite{hussein2006}. We
+believe that these algorithms will allow us to efficiently search
+the supperlattice unit cell design space.
+
+The second step will be to use anharmonic lattice dynamics
+calculations to predict the phonon relaxation times and the thermal
+conductivity for the structures already determined to have low
+phonon group velocities. Anharmonic lattice dynamics calculations
+introduce the third- and fourth-order terms in the Taylor series
+expansion of the system potential energy as a perturbation to the
+harmonic solution.\cite{turney2008} These calculations will require
+several hours of computation time. If the predicted thermal
+conductivity is low (compared to other structures encountered in the
+search of the design space), the superlattice design will be added
+to a list of structures that will be further explored in step three.
+We note that one advantage of using anharmonic lattice dynamics for
+the thermal conductivity prediction is that the contribution of each
+phonon mode to the total thermal conductivity can be
+quantified.\cite{turney2008} This quantification will be valuable in
+assessing the validity of the widely invoked assumption that the
+acoustic phonons dominate thermal energy
+transport.\cite{chen1998b,zeng2001,chen2003,ziambaras2006}
+
+In the third step, the thermal conductivities of the superlattices
+predicted by anharmonic lattice dynamics to have low thermal
+conductivity will also be predicted using MD simulations. Molecular
+dynamics simulations will only be used in this final step of the
+design strategy because they are far more computationally expensive
+than the lattice dynamics approaches, taking on the order of one
+thousand processor hours to make one prediction. This step is
+necessary, however, to check the initial assumption of coherent
+phonon transport, which will be validated if the anharmonic lattice
+dynamics calculation- and MD-predicted thermal conductivities are in
+agreement. We have previously demonstrated that these thermal
+conductivity prediction methods are in agreement to within the
+prediction uncertainty for the monatomic Lennard-Jones
+crystal.\cite{turney2008}
+
+The computer codes required to make the harmonic and anharmonic
+lattice dynamics calculations proposed in this design strategy are
+available within my research group. I have developed a harmonic
+lattice dynamics computer code and have experience in making the
+calculations and interpreting the results for a variety of solids
+described by the Lennard-Jones and Stillinger-Weber
+potentials.\cite{landry2008a,mcgaughey2006} The phonon dispersion
+curves in the [001] direction [see coordinate system definition in
+Fig. (\ref{F-unitcells})] for bulk silicon and a $2\times2$ Si/Ge
+superlattice are shown in Fig. \ref{F-dispersion} as an example of
+the types of properties that can be obtained from my code. Note that
+the superlattice dispersion curves are flatter than the those for
+bulk silicon, indicating reduced phonon group velocities (the phonon
+group velocity is equal to the derivative of the phonon angular
+frequency with respect to the phonon wavevector, $\kappa$). For the
+anharmonic lattice dynamics calculations, I will work in
+collaboration with Joe Turney, a graduate student in my research
+group, who has developed a suitable code as part of his Ph.D. work.
+
+\subsubsection*{Strategy 3. Disrupt the coherent phonon transport in
+small period superlattices with two layers in the unit cell}
+
+%\begin{figure}[tb]
+%\centerline{\epsfig{figure=disrupted_cell.eps}}
+%\caption{\label{F-disrupted_cell} \small{Schematic of the
+%$(2\times2)_4(1\times1)$ superlattice unit cell that was found in
+%the preliminary Lennard-Jones study to be effective in reducing the
+%thermal conductivity below the minimum observed for the $L_A = L_B$
+%superlattices (see Fig. \ref{F-LAeqLB}).\cite{landry2008a}}}
+%\end{figure}
+
+The transition between the incoherent and coherent phonon transport
+regimes produces a minimum in the cross-plane thermal conductivity
+as a function of period length for superlattices with two layers in
+the unit
+cell.\cite{chakraborty2003,venkata2000,caylor2005,simkin2000,chen2005,daly2002,landry2008a}
+For the model $R_m = 2$, $L_A = L_B$ Lennard-Jones superlattices,
+the minimum was observed for the $2\times2$ structure (see Fig.
+\ref{F-LAeqLB}). The third design strategy consists of adding
+disruptions to the unit cell of superlattices in which the phonon
+transport is coherent.
+
+This design strategy was developed during my preliminary work on
+model Lennard-Jones superlattices.\cite{landry2008a} The unit cell
+of the $(2\times2)_4\times(1\times1)$ Lennard-Jones superlattice is
+shown in Fig. \ref{F-disrupted_cell} as an example. The thermal
+conductivity of this disrupted superlattice was predicted to be
+0.163 W/m-K, a value that is in the vicinity of the alloy limit
+(0.162 W/m-K) and $\sim$20\% less than that of the minimum observed
+for the $L_A = L_B$ superlattices (the $2\times2$ superlattice, see
+Fig. \ref{F-LAeqLB}). The reduced thermal conductivity observed for
+this structure is attributed to reductions in both the phonon group
+velocities and the phonon mean free paths in the regime where the
+phonon transport has both coherent and incoherent qualities. Because
+the phonon transport is coherent in the $2\times2$ superlattice, the
+phonon group velocity is reduced compared to that of the bulk
+materials.\cite{kiselev2000,tamura1999,yang2001,bies2000,broido2004}
+The thermal conductivity is then further reduced by adding
+disruptions to these structures. These disruptions decrease the
+phonon mean free path below the value that would exist for the
+normal $2\times2$ superlattice while maintaining the low group
+velocity associated with this structure.
+
+In extending this concept of a disrupted superlattice unit cell to
+the design of Si/Si$_{1-x}$Ge$_x$ superlattices, MD simulations will
+be the primary prediction tool because they naturally incorporate
+the combined effects of incoherent and coherent phonon transport.
+The procedure will begin by selecting a Si/Ge superlattice with two
+layers in the unit cell that is in the coherent transport regime. My
+preliminary calculations (presented in Section \ref{S-validation})
+and experimental data suggests an appropriate choice is a
+$16\times16$ Si/Ge superlattice. I will examine the effects of the
+spacing between the disruptions and the design of the disruptions on
+the thermal conductivity. My hypothesis is that in order to have a
+low thermal conductivity with the disrupted unit cell design, the
+disruption spacing should be large enough to contain several
+$16\times16$ subcells in order to recover the low phonon group
+velocities associated with the $16\times16$ superlattice. In
+addition, the disruption spacing should be on the order of but not
+less than the phonon mean free path in order to maximize the effect
+of phonon scattering at the disruptions.
+
+\clearpage
+
+\section{\label{S-summaryschedule}Outcomes and schedule}
+
+The outcomes of this proposed research will be:
+
+\begin{itemize}
+
+\item A prediction of the thermal boundary resistance
+dependence on (i) alloy composition for isolated Si/Si$_{1-x}$Ge$_x$
+interfaces, (ii) distance between closely-spaced Si/Ge interfaces,
+and (iii) degree of species mixing at the isolated Si/Ge interface.
+These are all properties that are not accessible in experiment.
+
+\item A description of how the interface extent and coherence of the
+planar heat flux are influenced by species mixing and alloy
+composition of the isolated Si/Si$_{1-x}$Ge$_x$ interface.
+
+\item An assessment of the widely invoked assumption in current
+thermal conductivity models that the acoustic phonons dominate the
+thermal energy transport.
+
+\item A quantification of how species mixing at the
+superlattice interfaces and deviations in the period length affects
+phonon coherence and the thermal conductivity of Si/Ge
+superlattices.
+
+\item An understanding of the metrics required to design superlattices for low
+cross-plane thermal conductivity.
+
+\item A list of Si/Si$_{1-x}$Ge$_x$ superlattice designs predicted to have low cross-plane thermal
+conductivity that can be fabricated and experimentally
+characterized.
+
+\end{itemize}
+
+The schedule for my proposed research is provided in Fig.
+\ref{fig:timeline2}.
+
+\vspace{1cm}
+
+%\begin{figure}[h]
+%\centerline{\epsfig{figure=timeline2.eps}}
+%\caption{\label{fig:timeline2} \small{Research timeline.}}
+%\end{figure}
+
+\clearpage
+
+\section{Biographical Sketch} Eric Landry was born and
+raised in Meriden, CT.  He obtained his Bachelor's of Science degree
+in mechanical engineering from the University of Connecticut in
+Spring 2005. He entered Carnegie Mellon in Fall 2005 and received
+his Master's of Science degree in Spring 2007.
+
+\section*{\label{S-awards}Awards}
+
+National Science Foundation Graduate Research Fellowship,
+2006-present
+
+First place UConn mechanical engineering senior design project, 2005
+
+UConn Honor's Program Sophomore Certificate, 2003
+
+Dominion Nuclear Scholarship, 2003-2005
+
+Francis T. Maloney Scholarship, 2001-2005
+
+Connecticut Innovations Scholarship, 2001-2005
+
+University of Connecticut Merit Scholarship, 2001-2005
+
+\section*{Peer-reviewed Journal Publications}
+
+\begin{enumerate}
+
+\item E. S. Landry and A. J. H. McGaughey, ``Molecular dynamics prediction of the thermal conductivity of Si/Si$_{1-x}$Ge$_x$ superlattices," In preparation.
+
+\item J. E. Turney, E. S. Landry, A. J. H. McGaughey, and C. H. Amon, ``Thermal conductivity prediction by anharmonic lattice dynamics calculations and
+comparison to molecular dynamics methods," In preparation.
+
+\item E. S. Landry, M. I. Hussein, and A. J. H.
+McGaughey, ``Complex superlattice unit cell designs for reduced
+thermal conductivity," To appear in \textit{Physical Review B}.
+
+\item E. S. Landry, S. Mikkilineni, M. Paharia, and A. J. H.
+McGaughey, ``Nanodroplet Evaporation: A Molecular Dynamics
+Investigation," \textit{Journal of Applied Physics} \textbf{102}
+124301 (2007). Paper selected to appear in Virtual Journal of
+Nanoscale Science \& Technology, January 7, 2008 issue.
+
+\item A. J. H. McGaughey, M. I. Hussein, E. S. Landry, M. Kaviany, and
+G. Hulbert, ``Phonon band structure and thermal transport
+correlation in a layered diatomic crystal," \textit{Physical Review
+B} \textbf{74} 104304-1-12 (2006).
+
+\item A. Chaparro, E. Landry, and B. M. Cetegen, ``Transfer
+function characteristics of bluff-body stabilized, conical V-shaped
+premixed turbulent propane-air flames," \textit{Combustion and
+Flame} \textbf{145} 290-299 (2006).
+
+\end{enumerate}
+
+\section*{Conference Presentations}
+
+\begin{enumerate}
+
+\item E. J. Terrell, E. Landry, A. McGaughey, and C. Fred Higgs III,
+``Molecular dynamics simulation of nanoindentation," to be presented
+by E. T. at IJTC2008, Miami, FL, October 2008.
+
+\item E. S. Landry, M. I. Hussein, and A. J. H. McGaughey,
+``Designing Si/Si$_{1-x}$Ge$_x$ Superlattices with Tailored Thermal
+Transport Properties," presented by E. L. at Spring 2008 MRS
+Meeting, San Francisco, CA, March 2008.
+
+\item E. S. Landry, T. Matsuura, and A. J. H. McGaughey,
+``Molecular Dynamics Predictions of the Thermal Boundary Resistance
+of Isolated and Closely-spaced Si/Si$_{1-x}$Ge$_x$ Interfaces,"
+poster presented by E. L. at Spring 2008 MRS Meeting, San Francisco,
+CA, March 2008.
+
+\item E. S. Landry, M. I. Hussein, and A. J. H. McGaughey,
+``Dielectric Nanocomposite Layering Configurations for Thermal
+Conductivity Reduction," ASME paper MN2008-47052, presented by M. H.
+at MN 2008, Sharm El Sheikh, Egypt, January 2008.
+
+\item J. A. Thomas, M. Paharia, E. S. Landry, G. Lee, A. J. H. McGaughey,
+``Atomistic Water Droplet Simulation," presented by J. T. at DFD07
+Meeting of the American Physical Society, Salt Lake City, UT,
+November 2007.
+
+\item E. S. Landry, M. I. Hussein, and A. J. H. McGaughey,
+``Molecular dynamics prediction of the thermal conductivity of
+Si/Si$_{1-x}$Ge$_x$ superlattices," ASME paper IMECE2007-43177,
+presented by A. M. at IMECE 2007, Seattle, WA, November 2007.
+
+\item E. S. Landry, M. I. Hussein, and A. J. H. McGaughey,
+``Molecular dynamics prediction of the thermal conductivity of Si/Ge
+superlattices," ASME paper HT2007-32152, presented by E. L. at HT
+2007, Vancouver, BC, Canada, July 2007.
+
+\item S. Mikkilineni, E. S. Landry, and A. J. H. McGaughey,
+``Subcritical and supercritical nanodroplet evaporation: A molecular
+dynamics investigation," ASME paper HT2007-32418, presented by E. L.
+at HT 2007, Vancouver, BC, Canada, July 2007.
+
+\item E. S. Landry, S. Mikkilineni, and A. J. H. McGaughey,
+``Subcritical and supercritical nanodroplet evaporation: A molecular
+dynamics investigation," in \textit{Proceedings of the ILASS
+Americas 20th Annual Conference on Liquid Atomization and Spray
+Systems}, presented by A. M. in Chicago, IL, May 2007.
+
+\item A. J. H. McGaughey and E. S. Landry,
+``Exploration of the superlattice thermal conductivity design
+space," presented as an invited talk by A. M. at Spring 2007 MRS
+Meeting, San Francisco, CA, April 2007.
+
+\item E. S. Landry and A. J. H. McGaughey,
+``Exploration of the superlattice thermal conductivity design
+space," poster presented at the AVS Western Pennsylvania Chapter's
+Nanoelectronic Devices and Materials Symposium, Pittsburgh, PA,
+April 2007.
+
+\item E. S. Landry, M. I. Hussein, and A. J. H. McGaughey,
+``Superlattice analysis for tailored thermal transport
+characteristics," ASME paper IMECE2006-13673, presented by E. L. at
+IMECE 2006, Chicago, IL, November 2006.
+
+\item A. Chaparro, E. Landry, and B. M. Cetegen,
+``Transfer function characteristics of bluff-body stabilized,
+conical premixed tubulent propane-air flames," in
+\textit{Proceedings of the Joint Meeting of the U.S. Sections of the
+Combustion Institute}, presented by E. L., Philadelphia, PA, March
+2005.
+
+\end{enumerate}
+
+\clearpage
+
+\addcontentsline{toc}{section}{8 \hspace{1mm} References}
+
+\bibliographystyle{alan_long}
+
+\bibliography{references_thesis_proposal}
+
+\end{document}

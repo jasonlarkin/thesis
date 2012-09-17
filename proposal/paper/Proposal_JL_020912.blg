@@ -1,0 +1,123 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: Proposal_JL_020912.aux
+The style file: plain.bst
+Database file #1: references_thesis_proposal.bib
+Repeated entry---line 4984 of file references_thesis_proposal.bib
+ : @article{che2000
+ :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5413 of file references_thesis_proposal.bib
+ : @article{{\tiny 
+ :                 LAMMPS},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5614 of file references_thesis_proposal.bib
+ :   
+ :   author = {Yuping He and Davide Donadio and Giulia Galli},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5623 of file references_thesis_proposal.bib
+ :   
+ :   author = {Yuping He and Davide Donadio and Joo-Hyoung Lee and Jeffrey C. Grossman and Giulia Galli},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5675 of file references_thesis_proposal.bib
+ :   
+ :   author = {M.S. Dresselhaus, et al.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5684 of file references_thesis_proposal.bib
+ :   
+ :   author = {G. Chen, et al.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5693 of file references_thesis_proposal.bib
+ :   
+ :   author = {A. J. Minnich, et al.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5702 of file references_thesis_proposal.bib
+ :   
+ :   author = {T. He, et al.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5711 of file references_thesis_proposal.bib
+ :   
+ :   author = {Yang, et al.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5720 of file references_thesis_proposal.bib
+ :   
+ :   author = {X.-J. Wang, et al.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5729 of file references_thesis_proposal.bib
+ :   
+ :   author = {J. Larkin, A. J. H. McGaughey},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 5865 of file references_thesis_proposal.bib
+ : ty  
+ :     - JOUR
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 5946 of file references_thesis_proposal.bib
+ : ty  
+ :     - JOUR
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "he2011"
+Warning--I didn't find a database entry for "ascroft"
+Warning--I didn't find a database entry for "mcquarrie"
+Warning--I didn't find a database entry for "mcgaughey2006book"
+Warning--I didn't find a database entry for "julithesis"
+Warning--I didn't find a database entry for "landry2008a"
+Warning--to sort, need author or key in keppens1998
+Warning--to sort, need author or key in Christensen2008
+Warning--empty author in keppens1998
+Warning--empty title in keppens1998
+Warning--empty journal in keppens1998
+Warning--empty year in keppens1998
+Warning--empty author in Christensen2008
+Warning--empty title in Christensen2008
+Warning--empty journal in Christensen2008
+Warning--empty year in Christensen2008
+You've used 40 entries,
+            2118 wiz_defined-function locations,
+            743 strings with 10704 characters,
+and the built_in function-call counts, 13246 in all, are:
+= -- 1254
+> -- 703
+< -- 0
++ -- 278
+- -- 238
+* -- 1030
+:= -- 2279
+add.period$ -- 118
+call.type$ -- 40
+change.case$ -- 230
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 444
+empty$ -- 992
+format.name$ -- 238
+if$ -- 2668
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 45
+newline$ -- 200
+num.names$ -- 76
+pop$ -- 226
+preamble$ -- 1
+purify$ -- 199
+quote$ -- 0
+skip$ -- 275
+stack$ -- 0
+substring$ -- 846
+swap$ -- 39
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 146
+warning$ -- 10
+while$ -- 114
+width$ -- 42
+write$ -- 425
+(There were 13 error messages)

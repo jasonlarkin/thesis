@@ -1,0 +1,1115 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.12.4)  13 APR 2012 10:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**LJ_amor_031612.tex
+(./LJ_amor_031612.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Info: Redefining \frak on input line 99.
+LaTeX Info: Redefining \Bbb on input line 101.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen102
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen103
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen104
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip11
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks20
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex4/12pt.rtx
+File: 12pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+\epsfxsize=\dimen113
+\epsfysize=\dimen114
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks23
+
+
+! Package geometry Error: \paperwidth (0.0pt) too short.
+
+See the geometry package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.995 \Gm@process
+                 
+? 
+
+! Package geometry Error: \paperheight (0.0pt) too short.
+
+See the geometry package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.995 \Gm@process
+                 
+? 
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip48
+\L@UnitsRaiseTextstyle=\skip49
+\L@UnitsRaiseScriptstyle=\skip50
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2011/texmf-dist/tex/latex/cite/overcite.sty
+Package: overcite 1999/04/23  v 3.8
+)
+
+! LaTeX Error: File `citesort.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2011/11/10 v3.2e Customizing captions (AR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecapti
+onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr #1: #2
+}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \flushing \let \footno
+te \@footnotemark@gobble #1: #2\par \endgroup }{\global \@minipagefalse \hb@xt@
+ \hsize {\hfil \unhbox \@tempboxa \hfil }}\endgroup \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count109
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen129
+\WF@size=\dimen130
+\c@WF@wrappedlines=\count110
+\WF@box=\box36
+\WF@everypar=\toks25
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen131
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen132
+\subfiglabelskip=\skip54
+\c@subfigure=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@lotdepth=\count114
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2011/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip55
+\subfig@bottom=\skip56
+)
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (469.75499pt) is ignored.
+
+
+! LaTeX Error: Command \be already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \newcommand{\be} {\begin{eqnarray}}
+                                        
+? 
+
+! LaTeX Error: Command \ee already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \newcommand{\ee} {\end{eqnarray}}
+                                      
+? 
+
+! LaTeX Error: Command \f already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...ac{\displaystyle{#1}}{\displaystyle{#2}}}}
+                                                  
+? 
+
+! LaTeX Error: Command \lr already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \newcommand{\lr}[1]{\langle{#1}\rangle}
+                                            
+? 
+(./LJ_amor_031612.aux
+
+LaTeX Warning: Label `S-Motivation' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation-Amorphous' multiply defined.
+
+
+LaTeX Warning: Label `S-Motivation' multiply defined.
+
+
+LaTeX Warning: Label `E:udot_HLD' multiply defined.
+
+
+LaTeX Warning: Label `A:E:equipartition' multiply defined.
+
+)
+\openout1 = `LJ_amor_031612.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+Class revtex4 Info: Patching LaTeX tabular. on input line 132.
+Class revtex4 Info: cite was not loaded (OK!) on input line 132.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 132.
+ (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+34.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43pt, 72.27pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=25.25pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen133
+\scratchbox=\box37
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen134
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks27
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \caption).
+(caption)             \caption = macro:->\minipagefootnote@here \ifx \@captype 
+\@undefined \@latex@error {\noexpand \caption outside float}\@ehd \expandafter 
+\@gobble \else \refstepcounter \@captype \expandafter \@firstofone \fi {\@dblar
+g {\@caption \@captype }}.
+
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
+Package caption Info: subfigure package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 187.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 187.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+Non-PDF special ignored!{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}]
+! Extra \endgroup.
+\@tempc ...002}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.223 ...in Schelling Si/Ge \cite{schelling2002}, 
+                                                  Marzari Si/Ge PRL \cite{Ga...
+
+? 
+! Extra \endgroup.
+\@tempc ...011}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.223 ...002}, Marzari Si/Ge PRL \cite{Garg2011}. 
+                                                   Although, detailed study ...
+
+? 
+[2] [3]
+! Extra \endgroup.
+\@tempc ...972}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.798 ...s (energies).\cite{dove1993,wallace1972} 
+                                                  The atomic velocities can ...
+
+? 
+! Extra \endgroup.
+\@tempc ...993}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.799 \cite{dove1993}
+                     
+? 
+! Extra \endgroup.
+\@tempc ...993}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.806 \cite{dove1993}
+                     
+? 
+[4]
+! Extra \endgroup.
+\@tempc ...987}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.821 ...a$ by Parseval's theorem,\cite{rudin1987}
+                                                  
+? 
+! Extra \endgroup.
+\@tempc ...986}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.834 ...\tau\kv$, by\cite{maradudin1962,ladd1986}
+                                                  
+? 
+! Extra \endgroup.
+\@tempc ...000}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.840 ...m_{\nu}^{3n} V\kvw$.\cite{mcquarrie2000} 
+                                                  In an anharmonic system (i...
+
+? 
+
+LaTeX Warning: File `LJ_FIT_PEAK.eps' not found on input line 849.
+
+Package epstopdf Info: Source file: <LJ_FIT_PEAK.eps>
+(epstopdf)             Output file: <LJ_FIT_PEAK-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-04-12 14:43:56
+(epstopdf)                    size: 24016 bytes
+(epstopdf)             Command: <repstopdf --outfile=LJ_FIT_PEAK-eps-converted-
+to.pdf LJ_FIT_PEAK.eps>
+(epstopdf)             \includegraphics on input line 849.
+Package epstopdf Info: Output file is already uptodate.
+<LJ_FIT_PEAK-eps-converted-to.pdf, id=27, 320.19624pt x 323.2075pt>
+File: LJ_FIT_PEAK-eps-converted-to.pdf Graphic file (type pdf)
+
+<use LJ_FIT_PEAK-eps-converted-to.pdf>
+Package pdftex.def Info: LJ_FIT_PEAK-eps-converted-to.pdf used on input line 84
+9.
+(pdftex.def)             Requested size: 320.19545pt x 323.20671pt.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.852 ...hs $\Gamma$, are provided in the legend.}
+                                                  
+? 
+! Extra }, or forgotten \endgroup.
+\sbox ...hbox {\color@setgroup #2\color@endgroup }
+                                                  
+l.852 ...hs $\Gamma$, are provided in the legend.}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.852 ...hs $\Gamma$, are provided in the legend.}
+                                                  
+? 
+! Extra }, or forgotten \endgroup.
+\@begin@tempboxa ...begingroup #2\color@endgroup }
+                                                  \def \width {\wd \@tempbox...
+l.852 ...hs $\Gamma$, are provided in the legend.}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.852 ...hs $\Gamma$, are provided in the legend.}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.852 ...hs $\Gamma$, are provided in the legend.}
+                                                  
+? 
+[5]
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.853 \end{figure}
+                  
+? 
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.853 \end{figure}
+                  
+? 
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.853 \end{figure}
+                  
+? 
+! Undefined control sequence.
+<argument> \count \@currbox 
+                            >\z@ 
+l.853 \end{figure}
+                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.853 \end{figure}
+                  
+? 
+! Undefined control sequence.
+<argument> \count@ \count \@currbox 
+                                    \divide \count@ \sixt@@n \multiply \coun...
+l.853 \end{figure}
+                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \divide 
+l.853 \end{figure}
+                  
+? 
+! Undefined control sequence.
+<argument> ...sixt@@n \@tempcnta \count \@currbox 
+                                                  \advance \@tempcnta -\coun...
+l.853 \end{figure}
+                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \advance 
+l.853 \end{figure}
+                  
+? 
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.853 \end{figure}
+                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.853 \end{figure}
+                  
+? 
+! Extra \endgroup.
+\@tempc ...976}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.862 ...\mathbf{a}_{\alpha}$.\cite{ashcroft1976} 
+                                                  The basis (or unit cell) i...
+
+? 
+! Extra \endgroup.
+\@tempc ...976}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.869 ... atoms per unit cell.\cite{ashcroft1976} 
+                                                  For our MD simulations, cu...
+
+? 
+! Extra \endgroup.
+\@tempc ...04a}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.869 ...= N_0$.\cite{turney2009a,mcgaughey2004a} 
+                                                  The allowed wavevectors fo...
+
+? 
+! Extra \endgroup.
+\@tempc ...976}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.875 ...rocal lattice vectors\cite{ashcroft1976} 
+                                                  and $-N_{\alpha}/2 < n_{\a...
+
+? 
+! Extra \endgroup.
+\@tempc ...09a}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.875 ...a}$ are even integers.\cite{turney2009a} 
+                                                  The wavevectors are taken ...
+
+? 
+! Extra \endgroup.
+\@tempc ...976}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.875 ... first Brioullin zone.\cite{ashcroft1976}
+                                                  
+? 
+! Extra \endgroup.
+\@tempc ...06b}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.877 ...e lattice constant.\cite{mcgaughey2006b} 
+                                                  The phonon frequencies and...
+
+? 
+
+! LaTeX Error: Counter too large.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.878 T
+       o illustrate the procedure, $\Phi$ was calculated using Eq$.$ \eqref{...
+
+? 
+
+LaTeX Warning: Reference `FIG:LJ_FIT_PEAK' on page 6 undefined on input line 87
+8.
+
+! Extra \endgroup.
+\@tempc ...993}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.878 ...ongitudinal acoustic mode.\cite{dove1993}
+                                                  
+? 
+[6]
+! Extra \endgroup.
+\@tempc ...001}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.882 ..., can be calculated from \cite{ziman2001}
+                                                  
+? 
+
+Overfull \hbox (2.61108pt too wide) detected at line 887
+ []
+ []
+
+! Extra \endgroup.
+\@tempc ...000}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.889 ...oltzmann statistics,\cite{mcquarrie2000} 
+                                                  the
+? 
+! Extra \endgroup.
+\@tempc ...04c}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.890 ...itable for LJ argon\cite{mcgaughey2004c} 
+                                                  and SW silicon.\cite{goico...
+
+? 
+! Extra \endgroup.
+\@tempc ...010}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.890 ...04c} and SW silicon.\cite{goicochea2010} 
+                                                  The group
+? 
+! Extra \endgroup.
+\@tempc ...06b}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.891 ... reduces the error.\cite{mcgaughey2006b} 
+                                                  To predict a bulk thermal ...
+
+? 
+
+LaTeX Warning: Reference `S-Prelim-Vib-Cond-Ordered' on page 7 undefined on inp
+ut line 893.
+
+! Extra \endgroup.
+\@tempc ...11a}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.893 ...ling procedure\cite{turney2009a,He2011a} 
+                                                  is used to compare the the...
+
+? 
+
+LaTeX Warning: Reference `FIG:LJ_COND' on page 7 undefined on input line 893.
+
+! Extra \endgroup.
+\@tempc ...10b}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.899 ...velocities.\cite{turney2009a,sellan2010b}
+                                                  
+? 
+
+LaTeX Warning: File `LJ_NMD_SED_COND_2.eps' not found on input line 903.
+
+Package epstopdf Info: Source file: <LJ_NMD_SED_COND_2.eps>
+(epstopdf)             Output file: <LJ_NMD_SED_COND_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-04-12 14:43:57
+(epstopdf)                    size: 9287 bytes
+(epstopdf)             Command: <repstopdf --outfile=LJ_NMD_SED_COND_2-eps-conv
+erted-to.pdf LJ_NMD_SED_COND_2.eps>
+(epstopdf)             \includegraphics on input line 903.
+Package epstopdf Info: Output file is already uptodate.
+<LJ_NMD_SED_COND_2-eps-converted-to.pdf, id=36, 783.92876pt x 483.8075pt>
+File: LJ_NMD_SED_COND_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use LJ_NMD_SED_COND_2-eps-converted-to.pdf>
+Package pdftex.def Info: LJ_NMD_SED_COND_2-eps-converted-to.pdf used on input l
+ine 903.
+(pdftex.def)             Requested size: 783.92685pt x 483.80632pt.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Extra }, or forgotten \endgroup.
+<argument> ...\@finalstrut \strutbox \fi }{}\par }
+                                                  
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+[7]
+! Too many }'s.
+<argument> ...\@finalstrut \strutbox \fi }{}\par }
+                                                  
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Too many }'s.
+\@begin@tempboxa ...begingroup #2\color@endgroup }
+                                                  \def \width {\wd \@tempbox...
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Extra \endgroup.
+\@iiiparbox ...f@pboxsw \m@th $\fi \@end@tempboxa 
+                                                  
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Extra \endgroup.
+\caption@@make ...dima \caption@endhook \endgroup 
+                                                  \global \caption@starfalse 
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Extra \endgroup.
+\subfig@oldcaption ...orespaces #3}\par \endgroup 
+                                                  
+l.905 ...ic simulation methods.\cite{turney2009a}}
+                                                  
+? 
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.906 \end{figure}
+                  
+? 
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.906 \end{figure}
+                  
+? 
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.906 \end{figure}
+                  
+? 
+! Undefined control sequence.
+<argument> \count \@currbox 
+                            >\z@ 
+l.906 \end{figure}
+                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.906 \end{figure}
+                  
+? 
+! Undefined control sequence.
+<argument> \count@ \count \@currbox 
+                                    \divide \count@ \sixt@@n \multiply \coun...
+l.906 \end{figure}
+                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \divide 
+l.906 \end{figure}
+                  
+? 
+! Undefined control sequence.
+<argument> ...sixt@@n \@tempcnta \count \@currbox 
+                                                  \advance \@tempcnta -\coun...
+l.906 \end{figure}
+                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \advance 
+l.906 \end{figure}
+                  
+? 
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.906 \end{figure}
+                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.906 \end{figure}
+                  
+? 
+! Extra \endgroup.
+\@tempc ...993}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.908 ...amics theory.\cite{wallace1972,dove1993} 
+                                                  In reciprocal space, the s...
+
+? 
+! Extra \endgroup.
+\@tempc ...990}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.939 ...974,wallace1972,dove1993,srivastava1990} 
+                                                  In an anharmonic system, t...
+
+? 
+! Extra \endgroup.
+\@tempc ...972}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.940 ...distribution function.\cite{wallace1972} 
+                                                  The phonon mode coordinate...
+
+? 
+[8]
+! Extra \endgroup.
+\@tempc ...987}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.1005 ... by Parseval's theorem,\cite{rudin1987} 
+                                                  giving
+? 
+[9]
+! Extra \endgroup.
+\@tempc ...sis}}\spacefactor \@tempcnta \endgroup 
+                                                  
+l.1045 ...e SED in wavevector.\cite{turneythesis} 
+                                                  For a finite sampling of t...
+
+? 
+[10] (./LJ_amor_031612.bbl [11] [12]) [13] (./LJ_amor_031612.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6115 strings out of 493629
+ 86251 string characters out of 3143344
+ 213690 words of memory out of 3000000
+ 9297 multiletter control sequences out of 15000+200000
+ 16550 words of font info for 61 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 38i,27n,38p,1373b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on LJ_amor_031612.pdf (13 pages, 235341 bytes).
+PDF statistics:
+ 117 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

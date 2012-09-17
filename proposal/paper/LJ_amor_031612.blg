@@ -1,0 +1,101 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: LJ_amor_031612.aux
+The style file: plain.bst
+Database file #1: references_thesis_proposal.bib
+Repeated entry---line 2932 of file references_thesis_proposal.bib
+ : @misc{sellan2010b
+ :                  ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5413 of file references_thesis_proposal.bib
+ : @article{{\tiny 
+ :                 LAMMPS},
+I'm skipping whatever remains of this entry
+Repeated entry---line 5976 of file references_thesis_proposal.bib
+ : @book{dyer1988
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5997 of file references_thesis_proposal.bib
+ : @article{nolas1999
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6036 of file references_thesis_proposal.bib
+ : @article{doi:10.1021/ar000034b
+ :                               ,
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 6181 of file references_thesis_proposal.bib
+ : TY  
+ :     - JOUR
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6364 of file references_thesis_proposal.bib
+ : 
+ : URL = {http://pubs.acs.org/doi/abs/10.1021/ja063695y},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "J. M. Larkin J. E. Turney, A. D. Massicotte, C. H. Amon, A. J. H. McGaughey" for entry Larkin2012
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "J. M. Larkin J. E. Turney, A. D. Massicotte, C. H. Amon, A. J. H. McGaughey" for entry Larkin2012
+while executing---line 1090 of file plain.bst
+Warning--empty title in maradudin1974
+Warning--empty journal in Miyamoto1994117
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Mogens Christensen, Asger B. Abrahamsen, Niels B. Christensen, Fanni Juranyi, Niels H. Andersen, Kim Lefmann, Jakob Andreasson, Christian R. H. Bahl and Bo B. Iversen" for entry Christensen2008
+while executing---line 1090 of file plain.bst
+You've used 69 entries,
+            2118 wiz_defined-function locations,
+            929 strings with 15965 characters,
+and the built_in function-call counts, 23414 in all, are:
+= -- 2219
+> -- 1249
+< -- 1
++ -- 496
+- -- 424
+* -- 1808
+:= -- 4072
+add.period$ -- 210
+call.type$ -- 69
+change.case$ -- 409
+chr.to.int$ -- 0
+cite$ -- 71
+duplicate$ -- 773
+empty$ -- 1744
+format.name$ -- 424
+if$ -- 4731
+int.to.chr$ -- 0
+int.to.str$ -- 69
+missing$ -- 76
+newline$ -- 349
+num.names$ -- 140
+pop$ -- 344
+preamble$ -- 1
+purify$ -- 349
+quote$ -- 0
+skip$ -- 490
+stack$ -- 0
+substring$ -- 1528
+swap$ -- 74
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 260
+warning$ -- 2
+while$ -- 205
+width$ -- 71
+write$ -- 755
+(There were 19 error messages)

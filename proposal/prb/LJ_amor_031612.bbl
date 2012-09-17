@@ -1,0 +1,121 @@
+\begin{thebibliography}{10}
+
+\bibitem{ashcroft1976}
+N.~W. Ashcroft and N.~D. Mermin.
+\newblock {\em Solid State Physics}.
+\newblock Saunders, Fort Worth, 1976.
+
+\bibitem{dove1993}
+M.~T. Dove.
+\newblock {\em Introduction to Lattice Dynamics}.
+\newblock Cambridge, Cambridge, 1993.
+
+\bibitem{Garg2011}
+Jivtesh Garg, Nicola Bonini, Boris Kozinsky, and Nicola Marzari.
+\newblock Role of disorder and anharmonicity in the thermal conductivity of
+  silicon-germanium alloys: A first-principles study.
+\newblock {\em Physical Review Letters}, 106:045901, 2011.
+
+\bibitem{goicochea2010}
+J.~V. Goicochea, M.~Madrid, and C.~H. Amon.
+\newblock Thermal properties for bulk silicon based on the determination of
+  relaxation times using molecular dynamics.
+\newblock {\em Journal of Heat Transfer}, 132:012401, 2010.
+
+\bibitem{He2011a}
+Yuping He, Davide Donadio, and Giulia Galli.
+\newblock Heat transport in amorphous silicon: Interplay between morphologyand
+  disorder.
+\newblock {\em Applied Physics Letters}, 98:144101, 2011.
+
+\bibitem{ladd1986}
+A.~J.~C. Ladd, B.~Moran, and W.~G. Hoover.
+\newblock Lattice thermal conductivity: A comparison of molecular dynamics and
+  anharmonic lattice dynamics.
+\newblock {\em Physical Review B}, 34:5058--5064, 1986.
+
+\bibitem{maradudin1974}
+A.~A. Maradudin.
+\newblock In G.~K. Horton and A.~A. Maradudin, editors, {\em Dynamical
+  Properties of Solids, Volume 1}, pages 1--82. Elsevier, New York, 1974.
+
+\bibitem{maradudin1962}
+A.~A. Maradudin and A.~E. Fein.
+\newblock Scattering of neutrons by an anharmonic crystal.
+\newblock {\em Physical Review}, 128:2589--2608, 1962.
+
+\bibitem{mcgaughey2006b}
+A.~J.~H. McGaughey, M.~I. Hussein, E.~S. Landry, M.~Kaviany, and G.~M. Hulbert.
+\newblock Phonon band structure and thermal transport correlation in a layered
+  diatomic crystal.
+\newblock {\em Physical Review B}, 74:104304, 2006.
+
+\bibitem{mcgaughey2004c}
+A.~J.~H. McGaughey and M.~Kaviany.
+\newblock Quantitative validation of the {B}oltzmann transport equation phonon
+  thermal conductivity model under the single-mode relaxation time
+  approximation.
+\newblock {\em Physical Review B}, 69:094303, 2004.
+
+\bibitem{mcgaughey2004a}
+A.~J.~H. McGaughey and M.~Kaviany.
+\newblock Thermal conductivity decomposition and analysis using molecular
+  dynamics simulations. {P}art {I}. {L}ennard-{J}ones argon.
+\newblock {\em International Journal of Heat and Mass Transfer}, 47:1783--1798,
+  2004.
+
+\bibitem{Larkin2012}
+J.~M. Larkin J. E. Turney A. D. Massicotte C. H. Amon A. J.~H. McGaughey.
+\newblock Comparison and evaluation of spectral energy methods for predicting
+  phonon properties.
+\newblock {\em in submission}, 2012.
+
+\bibitem{mcquarrie2000}
+D.~A. McQuarrie.
+\newblock {\em Statistical Mechanics}.
+\newblock University Science Books, Sausalito, 2000.
+
+\bibitem{rudin1987}
+W.~Rudin.
+\newblock {\em Real and Complex Analysis}.
+\newblock McGraw-Hill, New York, 1987.
+
+\bibitem{schelling2002}
+P.~K. Schelling, S.~R. Phillpot, and P.~Keblinski.
+\newblock Comparison of atomic-level simulation methods for computing thermal
+  conductivity.
+\newblock {\em Physical Review B}, 65:144306, 2002.
+
+\bibitem{sellan2010b}
+D.~P. Sellan, J.~E. Turney, A.~J.~H. McGaughey, and C.~H. Amon.
+\newblock Cross-plane phonon transport in thin films.
+\newblock {\em Journal of Applied Physics}, 108:113524, 2010.
+
+\bibitem{srivastava1990}
+G.~P. Srivastava.
+\newblock {\em The Physics of Phonons}.
+\newblock Adam Hilger, Bristol, 1990.
+
+\bibitem{turneythesis}
+J.~E. Turney.
+\newblock {\em {Predicting phonon properties and thermal conductivity using
+  anharmonic lattice dynamics calculations}}.
+\newblock {PhD Thesis}, Carnegie Mellon University, Pittsburgh, {PA}, 2009.
+
+\bibitem{turney2009a}
+J.~E. Turney, E.~S. Landry, A.~J.~H. McGaughey, and C.~H. Amon.
+\newblock Predicting phonon properties and thermal conductivity from anharmonic
+  lattice dynamics calculations and molecular dynamics simulations.
+\newblock {\em Physical Review B}, 79:064301, 2009.
+
+\bibitem{wallace1972}
+D.~C. Wallace.
+\newblock {\em Thermodynamics of Crystals}.
+\newblock Cambridge Univ. Press, Cambridge, UK, 1972.
+
+\bibitem{ziman2001}
+J.~M. Ziman.
+\newblock {\em Electrons and Phonons}.
+\newblock Oxford, New York, 2001.
+
+\end{thebibliography}

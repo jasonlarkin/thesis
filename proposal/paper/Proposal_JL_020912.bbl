@@ -1,0 +1,226 @@
+\begin{thebibliography}{10}
+
+\bibitem{keppens1998}
+
+
+\bibitem{Christensen2008}
+
+
+\bibitem{allen1993}
+Philip~B. Allen and Joseph~L. Feldman.
+\newblock Thermal conductivity of disordered harmonic solids.
+\newblock {\em Physical Review B}, 48(17):12581--12588, Nov 1993.
+
+\bibitem{ashcroft1976}
+N.~W. Ashcroft and N.~D. Mermin.
+\newblock {\em Solid State Physics}.
+\newblock Saunders, Fort Worth, 1976.
+
+\bibitem{cahill1992}
+D.~G. Cahill, S.~K. Watson, and R.~O. Pohl.
+\newblock Lower limit to thermal conductivity of disordered crystals.
+\newblock {\em Physical Review B}, 46:6131--6140, 1992.
+
+\bibitem{cahill1987}
+David~G. Cahill and R.~O. Pohl.
+\newblock Thermal conductivity of amorphous solids above the plateau.
+\newblock {\em Physical Review B}, 35:4067–4073, 1987.
+
+\bibitem{PhysRevB.46.6131}
+David~G. Cahill, S.~K. Watson, and R.~O. Pohl.
+\newblock Lower limit to the thermal conductivity of disordered crystals.
+\newblock {\em Phys. Rev. B}, 46:6131--6140, Sep 1992.
+
+\bibitem{che2000}
+J.~Che, T.~Cagin, W.~Deng, and {W. A. Goddard III}.
+\newblock Thermal conductivity of diamond and related materials from molecular
+  dynamics simulations.
+\newblock {\em Journal of Chemical Physics}, 113:6888--6900, 2000.
+
+\bibitem{Chen_Dresselhaus_Dresselhaus_Fleurial_Caillat_2003}
+G~Chen, M~S Dresselhaus, G~Dresselhaus, J~Fleurial, and T~Caillat.
+\newblock Recent developments in thermoelectric materials.
+\newblock {\em International Materials Reviews}, 48(1):45--66, 2003.
+
+\bibitem{doi:10.1021/ja063695y}
+Mogens Christensen, Nina Lock, Jacob Overgaard, and Bo~B. Iversen.
+\newblock Crystal structures of thermoelectric n- and p-type ba8ga16ge30
+  studied by single crystal, multitemperature, neutron diffraction,
+  conventional x-ray diffraction and resonant synchrotron x-ray diffraction.
+\newblock {\em Journal of the American Chemical Society}, 128(49):15657--15665,
+  2006.
+
+\bibitem{PhysRevLett.82.779}
+J.~L. Cohn, G.~S. Nolas, V.~Fessatidis, T.~H. Metcalf, and G.~A. Slack.
+\newblock Glasslike heat conduction in high-mobility crystalline
+  semiconductors.
+\newblock {\em Phys. Rev. Lett.}, 82:779--782, Jan 1999.
+
+\bibitem{dove1993}
+M.~T. Dove.
+\newblock {\em Introduction to Lattice Dynamics}.
+\newblock Cambridge, Cambridge, 1993.
+
+\bibitem{ADMA:ADMA200600527}
+M.?S. Dresselhaus, G.~Chen, M.?Y. Tang, R.?G. Yang, H.~Lee, D.?Z. Wang, Z.?F.
+  Ren, J.-P. Fleurial, and P.~Gogna.
+\newblock New directions for low-dimensional thermoelectric materials.
+\newblock {\em Advanced Materials}, 19(8):1043--1053, 2007.
+
+\bibitem{freeman1986}
+J.~J. Freeman and A.~C. Anderson.
+\newblock Thermal conductivity of amorphous solids.
+\newblock {\em Physical Review B}, 34:5684–5690, 1986.
+
+\bibitem{goicochea2010}
+J.~V. Goicochea, M.~Madrid, and C.~H. Amon.
+\newblock Thermal properties for bulk silicon based on the determination of
+  relaxation times using molecular dynamics.
+\newblock {\em Journal of Heat Transfer}, 132:012401, 2010.
+
+\bibitem{PhysRevB.34.5696}
+J.~E. Graebner, B.~Golding, and L.~C. Allen.
+\newblock Phonon localization in glasses.
+\newblock {\em Phys. Rev. B}, 34:5696--5701, Oct 1986.
+
+\bibitem{cm052055b}
+Tao He, Jiazhong Chen, H.~David Rosenfeld, and M.~A. Subramanian.
+\newblock Thermoelectric properties of indium-filled skutterudites.
+\newblock {\em Chemistry of Materials}, 18(3):759--762, 2006.
+
+\bibitem{kaviany2008}
+M.~Kaviany.
+\newblock {\em Heat Transfer Physics}.
+\newblock Cambridge University Press, New York, 2008.
+
+\bibitem{ladd1986}
+A.~J.~C. Ladd, B.~Moran, and W.~G. Hoover.
+\newblock Lattice thermal conductivity: A comparison of molecular dynamics and
+  anharmonic lattice dynamics.
+\newblock {\em Physical Review B}, 34:5058--5064, 1986.
+
+\bibitem{maradudin1962}
+A.~A. Maradudin and A.~E. Fein.
+\newblock Scattering of neutrons by an anharmonic crystal.
+\newblock {\em Physical Review}, 128:2589--2608, 1962.
+
+\bibitem{mcgaughey2006b}
+A.~J.~H. McGaughey, M.~I. Hussein, E.~S. Landry, M.~Kaviany, and G.~M. Hulbert.
+\newblock Phonon band structure and thermal transport correlation in a layered
+  diatomic crystal.
+\newblock {\em Physical Review B}, 74:104304, 2006.
+
+\bibitem{mcgaughey2004c}
+A.~J.~H. McGaughey and M.~Kaviany.
+\newblock Quantitative validation of the {B}oltzmann transport equation phonon
+  thermal conductivity model under the single-mode relaxation time
+  approximation.
+\newblock {\em Physical Review B}, 69:094303, 2004.
+
+\bibitem{mcgaughey2004b}
+A.~J.~H. McGaughey and M.~Kaviany.
+\newblock Thermal conductivity decomposition and analysis using molecular
+  dynamics simulations. {P}art {II}. {C}omplex silica structures.
+\newblock {\em International Journal of Heat and Mass Transfer}, 47:1799--1816,
+  2004.
+
+\bibitem{mcgaughey2006}
+A.~J.~H. McGaughey and J.~Li.
+\newblock Molecular dynamics prediction of the thermal resistance of
+  solid--solid interfaces in superlattices.
+\newblock In {\em Proceedings of IMECE 2006}. ASME, 2006.
+\newblock Paper number IMECE2006-13590.
+
+\bibitem{mcquarrie2000}
+D.~A. McQuarrie.
+\newblock {\em Statistical Mechanics}.
+\newblock University Science Books, Sausalito, 2000.
+
+\bibitem{B822664B}
+A.~J. Minnich, M.~S. Dresselhaus, Z.~F. Ren, and G.~Chen.
+\newblock Bulk nanostructured thermoelectric materials: current research and
+  future prospects.
+\newblock {\em Energy Environ. Sci.}, 2:--, 2009.
+
+\bibitem{shiomi2011b}
+Zhun-Yong Ong, Eric Pop, and Junichiro Shiomi.
+\newblock Reduction of phonon lifetimes and thermal conductivity of a carbon
+  nanotube on amorphous silica.
+\newblock {\em Physical Review B}, 84(16):165418, 2011.
+
+\bibitem{qiu:063713}
+P.~F. Qiu, J.~Yang, R.~H. Liu, X.~Shi, X.~Y. Huang, G.~J. Snyder, W.~Zhang, and
+  L.~D. Chen.
+\newblock High-temperature electrical and thermal transport properties of fully
+  filled skutterudites rfe[sub 4]sb[sub 12] (r = ca, sr, ba, la, ce, pr, nd,
+  eu, and yb).
+\newblock {\em Journal of Applied Physics}, 109(6):063713, 2011.
+
+\bibitem{rudin1987}
+W.~Rudin.
+\newblock {\em Real and Complex Analysis}.
+\newblock McGraw-Hill, New York, 1987.
+
+\bibitem{Sales_Chakoumakos_Mandrus_Sharp_1999}
+Brian~C Sales, B~C Chakoumakos, David Mandrus, and J~W Sharp.
+\newblock Atomic displacement parameters and the lattice thermal conductivity
+  of clathrate-like thermoelectric compounds.
+\newblock {\em Journal of Solid State Chemistry}, 146(2):528--532, 1999.
+
+\bibitem{shiomi2011a}
+Junichiro Shiomi, Keivan Esfarjani, and Gang Chen.
+\newblock Thermal conductivity of half-heusler compounds from first-principles
+  calculations.
+\newblock {\em Physical Review B}, 84(10):125209, 2011.
+
+\bibitem{PhysRev.141.767}
+E.~F. Steigmeier and I.~Kudman.
+\newblock Acoustical-optical phonon scattering in ge, si, and iii-v compounds.
+\newblock {\em Phys. Rev.}, 141:767--774, Jan 1966.
+
+\bibitem{thomasthesis}
+J.~A. Thomas.
+\newblock {\em {water flow and thermal transport through carbon nanotubes}}.
+\newblock {PhD Thesis}, Carnegie Mellon University, Pittsburgh, {PA}, 2010.
+
+\bibitem{Toberer2011}
+Eric~S. Toberer, Alex Zevalkink, and G.~Jeffrey Snyder.
+\newblock Phonon engineering through crystal chemistry.
+\newblock {\em J. Mater. Chem.}, 21:--, 2011.
+
+\bibitem{turneythesis}
+J.~E. Turney.
+\newblock {\em {Predicting phonon properties and thermal conductivity using
+  anharmonic lattice dynamics calculations}}.
+\newblock {PhD Thesis}, Carnegie Mellon University, Pittsburgh, {PA}, 2009.
+
+\bibitem{turney2009a}
+J.~E. Turney, E.~S. Landry, A.~J.~H. McGaughey, and C.~H. Amon.
+\newblock Predicting phonon properties and thermal conductivity from anharmonic
+  lattice dynamics calculations and molecular dynamics simulations.
+\newblock {\em Physical Review B}, 79:064301, 2009.
+
+\bibitem{wallace1972}
+D.~C. Wallace.
+\newblock {\em Thermodynamics of Crystals}.
+\newblock Cambridge Univ. Press, Cambridge, UK, 1972.
+
+\bibitem{wang_232107}
+Xiao-Jun Wang, Mei-Bo Tang, Jing-Tai Zhao, Hao-Hong Chen, and Xin-Xin Yang.
+\newblock Thermoelectric properties and electronic structure of zintl compound
+  bazn[sub 2]sb[sub 2].
+\newblock {\em Applied Physics Letters}, 90(23):232107, 2007.
+
+\bibitem{Yang_Chen_2006}
+Junyou Yang, Yuehua Chen, Wen Zhu, Jiangying Peng, Siqian Bao, Xi?an Fan,
+  Xingkai Duan, and Anonymous.
+\newblock Effect of la filling on thermoelectric properties of
+  laxco3.6ni0.4sb12-filled skutterudite prepared by ma-hp method.
+\newblock {\em Journal of Solid State Chemistry}, 179(1):212--216, 2006.
+
+\bibitem{ziman2001}
+J.~M. Ziman.
+\newblock {\em Electrons and Phonons}.
+\newblock Oxford, New York, 2001.
+
+\end{thebibliography}

@@ -1,0 +1,36 @@
+\contentsline {section}{\numberline {1}Motivation}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Amorphous Systems}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Thermoelectric Energy Conversion using Large Unit Cell Skutterudites}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Large Unit Cell Zeolites for Gas Adsorption }{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Hypothesis}{5}{subsection.1.4}
+\contentsline {section}{\numberline {2}Background}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Vibrational Thermal Conductivity}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Range of Vibrational Thermal Conductivity}{7}{subsection.2.2}
+\contentsline {section}{\numberline {3}Range of Virbational Conductivity in Lennard-Jones Systems}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Green-Kubo Predictions}{10}{subsection.3.1}
+\contentsline {section}{\numberline {4}Disordered Modes}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Disordered Modes in a Crystal}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Disordered Modes in a Amorphous}{11}{subsection.4.2}
+\contentsline {section}{\numberline {5}Preliminary Work}{11}{section.5}
+\contentsline {subsection}{\numberline {5.1}Vibrational Thermal Conductivity in Ordered Materials}{11}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Phonon Scattering Mechanisms}{12}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Dilute Alloys}{13}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}High Concentration Alloys and Glasses}{13}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Importance of Phonon Dispersion}{15}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6} Phonons in Amorphous Materials }{15}{subsection.5.6}
+\contentsline {section}{\numberline {6}Proposed Work}{19}{section.6}
+\contentsline {subsection}{\numberline {6.1}Quantify Thermal Transport in Amorphous and Disordered Materials}{19}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Outcomes}{20}{subsubsection.6.1.1}
+\contentsline {subsection}{\numberline {6.2}Investigate Thermal Transport in LUC Zeolites and Skutterudites}{20}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Outcomes}{21}{subsubsection.6.2.1}
+\contentsline {section}{\numberline {7}Outcomes and schedule}{22}{section.7}
+\contentsline {section}{\numberline {8}Biographical Sketch}{23}{section.8}
+\contentsline {section}{\numberline {A}Predicting Phonon Properties}{24}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Vibrations in Ordered Solids}{24}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Predicting Phonon Lifetimes using Spectral Energy Denisty}{24}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Allowed Wavevectors in Ordered Systems}{26}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Predicting Spectral Energy Density from Molecular Dynamics Simulations}{26}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Thermal Conductivity}{26}{subsection.A.5}
+\contentsline {section}{\numberline {B}Finite Simulation-Size Scaling for Thermal Conductivity}{27}{appendix.B}
+\contentsline {section}{\numberline {C}Derivation of Phonon Spectral Energy Density}{27}{appendix.C}
+\contentsline {section}{8 \hspace {1mm} References}{30}{equation.C.57}

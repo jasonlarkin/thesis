@@ -1,0 +1,793 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.11.21)  14 FEB 2012 13:14
+entering extended mode
+ %&-line parsing enabled.
+**thesis_proposal_JL_011112.tex
+(./thesis_proposal_JL_011112.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip43
+\L@UnitsRaiseTextstyle=\skip44
+\L@UnitsRaiseScriptstyle=\skip45
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/usr/share/texmf-texlive/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks17
+)
+(/usr/share/texmf-texlive/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/share/texmf-texlive/tex/latex/cite/overcite.sty
+Package: overcite 2003/05/27  v 4.0
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+LaTeX Info: Redefining \cite on input line 437.
+) (./citesort.sty
+\@minsofar=\count90
+\@min=\count91
+\@cite@temp=\count92
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen111
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks19
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks20
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks21
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen120
+\captionmargin@=\dimen121
+\captionwidth=\dimen122
+\caption@indent=\dimen123
+\caption@parindent=\dimen124
+\caption@hangindent=\dimen125
+)
+\c@ContinuedFloat=\count105
+)
+(/usr/share/texmf-texlive/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/share/texmf-texlive/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen126
+\WF@size=\dimen127
+\c@WF@wrappedlines=\count106
+\WF@box=\box28
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
+\subfigcaptopadj=\dimen128
+\subfigbottomskip=\skip51
+\subfigcapmargin=\dimen129
+\subfiglabelskip=\skip52
+\c@subfigure=\count107
+\c@lofdepth=\count108
+\c@subtable=\count109
+\c@lotdepth=\count110
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip53
+\subfig@bottom=\skip54
+)
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (469.75499pt) is ignored.
+
+(./thesis_proposal_JL_011112.aux
+
+LaTeX Warning: Label `Subsection_Comp_Details_3' multiply defined.
+
+
+LaTeX Warning: Label `A:E:ave_T_t' multiply defined.
+
+
+LaTeX Warning: Label `A:E:equipartition' multiply defined.
+
+)
+\openout1 = `thesis_proposal_JL_011112.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+
+*geometry detected driver: dvips*
+-------------------- Geometry parameters
+paper: letterpaper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 72.26999pt, 469.75502pt, 72.26999pt
+v-parts: 72.26999pt, 650.43pt, 72.27pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: dvips
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  469.75502pt
+\textheight 650.43pt
+\oddsidemargin  0.0pt
+\evensidemargin 0.0pt
+\topmargin  -37.0pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 44.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  10.8pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfigure package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+! Undefined control sequence.
+l.131 \affiliation
+                  {Department of Mechanical Engineering\\Carnegie Mellon Uni...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 143.
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 143.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+LaTeX Warning: Citation `allen1993' on page 1 undefined on input line 143.
+
+
+LaTeX Warning: Citation `freeman1986' on page 1 undefined on input line 143.
+
+
+LaTeX Warning: Citation `cahill1992' on page 1 undefined on input line 143.
+
+
+LaTeX Warning: Citation `he2011' on page 1 undefined on input line 146.
+
+
+LaTeX Warning: Citation `cahill1987' on page 1 undefined on input line 148.
+
+[1
+
+]
+
+LaTeX Warning: Citation `wallace1972' on page 2 undefined on input line 193.
+
+
+LaTeX Warning: Citation `dove1993' on page 2 undefined on input line 193.
+
+
+LaTeX Warning: Citation `dove1993' on page 2 undefined on input line 195.
+
+[2]
+
+LaTeX Warning: Citation `dove1993' on page 3 undefined on input line 207.
+
+
+LaTeX Warning: Citation `dove1993' on page 3 undefined on input line 225.
+
+
+LaTeX Warning: Citation `rudin1987' on page 3 undefined on input line 234.
+
+
+LaTeX Warning: Citation `maradudin1962' on page 3 undefined on input line 247.
+
+
+LaTeX Warning: Citation `ladd1986' on page 3 undefined on input line 247.
+
+[3]
+
+LaTeX Warning: Citation `mcquarrie2000' on page 4 undefined on input line 253.
+
+
+LaTeX Warning: Citation `mcgaughey2004c' on page 4 undefined on input line 267.
+
+
+
+LaTeX Warning: Citation `turney2009a' on page 4 undefined on input line 267.
+
+
+LaTeX Warning: Citation `shiomi2011b' on page 4 undefined on input line 267.
+
+
+LaTeX Warning: Citation `shiomi2011b' on page 4 undefined on input line 267.
+
+
+LaTeX Warning: Citation `rudin1987' on page 4 undefined on input line 267.
+
+
+LaTeX Warning: Citation `maruyama2003' on page 4 undefined on input line 271.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 4 undefined on input line 271.
+
+
+LaTeX Warning: Citation `dove1993' on page 4 undefined on input line 271.
+
+[4]
+
+LaTeX Warning: Citation `thomas2010c' on page 5 undefined on input line 282.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 5 undefined on input line 288.
+
+
+LaTeX Warning: Citation `mcgaughey2006b' on page 5 undefined on input line 288.
+
+
+
+LaTeX Warning: Citation `turney2009a' on page 5 undefined on input line 288.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 5 undefined on input line 288.
+
+
+LaTeX Warning: Citation `shiomi2011b' on page 5 undefined on input line 288.
+
+
+LaTeX Warning: Citation `shiomi2011a' on page 5 undefined on input line 288.
+
+[5]
+
+LaTeX Warning: Citation `ashcroft1976' on page 6 undefined on input line 301.
+
+
+LaTeX Warning: Citation `ashcroft1976' on page 6 undefined on input line 309.
+
+
+LaTeX Warning: Citation `mcgaughey2004a' on page 6 undefined on input line 309.
+
+
+
+LaTeX Warning: Citation `turney2009a' on page 6 undefined on input line 309.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 6 undefined on input line 309.
+
+
+LaTeX Warning: Citation `ashcroft1976' on page 6 undefined on input line 315.
+
+
+LaTeX Warning: Citation `turney2009a' on page 6 undefined on input line 315.
+
+
+LaTeX Warning: Citation `ashcroft1976' on page 6 undefined on input line 315.
+
+
+LaTeX Warning: Citation `mcgaughey2006b' on page 6 undefined on input line 319.
+
+
+
+LaTeX Warning: Citation `mcgaughey2006b' on page 6 undefined on input line 321.
+
+
+
+LaTeX Warning: Citation `turney2009a' on page 6 undefined on input line 321.
+
+[6]
+
+LaTeX Warning: Reference `F:LJ_FIT_PEAK' on page 7 undefined on input line 325.
+
+
+
+LaTeX Warning: Citation `dove1993' on page 7 undefined on input line 325.
+
+
+LaTeX Warning: Citation `ziman2001' on page 7 undefined on input line 341.
+
+
+Overfull \hbox (2.61108pt too wide) detected at line 346
+ []
+ []
+
+
+LaTeX Warning: Citation `mcquarrie2000' on page 7 undefined on input line 348.
+
+
+LaTeX Warning: Citation `mcgaughey2004c' on page 7 undefined on input line 349.
+
+
+
+LaTeX Warning: Citation `goicochea2010' on page 7 undefined on input line 349.
+
+
+LaTeX Warning: Citation `mcgaughey2006b' on page 7 undefined on input line 350.
+
+
+
+LaTeX Warning: Citation `thomasthesis' on page 7 undefined on input line 356.
+
+[7]
+
+LaTeX Warning: Citation `shiomi2011a' on page 8 undefined on input line 358.
+
+
+LaTeX Warning: Citation `LAMMPS' on page 8 undefined on input line 364.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 364.
+
+
+LaTeX Warning: Citation `turney2009a' on page 8 undefined on input line 367.
+
+
+LaTeX Warning: Citation `turney2009a' on page 8 undefined on input line 367.
+
+
+LaTeX Warning: Citation `mcquarrie2000' on page 8 undefined on input line 369.
+
+
+LaTeX Warning: Citation `GULP' on page 8 undefined on input line 369.
+
+[8]
+
+LaTeX Warning: Reference `F:PEAK_COMPARE' on page 9 undefined on input line 371
+.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_LJ' on page 9 undefined on input line 373
+.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_LJ' on page 9 undefined on input line 373
+.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_LJ' on page 9 undefined on input line 373
+.
+
+
+LaTeX Warning: Reference `F:PEAK_COMPARE' on page 9 undefined on input line 373
+.
+
+
+LaTeX Warning: Reference `F:PEAK_COMPARE' on page 9 undefined on input line 375
+.
+
+
+LaTeX Warning: Reference `T:cond_table' on page 9 undefined on input line 377.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_LJ' on page 9 undefined on input line 377
+.
+
+[9]
+
+LaTeX Warning: Citation `mcgaughey2004c' on page 10 undefined on input line 379
+.
+
+
+LaTeX Warning: Citation `turney2009a' on page 10 undefined on input line 379.
+
+
+LaTeX Warning: Citation `stillinger1985' on page 10 undefined on input line 415
+.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 415.
+
+
+LaTeX Warning: Citation `LAMMPS' on page 10 undefined on input line 415.
+
+
+LaTeX Warning: Citation `mcquarrie2000' on page 10 undefined on input line 418.
+
+
+
+LaTeX Warning: Citation `GULP' on page 10 undefined on input line 418.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_Si' on page 10 undefined on input line 42
+0.
+
+
+LaTeX Warning: Reference `T:cond_table' on page 10 undefined on input line 420.
+
+
+
+LaTeX Warning: Citation `thomas2010c' on page 10 undefined on input line 424.
+
+
+LaTeX Warning: Citation `brenner2002' on page 10 undefined on input line 425.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 10 undefined on input line 425.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 10 undefined on input line 425.
+
+[10]
+
+LaTeX Warning: Citation `mcquarrie2000' on page 11 undefined on input line 427.
+
+
+
+LaTeX Warning: Citation `thomas2010c' on page 11 undefined on input line 427.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_CNT' on page 11 undefined on input line 4
+29.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 11 undefined on input line 429.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_LJ' on page 11 undefined on input line 45
+9.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_Si' on page 11 undefined on input line 45
+9.
+
+
+LaTeX Warning: Reference `F:FREQ_LIFE_CNT' on page 11 undefined on input line 4
+59.
+
+[11]
+
+LaTeX Warning: Citation `dove1993' on page 12 undefined on input line 462.
+
+
+LaTeX Warning: Citation `wallace1972' on page 12 undefined on input line 462.
+
+
+LaTeX Warning: Citation `mcgaughey2011a' on page 12 undefined on input line 464
+.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 12 undefined on input line 464.
+
+
+LaTeX Warning: Citation `dekoker2009' on page 12 undefined on input line 464.
+
+
+LaTeX Warning: Citation `qiu2011' on page 12 undefined on input line 464.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 12 undefined on input line 464.
+
+
+LaTeX Warning: Citation `shiomi2011a' on page 12 undefined on input line 464.
+
+
+LaTeX Warning: Citation `maruyama2003' on page 12 undefined on input line 464.
+
+
+! LaTeX Error: Environment acknowledgments undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.466 \begin{acknowledgments}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{acknowledgments}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 \end{acknowledgments}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `wallace1972' on page 12 undefined on input line 474.
+
+
+LaTeX Warning: Citation `dove1993' on page 12 undefined on input line 475.
+
+[12]
+
+LaTeX Warning: Citation `wallace1972' on page 13 undefined on input line 518.
+
+
+LaTeX Warning: Citation `mcgaughey2004c' on page 13 undefined on input line 518
+.
+
+
+LaTeX Warning: Citation `rudin1987' on page 13 undefined on input line 541.
+
+[13]
+
+LaTeX Warning: Citation `turneythesis' on page 14 undefined on input line 582.
+
+
+LaTeX Warning: Citation `maruyama2003' on page 14 undefined on input line 591.
+
+
+LaTeX Warning: Citation `thomas2010c' on page 14 undefined on input line 591.
+
+
+LaTeX Warning: Reference `Appendix' on page 14 undefined on input line 591.
+
+[14]
+
+LaTeX Warning: Citation `turney2009a' on page 15 undefined on input line 609.
+
+
+LaTeX Warning: Citation `turney2009a' on page 15 undefined on input line 609.
+
+
+LaTeX Warning: Citation `He2011' on page 15 undefined on input line 609.
+
+
+LaTeX Warning: Citation `turney2009a' on page 15 undefined on input line 609.
+
+
+LaTeX Warning: Citation `sellan2010b' on page 15 undefined on input line 609.
+
+
+LaTeX Warning: Reference `T:cond_table' on page 15 undefined on input line 609.
+
+
+
+LaTeX Warning: File `LJ_NMD_SED_COND_2.eps' not found on input line 613.
+
+
+! LaTeX Error: File `LJ_NMD_SED_COND_2.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.613 ...le=0,width=70.0mm]{LJ_NMD_SED_COND_2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in LJ_NMD_SED_COND_2.eps (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.613 ...le=0,width=70.0mm]{LJ_NMD_SED_COND_2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: LJ_NMD_SED_COND_2.eps Graphic file (type eps)
+<LJ_NMD_SED_COND_2.eps>
+
+LaTeX Warning: Citation `turney2009a' on page 15 undefined on input line 614.
+
+
+LaTeX Warning: Citation `sellan2010a' on page 15 undefined on input line 614.
+
+
+LaTeX Warning: Citation `turney2009a' on page 15 undefined on input line 614.
+
+
+LaTeX Warning: Citation `turney2009a' on page 15 undefined on input line 614.
+
+
+LaTeX Warning: Citation `sellan2010a' on page 15 undefined on input line 614.
+
+
+LaTeX Warning: Citation `turney2009a' on page 15 undefined on input line 614.
+
+No file thesis_proposal_JL_011112.bbl.
+[15] [16] (./thesis_proposal_JL_011112.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3671 strings out of 495062
+ 51195 string characters out of 1182643
+ 138670 words of memory out of 3000000
+ 6782 multiletter control sequences out of 15000+50000
+ 23556 words of font info for 87 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 36i,27n,38p,1365b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on thesis_proposal_JL_011112.dvi (16 pages, 69464 bytes).

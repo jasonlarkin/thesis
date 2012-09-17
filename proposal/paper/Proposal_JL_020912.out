@@ -1,0 +1,43 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [2][-]{subsection.1.1}{Thermal Transport in Ordered Materials}{section.1}
+\BOOKMARK [2][-]{subsection.1.2}{Thermal Transport in Disordered Materials}{section.1}
+\BOOKMARK [2][-]{subsection.1.3}{Large Unit Cell Materials for Thermoelectric Energy Generation}{section.1}
+\BOOKMARK [2][-]{subsection.1.4}{ Zeolites for Gas Adsorbation }{section.1}
+\BOOKMARK [2][-]{subsection.1.5}{ Amorphous Materials }{section.1}
+\BOOKMARK [2][-]{subsection.1.6}{Research Plan}{section.1}
+\BOOKMARK [1][-]{section.2}{Thermal Transport in Ordered and Disordered Materials}{}
+\BOOKMARK [2][-]{subsection.2.1}{Phonon Lifetimes and Scattering Mechanisms}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Phonons in Disordered Materials}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Dilute Alloys}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{High Concentration Alloys and Glasses}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.4.1}{AF Lifetime}{subsection.2.4}
+\BOOKMARK [1][-]{section.3}{ Controlling Thermal Transport in Disordered Materials}{}
+\BOOKMARK [2][-]{subsection.3.1}{Controlling Thermal Transport by Dispersion}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Implications for LUC}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Controlling Thermal Transport by Thermal Diffusivity}{section.3}
+\BOOKMARK [2][-]{subsection.3.4}{Thermal Diffusivity Implications for LUC}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.4.1}{b= Large Unit Cells and Allen Feldman Modes}{subsection.3.4}
+\BOOKMARK [1][-]{section.4}{Large Unit Cell Materials}{}
+\BOOKMARK [2][-]{subsection.4.1}{SiO2}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Skutterudite Materials}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Rattling Modes}{subsection.4.2}
+\BOOKMARK [2][-]{subsection.4.3}{ Zeolites for Gas Adsorbation }{section.4}
+\BOOKMARK [1][-]{section.5}{Outcomes and schedule}{}
+\BOOKMARK [1][-]{section.6}{Biographical Sketch}{}
+\BOOKMARK [1][-]{section.7}{MISC}{}
+\BOOKMARK [2][-]{subsection..1}{Crystal Energy}{section.7}
+\BOOKMARK [3][-]{subsubsection..1.1}{Lennard-Jones Potential}{subsection..1}
+\BOOKMARK [2][-]{subsection..2}{Harmonic Approximation and Normal Modes}{section.7}
+\BOOKMARK [2][-]{subsection..3}{Normal Modes in Ordered Solids}{section.7}
+\BOOKMARK [2][-]{subsection..4}{Phonon Lifetimes from Normal Mode Decomposition}{section.7}
+\BOOKMARK [2][-]{subsection..5}{Allowed Wavevectors in Ordered Systems}{section.7}
+\BOOKMARK [1][-]{appendix.A}{Allen Feldman Calculation for Finite Wavectors}{}
+\BOOKMARK [1][-]{appendix.B}{Molecular dynamics simulations}{}
+\BOOKMARK [2][-]{subsection.B.1}{Green-Kubo Method}{appendix.B}
+\BOOKMARK [1][-]{appendix.C}{Derivation of Phonon Spectral Energy Density}{}
+\BOOKMARK [2][-]{subsection.C.1}{Thermal Conductivity}{appendix.C}
+\BOOKMARK [2][-]{subsection.C.2}{Computational Cost}{appendix.C}
+\BOOKMARK [1][-]{appendix.D}{Computational Cost}{}
+\BOOKMARK [2][-]{subsection.D.1}{Harmonic and Anharmonic Lattice Dynamics Calculations of Large Unit Cells}{appendix.D}
+\BOOKMARK [1][-]{appendix.E}{Role of Anharmonicity}{}
+\BOOKMARK [1][-]{appendix.E}{8 \040 References}{}
