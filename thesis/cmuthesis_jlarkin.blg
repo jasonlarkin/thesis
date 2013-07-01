@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: cmuthesis_jlarkin.aux
+The style file: unsrt.bst
+Database file #1: /home/jason/Dropbox/ntpl-paper/ntpl-060313.bib
+Warning--I didn't find a database entry for "maradudin_dynamical_1974"
+Warning--I didn't find a database entry for "mcgaughey_size-independent_2011"
+Warning--I didn't find a database entry for "turney_assesing_2009"
+Warning--I didn't find a database entry for "dekoker_thermal_2009"
+Warning--I didn't find a database entry for "brenner_second_2002"
+Warning--I didn't find a database entry for "LAMMPS"
+Warning--I didn't find a database entry for "GULP"
+Warning--I didn't find a database entry for "turneythesis"
+You've used 48 entries,
+            1791 wiz_defined-function locations,
+            724 strings with 11730 characters,
+and the built_in function-call counts, 12153 in all, are:
+= -- 1054
+> -- 503
+< -- 0
++ -- 188
+- -- 140
+* -- 937
+:= -- 1954
+add.period$ -- 144
+call.type$ -- 48
+change.case$ -- 41
+chr.to.int$ -- 0
+cite$ -- 48
+duplicate$ -- 433
+empty$ -- 1222
+format.name$ -- 140
+if$ -- 2643
+int.to.chr$ -- 0
+int.to.str$ -- 48
+missing$ -- 52
+newline$ -- 243
+num.names$ -- 48
+pop$ -- 93
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 143
+stack$ -- 0
+substring$ -- 1320
+swap$ -- 48
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 86
+width$ -- 50
+write$ -- 526
+(There were 8 warnings)

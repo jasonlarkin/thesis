@@ -1,0 +1,289 @@
+% latex thesis_ideas_040113.tex // dvipdf thesis_ideas_040113.dvi
+\documentclass[letterpaper,12pt,amsmath,amssymb]{article}
+\usepackage[active]{srcltx}
+\usepackage[dvips]{epsfig,geometry}
+\usepackage{comment}   % package for block comment
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{breakurl}
+
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{listings}
+
+%\usepackage{caption}
+%\DeclareCaptionFont{white}{\color{white}}
+%\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+%\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+
+\geometry{letterpaper,textwidth=6.5in,textheight=9.0in,left=1in,right=1in,top=1in}
+
+%--------------------------------------------------------------------------
+\begin{document}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Setting Up Computing Environment}
+%--------------------------------------------------------------------------
+
+
+\href{https://github.com/ankitjainmeiitk}{https://github.com/ankitjainmeiitk}
+
+
+\href{http://www.wikibooks.org}{Wikibooks home}
+
+\lstset{language=Python}
+\begin{lstlisting}[label=some-code,caption=Some Code]
+public void here() {
+	goes().the().code()
+}
+\end{lstlisting}
+
+80$\%$ of supercomputers using linux
+ubuntu: most popular, well-documented, large-community discussion
+OS-supported hardware: lenovo, HP, dell, 
+apple OS is an acceptable substitute given that it is linux kernel.
+
+setting up environment: $\$$PATH, 
+sudo apt-get install gfortran, which gfortran 
+gnu compilers vs intel: gnu freely available
+tar -zxvf lammps.tar, make serial, sudo apt-get install openmpi, make openmpi
+
+suggested reading:
+
+Statistical Mechanics/Condensed Matter
+MacQuarrie
+Ashcroft
+Wikipedia
+
+Lattice Dynamics
+Dove: harmonic autocorrelation (DOS), harmonic (dispersion), 
+thermodynamics, structural phase transition, 
+Srivistava: quantum formalism, perturbation theory
+peierls:
+ziman: BTE, RTA
+Wikipedia
+
+Quantum Chemistry
+Griffiths Quantum Mechanics: Pauli-Exclusion -> Exp repulsion 
+Martin Electron Strucutre: DFT
+Wikipedia
+
+Math Theory/Numerical Methods
+MacQuarrie
+Moin
+Wikipedia
+
+ntpl most cited paper 1-5:
+maradudin, ladd, dove, ziman, 
+
+Wikipedia == open source
+
+
+list of useful packages: 
+pacakges used during this thesis: 
+open-source: lammps, gulp, abinit, qe, vesta, phonopy, ntpy
+other: vasp
+
+other packages: dlpoly, siesta, GAMES, cp2k, boltztrap, PHON, 
+
+Useful Linux Commands
+sed, grep, ls, cd, pwd, export/setenv, scp -r, ssh, sudo, nohup, 
+vi, cat, which (program), echo, qstat -u -n, qdel, 
+
+Running Linux System Commands in Python
+ 
+python vs other languages: combines strengths of the 3 important:
+PERL+java+matlab
+1) shell-scripting: controlling the OS, system(cmd), (PERL) 
+
+lmp.in.iseed
+
+
+
+2) hi-level organization: object-oriented (module.method(input)) (Java)
+3) lin alg + numerical methods: numpy.method, scipy.method (fortran, matlab)
+python deficiencies
+more about this in the appendix
+
+%--------------------------------------------------------------------------
+\subsection{Coding Languages}
+%--------------------------------------------------------------------------
+
+\href{http://www.youtube.com/watch?v=YRTEOFMUTzw&list=PL6A8E21D2E86A0155}
+{excellent fortran tutorial}
+
+%--------------------------------------------------------------------------
+\subsection{Google Searching}
+%--------------------------------------------------------------------------
+
+Web-searching. 
+
+keywords: integrated development environment (IDE), 
+
+%--------------------------------------------------------------------------
+\subsection{Symmetry Discussion}
+%--------------------------------------------------------------------------
+
+rub abinit for si, get S
+
+$k_{ij} = k_{ji}$  and $k_{ii} = k{jj}$ show using symmetry operations
+
+$S = [-100;010;001 ]$
+
+
+This applies to any vector or tensor property of the crystal.
+      
+\cite{sinha_scattering_2005}
+      
+%--------------------------------------------------------------------------
+\subsubsection{KPT symmetries}
+%--------------------------------------------------------------------------
+
+property(k) = property(-k)  for all
+
+show how kpts are reduced to first octant using just rotations
+
+show how kpts in first octant are reduced.
+
+%--------------------------------------------------------------------------
+\subsection{Normal Mode Decomposition}
+%--------------------------------------------------------------------------
+harmonic assumption
+MD is anharmonic
+
+%--------------------------------------------------------------------------
+\subsubsection{Eigvec mapping}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{VC-NMD versus Gamma-NMD}
+%--------------------------------------------------------------------------
+
+
+Here's a link to h\ref{http://twitter.com/home}{Twitter}.
+
+%--------------------------------------------------------------------------
+\section{Computability}
+%--------------------------------------------------------------------------
+
+research.idea = 'string'
+
+%--------------------------------------------------------------------------
+\section{Unsorted}
+%--------------------------------------------------------------------------
+ 
+the smartest ppl ion the world shud be using the same shit
+
+%--------------------------------------------------------------------------
+\section{Perspectives}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Plottable Code}
+%--------------------------------------------------------------------------
+
+lammps wrapper example
+
+matplotlib, code version with and without plotting capability.
+
+%--------------------------------------------------------------------------
+\subsection{Scaling into Multi-CPU Dimension}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{Python w/o shared Memory}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{Python w/ shared Memory (Parallel Python)}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{Compiled Code w/ Python Wrapper: Fortran and C++}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\section{Importance of Open-Source Code}
+%--------------------------------------------------------------------------
+
+video of python development tree
+
+\href{http://www.youtube.com/watch?v=3poNeQHUKrs}
+{google+ history with gource}
+
+\href{http://www.youtube.com/watch?v=cNBtDstOTmA}
+{python history with gource}
+
+grand-daddy of them all, 
+\href{http://www.youtube.com/watch?v=pOSqctHH9vY}
+{linux kernel history with gource}
+
+It is important that results become more open-source.  It's important 
+that our communication becomes open-source. It's important that the 
+entire numerical process be carried out open-source. 
+
+%--------------------------------------------------------------------------
+\subsection{Redundancy}
+%--------------------------------------------------------------------------
+
+There are 3 different codes (shiomi/esfarjani, broido, ankit) for 
+performing the same basic calculations.
+
+For LD, there is GULP, phonopy, SIESTA, etc.
+
+%--------------------------------------------------------------------------
+\subsection{Code Development Time}
+%--------------------------------------------------------------------------
+
+took ankit 10 months to re-develop esfarjani code.  
+
+%--------------------------------------------------------------------------
+\subsection{Experiment Pre-dating Simulation}
+%--------------------------------------------------------------------------
+The ideal goal of simulation is to pre-date experiment.  This has not 
+been achieved yet.  See Fig.
+
+findings for:
+CNT/Graphene
+Si
+Thermoeletric (LUC, alloys, SL, etc)
+Perovskites
+PCM
+
+
+%--------------------------------------------------------------------------
+\subsection{Experiment Pre-dating Simulation}
+%--------------------------------------------------------------------------
+
+combination of increasing hardware, improving software.  The 
+improvement of these aspects depends partly on current 
+research.  
+
+Have most control over what calculations
+
+Time-scales for data points: 
+1 sec, 1 min, 1 hour, 1 day, 1 week, 1 month, 1 year 
+number of calculations per PhD:
+1E8 , 1E6 , 1E4, 1E3 , 1E2 , 1E1 , 1
+
+1) Run system sizes by doubling. Most calcualtions scale poorly (i.e., 
+(SYS_SIZE^alpha with alpha > 1). Pick a maximum system size based 
+on computatinal resources and time constraints.  Run all system sizes 
+halved before running maximum system size. 
+
+2) Run all trivial (< 5 mins) calculations on a given system using all 
+methods possible. 
+
+Explore all trivial calculations first. Increase the time-scale and 
+decrease the numner of data-point accordingly. 
+
+
+
+\clearpage
+\addcontentsline{toc}{section}{8 \hspace{1mm} References}
+\bibliographystyle{plain}
+\bibliography{/home/jason/Dropbox/ntpl-paper/ntpl-121612}
+\end{document}
+

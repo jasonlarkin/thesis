@@ -1,0 +1,52 @@
+\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{2 Predicting properties of alloys}{}% 2
+\BOOKMARK [0][-]{chapter.3}{3 Vibrational Mean Free Paths in Amorphous Materials}{}% 3
+\BOOKMARK [0][-]{chapter.4}{4 Origin of the Exceptionally-Low Thermal Conductivity of Fullerene-Derived PCBM thin films}{}% 4
+\BOOKMARK [0][-]{chapter.5}{5 Conclusion}{}% 5
+\BOOKMARK [0][-]{appendix.A}{A Vibrational Lifetimes from Molecular Dynamics}{}% 6
+\BOOKMARK [1][-]{section.A.1}{A.1 Introduction}{appendix.A}% 7
+\BOOKMARK [1][-]{section.A.2}{A.2 Phonon Spectral Energy Density}{appendix.A}% 8
+\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 As Derived from Normal Mode Coordinates, }{section.A.2}% 9
+\BOOKMARK [2][-]{subsection.A.2.2}{A.2.2 Alternative Formulation, '}{section.A.2}% 10
+\BOOKMARK [1][-]{section.A.3}{A.3 Computational Details}{appendix.A}% 11
+\BOOKMARK [2][-]{subsection.A.3.1}{A.3.1 Allowed Wavevectors}{section.A.3}% 12
+\BOOKMARK [2][-]{subsection.A.3.2}{A.3.2 Phonon Lifetimes and Frequencies}{section.A.3}% 13
+\BOOKMARK [2][-]{subsection.A.3.3}{A.3.3 Thermal Conductivity}{section.A.3}% 14
+\BOOKMARK [2][-]{subsection.A.3.4}{A.3.4 Computational Cost}{section.A.3}% 15
+\BOOKMARK [1][-]{section.A.4}{A.4 Case Studies}{appendix.A}% 16
+\BOOKMARK [2][-]{subsection.A.4.1}{A.4.1 Lennard-Jones Argon}{section.A.4}% 17
+\BOOKMARK [2][-]{subsection.A.4.2}{A.4.2 Stillinger-Weber Silicon}{section.A.4}% 18
+\BOOKMARK [2][-]{subsection.A.4.3}{A.4.3 Carbon Nanotube}{section.A.4}% 19
+\BOOKMARK [1][-]{section.A.5}{A.5 Summary}{appendix.A}% 20
+\BOOKMARK [1][-]{section.A.6}{A.6 Derivation of Phonon Spectral Energy Density, }{appendix.A}% 21
+\BOOKMARK [1][-]{section.A.7}{A.7 Interpretation of '}{appendix.A}% 22
+\BOOKMARK [1][-]{section.A.8}{A.8 Finite Simulation-Size Scaling for Thermal Conductivity}{appendix.A}% 23
+\BOOKMARK [0][-]{appendix.B}{B Setting Up Computing Environment}{}% 24
+\BOOKMARK [1][-]{section.B.1}{B.1 Setting Up Computing Environment}{appendix.B}% 25
+\BOOKMARK [2][-]{subsection.B.1.1}{B.1.1 Setting Up Computing Environment}{section.B.1}% 26
+\BOOKMARK [2][-]{subsection.B.1.2}{B.1.2 Setting Up Computing Environment}{section.B.1}% 27
+\BOOKMARK [2][-]{subsection.B.1.3}{B.1.3 Preparing Journal Articles and Thesis}{section.B.1}% 28
+\BOOKMARK [2][-]{subsection.B.1.4}{B.1.4 Coding Languages}{section.B.1}% 29
+\BOOKMARK [2][-]{subsection.B.1.5}{B.1.5 Compiled versus Interpreted}{section.B.1}% 30
+\BOOKMARK [2][-]{subsection.B.1.6}{B.1.6 Case-study 1: LJ Argon Molecular Dynamics}{section.B.1}% 31
+\BOOKMARK [2][-]{subsection.B.1.7}{B.1.7 Case-study 1: LJ Dispersion}{section.B.1}% 32
+\BOOKMARK [2][-]{subsection.B.1.8}{B.1.8 Case-study 1: Allen-Feldman Diffusivity Calculation}{section.B.1}% 33
+\BOOKMARK [2][-]{subsection.B.1.9}{B.1.9 Online Resources}{section.B.1}% 34
+\BOOKMARK [2][-]{subsection.B.1.10}{B.1.10 Latex Resources}{section.B.1}% 35
+\BOOKMARK [2][-]{subsection.B.1.11}{B.1.11 Google Searching}{section.B.1}% 36
+\BOOKMARK [2][-]{subsection.B.1.12}{B.1.12 Symmetry Discussion}{section.B.1}% 37
+\BOOKMARK [2][-]{subsection.B.1.13}{B.1.13 Normal Mode Decomposition}{section.B.1}% 38
+\BOOKMARK [2][-]{subsection.B.1.14}{B.1.14 VC-NMD versus Gamma-NMD}{section.B.1}% 39
+\BOOKMARK [1][-]{section.B.2}{B.2 Computability}{appendix.B}% 40
+\BOOKMARK [1][-]{section.B.3}{B.3 Unsorted}{appendix.B}% 41
+\BOOKMARK [1][-]{section.B.4}{B.4 Perspectives}{appendix.B}% 42
+\BOOKMARK [2][-]{subsection.B.4.1}{B.4.1 Preparing Journal Articles}{section.B.4}% 43
+\BOOKMARK [2][-]{subsection.B.4.2}{B.4.2 Scaling Calculations}{section.B.4}% 44
+\BOOKMARK [2][-]{subsection.B.4.3}{B.4.3 Plottable Code}{section.B.4}% 45
+\BOOKMARK [2][-]{subsection.B.4.4}{B.4.4 Scaling into Multi-CPU Dimension}{section.B.4}% 46
+\BOOKMARK [1][-]{section.B.5}{B.5 Importance of Open-Source Code}{appendix.B}% 47
+\BOOKMARK [2][-]{subsection.B.5.1}{B.5.1 Redundancy}{section.B.5}% 48
+\BOOKMARK [2][-]{subsection.B.5.2}{B.5.2 Code Development}{section.B.5}% 49
+\BOOKMARK [2][-]{subsection.B.5.3}{B.5.3 Experiment Pre-dating Simulation}{section.B.5}% 50
+\BOOKMARK [2][-]{subsection.B.5.4}{B.5.4 Experiment Pre-dating Simulation}{section.B.5}% 51
+\BOOKMARK [0][-]{appendix*.9}{Bibliography}{}% 52

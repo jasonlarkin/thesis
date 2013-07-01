@@ -1,0 +1,25 @@
+\BOOKMARK [2][-]{subsection.0.1}{Setting Up Computing Environment}{}% 1
+\BOOKMARK [2][-]{subsection.0.2}{Coding Languages}{}% 2
+\BOOKMARK [2][-]{subsection.0.3}{Online Resources}{}% 3
+\BOOKMARK [2][-]{subsection.0.4}{Latex Resources}{}% 4
+\BOOKMARK [2][-]{subsection.0.5}{Google Searching}{}% 5
+\BOOKMARK [2][-]{subsection.0.6}{Symmetry Discussion}{}% 6
+\BOOKMARK [3][-]{subsubsection.0.6.1}{KPT symmetries}{subsection.0.6}% 7
+\BOOKMARK [2][-]{subsection.0.7}{Normal Mode Decomposition}{}% 8
+\BOOKMARK [3][-]{subsubsection.0.7.1}{Eigvec mapping}{subsection.0.7}% 9
+\BOOKMARK [2][-]{subsection.0.8}{VC-NMD versus Gamma-NMD}{}% 10
+\BOOKMARK [1][-]{section.1}{Computability}{}% 11
+\BOOKMARK [1][-]{section.2}{Unsorted}{}% 12
+\BOOKMARK [1][-]{section.3}{Perspectives}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Preparing Journal Articles}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Plottable Code}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Scaling into Multi-CPU Dimension}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Python w/o shared Memory}{subsection.3.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Python w/ shared Memory \(Parallel Python\)}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Compiled Code w/ Python Wrapper: Fortran and C++}{subsection.3.3}% 19
+\BOOKMARK [1][-]{section.4}{Importance of Open-Source Code}{}% 20
+\BOOKMARK [2][-]{subsection.4.1}{Redundancy}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.2}{Code Development}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.3}{Experiment Pre-dating Simulation}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.4}{Experiment Pre-dating Simulation}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.5}{Scaling Calculations}{section.4}% 25

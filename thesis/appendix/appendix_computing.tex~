@@ -1,0 +1,428 @@
+%--------------------------------------------------------------------------
+\chapter{Setting Up Computing Environment}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\section{Setting Up Computing Environment}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Setting Up Computing Environment}
+%--------------------------------------------------------------------------
+
+Useful people:
+
+Julian Gale
+Keivan Esfarjani
+David Broido
+Joseph Feldman
+Junchiro Shiomi
+Davide Donadio
+Craig Maloney
+Jivtesh Garg
+
+%--------------------------------------------------------------------------
+\subsection{Setting Up Computing Environment}
+%--------------------------------------------------------------------------
+
+
+\href{https://github.com/ankitjainmeiitk}{https://github.com/ankitjainmeiitk}
+
+
+\href{http://www.wikibooks.org}{Wikibooks home}
+
+\lstset{language=Python}
+\begin{lstlisting}[label=some-code,caption=Some Code]
+public void here() {
+	goes().the().code()
+}
+\end{lstlisting}
+
+80$\%$ of supercomputers using linux
+ubuntu: most popular, well-documented, large-community discussion
+OS-supported hardware: lenovo, HP, dell, 
+apple OS is an acceptable substitute given that it is linux kernel.
+
+setting up environment: $\$$PATH, 
+sudo apt-get install gfortran, which gfortran 
+gnu compilers vs intel: gnu freely available
+tar -zxvf lammps.tar, make serial, sudo apt-get install openmpi, make openmpi
+
+suggested reading:
+
+Statistical Mechanics/Condensed Matter
+MacQuarrie
+Ashcroft
+Wikipedia
+
+Lattice Dynamics
+Dove: harmonic autocorrelation (DOS), harmonic (dispersion), 
+thermodynamics, structural phase transition, 
+Srivistava: quantum formalism, perturbation theory
+peierls:
+ziman: BTE, RTA
+Wikipedia
+
+Quantum Chemistry
+Griffiths Quantum Mechanics: Pauli-Exclusion -> Exp repulsion 
+Martin Electron Strucutre: DFT
+Wikipedia
+
+Math Theory/Numerical Methods
+MacQuarrie
+Moin
+Wikipedia
+
+
+
+Wikipedia == open source
+
+
+list of useful packages: 
+pacakges used during this thesis: 
+open-source: lammps, gulp, abinit, qe, vesta, phonopy, ntpy
+other: vasp
+
+other packages: dlpoly, siesta, GAMES, cp2k, boltztrap, PHON, 
+
+Useful Linux Commands
+
+\href{https://www.google.com/search?q=linux+sed}
+{google: linux sed}
+
+
+sed, grep, ls, cd, pwd, export/setenv, scp -r, ssh, sudo, nohup, 
+vi, cat, which (program), echo, qstat -u -n, qdel, 
+
+Running Linux System Commands in Python
+ 
+python vs other languages: combines strengths of the 3 important:
+PERL+java+matlab
+1) shell-scripting: controlling the OS, system(cmd), (PERL) 
+
+lmp.in.iseed
+
+
+
+2) hi-level organization: object-oriented (module.method(input)) (Java)
+3) lin alg + numerical methods: numpy.method, scipy.method (fortran, matlab)
+python deficiencies
+more about this in the appendix
+
+%--------------------------------------------------------------------------
+\subsection{Preparing Journal Articles and Thesis}
+%--------------------------------------------------------------------------
+
+
+
+
+
+%--------------------------------------------------------------------------
+\subsection{Coding Languages}
+%--------------------------------------------------------------------------
+
+linux/unix shell
+
+\href{http://www.youtube.com/watch?v=XFQ9dw3CyDo&list=PL1D10C030FDCE7CE0}
+{excellent c++ tutorial}
+
+
+
+\href{http://www.youtube.com/watch?v=YRTEOFMUTzw&list=PL6A8E21D2E86A0155}
+{excellent fortran tutorial}
+
+matlab has an excellent built-in guide, google search will typically 
+yield useful results. 
+
+\href{http://www.gnu.org/software/octave/}
+{matlab}
+
+\href{http://www.gnu.org/software/octave/}
+{octave}
+
+%--------------------------------------------------------------------------
+\subsection{Online Resources}
+%--------------------------------------------------------------------------
+
+wikipedia
+
+\href{http://www.sklogwiki.org/SklogWiki/index.php/Main_Page}
+{octave}
+
+https://en.wikipedia.org/wiki/Lennard-Jones_potential
+
+http://www.sklogwiki.org/SklogWiki/index.php/Lennard-Jones_model
+
+we can do better, needs to be organization. 
+
+http://nanohub.org/
+
+does not provide good HPC resources. 
+
+%--------------------------------------------------------------------------
+\subsection{Latex Resources}
+%--------------------------------------------------------------------------
+
+http://tex.stackexchange.com/questions/1596/how-to-compile-a-latex-document
+
+http://stackoverflow.com/questions/2461905/compiling-latex-bib-source
+
+http://publish.aps.org/revtex
+
+used 
+
+http://kile.sourceforge.net/
+
+http://www.zotero.org/
+
+
+
+
+
+
+
+%--------------------------------------------------------------------------
+\subsection{Google Searching}
+%--------------------------------------------------------------------------
+
+Web-searching. 
+
+keywords: integrated development environment (IDE), 
+
+%--------------------------------------------------------------------------
+\subsection{Symmetry Discussion}
+%--------------------------------------------------------------------------
+
+http://spglib.sourceforge.net/
+
+Ab initio codes such as abinit and quantum espresso also print the 
+symmetry operations information for si, get S
+
+$k_{ij} = k_{ji}$  and $k_{ii} = k{jj}$ show using symmetry operations
+
+$S = [-100;010;001 ]$
+
+
+This applies to any vector or tensor property of the crystal.
+      
+\cite{sinha_scattering_2005}
+
+\href{https://github.com/jasonlarkin/disorder/blob/master/matlab/lj/phonon/LJ_PRIM_CONV_MAPPING.m}
+{lennard-jones FCC primitive conventional mapping}
+
+
+%--------------------------------------------------------------------------
+\subsubsection{KPT symmetries}
+%--------------------------------------------------------------------------
+
+property(k) = property(-k)  for all
+
+show how kpts are reduced to first octant using just rotations
+
+show how kpts in first octant are reduced.
+
+%--------------------------------------------------------------------------
+\subsection{Normal Mode Decomposition}
+%--------------------------------------------------------------------------
+harmonic assumption
+MD is anharmonic
+
+%--------------------------------------------------------------------------
+\subsubsection{Eigvec mapping}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{VC-NMD versus Gamma-NMD}
+%--------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------
+\section{Computability}
+%--------------------------------------------------------------------------
+
+research.idea = 'string'
+
+%--------------------------------------------------------------------------
+\section{Unsorted}
+%--------------------------------------------------------------------------
+ 
+the smartest ppl ion the world shud be using the same shit
+
+%--------------------------------------------------------------------------
+\section{Perspectives}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Preparing Journal Articles}
+%--------------------------------------------------------------------------
+
+The job of the student is to prepare, submit, and (hopefully) publish 
+peer-reviewed journal articles. There are many journals suitable for 
+nanoscale transport topics.  Here is one example of the latex files 
+used to create an article used in this work:
+
+This file uses Revtex, which is an article class used by Physical Review, 
+Journal of Applied Physics, and others. The paper can be compiled using:
+
+
+
+These can be used as templates
+
+
+
+Here is a Carnegie Mellon thesis template:
+
+https://github.com/robsimmons/cmu-thesis
+
+Useful article on structuring large documents
+
+http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html
+
+
+
+1) Use latex
+- reccomend Kile editor, gedit works well too. 
+- reccomend zotero to maintain library.bib
+
+1) Time to prepare each paper
+
+reccomendation: student advisor should try and exchange editing a written 
+research document every day, at least every week.  
+
+Such a research document could be the running 
+collection of journal articles which turn into the thesis. Maintenance 
+of this document can be achieved with Dropbox or Github.  Github 
+offers to advantage of smart version control and internet wiki. 
+
+2) Computational cost of each paper
+
+CPU, memory
+parallel cpu, parallel memory
+
+Trends: 
+small single cpu jobs -> large parallel cpu jobs
+single predictive method -> several predictive methods
+
+reccomendation: explore all predictive methods and models possible
+
+%--------------------------------------------------------------------------
+\subsection{Scaling Calculations}
+%--------------------------------------------------------------------------
+
+combination of increasing hardware, improving software.  The 
+improvement of these aspects depends partly on current 
+research.  
+
+Have most control over what calculations
+
+Time-scales for data points: 
+1 sec, 1 min, 1 hour, 1 day, 1 week, 1 month, 1 year 
+number of calculations per PhD:
+1E8 , 1E6 , 1E4, 1E3 , 1E2 , 1E1 , 1
+
+1) Run system sizes by doubling. Most calcualtions scale poorly (i.e., 
+(SYS_SIZE^alpha with alpha > 1). Pick a maximum system size based 
+on computatinal resources and time constraints.  Run all system sizes 
+halved before running maximum system size. 
+
+2) Run all trivial (< 5 mins) calculations on a given system using all 
+methods possible. 
+
+Explore all trivial calculations first. Increase the time-scale and 
+decrease the numner of data-point accordingly. 
+
+reccomendation: 
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Plottable Code}
+%--------------------------------------------------------------------------
+
+It is important to explore various predictive methods visually.  
+reccomendation: matplotlib provides an enormous number of plotting 
+tools.
+
+Here is a simple example using the python wrapper for lammps 
+with matplotlib to visualize. An MD simuation of LJ argon 
+is visualized. An atom is placed into an unusually high energy 
+position, which initiates melt to the liquid phase. 
+
+matplotlib, code version with and without plotting capability.
+
+%--------------------------------------------------------------------------
+\subsection{Scaling into Multi-CPU Dimension}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{Python w/o shared Memory}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{Python w/ shared Memory (Parallel Python)}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{Compiled Code w/ Python Wrapper: Fortran and C++}
+%--------------------------------------------------------------------------
+
+cython: example LAMMPS python wrapper
+f2py: simple example. suggest warpper be built for GULP.
+
+%--------------------------------------------------------------------------
+\section{Importance of Open-Source Code}
+%--------------------------------------------------------------------------
+
+video of python development tree
+
+\href{http://www.youtube.com/watch?v=3poNeQHUKrs}
+{google+ history with gource}
+
+\href{http://www.youtube.com/watch?v=cNBtDstOTmA}
+{python history with gource}
+
+grand-daddy of them all, 
+\href{http://www.youtube.com/watch?v=pOSqctHH9vY}
+{linux kernel history with gource}
+
+It is important that results become more open-source.  It's important 
+that our communication becomes open-source. It's important that the 
+entire numerical process be carried out open-source. 
+
+%--------------------------------------------------------------------------
+\subsection{Redundancy}
+%--------------------------------------------------------------------------
+
+There are 3 different codes (shiomi/esfarjani, broido, ankit) for 
+performing the same basic calculations.
+
+For LD, there is GULP, phonopy, SIESTA, etc.
+
+%--------------------------------------------------------------------------
+\subsection{Code Development}
+%--------------------------------------------------------------------------
+
+took ankit 10 months to re-develop esfarjani code.  
+
+code development time can be drastically reduced using pre-existing code. 
+codes written in a modular fashion can be added to easily.
+
+%--------------------------------------------------------------------------
+\subsection{Experiment Pre-dating Simulation}
+%--------------------------------------------------------------------------
+The ideal goal of simulation is to pre-date experiment.  This has not 
+been achieved yet.  See Fig.
+
+findings for:
+CNT/Graphene
+Si
+Thermoeletric (LUC, alloys, SL, etc)
+Perovskites
+PCM
+
+%--------------------------------------------------------------------------
+\subsection{Experiment Pre-dating Simulation}
+%--------------------------------------------------------------------------
+
+ntpl most cited paper 1-5:
+maradudin, ladd, dove, ziman, 
+

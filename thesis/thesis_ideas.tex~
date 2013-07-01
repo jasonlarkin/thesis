@@ -1,0 +1,186 @@
+
+\documentclass[letterpaper,12pt,amsmath,amssymb]{article}
+\usepackage[active]{srcltx}
+\usepackage[dvips]{epsfig,geometry}
+\usepackage{comment}   % package for block comment
+\usepackage{graphicx}
+\geometry{letterpaper,textwidth=6.5in,textheight=9.0in,left=1in,right=1in,top=1in}
+
+%--------------------------------------------------------------------------
+\begin{document}
+%--------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------
+\section{Symmetry Discussion}
+%--------------------------------------------------------------------------
+
+$k_{ij} = k_{ji}$  and $k_{ii} = k{jj}$ show using symmetry operations
+
+$S = [-100;010;001 ]$
+      
+\cite{sinha_scattering_2005}
+      
+%--------------------------------------------------------------------------
+\section{KPT symmetries}
+%--------------------------------------------------------------------------
+
+property(k) = property(-k)  for all
+
+show how kpts are reduced to first octant using just rotations
+
+show how kpts in first octant are reduced.
+
+
+%--------------------------------------------------------------------------
+\section{Potential energy landscape}
+%--------------------------------------------------------------------------
+
+
+10-20 percent bond length? for a taylor series expansion?
+
+For a dispersion curve, good enough to fit a 4-6th order polynomial.  Test simple sin vs
+a dispersion like si really flat.  What kind of simple function does that?
+
+
+%--------------------------------------------------------------------------
+\section{Taylor expansion}
+%--------------------------------------------------------------------------
+
+http://www.mathworks.com/help/symbolic/taylor.html
+
+%--------------------------------------------------------------------------
+\section{Eigvec mapping}
+%--------------------------------------------------------------------------
+
+take perfect eigvec and add rand element eigvec = eigvec + lambda*rand
+
+%--------------------------------------------------------------------------
+\section{How to Code: LJ Dispersion}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Python w/o shared Memory}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Python w/ shared Memory (Parallel Python)}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Fortran Compiled Code w/ Python as a Wrapper}
+%--------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------
+\subsection{Setting Up Computing Environment}
+%--------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------
+\subsection{Setting Up Computing Environment}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Accuracy Requirements}
+%--------------------------------------------------------------------------
+
+Fit with n-order polynomial: good for acoustic branches or simple 
+dispersion systems.
+
+Finite Difference: good for any system as long as branch crossings are 
+avoided.
+
+What resolution of the BZ can you expect? ALD (30x) vs NMD (12x)
+
+%--------------------------------------------------------------------------
+\section{BZ Resolution: Prim vs Conv}
+%--------------------------------------------------------------------------
+
+
+ me:  dam this shit is clean
+
+http://www.danielclemente.com/disk/disk.de.pdf
+ Sent at 8:54 PM on Monday
+ Kevin's new status message - I'm not here right now   9:06 PM
+ Kevin:  soooo i really hope i'm not plagerizing
+ me:  um ya ur probably good
+sometimes its rly hard to put in ur own woirds when its highly scientific
+ Kevin:  like, it's kind of hard to describe equations without saying the same thing
+ me:  ^
+ Kevin:  yeah
+cause it's a bunch of variable definitions essentially
+ me:  ya i wudnt worry too much
+in some sense, these are just ideas
+and they rly shud have the form
+research.idea = 'string'
+ Kevin:  yeah
+ me:  ya so like the intelligence is contained in every paper
+the problem is why make the manipulation of the intelligence very inefficient
+ Sent at 11:17 PM on Monday
+ Kevin:  true
+ me:  im going to talk with kitchin this week about his project
+he also has a copy of these guys python package
+
+http://www.enthought.com/products/getepd.php
+im gonna check them out, they in austin tx
+so it looks like they make money from their dist
+but actually is just like a really expensive iPad app
+200$ is not bad for a ton of expertise
+ Kevin:  yeah
+i think the main benefit would be from teh support rather than the product
+ me:  looks like it has some rly powerful utility, i want to check out parallelism and eigsoln
+possoibly, so im also interested in possibly working for them
+its like they just chargfe a reasonable price for expertise
+all the tools are open source
+ Kevin:  yeah
+that's cool
+ me:  ya they work on tons of projects
+CFD, economics, etc
+so its just like general bad ass computing
+so i think the key is to show universities
+that with something like a vastly reduced price, maybe 100,000 or something
+assume 4,000 students at 1000, say 40K
+per university, to get them all to switch to usinh open-source
+its probably about the same as matlab, but the tool library is staggeringly larger
+ Kevin:  yeah, i mean it's ridiculous how universiteis doen't embrace this stuff
+ me:  it lets u connect so many different tools
+ya well theyre just into matlab for so many years
+basically the whole matlab company was built up from acadmide, they have strangle
+plus expt tend to use matlab, great drvier support
+but like LHC is all linus
+linux haha
+the only thing holding back is, fucking ppl outside the LHC are amateurs!
+holy shit thats rly the troof
+yup, so if we all had a scalable platform like LHC, linux + python
+make the tools as easy as possible to use
+then everyone is connected to the intelligence
+not just like im an expert in modeling, and then i gotta tell scott how the model works
+then hehas to tell me how FDTR works
+ Kevin:  yeah, cern has its own linux distribution actually
+scientific linux
+ me:  ya so everyone neds to jump in, we need to nudge them in right directiopn
+the smartest ppl ion the world shud be using the same shit
+fuk thats a good slogan
+ Kevin:  lol
+ me:  luv how skype and gmail log i use this for ideas for a next paper
+like either grant proposal or something
+ Kevin:  it's just sad like if you think about if cmu just put like one or two comp sci groups to work on numpy and scipy for a year, how far they would get
+ me:  um ya, not just them but
+like every expert working on all depts problems
+the expts telling u how to make the code scale best as possible
+the expt experts guding the expt choices
+everyone shud be connected in a much more powerful way
+much faster communication
+best communication is ur own head
+we need like halfwaynbetween that and this
+ Sent at 11:29 PM on Monday
+
+
+
+\clearpage
+\addcontentsline{toc}{section}{8 \hspace{1mm} References}
+\bibliographystyle{plain}
+\bibliography{/home/jason/Dropbox/ntpl-paper/ntpl-121612}
+\end{document}
+
