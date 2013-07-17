@@ -1,4 +1,16 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{momma_vesta:_2008}
+Koichi Momma and Fujio Izumi.
+\newblock {VESTA:} a three-dimensional visualization system for electronic and
+  structural analysis.
+\newblock {\em Journal of Applied Crystallography}, 41(3):653–658, June 2008.
+
+\bibitem{taraskin_determination_1999}
+S.~N. Taraskin and S.~R. Elliott.
+\newblock Determination of the ioffe-regel limit for vibrational excitations in
+  disordered materials.
+\newblock {\em Philosophical Magazine Part B}, 79(11-12):1747–1754, 1999.
 
 \bibitem{turney_predicting_2009}
 J.~E. Turney.
@@ -15,6 +27,494 @@ Yuping He, Davide Donadio, Joo-Hyoung Lee, Jeffrey~C. Grossman, and Giulia
   5:1839{\textbackslash}textbackslashtextbackslashtextbackslashtextbackslashtextbackslash961844,
   2011.
 
+\bibitem{graebner_phonon_1986}
+J.~E. Graebner, B.~Golding, and L.~C. Allen.
+\newblock Phonon localization in glasses.
+\newblock {\em Phys. Rev. B}, 34(8):5696–5701, October 1986.
+
+\bibitem{cahill_lattice_1988}
+{D.G.} Cahill and {RO} Pohl.
+\newblock Lattice vibrations and heat transport in crystals and glasses.
+\newblock {\em Annual Review of Physical Chemistry}, 39(1):93–121, 1988.
+
+\bibitem{lu_thermal_1992}
+X.~Lu, M.~C. Arduini-Schuster, J.~Kuhn, O.~Nilsson, J.~Fricke, and R.~W.
+  Pekala.
+\newblock Thermal conductivity of monolithic organic aerogels.
+\newblock {\em Science}, 255(5047):971–972, 1992.
+
+\bibitem{chen_recent_2003}
+G~Chen, M~S Dresselhaus, G~Dresselhaus, J~Fleurial, and T~Caillat.
+\newblock Recent developments in thermoelectric materials.
+\newblock {\em International Materials Reviews}, 48(1):45–66, 2003.
+
+\bibitem{clarke_thermal_2005}
+D.~R. Clarke and S.~R. Phillpot.
+\newblock Thermal barrier coating materials.
+\newblock {\em Materials Today}, June:22–29, 2005.
+
+\bibitem{snyder_complex_2008}
+G.~J. Snyder and E.~S. Toberer.
+\newblock Complex thermoelectric materials.
+\newblock {\em Nature Materials}, 7:105–114, 2008.
+
+\bibitem{minnich_bulk_2009}
+A.~J. Minnich, M.~S. Dresselhaus, Z.~F. Ren, and G.~Chen.
+\newblock Bulk nanostructured thermoelectric materials: current research and
+  future prospects.
+\newblock {\em Energy Environ. Sci.}, 2(5):–, 2009.
+
+\bibitem{toberer_phonon_2011}
+Eric~S. Toberer, Alex Zevalkink, and G.~Jeffrey Snyder.
+\newblock Phonon engineering through crystal chemistry.
+\newblock {\em J. Mater. Chem.}, 21(40), 2011.
+
+\bibitem{zebarjadi_perspectives_2012}
+M.~Zebarjadi, K.~Esfarjani, M.~S. Dresselhaus, Z.~F. Ren, and G.~Chen.
+\newblock Perspectives on thermoelectrics: from fundamentals to device
+  applications.
+\newblock {\em Energy Environ. Sci.}, 5(1):5147–5162, 2012.
+
+\bibitem{schiffres_gas_2012}
+Scott~N. Schiffres, Kyu~Hun Kim, Lin Hu, Alan J.~H. {McGaughey}, Mohammad~F.
+  Islam, and Jonathan~A. Malen.
+\newblock Gas diffusion, energy transport, and thermal accommodation in
+  single-walled carbon nanotube aerogels.
+\newblock {\em Advanced Functional Materials}, 22(24):5251–5258, December
+  2012.
+
+\bibitem{tamura_isotope_1983}
+Shin-ichiro Tamura.
+\newblock Isotope scattering of dispersive phonons in ge.
+\newblock {\em Phys. Rev. B}, 27(2):858–866, January 1983.
+
+\bibitem{lindsay_thermal_2012}
+L.~Lindsay, D.~A. Broido, and T.~L. Reinecke.
+\newblock Thermal conductivity and large isotope effect in {GaN} from first
+  principles.
+\newblock {\em Phys. Rev. Lett.}, 109(9):095901, August 2012.
+
+\bibitem{abeles_thermal_1962}
+B.~Abeles, D.~S. Beers, G.~D. Cody, and J.~P. Dismukes.
+\newblock Thermal conductivity of ge-si alloys at high temperatures.
+\newblock {\em Phys. Rev.}, 125(1):44–46, January 1962.
+
+\bibitem{abeles_lattice_1963}
+B.~Abeles.
+\newblock Lattice thermal conductivity of disordered semiconductor alloys at
+  high temperatures.
+\newblock {\em Phys. Rev.}, 131(5):1906–1911, September 1963.
+
+\bibitem{ziman_electrons_2001}
+J.~M. Ziman.
+\newblock {\em Electrons and Phonons}.
+\newblock Oxford, New York, 2001.
+
+\bibitem{feldman_thermal_1993}
+Joseph~L. Feldman, Mark~D. Kluge, Philip~B. Allen, and Frederick Wooten.
+\newblock Thermal conductivity and localization in glasses: Numerical study of
+  a model of amorphous silicon.
+\newblock {\em Physical Review B}, 48(17):12589–12602, November 1993.
+
+\bibitem{allen_diffusons_1999}
+P.~B. Allen, J.~L. Feldman, J.~Fabian, and F.~Wooten.
+\newblock Diffusons, locons, and propagons: character of atomic vibrations in
+  amorphous si.
+\newblock {\em Philosophical Magazine B}, 79:1715–1731, 1999.
+
+\bibitem{broido_intrinsic_2007}
+D.~A. Broido, M.~Maloney, G.~Birner, N.~Mingo, and D.~Stewart.
+\newblock Intrinsic lattice thermal conductivity of semiconductors from first
+  principles.
+\newblock {\em Applied Physics Letters}, 91:231922, 2007.
+
+\bibitem{ward_intrinsic_2010}
+A.~Ward and D.~A. Broido.
+\newblock Intrinsic phonon relaxation times from first-principles studies of
+  the thermal conductivities of si and ge.
+\newblock {\em Phys. Rev. B}, 81(8):085205, February 2010.
+
+\bibitem{garg_role_2011}
+Jivtesh Garg, Nicola Bonini, Boris Kozinsky, and Nicola Marzari.
+\newblock Role of disorder and anharmonicity in the thermal conductivity of
+  silicon-germanium alloys: A first-principles study.
+\newblock {\em Phys. Rev. Lett.}, 106(4):045901, January 2011.
+
+\bibitem{shiga_microscopic_2012}
+Takuma Shiga, Junichiro Shiomi, Jie Ma, Olivier Delaire, Tomasz Radzynski,
+  Andrzej Lusakowski, Keivan Esfarjani, and Gang Chen.
+\newblock Microscopic mechanism of low thermal conductivity in lead telluride.
+\newblock {\em Phys. Rev. B}, 85(15):155203, April 2012.
+
+\bibitem{tian_phonon_2012}
+Zhiting Tian, Jivtesh Garg, Keivan Esfarjani, Takuma Shiga, Junichiro Shiomi,
+  and Gang Chen.
+\newblock Phonon conduction in {PbSe}, {PbTe}, and {PbTe\$\_1\$-\$x\$Se\$\_x\$}
+  from first-principles calculations.
+\newblock {\em Phys. Rev. B}, 85(18):184303, May 2012.
+
+\bibitem{shiomi_thermal_2011}
+Junichiro Shiomi, Keivan Esfarjani, and Gang Chen.
+\newblock Thermal conductivity of half-heusler compounds from first-principles
+  calculations.
+\newblock {\em Physical Review B}, 84(10):125209, 2011.
+
+\bibitem{esfarjani_heat_2011}
+K.~Esfarjani, G.~Chen, and H.~T. Stokes.
+\newblock Heat transport in silicon from first-principles calculations.
+\newblock {\em Physical Review B}, 84:085204, 2011.
+
+\bibitem{li_thermal_2012}
+Wu~Li, L.~Lindsay, D.~A. Broido, Derek~A. Stewart, and Natalio Mingo.
+\newblock Thermal conductivity of bulk and nanowire
+  {Mg\$\_2\$Si\$\_x\$Sn\$\_1\$-\$x\$} alloys from first principles.
+\newblock {\em Phys. Rev. B}, 86(17):174307, November 2012.
+
+\bibitem{luckyanova_coherent_2012}
+Maria~N. Luckyanova, Jivtesh Garg, Keivan Esfarjani, Adam Jandl, Mayank~T.
+  Bulsara, Aaron~J. Schmidt, Austin~J. Minnich, Shuo Chen, Mildred~S.
+  Dresselhaus, Zhifeng Ren, Eugene~A. Fitzgerald, and Gang Chen.
+\newblock Coherent phonon heat conduction in superlattices.
+\newblock {\em Science}, 338(6109):936–939, 2012.
+
+\bibitem{ward_ab_2009}
+A.~Ward, D.~A. Broido, Derek~A. Stewart, and G.~Deinzer.
+\newblock Ab initio theory of the lattice thermal conductivity in diamond.
+\newblock {\em Phys. Rev. B}, 80(12):125203, September 2009.
+
+\bibitem{bao_first-principles_2012}
+Hua Bao, Bo~Qiu, Yu~Zhang, and Xiulin Ruan.
+\newblock A first-principles molecular dynamics approach for predicting optical
+  phonon lifetimes and far-infrared reflectance of polar materials.
+\newblock {\em Journal of Quantitative Spectroscopy and Radiative Transfer},
+  113(13):1683 – 1688, 2012.
+
+\bibitem{sosso_thermal_2012}
+Gabriele~C. Sosso, Davide Donadio, Sebastiano Caravati, Jörg Behler, and Marco
+  Bernasconi.
+\newblock Thermal transport in phase-change materials from atomistic
+  simulations.
+\newblock {\em Phys. Rev. B}, 86(10):104301, September 2012.
+
+\bibitem{ashcroft_solid_1976}
+N.~W. Ashcroft and N.~D. Mermin.
+\newblock {\em Solid State Physics}.
+\newblock Saunders, Fort Worth, 1976.
+
+\bibitem{stillinger_computer_1985}
+F.~H. Stillinger and T.~A. Weber.
+\newblock Computer simulation of local order in condensed phases of silicon.
+\newblock {\em Physical Review B}, 31:5262–5271, 1985.
+
+\bibitem{mcquarrie_statistical_2000}
+D.~A. {McQuarrie}.
+\newblock {\em Statistical Mechanics}.
+\newblock University Science Books, Sausalito, 2000.
+
+\bibitem{mcgaughey_quantitative_2004}
+A.~J.~H. {McGaughey} and M.~Kaviany.
+\newblock Quantitative validation of the boltzmann transport equation phonon
+  thermal conductivity model under the single-mode relaxation time
+  approximation.
+\newblock {\em Physical Review B}, 69:094303, 2004.
+
+\bibitem{goicochea_thermal_2010}
+J.~V. Goicochea, M.~Madrid, and C.~H. Amon.
+\newblock Thermal properties for bulk silicon based on the determination of
+  relaxation times using molecular dynamics.
+\newblock {\em Journal of Heat Transfer}, 132:012401, 2010.
+
+\bibitem{allen_thermal_1993}
+Philip~B. Allen and Joseph~L. Feldman.
+\newblock Thermal conductivity of disordered harmonic solids.
+\newblock {\em Physical Review B}, 48(17):12581–12588, November 1993.
+
+\bibitem{feldman_numerical_1999}
+Joseph~L. Feldman, Philip~B. Allen, and Scott~R. Bickham.
+\newblock Numerical study of low-frequency vibrations in amorphous silicon.
+\newblock {\em Phys. Rev. B}, 59(5):3551–3559, February 1999.
+
+\bibitem{klemens_scattering_1955}
+P.~G. Klemens.
+\newblock The scattering of low-frequency lattice waves by static
+  imperfections.
+\newblock {\em Proceedings of the Physical Society. Section A}, 68(1113), 1955.
+
+\bibitem{klemens_thermal_1957}
+P.~G. Klemens.
+\newblock Thermal resistance due to isotopic mass variation.
+\newblock {\em Proceedings of the Physical Society. Section A}, 70(11):833,
+  1957.
+
+\bibitem{callaway_model_1959}
+J.~Callaway.
+\newblock Model for lattice thermal conductivity at low temperatures.
+\newblock {\em Physical Review}, 113:1046, 1959.
+
+\bibitem{mattis_phonon_1957}
+Daniel~Charles Mattis.
+\newblock Phonon free path in an isotopic mixture.
+\newblock {\em Phys. Rev.}, 107(6):1736–1736, September 1957.
+
+\bibitem{kamitakahara_vibrations_1974}
+W.~A. Kamitakahara and B.~N. Brockhouse.
+\newblock Vibrations of a mixed crystal: Neutron scattering from
+  \${\textbackslash}{textbackslashtextbackslashmathrmNi\_55\$\${\textbackslash}textbackslashtextbackslashmathrmPd\_45\$}.
+\newblock {\em Phys. Rev. B}, 10(4):1200–1212, August 1974.
+
+\bibitem{cahill_thermal_2004}
+David~G. Cahill and Fumiya Watanabe.
+\newblock Thermal conductivity of isotopically pure and ge-doped si epitaxial
+  layers from
+  \$300{\textbackslash}textbackslashtextbackslashtextbackslashphantom{\textbackslash}textbackslashtextbackslashtextbackslashrule0.3em0ex{\textbackslash}textbackslashtextbackslashtextbackslashtextto{\textbackslash}textbackslashtextbackslashtextbackslashphantom{\textbackslash}textbackslashtextbackslashtextbackslashrule0.3em0ex550{\textbackslash}textbackslashtextbackslashtextbackslashphantom{\textbackslash}textbackslashtextbackslashtextbackslashrule0.3em0ex{\textbackslash}{textbackslashtextbackslashtextbackslashmathrmK\$}.
+\newblock {\em Phys. Rev. B}, 70(23):235322, December 2004.
+
+\bibitem{cahill_thermal_2005}
+David~G. Cahill, Fumiya Watanabe, Angus Rockett, and Cronin~B. Vining.
+\newblock Thermal conductivity of epitaxial layers of dilute {SiGe} alloys.
+\newblock {\em Phys. Rev. B}, 71(23):235202, June 2005.
+
+\bibitem{skye_thermal_2008}
+Ashton Skye and Patrick~K. Schelling.
+\newblock Thermal resistivity of {Si–Ge} alloys by molecular-dynamics
+  simulation.
+\newblock {\em Journal of Applied Physics}, 103(11):113524, 2008.
+
+\bibitem{landry_thermal_2009}
+E.~S. Landry and A.~J.~H. {McGaughey}.
+\newblock Thermal boundary resistance predictions from molecular dynamics
+  simulations and theoretical calculations.
+\newblock {\em Physical Review B}, 80:165304, 2009.
+
+\bibitem{tian_enhancing_2012}
+Zhiting Tian, Keivan Esfarjani, and Gang Chen.
+\newblock Enhancing phonon transmission across a {Si/Ge} interface by atomic
+  roughness: First-principles study with the green's function method.
+\newblock {\em Phys. Rev. B}, 86(23):235304, December 2012.
+
+\bibitem{kudman_thermoelectric_1972}
+I.~Kudman.
+\newblock Thermoelectric properties of p-type {PbTe-PbSe} alloys.
+\newblock {\em Journal of Materials Science}, 7(9):1027–1029, 1972.
+
+\bibitem{pei_convergence_2011}
+Yanzhong Pei, Xiaoya Shi, Aaron {LaLonde}, Heng Wang, Lidong Chen, and
+  G.~Jeffrey Snyder.
+\newblock Convergence of electronic bands for high performance bulk
+  thermoelectrics.
+\newblock {\em Nature}, 473(7345):66–69, May 2011.
+
+\bibitem{mcgaughey_phonon_2004}
+Alan J.~H. {McGaughey}.
+\newblock {\em Phonon transport in molecular dynamics simulations: Formulation
+  and thermal conductivity prediction}.
+\newblock {PhD} thesis, University of Michigan, Ann Arbor, {MI}, 2004.
+
+\bibitem{plimpton_fast_1995}
+Steve Plimpton.
+\newblock Fast parallel algorithms for short-range molecular dynamics.
+\newblock {\em Journal of Computational Physics}, 117(1):1 – 19, 1995.
+
+\bibitem{he_lattice_2012}
+Yuping He, Ivana Savic, Davide Donadio, and Giulia Galli.
+\newblock Lattice thermal conductivity of semiconducting bulk materials:
+  Atomistic simulations.
+\newblock {\em Phys. Chem. Chem. Phys.}, page –, 2012.
+
+\bibitem{sellan_cross-plane_2010}
+D.~P. Sellan, J.~E. Turney, A.~J.~H. {McGaughey}, and C.~H. Amon.
+\newblock Cross-plane phonon transport in thin films.
+\newblock {\em Journal of Applied Physics}, 108:113524, 2010.
+
+\bibitem{gale_general_2003}
+J.~D. Gale and A.~L. Rohl.
+\newblock The general utility lattice program.
+\newblock {\em Molecular Simulation}, 29:291, 2003.
+
+\bibitem{bouchard_vibrational_1988}
+A.~M. Bouchard, R.~Biswas, W.~A. Kamitakahara, G.~S. Grest, and C.~M.
+  Soukoulis.
+\newblock Vibrational properties of amorphous silicon-germanium alloys and
+  superlattices.
+\newblock {\em Phys. Rev. B}, 38(15):10499–10506, November 1988.
+
+\bibitem{duda_reducing_2011}
+John~C. Duda, Timothy~S. English, Donald~A. Jordan, Pamela~M. Norris, and
+  William~A. Soffa.
+\newblock Reducing thermal conductivity of binary alloys below the alloy limit
+  via chemical ordering.
+\newblock {\em Journal of Physics: Condensed Matter}, 23(20):205401, 2011.
+
+\bibitem{chu_effect_1989}
+Qian-Jin Chu and Zhao-Qing Zhang.
+\newblock Effect of correlations on the localization properties of electrons
+  and phonons in the long-wavelength limit.
+\newblock {\em Phys. Rev. B}, 39(10):7120–7131, April 1989.
+
+\bibitem{mcgaughey_phonon_2006}
+A.~J.~H. {McGaughey}, M.~I. Hussein, E.~S. Landry, M.~Kaviany, and G.~M.
+  Hulbert.
+\newblock Phonon band structure and thermal transport correlation in a layered
+  diatomic crystal.
+\newblock {\em Physical Review B}, 74:104304, 2006.
+
+\bibitem{he_heat_2011}
+Yuping He, Davide Donadio, and Giulia Galli.
+\newblock Heat transport in amorphous silicon: Interplay between morphology and
+  disorder.
+\newblock {\em Applied Physics Letters}, 98(14):144101, 2011.
+
+\bibitem{donadio_atomistic_2009}
+Davide Donadio and Giulia Galli.
+\newblock Atomistic simulations of heat transport in silicon nanowires.
+\newblock {\em Phys. Rev. Lett.}, 102(19):195901, May 2009.
+
+\bibitem{hori_phonon_2013}
+Takuma Hori, Takuma Shiga, and Junichiro Shiomi.
+\newblock Phonon transport analysis of silicon germanium alloys using molecular
+  dynamics simulations.
+\newblock {\em Journal of Applied Physics}, 113(20):203514, 2013.
+
+\bibitem{volz_molecular-dynamics_2000}
+S.~Volz and G.~Chen.
+\newblock Molecular-dynamics simulation of thermal conductivity of silicon
+  crystals.
+\newblock {\em Physical Review B}, 61:2651–2656, 2000.
+
+\bibitem{green_density_2011}
+N.~L. Green, D.~Kaya, C.~E. Maloney, and M.~F. Islam.
+\newblock Density invariant vibrational modes in disordered colloidal crystals.
+\newblock {\em Physical Review E}, 83(5):051404, May 2011.
+
+\bibitem{ladd_lattice_1986}
+A.~J.~C. Ladd, B.~Moran, and W.~G. Hoover.
+\newblock Lattice thermal conductivity: A comparison of molecular dynamics and
+  anharmonic lattice dynamics.
+\newblock {\em Physical Review B}, 34:5058–5064, 1986.
+
+\bibitem{turney_predicting_2009-1}
+J.~E. Turney, E.~S. Landry, A.~J.~H. {McGaughey}, and C.~H. Amon.
+\newblock Predicting phonon properties and thermal conductivity from anharmonic
+  lattice dynamics calculations and molecular dynamics simulations.
+\newblock {\em Phys. Rev. B}, 79(6):064301, February 2009.
+
+\bibitem{larkin_comparison_2012}
+J.~M. Larkin, J.~E. Turney, A.~D. Massicotte, C.~H. Amon, and A.~J.~H.
+  {McGaughey}.
+\newblock Comparison and evaluation of spectral energy methods for predicting
+  phonon properties.
+\newblock {\em to appear in Journal of Computational and Theoretical
+  Nanoscience}, 2012.
+
+\bibitem{dove_introduction_1993}
+M.~T. Dove.
+\newblock {\em Introduction to Lattice Dynamics}.
+\newblock Cambridge, Cambridge, 1993.
+
+\bibitem{he_morphology_2011}
+Yuping He, Davide Donadio, and Giulia Galli.
+\newblock Morphology and temperature dependence of the thermal conductivity of
+  nanoporous {SiGe}.
+\newblock {\em Nano Letters},
+  11:3608{\textbackslash}textbackslashtextbackslashtextbackslashtextbackslash963611,
+  2011.
+
+\bibitem{maradudin_scattering_1962}
+A.~A. Maradudin and A.~E. Fein.
+\newblock Scattering of neutrons by an anharmonic crystal.
+\newblock {\em Physical Review}, 128:2589–2608, 1962.
+
+\bibitem{ecsedy_thermal_1977}
+D.~J. Ecsedy and P.~G. Klemens.
+\newblock Thermal resistivity of die ectric crystals due to four-phonon
+  processes and optical modes.
+\newblock {\em Phys. Rev. B}, 15(12):5957–5962, June 1977.
+
+\bibitem{shenogin_predicting_2009}
+Sergei Shenogin, Arun Bodapati, Pawel Keblinski, and Alan J.~H. {McGaughey}.
+\newblock Predicting the thermal conductivity of inorganic and polymeric
+  glasses: The role of anharmonicity.
+\newblock {\em Journal of Applied Physics}, 105(3):034906, 2009.
+
+\bibitem{sheng_introduction_2006}
+Ping Sheng.
+\newblock {\em Introduction to Wave Scattering: Localization and Mesoscopic
+  Phenomena}.
+\newblock Springer, April 2006.
+
+\bibitem{vitelli_heat_2010}
+Vincenzo Vitelli, Ning Xu, Matthieu Wyart, Andrea~J. Liu, and Sidney~R. Nagel.
+\newblock Heat transport in model jammed solids.
+\newblock {\em Phys. Rev. E}, 81(2):021301, February 2010.
+
+\bibitem{xu_energy_2009}
+Ning Xu, Vincenzo Vitelli, Matthieu Wyart, Andrea~J. Liu, and Sidney~R. Nagel.
+\newblock Energy transport in jammed sphere packings.
+\newblock {\em Phys. Rev. Lett.}, 102(3):038001, January 2009.
+
+\bibitem{sheng_heat_1991}
+Ping Sheng and Minyao Zhou.
+\newblock Heat conductivity of amorphous solids: Simulation results on model
+  structures.
+\newblock {\em Science}, 253(5019):539–542, 1991.
+
+\bibitem{landry_complex_2008}
+E.~S. Landry, M.~I. Hussein, and A.~J.~H. {McGaughey}.
+\newblock Complex superlattice unit cell designs for reduced thermal
+  conductivity.
+\newblock {\em Physical Review B}, 77:184302, 2008.
+
+\bibitem{sellan_size_2010}
+D.~P. Sellan, E.~S. Landry, J.~E. Turney, A.~J.~H. {McGaughey}, and C.~H. Amon.
+\newblock Size effects in molecular dynamics thermal conductivity predictions.
+\newblock {\em Phys. Rev. B}, 81(21):214305, June 2010.
+
+\bibitem{esfarjani_method_2008}
+K.~Esfarjani and H.~T. Stokes.
+\newblock Method to extract anharmonic force constants from first principles
+  calculations.
+\newblock {\em Physical Review B}, 77:144112, 2008.
+
+\bibitem{chaput_phonon-phonon_2011}
+Laurent Chaput, Atsushi Togo, Isao Tanaka, and Gilles Hug.
+\newblock Phonon-phonon interactions in transition metals.
+\newblock {\em Phys. Rev. B}, 84(9):094302, September 2011.
+
+\bibitem{cheaito_experimental_2012}
+Ramez Cheaito, John~C. Duda, Thomas~E. Beechem, Khalid Hattar, Jon~F. Ihlefeld,
+  Douglas~L. Medlin, Mark~A. Rodriguez, Michael~J. Campion, Edward~S. Piekos,
+  and Patrick~E. Hopkins.
+\newblock Experimental investigation of size effects on the thermal
+  conductivity of silicon-germanium alloy thin films.
+\newblock {\em Phys. Rev. Lett.}, 109(19):195901, November 2012.
+
+\bibitem{kittel_interpretation_1949}
+C.~Kittel.
+\newblock Interpretation of the thermal conductivity of glasses.
+\newblock {\em Physical Review}, 75:974, 1949.
+
+\bibitem{mcgaughey_predicting_2013}
+A.~J.~H. {McGaughey} and J.~M. Larkin.
+\newblock Predicting phonon properties from equilibrium molecular dynamics
+  simulations.
+\newblock {\em to appear in Annual Review of Heat Transfer}, 17, 2013.
+
+\bibitem{landau_statistical_1980}
+{L.D.} Landau, {E.M.} Lifshitz, and {L.P.} Pitaevskii.
+\newblock {\em Statistical Physics, Part 2 : Volume 9}.
+\newblock Pt 2. Elsevier Science \& Technology Books, 1980.
+
+\bibitem{srivastava_physics_1990}
+G.~P. Srivastava.
+\newblock {\em The Physics of Phonons}.
+\newblock Adam Hilger, Bristol, 1990.
+
+\bibitem{rajabpour_thermal_2010}
+A.~Rajabpour and S.~Volz.
+\newblock Thermal boundary resistance from mode energy relaxation times: Case
+  study of argon-like crystals by molecular dynamics.
+\newblock {\em Journal of Applied Physics}, 108:094324, 2010.
+
 \bibitem{cahill_nanoscale_2003}
 D.~G. Cahill, W.~K. Ford, K.~E. Goodson, G.~D. Mahan, A.~Majumdar, H.~J. Maris,
   R.~Merlin, and S.~R. Phillpot.
@@ -26,31 +526,10 @@ A.~D. {McConnell} and K.~E. Goodson.
 \newblock Thermal conduction in silicon micro and nanostructures.
 \newblock {\em Annual Review of Heat Transfer}, 14:129–168, 2005.
 
-\bibitem{srivastava_physics_1990}
-G.~P. Srivastava.
-\newblock {\em The Physics of Phonons}.
-\newblock Adam Hilger, Bristol, 1990.
-
 \bibitem{wallace_thermodynamics_1972}
 D.~C. Wallace.
 \newblock {\em Thermodynamics of Crystals}.
 \newblock Cambridge Univ. Press, Cambridge, {UK}, 1972.
-
-\bibitem{dove_introduction_1993}
-M.~T. Dove.
-\newblock {\em Introduction to Lattice Dynamics}.
-\newblock Cambridge, Cambridge, 1993.
-
-\bibitem{broido_intrinsic_2007}
-D.~A. Broido, M.~Maloney, G.~Birner, N.~Mingo, and D.~Stewart.
-\newblock Intrinsic lattice thermal conductivity of semiconductors from first
-  principles.
-\newblock {\em Applied Physics Letters}, 91:231922, 2007.
-
-\bibitem{esfarjani_heat_2011}
-K.~Esfarjani, G.~Chen, and H.~T. Stokes.
-\newblock Heat transport in silicon from first-principles calculations.
-\newblock {\em Physical Review B}, 84:085204, 2011.
 
 \bibitem{asheghi_phonon-boundary_1997}
 M.~Asheghi, Y.~K. Leung, S.~S. Wong, and K.~E. Goodson.
@@ -95,34 +574,17 @@ Patrick~E. Hopkins, Charles~M. Reinke, Mehmet~F. Su, Roy~H. Olsson, Eric~A.
   by phononic crystal patterning.
 \newblock {\em Nano Letters}, 11(1):107–112, 2011.
 
-\bibitem{landry_complex_2008}
-E.~S. Landry, M.~I. Hussein, and A.~J.~H. {McGaughey}.
-\newblock Complex superlattice unit cell designs for reduced thermal
-  conductivity.
-\newblock {\em Physical Review B}, 77:184302, 2008.
-
 \bibitem{landry_effect_2009}
 E.~S. Landry and A.~J.~H. {McGaughey}.
 \newblock Effect of interfacial species mixing on phonon transport in
   semiconductor superlattices.
 \newblock {\em Physical Review B}, 79:075316, 2009.
 
-\bibitem{landry_thermal_2009}
-E.~S. Landry and A.~J.~H. {McGaughey}.
-\newblock Thermal boundary resistance predictions from molecular dynamics
-  simulations and theoretical calculations.
-\newblock {\em Physical Review B}, 80:165304, 2009.
-
 \bibitem{landry_effect_2010}
 E.~S. Landry and A.~J.~H. {McGaughey}.
 \newblock Effect of film thickness on the thermal resistance of confined
   semiconductor thin films.
 \newblock {\em Journal of Applied Physics}, 107:013521, 2010.
-
-\bibitem{callaway_model_1959}
-J.~Callaway.
-\newblock Model for lattice thermal conductivity at low temperatures.
-\newblock {\em Physical Review}, 113:1046, 1959.
 
 \bibitem{holland_analysis_1963}
 M.~G. Holland.
@@ -134,34 +596,11 @@ A.~J.~H. {McGaughey}, E.~S. Landry, D.~P. Sellan, and C.~H. Amon.
 \newblock Size-dependent model for thin film and nanowire thermal conductivity.
 \newblock {\em Applied Physics Letters}, 99:131904, 2011.
 
-\bibitem{ladd_lattice_1986}
-A.~J.~C. Ladd, B.~Moran, and W.~G. Hoover.
-\newblock Lattice thermal conductivity: A comparison of molecular dynamics and
-  anharmonic lattice dynamics.
-\newblock {\em Physical Review B}, 34:5058–5064, 1986.
-
-\bibitem{mcgaughey_quantitative_2004}
-A.~J.~H. {McGaughey} and M.~Kaviany.
-\newblock Quantitative validation of the boltzmann transport equation phonon
-  thermal conductivity model under the single-mode relaxation time
-  approximation.
-\newblock {\em Physical Review B}, 69:094303, 2004.
-
 \bibitem{schelling_comparison_2002}
 P.~K. Schelling, S.~R. Phillpot, and P.~Keblinski.
 \newblock Comparison of atomic-level simulation methods for computing thermal
   conductivity.
 \newblock {\em Physical Review B}, 65:144306, 2002.
-
-\bibitem{sellan_size_2010}
-D.~P. Sellan, E.~S. Landry, J.~E. Turney, A.~J.~H. {McGaughey}, and C.~H. Amon.
-\newblock Size effects in molecular dynamics thermal conductivity predictions.
-\newblock {\em Phys. Rev. B}, 81(21):214305, June 2010.
-
-\bibitem{maradudin_scattering_1962}
-A.~A. Maradudin and A.~E. Fein.
-\newblock Scattering of neutrons by an anharmonic crystal.
-\newblock {\em Physical Review}, 128:2589–2608, 1962.
 
 \bibitem{henry_spectral_2008}
 A.~S. Henry and G.~Chen.
@@ -169,12 +608,6 @@ A.~S. Henry and G.~Chen.
   dynamics simulations and lattice dynamics.
 \newblock {\em Journal of Computational and Theoretical Nanoscience}, 5:1–12,
   2008.
-
-\bibitem{goicochea_thermal_2010}
-J.~V. Goicochea, M.~Madrid, and C.~H. Amon.
-\newblock Thermal properties for bulk silicon based on the determination of
-  relaxation times using molecular dynamics.
-\newblock {\em Journal of Heat Transfer}, 132:012401, 2010.
 
 \bibitem{maruyama_molecular_2003}
 S.~Maruyama.
@@ -208,70 +641,21 @@ Bo~Qiu, Hua Bao, Gengqiang Zhang, Yue Wub, and Xiulin Ruan.
   53:278{\textbackslash}textbackslashtextbackslashtextbackslashtextbackslashtextbackslash96285,
   2011.
 
-\bibitem{shiomi_thermal_2011}
-Junichiro Shiomi, Keivan Esfarjani, and Gang Chen.
-\newblock Thermal conductivity of half-heusler compounds from first-principles
-  calculations.
-\newblock {\em Physical Review B}, 84(10):125209, 2011.
-
 \bibitem{hori_mode-dependent_2012}
 T.~Hori, T.~Shiga, S.~Maruyama, and J.~Shiomi.
 \newblock Mode-dependent phonon transport analysis of silicon crystal by
   molecular dynamics method.
 \newblock {\em Tran. of the Jap. Soc. of Mech. Eng.}, 78:328–337, 2012.
 
-\bibitem{ashcroft_solid_1976}
-N.~W. Ashcroft and N.~D. Mermin.
-\newblock {\em Solid State Physics}.
-\newblock Saunders, Fort Worth, 1976.
-
-\bibitem{stillinger_computer_1985}
-F.~H. Stillinger and T.~A. Weber.
-\newblock Computer simulation of local order in condensed phases of silicon.
-\newblock {\em Physical Review B}, 31:5262–5271, 1985.
-
 \bibitem{rudin_real_1987}
 W.~Rudin.
 \newblock {\em Real and Complex Analysis}.
 \newblock {McGraw-Hill}, New York, 1987.
 
-\bibitem{mcgaughey_phonon_2006}
-A.~J.~H. {McGaughey}, M.~I. Hussein, E.~S. Landry, M.~Kaviany, and G.~M.
-  Hulbert.
-\newblock Phonon band structure and thermal transport correlation in a layered
-  diatomic crystal.
-\newblock {\em Physical Review B}, 74:104304, 2006.
-
-\bibitem{ziman_electrons_2001}
-J.~M. Ziman.
-\newblock {\em Electrons and Phonons}.
-\newblock Oxford, New York, 2001.
-
-\bibitem{mcquarrie_statistical_2000}
-D.~A. {McQuarrie}.
-\newblock {\em Statistical Mechanics}.
-\newblock University Science Books, Sausalito, 2000.
-
 \bibitem{thomas_water_2010}
 J.~A. Thomas.
 \newblock {\em water flow and thermal transport through carbon nanotubes}.
 \newblock {PhD} thesis, Carnegie Mellon University, Pittsburgh, {PA}, 2010.
-
-\bibitem{mcgaughey_phonon_2004}
-Alan J.~H. {McGaughey}.
-\newblock {\em Phonon transport in molecular dynamics simulations: Formulation
-  and thermal conductivity prediction}.
-\newblock {PhD} thesis, University of Michigan, Ann Arbor, {MI}, 2004.
-
-\bibitem{plimpton_fast_1995}
-Steve Plimpton.
-\newblock Fast parallel algorithms for short-range molecular dynamics.
-\newblock {\em Journal of Computational Physics}, 117(1):1 – 19, 1995.
-
-\bibitem{gale_general_2003}
-J.~D. Gale and A.~L. Rohl.
-\newblock The general utility lattice program.
-\newblock {\em Molecular Simulation}, 29:291, 2003.
 
 \bibitem{sinha_scattering_2005}
 S.~Sinha, P.~K. Schelling, S.~R. Phillpot, and K.~E. Goodsen.

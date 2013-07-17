@@ -10,7 +10,51 @@
 \subsection{Setting Up Computing Environment}
 %--------------------------------------------------------------------------
 
+%--------------------------------------------------------------------------
+\subsection{Suggested Reading}
+%--------------------------------------------------------------------------
 
+
+The online encyclopedia \href{http://www.wikipedia.org/}{wikipedia} 
+has become an excellent resource for technical knowledge. 
+
+\href{http://en.wikipedia.org/wiki/Statistical_mechanics}
+{Statistical Mechanics}/
+\href{http://en.wikipedia.org/wiki/Condensed_matter}
+{Condensed Matter}
+\cite{ashcroft_solid_1976,mcquarrie_statistical_2000}
+
+\href{http://en.wikipedia.org/wiki/Phonon}
+{Lattice Dynamics} with focus on the classical, quantum 
+and thermodynamic properties of phonons.\cite{peierls_,ziman,
+wallace_thermodynamics_1976,
+srivastava_1990,dove_lattice_1993} 
+
+\href{http://en.wikipedia.org/wiki/Introduction_to_quantum_mechanics}{Introduction to quantum mechanics and quantum chemistry}
+\cite{griffiths_introduction_1995} 
+and more 
+advanced topics on 
+\href{https://en.wikipedia.org/wiki/Electron_configuration}
+{Electron Strucutre} and 
+\href{http://en.wikipedia.org/wiki/Density_functional_theory}
+{Density Functional Theory}.
+\cite{martin_electronic_2004} 
+
+Analytical methods for 
+\href{http://en.wikipedia.org/wiki/Ordinary_differential_equations}
+{ordinary} and 
+\href{http://en.wikipedia.org/wiki/Partial_differential_equation}
+{partial differential equations}, 
+\href{http://en.wikipedia.org/wiki/Fourier_analysis}
+{fourier} and 
+\href{http://en.wikipedia.org/wiki/Statistics}
+{statistical analysis},\cite{mcquarrie_mathematical_2003} 
+and 
+\href{http://en.wikipedia.org/wiki/Numerical_analysis}
+{numerical analysis}.\cite{moin_fundamentals_2010} For example, 
+the LJ MD code discussed in Section uses a  
+\href{http://en.wikipedia.org/wiki/Verlet_integration}
+{verlet integration method}. 
 
 %--------------------------------------------------------------------------
 \subsection{Setting Up Computing Environment}
@@ -23,88 +67,215 @@ Linux runs on cell phones to the world's largest supercomputers.
 
 Reccomend the most widely used linux version 
 \href{http://www.ubuntu.com/}{ubuntu}.
+well-documented, large-community discussion
+
+Apple OS is an adequate substitute as it is 
+\href{https://en.wikipedia.org/wiki/Unix-like}{unix-like}.
+
+
 
 Ubuntu is certified on 
 \href{http://www.ubuntu.com/certification/}
 {many top PC's from many computer companies}
 There is even a company, \href{https://www.system76.com/}{system 76}, 
-who builds ubuntu-based computers solely. 
+who builds ubuntu-based computers solely. I used the 
+\href{https://www.system76.com/laptops/model/panp9}
+{Pangolin Performance} for over 1 year of my PhD.  However, 
+I reccomend using the lightest, most-portable, and longest-battery 
+life notebook available such as the 
+\href{https://help.ubuntu.com/community/SamsungSeries9}
+{Samsung Series 9}  
+or \href{https://help.ubuntu.com/community/MacBookAir}{Macbook Air}. 
+You will typically be using this notebook to access large computing 
+clusters so there is a benefit of having portability and long 
+battery life over large computational power.    
 
-well-documented, large-community discussion
+%--------------------------------------------------------------------------
+\subsection{Managing the Operating System}
+%--------------------------------------------------------------------------
 
-apple mac OS as it is 
-\href{https://en.wikipedia.org/wiki/Unix-like}{unix-like}.
+These instructions work well for linux and unix type OS
+
+%--------------------------------------------------------------------------
+\subsection{Installing Programs}
+%--------------------------------------------------------------------------
+
+Ubuntu and similar linux OS have automatic software installation and 
+management using the apt-get command:
+
+jason@jason-900X3C ~/ (master) $\$$ sudo apt-get install gfortran
+[sudo] password for jason: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+gfortran is already the newest version.
+The following package was automatically installed and is no longer required:
+  kde-l10n-engb
+Use 'apt-get autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 129 not upgraded.
 
 
+To check that the package has been installed, use:
+
+jason@jason-900X3C-900X3D-900X3E-900X4C-900X4D ~/ (master) $\$$ which gfortran
+/usr/bin/gfortran
+
+This shows that gfortran program is installed in the /usr/bin/ folder, a common location where automatically installed programs are located. Because the 
+folder /usr/bin is in the PATH environment variable:
 
 
-\href{http://www.wikibooks.org}{Wikibooks home}
+the program gfortran is always available no matter where 
 
-\lstset{language=Python}
-\begin{lstlisting}[label=some-code,caption=Some Code]
-public void here() {
-	goes().the().code()
-}
-\end{lstlisting}
+To get more information about the gfortran, use:
 
+jason@jason-900X3C ~/ (master) $\$$ ls -l /usr/bin/gfortran
+lrwxrwxrwx 1 root root 12 Apr 22 03:44 /usr/bin/gfortran -> gfortran-4.7
 
+where we see that /usr/bin/gfrotran "points" to gfortran-4.7. This is called a symbolic link, which can be created using:
 
+jason@jason-900X3C ~/disorder/pcbm/topotools-tutorial-part2 (master) $\$$ ls -l /usr/bin/gfortran
+lrwxrwxrwx 1 root root 12 Apr 22 03:44 /usr/bin/gfortran -> gfortran-4.7
 
-setting up environment: $\$$PATH, 
+%--------------------------------------------------------------------------
+\subsection{Available Programs}
+%--------------------------------------------------------------------------
 
-http://en.wikipedia.org/wiki/Environment_variable
+Low-hanging fruit.  Read their documentation, try the tutorials. 
 
-sudo apt-get install gfortran, which gfortran 
+Install lammps:
+
+Set PATH for lammps
+
 gnu compilers vs intel: gnu freely available
 tar -zxvf lammps.tar, make serial, sudo apt-get install openmpi, make openmpi
 
-suggested reading:
+open-source: 
 
-Statistical Mechanics/Condensed Matter
-MacQuarrie
-Ashcroft
-Wikipedia
+\href{http://lammps.sandia.gov/}{LAMMPS}, including the particularly 
+useful 
+\href{http://lammps.sandia.gov/threads/threads.html}{mailing list} 
+(use ctrl-f to search on any topic)  
+and
+\href{http://lammps.sandia.gov/doc/Section_python.html}
+{python interface} which is used with the package 
+\href{http://github.com/ntpl/ntpy}{ntpy}. 
+\href{http://projects.ivec.org/gulp/}{GULP}, 
+\href{http://www.abinit.org/}{ABINIT}, 
+\href{http://www.quantum-espresso.org/}{Quantum Espresso}, 
+\href{http://jp-minerals.org/vesta/en/}{VESTA}, 
+\href{http://phonopy.sourceforge.net/}{phonopy}, 
+\href{http://www.ks.uiuc.edu/Research/vmd/}{VMD} 
+(with 
+\href{https://sites.google.com/site/akohlmey/software/topotools}
+{topotools})
+\href{http://github.com/ntpl/ntpy}{ntpy},
+\href{https://www.vasp.at/}{VASP}
+\href{http://www.stfc.ac.uk/CSE/randd/ccg/software/DL_POLY/25526.aspx}
+{DL_POLY}, 
+\href{http://icmab.cat/leem/siesta/}
+{siesta}, 
+\href{http://www.msg.ameslab.gov/gamess/}{GAMESS}, 
+\href{http://www.cp2k.org/}{CP2K}, 
+\href{http://www.icams.de/content/departments/ams/madsen/boltztrap.html}{BOLTZTRAP}, 
+\href{http://www.homepages.ucl.ac.uk/~ucfbdxa/phon/}{PHON}, 
 
-Lattice Dynamics
-Dove: harmonic autocorrelation (DOS), harmonic (dispersion), 
-thermodynamics, structural phase transition, 
-Srivistava: quantum formalism, perturbation theory
-peierls:
-ziman: BTE, RTA
-Wikipedia
+I reccomend trying this 
+\href{}{install.sh} created by 
+\href{http://www.github.com/kparrish}{Kevin Parrish} which installs 
+many programs and packages, including lammps for parallel computing 
+with openmpi.
 
-Quantum Chemistry
-Griffiths Quantum Mechanics: Pauli-Exclusion -> Exp repulsion 
-Martin Electron Strucutre: DFT
-Wikipedia
+%--------------------------------------------------------------------------
+\subsection{Environment Variables}
+%--------------------------------------------------------------------------
 
-Math Theory/Numerical Methods
-MacQuarrie
-Moin
-Wikipedia
+\href{http://en.wikipedia.org/wiki/Environment_variable}
+{environment variable} such as $\$$PATH.  Here is how we determine what 
+PATH is set to:
 
 
+Set PATH for lammps (see Section ).
 
-Wikipedia == open source
 
+Permanent changes to environment variables can be made in the user's 
+.bashrc file, which is typically located in the /home/user/ directory. 
+The .bashrc file is a hidden file noted by its name starting with ".". 
+Other
 
-list of useful packages: 
-pacakges used during this thesis: 
-open-source: lammps, gulp, abinit, qe, vesta, phonopy, ntpy
-other: vasp
+Here is an example .bashrc which demonstrates how to add permanent paths 
+and how to define new functions within the operating system. 
+For example, to copy the output of the pwd command to the system's 
+clipboard, use cpyc then "ctrl-v" elsewhere. 
 
-http://www.ks.uiuc.edu/Research/vmd/
+The path to programs can also be added to an existing path in the PATH 
+variable by using symbolic links.  Here is an example:
 
-other packages: dlpoly, siesta, GAMES, cp2k, boltztrap, PHON, 
+%--------------------------------------------------------------------------
+\subsection{.bashrc}
+%--------------------------------------------------------------------------
 
-Useful Linux Commands
+This file modifies environment variables such as 
+\href{}{PATH}  
+when a bash terminal session is launched. Changes to environment 
+variables are made when a new terminal session is started. The 
+location of this file is typically: /home/user/.bashrc.  The 
+``.'' 
+
+%--------------------------------------------------------------------------
+\subsection{System Commands}
+%--------------------------------------------------------------------------
+
+Useful Linux Commands:
+
+sed, grep, ls, cd, pwd, export, setenv, scp -r, ssh, sudo, nohup, 
+vi, cat, which, echo
 
 \href{https://www.google.com/search?q=linux+sed}
 {google: linux sed}
 
 
-sed, grep, ls, cd, pwd, export/setenv, scp -r, ssh, sudo, nohup, 
-vi, cat, which (program), echo, qstat -u -n, qdel, 
+%--------------------------------------------------------------------------
+\subsection{Shell Scripts}
+%--------------------------------------------------------------------------
+
+Shell scripts are relatively low-level scripts which execute system 
+commands (Section ) and 
+manipulate environment variables (Section )   
+of the linux/unix operating system. 
+
+Here is a simple tutorial on writing shell scripts 
+\href{http://linuxcommand.org/wss0010.php}
+{http://linuxcommand.org/wss0010.php}
+
+%--------------------------------------------------------------------------
+\subsection{Remote Resources Commands}
+%--------------------------------------------------------------------------
+
+I reccomend Filezilla for handling the transfer of data and files.  
+However, the functionality of Filezilla is contained in several shell 
+commands:
+
+ssh user@gilgamesh.cheme.cmu.edu
+
+or equivalently by the machine's ip address:
+
+ssh user@xxx.xxx.xxx.xxx
+
+Files can be transferred using the following command:
+
+scp -r user@gilgamesh.cheme.cmu.edu:/home/user/directory/ ./
+
+which will place the "directory" and its contents into the pwd (./) 
+of the local shell. 
+
+Here are useful PBS cluster commands:
+
+qstat, qdel, 
+ 
+
+%--------------------------------------------------------------------------
+\subsection{System Commands in Python}
+%--------------------------------------------------------------------------
 
 Running Linux System Commands in Python
  
@@ -113,8 +284,6 @@ PERL+java+matlab
 1) shell-scripting: controlling the OS, system(cmd), (PERL) 
 
 lmp.in.iseed
-
-
 
 2) hi-level organization: object-oriented (module.method(input)) (Java)
 3) lin alg + numerical methods: numpy.method, scipy.method (fortran, matlab)
@@ -125,39 +294,137 @@ more about this in the appendix
 \subsection{Preparing Journal Articles and Thesis}
 %--------------------------------------------------------------------------
 
+http://tex.stackexchange.com/questions/1596/how-to-compile-a-latex-document
+
+http://stackoverflow.com/questions/2461905/compiling-latex-bib-source
+
+http://publish.aps.org/revtex
+
+used 
+
+http://kile.sourceforge.net/
+
+http://www.zotero.org/
+
+matplotlib to generate figures. 
+
+%--------------------------------------------------------------------------
+\subsection{Preparing Journal Articles}
+%--------------------------------------------------------------------------
+
+The job of the student is to prepare, submit, and (hopefully) publish 
+peer-reviewed journal articles. There are many journals suitable for 
+nanoscale transport topics.  Here is one example of the latex files 
+used to create an article used in this work:
+
+This file uses Revtex, which is an article class used by Physical Review, 
+Journal of Applied Physics, and others. The paper can be compiled using:
+
+
+
+These can be used as templates
+
+
+
+Here is a Carnegie Mellon thesis template:
+
+https://github.com/robsimmons/cmu-thesis
+
+Useful article on structuring large documents
+
+http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html
+
+https://github.com/jasonlarkin/thesis/tree/master/thesis
+
+
+1) Use latex
+- reccomend Kile editor, gedit works well too. 
+- reccomend zotero to maintain library.bib
+
+1) Time to prepare each paper
+
+reccomendation: student advisor should try and exchange editing a written 
+research document every day, at least every week.  
+
+Such a research document could be the running 
+collection of journal articles which turn into the thesis. Maintenance 
+of this document can be achieved with Dropbox or Github.  Github 
+offers to advantage of smart version control and internet wiki. 
+
+2) Computational cost of each paper
+
+CPU, memory
+parallel cpu, parallel memory
+
+Trends: 
+small single cpu jobs -> large parallel cpu jobs
+single predictive method -> several predictive methods
+
+reccomendation: explore all predictive methods and models possible
+
+%--------------------------------------------------------------------------
+\subsection{Advice}
+%--------------------------------------------------------------------------
+
+In addition to your advisor and close mentors, 
+I reccomend communicating with experts in the field as much as 
+possible without being an annoyance.  How often to 
+communicate depends on the situation. 
+It is best to let the expert dictate the pace of the conversation. 
+
+%--------------------------------------------------------------------------
+\subsection{Expert Advice}
+%--------------------------------------------------------------------------
+
 Here is a list of experts I used as resources for this work. They 
 will typically answer emails within 24-48 hours:
 
+
 \href{http://ntpl.me.cmu.edu/people.html}
-{Alan McGaughey}
-
+{Alan McGaughey},
 \href{http://www.cmu.edu/me/malen/Lab_Website/People.html}
-{Jon Malen}
-
+{Jon Malen},
 \href{http://chemistry.curtin.edu.au/people/academic.cfm/J.Gale}
-{Julian Gale}, 
+{Julian Gale} 
 \href{http://projects.ivec.org/gulp/news.html}
-{GULP author}
-
+{(GULP author)},
 \href{http://mech.rutgers.edu/content/keivan-esfarjani}
-{Keivan Esfarjani}
-
+{Keivan Esfarjani},
+normand.mousseau@umontreal.ca,
+guido.raos@polimi.it,
 \href{mailto:joseph.feldman.ctr@nrl.navy.mil}
-{Joseph Feldman}
-
+{Joseph Feldman},
 \href{http://www.phonon.t.u-tokyo.ac.jp/}
-{Junchiro Shiomi}
-
+{Junchiro Shiomi},
 \href{http://www2.mpip-mainz.mpg.de/~donadio/tnt/People.html}
-{Davide Donadio}
-
+{Davide Donadio},
 \href{http://www.ce.cmu.edu/people/faculty/maloney.html}
-{Craig Maloney}
-
+{Craig Maloney},
 \href{http://quasiamore.mit.edu/pmwiki.php?n=Main.JivteshGarg}
-{Jivtesh Garg}
+{Jivtesh Garg},
+\href{John Duda}
+{John Duda},
+\href{Wissam Al-Saidi}
+{Wissam Al-Saidi},
+\href{Dan Sellan}
+{Dan Sellan},
+\href{Ankit Jain}
+{Ankit Jain},
+\href{wong@andrew.cmu.edu}
+{Wee-Liat Ong},
+\href{John Kitchin}
+{John Kitchin},
+Steve Plimpton via the 
+\href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
+Axel Kolhmeyer via the 
+\href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
+and \href{akohlmey@gmail.com}{email}
+
+\href{http://atztogo.users.sourceforge.net/}{Atz Togo}, creator of 
+\href{http://phonopy.sourceforge.net/}{phonopy}
 
 \href{http://jasonlarkin.github.io}{me, haha}
+
 
 %--------------------------------------------------------------------------
 \subsection{Coding Languages}
@@ -181,9 +448,16 @@ and
 \href{http://en.wikipedia.org/wiki/Fortran}{Fortran}: 
 (GULP, quantum espresso, VASP)
 
-A good discussion on the strengths of 
+A good discussion on 
 \href{http://stackoverflow.com/questions/13078736/fortran-vs-c-does-fortran-still-hold-any-advantage-in-numerical-analysis-thes}
-{C++ versus Fortran}.
+{the strengths of C++ versus Fortran}.
+
+\href{http://www.youtube.com/watch?v=XFQ9dw3CyDo&list=PL1D10C030FDCE7CE0}
+{excellent c++ tutorial}
+
+\href{http://www.youtube.com/watch?v=YRTEOFMUTzw&list=PL6A8E21D2E86A0155}
+{excellent fortran tutorial}
+
 
 The two most likely interpreted languages you are likely to use are 
 matlab (licesensed) http://en.wikipedia.org/wiki/MATLAB 
@@ -199,18 +473,6 @@ and
 python http://faculty.washington.edu/rjl/uwamath583s11/sphinx/notes/html/python_vect.html 
 programming libraries.
 
-
-
-linux/unix shell
-
-\href{http://www.youtube.com/watch?v=XFQ9dw3CyDo&list=PL1D10C030FDCE7CE0}
-{excellent c++ tutorial}
-
-
-
-\href{http://www.youtube.com/watch?v=YRTEOFMUTzw&list=PL6A8E21D2E86A0155}
-{excellent fortran tutorial}
-
 matlab has an excellent built-in guide, google search will typically 
 yield useful results. 
 
@@ -220,12 +482,18 @@ yield useful results.
 \href{http://www.gnu.org/software/octave/}
 {octave}
 
+
+
 %--------------------------------------------------------------------------
 \subsection{Case-study 1: LJ Argon Molecular Dynamics}
 %--------------------------------------------------------------------------
 
-The first case study is a single C code to perform Molecular Dynamics 
-on LJ argon. The code is a serial code with 
+The first case study is a 
+\href{https://github.com/jasonlarkin/classes/tree/master/cmu/molecular_simulation/HW5}
+{single C code to perform Molecular Dynamics 
+on LJ argon}. The code is a serial code with 
+
+/home/jason/classes/cmu/molecular_simulation/HW5
 
 \lstset{language=Shell}
 \begin{lstlisting}[label=some-code,caption=Some Code]
@@ -237,11 +505,40 @@ jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) c++ ArgonMD.c
 jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) ./ArgonMD
 \end{lstlisting}
 
-The output is
+The output is.  A useful shell operation is 
+\href{http://www.linfo.org/pipes.html}{"piping"}, which is demonstrated below:
+
+\lstset{language=Shell}
+\begin{lstlisting}[label=some-code,caption=Some Code]
+jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) $ ./ArgonMD > props_piped.txt
+\end{lstlisting}
+
+Another useful shell command is 
+\href{http://www.tuxfiles.org/linuxhelp/vimcheat.html}{"vi"}, a 
+shell-based text editor:
+\lstset{language=Shell}
+\begin{lstlisting}[label=some-code,caption=Some Code]
+jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) $ vi props_piped.txt
+5.61358 2.01864 5.26596
+3.4073  1.72339 1.32187
+5.28007 0.107792        4.95407
+1.45285 5.09976 0.961697
+4.5679  4.82261 5.78293
+5.29423 0.880753        0.709709
+3.63248 5.45978 2.70637
+...
+\end{lstlisting}
 
 %--------------------------------------------------------------------------
 \subsection{Case-study 1: LJ Dispersion}
 %--------------------------------------------------------------------------
+
+With interpreted languages traditional programming practice of using 
+loops (for/do/while, etc) will slow the code down.  
+
+Matlab version using mixture of loops and vectorized functions.
+
+Fortran version (GULP) 
 
 %--------------------------------------------------------------------------
 \subsection{Case-study 1: Allen-Feldman Diffusivity Calculation}
@@ -294,174 +591,17 @@ cpu cores	: 8
 apicid		: 16
 \end{lstlisting}
 
-
 %--------------------------------------------------------------------------
-\subsection{Online Resources}
-%--------------------------------------------------------------------------
-
-wikipedia
-
-\href{http://www.sklogwiki.org/SklogWiki/index.php/Main_Page}
-{octave}
-
-https://en.wikipedia.org/wiki/Lennard-Jones_potential
-
-http://www.sklogwiki.org/SklogWiki/index.php/Lennard-Jones_model
-
-we can do better, needs to be organization. 
-
-http://nanohub.org/
-
-does not provide good HPC resources. 
-
-%--------------------------------------------------------------------------
-\subsection{Latex Resources}
+\subsection{Case-study 1: Normal Mode Decomposition}
 %--------------------------------------------------------------------------
 
-http://tex.stackexchange.com/questions/1596/how-to-compile-a-latex-document
-
-http://stackoverflow.com/questions/2461905/compiling-latex-bib-source
-
-http://publish.aps.org/revtex
-
-used 
-
-http://kile.sourceforge.net/
-
-http://www.zotero.org/
+Shows uses shared memory arrays and multi-processing on these arrays. 
 
 
 
 
-
-
-
-%--------------------------------------------------------------------------
-\subsection{Google Searching}
-%--------------------------------------------------------------------------
-
-Web-searching. 
-
-keywords: integrated development environment (IDE), 
-
-%--------------------------------------------------------------------------
-\subsection{Symmetry Discussion}
-%--------------------------------------------------------------------------
-
-\href{https://github.com/ankitjainmeiitk}
-{https://github.com/ankitjainmeiitk}
-
-http://spglib.sourceforge.net/
-
-Ab initio codes such as abinit and quantum espresso also print the 
-symmetry operations information.
-
-$k_{ij} = k_{ji}$  and $k_{ii} = k{jj}$ show using symmetry operations
-
-$S = [-100;010;001 ]$
-
-
-This applies to any vector or tensor property of the crystal.
-      
-\cite{sinha_scattering_2005}
-
-\href{https://github.com/jasonlarkin/disorder/blob/master/matlab/lj/phonon/LJ_PRIM_CONV_MAPPING.m}
-{lennard-jones FCC primitive conventional mapping}
-
-
-%--------------------------------------------------------------------------
-\subsubsection{KPT symmetries}
-%--------------------------------------------------------------------------
-
-property(k) = property(-k)  for all
-
-show how kpts are reduced to first octant using just rotations
-
-show how kpts in first octant are reduced.
-
-%--------------------------------------------------------------------------
-\subsection{Normal Mode Decomposition}
-%--------------------------------------------------------------------------
-harmonic assumption
-MD is anharmonic
-
-%--------------------------------------------------------------------------
-\subsubsection{Eigvec mapping}
-%--------------------------------------------------------------------------
-
-%--------------------------------------------------------------------------
-\subsection{VC-NMD versus Gamma-NMD}
-%--------------------------------------------------------------------------
-
-
-%--------------------------------------------------------------------------
-\section{Computability}
-%--------------------------------------------------------------------------
-
-research.idea = 'string'
-
-%--------------------------------------------------------------------------
-\section{Unsorted}
-%--------------------------------------------------------------------------
- 
-the smartest ppl ion the world shud be using the same shit
-
-%--------------------------------------------------------------------------
-\section{Perspectives}
-%--------------------------------------------------------------------------
-
-%--------------------------------------------------------------------------
-\subsection{Preparing Journal Articles}
-%--------------------------------------------------------------------------
-
-The job of the student is to prepare, submit, and (hopefully) publish 
-peer-reviewed journal articles. There are many journals suitable for 
-nanoscale transport topics.  Here is one example of the latex files 
-used to create an article used in this work:
-
-This file uses Revtex, which is an article class used by Physical Review, 
-Journal of Applied Physics, and others. The paper can be compiled using:
-
-
-
-These can be used as templates
-
-
-
-Here is a Carnegie Mellon thesis template:
-
-https://github.com/robsimmons/cmu-thesis
-
-Useful article on structuring large documents
-
-http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html
-
-
-
-1) Use latex
-- reccomend Kile editor, gedit works well too. 
-- reccomend zotero to maintain library.bib
-
-1) Time to prepare each paper
-
-reccomendation: student advisor should try and exchange editing a written 
-research document every day, at least every week.  
-
-Such a research document could be the running 
-collection of journal articles which turn into the thesis. Maintenance 
-of this document can be achieved with Dropbox or Github.  Github 
-offers to advantage of smart version control and internet wiki. 
-
-2) Computational cost of each paper
-
-CPU, memory
-parallel cpu, parallel memory
-
-Trends: 
-small single cpu jobs -> large parallel cpu jobs
-single predictive method -> several predictive methods
-
-reccomendation: explore all predictive methods and models possible
+cython: example LAMMPS python wrapper
+f2py: simple example. suggest warpper be built for GULP.
 
 %--------------------------------------------------------------------------
 \subsection{Scaling Calculations}
@@ -492,43 +632,60 @@ decrease the numner of data-point accordingly.
 reccomendation: 
 %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\subsection{Plottable Code}
-%--------------------------------------------------------------------------
-
-It is important to explore various predictive methods visually.  
-reccomendation: matplotlib provides an enormous number of plotting 
-tools.
-
-Here is a simple example using the python wrapper for lammps 
-with matplotlib to visualize. An MD simuation of LJ argon 
-is visualized. An atom is placed into an unusually high energy 
-position, which initiates melt to the liquid phase. 
-
-matplotlib, code version with and without plotting capability.
 
 %--------------------------------------------------------------------------
-\subsection{Scaling into Multi-CPU Dimension}
+\subsection{Online Resources}
 %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\subsubsection{Python w/o shared Memory}
-%--------------------------------------------------------------------------
+wikipedia
+
+\href{http://www.sklogwiki.org/SklogWiki/index.php/Main_Page}
+{octave}
+
+https://en.wikipedia.org/wiki/Lennard-Jones_potential
+
+http://www.sklogwiki.org/SklogWiki/index.php/Lennard-Jones_model
+
+we can do better, needs to be organization. 
+
+http://nanohub.org/
+
+does not provide good HPC resources. 
+
 
 %--------------------------------------------------------------------------
-\subsubsection{Python w/ shared Memory (Parallel Python)}
+\subsection{Importance of Open-Source Code}
 %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\subsubsection{Compiled Code w/ Python Wrapper: Fortran and C++}
-%--------------------------------------------------------------------------
+LAMMPS Mailing List
+http://lammps.sandia.gov/threads/threads.html
 
-cython: example LAMMPS python wrapper
-f2py: simple example. suggest warpper be built for GULP.
+search: 
 
-%--------------------------------------------------------------------------
-\section{Importance of Open-Source Code}
-%--------------------------------------------------------------------------
+lennard (jones)	45
+silicon		125
+nanotube	153
+ger
+
+
+Execellent discussion of ensembles and newtonian dynamics
+http://lammps.sandia.gov/threads/msg13979.htmlmanium	2
+silica		79
+carbon		181
+hydrogen	99
+fullerene(C60)	7(12)	
+Pb (lead)	2
+water		541
+copper(cu)	25
+gold		81
+diamond		43
+
+phase transition	21
+green kubo	18
+
+
+Execellent discussion of ensembles and newtonian dynamics
+http://lammps.sandia.gov/threads/msg13979.html
 
 video of python development tree
 
@@ -542,45 +699,46 @@ grand-daddy of them all,
 \href{http://www.youtube.com/watch?v=pOSqctHH9vY}
 {linux kernel history with gource}
 
-It is important that results become more open-source.  It's important 
-that our communication becomes open-source. It's important that the 
-entire numerical process be carried out open-source. 
+%It is important that results become more open-source.  It's important 
+%that our communication becomes open-source. It's important that the 
+%entire numerical process be carried out open-source. 
 
-%--------------------------------------------------------------------------
-\subsection{Redundancy}
-%--------------------------------------------------------------------------
 
-There are 3 different codes (shiomi/esfarjani, broido, ankit) for 
-performing the same basic calculations.
-
-For LD, there is GULP, phonopy, SIESTA, etc.
-
-%--------------------------------------------------------------------------
-\subsection{Code Development}
-%--------------------------------------------------------------------------
-
-took ankit 10 months to re-develop esfarjani code.  
-
-code development time can be drastically reduced using pre-existing code. 
-codes written in a modular fashion can be added to easily.
-
-%--------------------------------------------------------------------------
-\subsection{Experiment Pre-dating Simulation}
-%--------------------------------------------------------------------------
-The ideal goal of simulation is to pre-date experiment.  This has not 
-been achieved yet.  See Fig.
-
-findings for:
-CNT/Graphene
-Si
-Thermoeletric (LUC, alloys, SL, etc)
-Perovskites
-PCM
-
-%--------------------------------------------------------------------------
-\subsection{Experiment Pre-dating Simulation}
-%--------------------------------------------------------------------------
-
-ntpl most cited paper 1-5:
-maradudin, ladd, dove, ziman, 
+%%--------------------------------------------------------------------------
+%\subsection{Redundancy}
+%%--------------------------------------------------------------------------
+%
+%There are 3 different codes (shiomi/esfarjani, broido, ankit) for 
+%performing the same basic calculations.
+%
+%For LD, there is GULP, phonopy, SIESTA, etc.
+%
+%%--------------------------------------------------------------------------
+%\subsection{Code Development}
+%%--------------------------------------------------------------------------
+%
+%took ankit 10 months to re-develop esfarjani code.  
+%
+%code development time can be drastically reduced using pre-existing code. 
+%codes written in a modular fashion can be added to easily.
+%
+%%--------------------------------------------------------------------------
+%\subsection{Experiment Pre-dating Simulation}
+%%--------------------------------------------------------------------------
+%The ideal goal of simulation is to pre-date experiment.  This has not 
+%been achieved yet.  See Fig.
+%
+%findings for:
+%CNT/Graphene
+%Si
+%Thermoeletric (LUC, alloys, SL, etc)
+%Perovskites
+%PCM
+%
+%%--------------------------------------------------------------------------
+%\subsection{Experiment Pre-dating Simulation}
+%%--------------------------------------------------------------------------
+%
+%ntpl most cited paper 1-5:
+%maradudin, ladd, dove, ziman, 
 
