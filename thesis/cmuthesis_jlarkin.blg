@@ -13,21 +13,12 @@ Warning--I didn't find a database entry for "mcgaughey_size-independent_2011"
 Warning--I didn't find a database entry for "turney_assesing_2009"
 Warning--I didn't find a database entry for "dekoker_thermal_2009"
 Warning--I didn't find a database entry for "brenner_second_2002"
+Warning--I didn't find a database entry for "turneythesis"
 Warning--I didn't find a database entry for "LAMMPS"
 Warning--I didn't find a database entry for "GULP"
-Warning--I didn't find a database entry for "turneythesis"
-Warning--I didn't find a database entry for "peierls_"
-Warning--I didn't find a database entry for "ziman"
-Warning--I didn't find a database entry for "wallace_thermodynamics_1976"
-Warning--I didn't find a database entry for "srivastava_1990"
-Warning--I didn't find a database entry for "dove_lattice_1993"
-Warning--I didn't find a database entry for "griffiths_introduction_1995"
-Warning--I didn't find a database entry for "martin_electronic_2004"
-Warning--I didn't find a database entry for "mcquarrie_mathematical_2003"
-Warning--I didn't find a database entry for "moin_fundamentals_2010"
 You've used 113 entries,
             1791 wiz_defined-function locations,
-            1071 strings with 23926 characters,
+            1062 strings with 23756 characters,
 and the built_in function-call counts, 28832 in all, are:
 = -- 2431
 > -- 1303
@@ -66,4 +57,4 @@ warning$ -- 0
 while$ -- 210
 width$ -- 116
 write$ -- 1239
-(There were 22 warnings)
+(There were 13 warnings)

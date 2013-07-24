@@ -1810,63 +1810,63 @@ and Zhiting Tian for helpful discussions.
 %matlab NMD: /home/jason/lammps/LJ/alloy/10K/0.5/12x/NMD/1
 %35261.719809 for one NMD_1_1
 
-%--------------------------------------------------------------------------
-\section{\label{A:NMD XCORR}
-NMD using Non-Exact Normal Modes}
-%--------------------------------------------------------------------------
+%%--------------------------------------------------------------------------
+%\section{\label{A:NMD XCORR}
+%NMD using Non-Exact Normal Modes}
+%%--------------------------------------------------------------------------
 
-For a normal mode of the lattice supercell 
-used for the MD simulations (i.e., a Gamma mode), 
-the total energy autocorrelation is an exponential function  
-with a decay time $\tau\kv$ and the kinetic energy autocorrelation is a 
-exponentially-damped sinusoidal oscillation with frequency 
-$2\omega\kv$.\cite{mcgaughey_predicting_2013} 
-When projecting MD simulations  
-of the explicitly disordered lattice supercells 
-onto the VC normal modes, 
-the energy autocorrelation functions 
-do not always follow these simple functional forms, 
-as shown in Fig. \ref{F:NMD XCORR} for two modes in the LJ alloy at a 
-concentration of 0.5.  
-By calculating the mode kinetic energy in the  
-frequency-domain, $\Phi$,\cite{larkin_comparison_2012} artifacts such as 
-multiple peaks are observed (see main plot).   
+%For a normal mode of the lattice supercell 
+%used for the MD simulations (i.e., a Gamma mode), 
+%the total energy autocorrelation is an exponential function  
+%with a decay time $\tau\kv$ and the kinetic energy autocorrelation is a 
+%exponentially-damped sinusoidal oscillation with frequency 
+%$2\omega\kv$.\cite{mcgaughey_predicting_2013} 
+%When projecting MD simulations  
+%of the explicitly disordered lattice supercells 
+%onto the VC normal modes, 
+%the energy autocorrelation functions 
+%do not always follow these simple functional forms, 
+%as shown in Fig. \ref{F:NMD XCORR} for two modes in the LJ alloy at a 
+%concentration of 0.5.  
+%By calculating the mode kinetic energy in the  
+%frequency-domain, $\Phi$,\cite{larkin_comparison_2012} artifacts such as 
+%multiple peaks are observed (see main plot).   
 
-These artifacts are not surprising given two considerations: 
-(i) the MD simulations 
-contain explicit disorder that influences the atomic trajectories, 
-and (ii) the VC-normal modes are not the exact normal modes of the 
-explicitly-disordered lattice supercells. 
-An effective lifetime can be predicted 
-using Eq. \eqref{EQ:tau_nmd} 
-because the VC total mode energy autocorrelations 
-still decay to zero in a finite time. This result is to be expected 
-given that the atomic trajectories contain 
-information about the lattice energy, which from general statistical 
-physics principles will have exponential relaxation behavior in an 
-equilibrium ensemble.
-\cite{landau_statistical_1980,srivastava_physics_1990,rajabpour_thermal_2010}
+%These artifacts are not surprising given two considerations: 
+%(i) the MD simulations 
+%contain explicit disorder that influences the atomic trajectories, 
+%and (ii) the VC-normal modes are not the exact normal modes of the 
+%explicitly-disordered lattice supercells. 
+%An effective lifetime can be predicted 
+%using Eq. \eqref{EQ:tau_nmd} 
+%because the VC total mode energy autocorrelations 
+%still decay to zero in a finite time. This result is to be expected 
+%given that the atomic trajectories contain 
+%information about the lattice energy, which from general statistical 
+%physics principles will have exponential relaxation behavior in an 
+%equilibrium ensemble.
+%\cite{landau_statistical_1980,srivastava_physics_1990,rajabpour_thermal_2010}
 
-%--------------------------------------------------------------------------
-\begin{figure}
-\begin{center}
-\includegraphics[scale=1.0]
-{/home/jason/disorder/paper/vc/fig10.eps}
-\vspace*{-5mm}
-\end{center}
-\caption{\label{F:NMD XCORR} The normal mode kinetic energy, $\Phi$,  
-of two modes (A and B) at wavevector [0.25 0 0] calculated 
-using VC-NMD for a mass disordered LJ FCC supercell 
-($N_0=8$ and $c=0.5$) is shown in the main figure. 
-The VC dispersion-predicted peaks are labeled 
-by $\omega_0$. The inset shows the same mode's energy 
-[kinetic ($KE$) and total ($TE$)] autocorrelation functions.  
-Note the additional oscillation effects in the KE and TE autocorrelation 
-functions for Mode B which are due to the two peaks in $\Phi$. 
-A mode lifetime can 
-be extracted unambiguously using the integral of the TE autocorrelation 
-function [Eq. \eqref{EQ:tau_nmd} in Section \ref{S:From VC Gamma}].}
-\end{figure}
-%--------------------------------------------------------------------------
+%%--------------------------------------------------------------------------
+%\begin{figure}
+%\begin{center}
+%\includegraphics[scale=1.0]
+%{/home/jason/disorder/paper/vc/fig10.eps}
+%\vspace*{-5mm}
+%\end{center}
+%\caption{\label{F:NMD XCORR} The normal mode kinetic energy, $\Phi$,  
+%of two modes (A and B) at wavevector [0.25 0 0] calculated 
+%using VC-NMD for a mass disordered LJ FCC supercell 
+%($N_0=8$ and $c=0.5$) is shown in the main figure. 
+%The VC dispersion-predicted peaks are labeled 
+%by $\omega_0$. The inset shows the same mode's energy 
+%[kinetic ($KE$) and total ($TE$)] autocorrelation functions.  
+%Note the additional oscillation effects in the KE and TE autocorrelation 
+%functions for Mode B which are due to the two peaks in $\Phi$. 
+%A mode lifetime can 
+%be extracted unambiguously using the integral of the TE autocorrelation 
+%function [Eq. \eqref{EQ:tau_nmd} in Section \ref{S:From VC Gamma}].}
+%\end{figure}
+%%--------------------------------------------------------------------------
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.4.23)  15 JUL 2013 11:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.4.23)  24 JUL 2013 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -339,9 +339,6 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 )
 (./cmuthesis_jlarkin.aux
 
-LaTeX Warning: Label `T:cond_table' multiply defined.
-
-
 LaTeX Warning: Label `E:Lorentzian_NMD' multiply defined.
 
 
@@ -352,6 +349,9 @@ LaTeX Warning: Label `A:E:Lorentzian_NMD' multiply defined.
 
 
 LaTeX Warning: Label `A:E:equipartition' multiply defined.
+
+
+LaTeX Warning: Label `T:cond_table' multiply defined.
 
 
 LaTeX Warning: Label `some-code' multiply defined.
@@ -447,163 +447,148 @@ LaTeX Info: Redefining \nameref on input line 243.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
 \@cutoutvskip=\skip50
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 288.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 283.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 288.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 288.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 283.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 283.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
  [1
+
 
 
 ] [2
 
-] [3
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 293.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [3
 
 
 ] [4
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 298.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 
 [5] [6
 
 
-] [7]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
- [8
-
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 318.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
  (./cmuthesis_jlarkin.toc
-Overfull \hbox (351.9104pt too wide) in paragraph at lines 1--1
-  [] []  
+Overfull \hbox (351.9104pt too wide) in paragraph at lines 3--3
+ [] [] []  
  []
 
-[9
 
-])
+Overfull \hbox (126.87753pt too wide) in paragraph at lines 20--20
+ [] [] []  
+ []
+
+[7]
+Overfull \hbox (10.98344pt too wide) in paragraph at lines 62--62
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (41.77406pt too wide) in paragraph at lines 64--64
+ [][] [] [][]  
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `cmuthesis_jlarkin.toc'.
 
- [10] (./cmuthesis_jlarkin.lof
-
-Package natbib Warning: Citation `momma_vesta:_2008' on page xi undefined on in
-put line 2.
-
-
-Overfull \hbox (1035.07703pt too wide) in paragraph at lines 2--2
+ [8] (./cmuthesis_jlarkin.lof
+Overfull \hbox (1030.63708pt too wide) in paragraph at lines 3--3
  [][] [] [][]  
  []
 
 
-Overfull \hbox (2082.09476pt too wide) in paragraph at lines 3--3
+Overfull \hbox (2082.09476pt too wide) in paragraph at lines 4--4
  [][] [] [][]  
  []
 
 
-Overfull \hbox (1787.6105pt too wide) in paragraph at lines 4--4
+Overfull \hbox (1787.6105pt too wide) in paragraph at lines 5--5
  [][] [] [][]  
  []
 
 
-Package natbib Warning: Citation `taraskin_determination_1999' on page xi undef
-ined on input line 5.
-
-
-Overfull \hbox (2240.08104pt too wide) in paragraph at lines 5--5
+Overfull \hbox (2235.6411pt too wide) in paragraph at lines 6--6
  [][] [] [][]  
  []
 
 
-Overfull \hbox (1627.87962pt too wide) in paragraph at lines 6--6
+Overfull \hbox (1627.87962pt too wide) in paragraph at lines 7--7
  [][] [] [][]  
  []
 
 
-Overfull \hbox (1002.02042pt too wide) in paragraph at lines 7--7
+Overfull \hbox (1002.02042pt too wide) in paragraph at lines 8--8
  [][] [] [][]  
  []
 
 
-Overfull \hbox (837.12523pt too wide) in paragraph at lines 8--8
+Overfull \hbox (837.12523pt too wide) in paragraph at lines 9--9
  [][] [] [][]  
  []
 
 
-Overfull \hbox (1836.64177pt too wide) in paragraph at lines 9--9
+Overfull \hbox (1836.64177pt too wide) in paragraph at lines 10--10
  [][] [] [][]  
  []
 
 
-Overfull \hbox (1014.55965pt too wide) in paragraph at lines 10--10
+Overfull \hbox (1014.55965pt too wide) in paragraph at lines 11--11
  [][] [] [][]  
  []
 
 
-Overfull \hbox (2583.4464pt too wide) in paragraph at lines 11--11
+Overfull \hbox (2583.4464pt too wide) in paragraph at lines 16--16
  [][] [] [][]  
  []
 
 
-Overfull \hbox (2210.04436pt too wide) in paragraph at lines 14--14
+Overfull \hbox (2210.04436pt too wide) in paragraph at lines 17--17
  [][] [] [][]  
  []
 
 
-Overfull \hbox (1837.95355pt too wide) in paragraph at lines 15--15
+Overfull \hbox (1715.16603pt too wide) in paragraph at lines 18--18
  [][] [] [][]  
  []
 
 
-Overfull \hbox (902.3305pt too wide) in paragraph at lines 16--16
+Overfull \hbox (1837.95355pt too wide) in paragraph at lines 19--19
  [][] [] [][]  
  []
 
 
-Overfull \hbox (554.9476pt too wide) in paragraph at lines 17--17
+Overfull \hbox (902.3305pt too wide) in paragraph at lines 20--20
  [][] [] [][]  
  []
 
 
-Overfull \hbox (695.13408pt too wide) in paragraph at lines 18--18
+Overfull \hbox (554.9476pt too wide) in paragraph at lines 21--21
  [][] [] [][]  
  []
 
 
-Overfull \hbox (1715.16603pt too wide) in paragraph at lines 19--19
+Overfull \hbox (695.13408pt too wide) in paragraph at lines 22--22
  [][] [] [][]  
  []
 
@@ -611,17 +596,17 @@ Overfull \hbox (1715.16603pt too wide) in paragraph at lines 19--19
 \tf@lof=\write5
 \openout5 = `cmuthesis_jlarkin.lof'.
 
- [11
+ [9
 
-] [12
+] [10
 
 ] (./cmuthesis_jlarkin.lot
-Overfull \hbox (2079.88373pt too wide) in paragraph at lines 2--2
+Overfull \hbox (2079.88373pt too wide) in paragraph at lines 3--3
  [][] [] [][]  
  []
 
 
-Overfull \hbox (2866.81688pt too wide) in paragraph at lines 5--5
+Overfull \hbox (2866.81688pt too wide) in paragraph at lines 8--8
  [][] [] [][]  
  []
 
@@ -629,426 +614,26 @@ Overfull \hbox (2866.81688pt too wide) in paragraph at lines 5--5
 \tf@lot=\write6
 \openout6 = `cmuthesis_jlarkin.lot'.
 
- [13] [14
+ [11] [12
 
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.347 ...duates/thesis_dissertation_policies.html}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.347 ...duates/thesis_dissertation_policies.html}
-                                                  
-? 
-
-Overfull \hbox (103.04768pt too wide) in paragraph at lines 346--348
-[]\OT1/ptm/m/n/12 I get the re-quire-ments here [][][][] 
- []
-
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ” in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ” in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-(/home/jason/thesis/thesis/vc/vc.tex [1] [2
-
-]
+] (/home/jason/thesis/thesis/introduction.tex
 Chapter 1.
+) (/home/jason/thesis/thesis/vc/vc.tex [1
 
-Package natbib Warning: Citation `graebner_phonon_1986' on page 3 undefined on 
-input line 48.
+] [2
 
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 3 undefined on i
-nput line 48.
-
-
-Package natbib Warning: Citation `lu_thermal_1992' on page 3 undefined on input
- line 48.
-
-
-Package natbib Warning: Citation `chen_recent_2003' on page 3 undefined on inpu
-t line 48.
-
-
-Package natbib Warning: Citation `clarke_thermal_2005' on page 3 undefined on i
-nput line 48.
-
-
-Package natbib Warning: Citation `snyder_complex_2008' on page 3 undefined on i
-nput line 48.
-
-
-Package natbib Warning: Citation `minnich_bulk_2009' on page 3 undefined on inp
-ut line 48.
-
-
-Package natbib Warning: Citation `toberer_phonon_2011' on page 3 undefined on i
-nput line 48.
-
-
-Package natbib Warning: Citation `zebarjadi_perspectives_2012' on page 3 undefi
-ned on input line 48.
-
-
-Package natbib Warning: Citation `schiffres_gas_2012' on page 3 undefined on in
-put line 48.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 3 undefined on i
-nput line 53.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 3 undefined on 
-input line 53.
-
-
-Package natbib Warning: Citation `abeles_thermal_1962' on page 3 undefined on i
-nput line 55.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 3 undefined on i
-nput line 55.
-
+]
+Chapter 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-
-Package natbib Warning: Citation `feldman_thermal_1993' on page 4 undefined on 
-input line 61.
-
-
-Package natbib Warning: Citation `allen_diffusons_1999' on page 4 undefined on 
-input line 61.
-
-
-Package natbib Warning: Citation `ward_intrinsic_2010' on page 4 undefined on i
-nput line 66.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 4 undefined on 
-input line 66.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 4 undefined on input 
-line 66.
-
-
-Package natbib Warning: Citation `shiga_microscopic_2012' on page 4 undefined o
-n input line 66.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 4 undefined on inpu
-t line 66.
-
-
-Package natbib Warning: Citation `li_thermal_2012' on page 4 undefined on input
- line 66.
-
-
-Package natbib Warning: Citation `luckyanova_coherent_2012' on page 4 undefined
- on input line 66.
-
-
-Package natbib Warning: Citation `ward_ab_2009' on page 4 undefined on input li
-ne 70.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 4 undefined on input 
-line 70.
-
-
-Package natbib Warning: Citation `bao_first-principles_2012' on page 4 undefine
-d on input line 70.
-
-
-Package natbib Warning: Citation `sosso_thermal_2012' on page 4 undefined on in
-put line 70.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 4 undefined on 
-input line 70.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 4 undefined on inpu
-t line 70.
-
-
-Package natbib Warning: Citation `li_thermal_2012' on page 4 undefined on input
- line 70.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 4 undefined on i
-nput line 76.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 4 undefined on i
-nput line 82.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 4 undefined on i
-nput line 82.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 4 undefined on input 
-line 82.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 4 undefined on inpu
-t line 82.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 4 undefined on 
-input line 82.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 4 undefined on input 
-line 89.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 4 undefined on 
-input line 89.
-
-
-Package natbib Warning: Citation `li_thermal_2012' on page 4 undefined on input
- line 89.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 4 undefined on inpu
-t line 90.
-
-[4]
-
-Package natbib Warning: Citation `ward_intrinsic_2010' on page 5 undefined on i
-nput line 191.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 5 undefined on input 
-line 191.
-
-
-Package natbib Warning: Citation `ward_ab_2009' on page 5 undefined on input li
-ne 196.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 5 undefined on 
-input line 196.
-
-
-Package natbib Warning: Citation `allen_thermal_1993' on page 5 undefined on in
-put line 220.
-
-
-Package natbib Warning: Citation `allen_thermal_1993' on page 5 undefined on in
-put line 227.
-
-
-Package natbib Warning: Citation `feldman_thermal_1993' on page 5 undefined on 
-input line 227.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 5 undefined o
-n input line 227.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 5 undefined on i
-nput line 232.
-
-[5]
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 6 undefined on i
-nput line 254.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 6 undefined on i
-nput line 261.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 6 undefined on i
-nput line 264.
-
-
-Package natbib Warning: Citation `klemens_scattering_1955' on page 6 undefined 
-on input line 264.
-
-
-Package natbib Warning: Citation `klemens_thermal_1957' on page 6 undefined on 
-input line 264.
-
-
-Package natbib Warning: Citation `mattis_phonon_1957' on page 6 undefined on in
-put line 264.
-
-
-Package natbib Warning: Citation `kamitakahara_vibrations_1974' on page 6 undef
-ined on input line 264.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 6 undefined on i
-nput line 274.
-
-
-Package natbib Warning: Citation `cahill_thermal_2004' on page 6 undefined on i
-nput line 282.
-
-
-Package natbib Warning: Citation `cahill_thermal_2004' on page 6 undefined on i
-nput line 285.
-
-
-Package natbib Warning: Citation `cahill_thermal_2005' on page 6 undefined on i
-nput line 285.
-
-
-Package natbib Warning: Citation `skye_thermal_2008' on page 6 undefined on inp
-ut line 289.
-
-
-Package natbib Warning: Citation `tian_enhancing_2012' on page 6 undefined on i
-nput line 292.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 6 undefined on input 
-line 299.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 6 undefined on inpu
-t line 299.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 6 undefined on 
-input line 299.
-
-
-Package natbib Warning: Citation `klemens_scattering_1955' on page 6 undefined 
-on input line 304.
-
-
-Package natbib Warning: Citation `klemens_thermal_1957' on page 6 undefined on 
-input line 304.
-
-
-Package natbib Warning: Citation `mattis_phonon_1957' on page 6 undefined on in
-put line 304.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 6 undefined on i
-nput line 304.
-
-
-Package natbib Warning: Citation `mattis_phonon_1957' on page 6 undefined on in
-put line 310.
-
-
-Package natbib Warning: Citation `kamitakahara_vibrations_1974' on page 6 undef
-ined on input line 310.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 6 undefined on i
-nput line 310.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 6 undefined on 
-input line 317.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 6 undefined on input 
-line 321.
-
-
-Package natbib Warning: Citation `li_thermal_2012' on page 6 undefined on input
- line 330.
-
-
-Package natbib Warning: Citation `luckyanova_coherent_2012' on page 6 undefined
- on input line 334.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 6 undefined on i
-nput line 341.
-
-
-Package natbib Warning: Citation `kamitakahara_vibrations_1974' on page 6 undef
-ined on input line 341.
-
-
-Package natbib Warning: Citation `cahill_thermal_2004' on page 6 undefined on i
-nput line 341.
-
-
-Package natbib Warning: Citation `cahill_thermal_2005' on page 6 undefined on i
-nput line 341.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 6 undefined on i
-nput line 341.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 6 undefined on input 
-line 341.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 6 undefined on 
-input line 341.
-
-[6]
-
-Package natbib Warning: Citation `shiga_microscopic_2012' on page 7 undefined o
-n input line 344.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 7 undefined on inpu
-t line 349.
-
-
-Package natbib Warning: Citation `kudman_thermoelectric_1972' on page 7 undefin
-ed on input line 350.
-
-
-Package natbib Warning: Citation `pei_convergence_2011' on page 7 undefined on 
-input line 350.
-
+[4] [5] [6]
 File: /home/jason/disorder/paper/vc/fig1.eps Graphic file (type eps)
-</home/jason/disorder/paper/vc/fig1.eps>
+ </home/jason/disorder/paper/vc/fig1.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `momma_vesta:_2008' on page 7 undefined on inp
-ut line 414.
-
-
-Package natbib Warning: Citation `momma_vesta:_2008' on page 7 undefined on inp
-ut line 414.
-
-[7]
+ [7]
 
 LaTeX Warning: Command \r invalid in math mode on input line 447.
 
@@ -1059,110 +644,18 @@ LaTeX Warning: Command \r invalid in math mode on input line 462.
 LaTeX Warning: Command \r invalid in math mode on input line 463.
 
 
-Package natbib Warning: Citation `he_lattice_2012' on page 8 undefined on input
- line 466.
-
-
-Package natbib Warning: Citation `sellan_cross-plane_2010' on page 8 undefined 
-on input line 467.
-
-
 LaTeX Warning: Command \r invalid in math mode on input line 475.
 
-
-Package natbib Warning: Citation `garg_role_2011' on page 8 undefined on input 
-line 516.
-
-
-Package natbib Warning: Citation `bouchard_vibrational_1988' on page 8 undefine
-d on input line 518.
-
 [8]
-
-Package natbib Warning: Citation `duda_reducing_2011' on page 9 undefined on in
-put line 535.
-
-
-Package natbib Warning: Citation `chu_effect_1989' on page 9 undefined on input
- line 537.
-
 File: /home/jason/disorder/paper/vc/fig2.eps Graphic file (type eps)
-</home/jason/disorder/paper/vc/fig2.eps> [9] [10]
-
-Package natbib Warning: Citation `he_heat_2011' on page 11 undefined on input l
-ine 584.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 11 undefined on 
-input line 589.
-
-
-Package natbib Warning: Citation `duda_reducing_2011' on page 11 undefined on i
-nput line 589.
-
-
-Package natbib Warning: Citation `donadio_atomistic_2009' on page 11 undefined 
-on input line 589.
-
-
-Package natbib Warning: Citation `he_heat_2011' on page 11 undefined on input l
-ine 589.
-
-
-Package natbib Warning: Citation `hori_phonon_2013' on page 11 undefined on inp
-ut line 589.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 11 undefined on 
-input line 593.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 11 undefined 
-on input line 594.
-
-
-Package natbib Warning: Citation `duda_reducing_2011' on page 11 undefined on i
-nput line 594.
-
-
-Package natbib Warning: Citation `donadio_atomistic_2009' on page 11 undefined 
-on input line 594.
-
-
-Package natbib Warning: Citation `he_heat_2011' on page 11 undefined on input l
-ine 594.
-
+ </home/jason/disorder/paper/vc/fig2.eps> [9] [10]
 
 Package natbib Warning: Citation `beltukov_ioffe_2013' on page 11 undefined on 
 input line 594.
 
 
-Package natbib Warning: Citation `hori_phonon_2013' on page 11 undefined on inp
-ut line 594.
-
-
-Package natbib Warning: Citation `allen_diffusons_1999' on page 11 undefined on
- input line 600.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 11 undefined 
-on input line 600.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 11 undefined 
-on input line 603.
-
-
-Package natbib Warning: Citation `volz_molecular-dynamics_2000' on page 11 unde
-fined on input line 606.
-
-
 Package natbib Warning: Citation `beltukov_ioffe_2013' on page 11 undefined on 
 input line 608.
-
-
-Package natbib Warning: Citation `allen_diffusons_1999' on page 11 undefined on
- input line 611.
 
 ! Undefined control sequence.
 l.613 S^{L,T}\kvcw
@@ -1283,42 +776,14 @@ l.646 Physically, $S^{L,T}\kw
                              $ represents
 ? 
 
-Package natbib Warning: Citation `allen_diffusons_1999' on page 11 undefined on
- input line 649.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 11 undefined 
-on input line 649.
-
-
-Package natbib Warning: Citation `green_density_2011' on page 11 undefined on i
-nput line 649.
-
-
 Package natbib Warning: Citation `vc_fn1' on page 11 undefined on input line 65
 6.
-
-
-Package natbib Warning: Citation `allen_diffusons_1999' on page 11 undefined on
- input line 662.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 11 undefined 
-on input line 662.
 
 [11
 
 ]
 File: /home/jason/disorder/paper/vc/fig3.eps Graphic file (type eps)
  </home/jason/disorder/paper/vc/fig3.eps> [12] [13]
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 14 undefine
-d on input line 723.
-
-
-Package natbib Warning: Citation `larkin_comparison_2012' on page 14 undefined 
-on input line 723.
-
 ! Undefined control sequence.
 \SUM #1#2->\ifthenelse 
                        {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
@@ -1529,10 +994,6 @@ l.755 ...{<E\kvt E\kvzero>}{ <E\kvzero E\kvzero> }
 l.755 ...{<E\kvt E\kvzero>}{ <E\kvzero E\kvzero> }
                                                   dt,
 ? 
-
-Package natbib Warning: Citation `larkin_comparison_2012' on page 14 undefined 
-on input line 759.
-
 ! Undefined control sequence.
 l.766 Gamma supercell [$\omega\kgv
                                   $, $e\kgvba$]. Previous studies of
@@ -1541,189 +1002,20 @@ l.766 Gamma supercell [$\omega\kgv
 l.766 Gamma supercell [$\omega\kgv$, $e\kgvba
                                              $]. Previous studies of
 ? 
-
-Package natbib Warning: Citation `donadio_atomistic_2009' on page 14 undefined 
-on input line 770.
-
-
-Package natbib Warning: Citation `he_heat_2011' on page 14 undefined on input l
-ine 770.
-
-
-Package natbib Warning: Citation `he_morphology_2011' on page 14 undefined on i
-nput line 770.
-
-
-Package natbib Warning: Citation `he_lattice_2012' on page 14 undefined on inpu
-t line 770.
-
-
-Package natbib Warning: Citation `hori_phonon_2013' on page 14 undefined on inp
-ut line 770.
-
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 14 undefine
-d on input line 785.
-
 [14
 
 ]
-
-Package natbib Warning: Citation `klemens_scattering_1955' on page 15 undefined
- on input line 814.
-
-
-Package natbib Warning: Citation `klemens_thermal_1957' on page 15 undefined on
- input line 814.
-
-
-Package natbib Warning: Citation `mattis_phonon_1957' on page 15 undefined on i
-nput line 814.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 15 undefined on 
-input line 814.
-
-
-Package natbib Warning: Citation `taraskin_determination_1999' on page 15 undef
-ined on input line 821.
-
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 15 undefine
-d on input line 843.
-
 File: /home/jason/disorder/paper/vc/fig4.eps Graphic file (type eps)
-</home/jason/disorder/paper/vc/fig4.eps>
-
-Package natbib Warning: Citation `taraskin_determination_1999' on page 15 undef
-ined on input line 870.
-
-
-Package natbib Warning: Citation `taraskin_determination_1999' on page 15 undef
-ined on input line 870.
-
-[15] [16]
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 17 undefine
-d on input line 881.
-
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 17 undefine
-d on input line 897.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 17 undefined on input
- line 897.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 17 undefined on inp
-ut line 897.
-
-
-Package natbib Warning: Citation `ecsedy_thermal_1977' on page 17 undefined on 
-input line 903.
-
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 17 undefine
-d on input line 903.
-
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 17 undefine
-d on input line 905.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 17 undefined on 
-input line 912.
-
-
-Package natbib Warning: Citation `klemens_scattering_1955' on page 17 undefined
- on input line 931.
-
-
-Package natbib Warning: Citation `klemens_thermal_1957' on page 17 undefined on
- input line 931.
-
+ </home/jason/disorder/paper/vc/fig4.eps> [15] [16]
 
 Package natbib Warning: Citation `vc_fn2' on page 17 undefined on input line 93
 9.
-
-
-Package natbib Warning: Citation `mattis_phonon_1957' on page 17 undefined on i
-nput line 949.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 17 undefined on 
-input line 949.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 17 undefined on input
- line 974.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 17 undefined on inp
-ut line 975.
-
-
-Package natbib Warning: Citation `li_thermal_2012' on page 17 undefined on inpu
-t line 976.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 17 undefined on 
-input line 979.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 17 undefined on 
-input line 982.
-
-
-Package natbib Warning: Citation `ecsedy_thermal_1977' on page 17 undefined on 
-input line 991.
-
-
-Package natbib Warning: Citation `turney_predicting_2009-1' on page 17 undefine
-d on input line 991.
 
 [17
 
 ]
 File: /home/jason/disorder/paper/vc/fig5.eps Graphic file (type eps)
  </home/jason/disorder/paper/vc/fig5.eps> [18] [19]
-
-Package natbib Warning: Citation `feldman_thermal_1993' on page 20 undefined on
- input line 1030.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 20 undefined on 
-input line 1051.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 20 undefined on 
-input line 1077.
-
-
-Package natbib Warning: Citation `allen_thermal_1993' on page 20 undefined on i
-nput line 1090.
-
-
-Package natbib Warning: Citation `feldman_thermal_1993' on page 20 undefined on
- input line 1094.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 20 undefined 
-on input line 1094.
-
-
-Package natbib Warning: Citation `shenogin_predicting_2009' on page 20 undefine
-d on input line 1094.
-
-
-Package natbib Warning: Citation `sheng_introduction_2006' on page 20 undefined
- on input line 1098.
-
-
-Package natbib Warning: Citation `vitelli_heat_2010' on page 20 undefined on in
-put line 1098.
-
 
 Package natbib Warning: Citation `vc_fn4' on page 20 undefined on input line 11
 00.
@@ -1738,44 +1030,8 @@ Package natbib Warning: Citation `vc_fn5' on page 20 undefined on input line 11
 File: /home/jason/disorder/paper/vc/fig6.eps Graphic file (type eps)
  </home/jason/disorder/paper/vc/fig6.eps> [21]
 
-Package natbib Warning: Citation `feldman_numerical_1999' on page 22 undefined 
-on input line 1151.
-
-
-Package natbib Warning: Citation `xu_energy_2009' on page 22 undefined on input
- line 1151.
-
-
-Package natbib Warning: Citation `allen_thermal_1993' on page 22 undefined on i
-nput line 1153.
-
-
-Package natbib Warning: Citation `feldman_thermal_1993' on page 22 undefined on
- input line 1153.
-
-
-Package natbib Warning: Citation `feldman_numerical_1999' on page 22 undefined 
-on input line 1153.
-
-
-Package natbib Warning: Citation `sheng_heat_1991' on page 22 undefined on inpu
-t line 1174.
-
-
 Package natbib Warning: Citation `beltukov_ioffe_2013' on page 22 undefined on 
 input line 1176.
-
-
-Package natbib Warning: Citation `xu_energy_2009' on page 22 undefined on input
- line 1178.
-
-
-Package natbib Warning: Citation `vitelli_heat_2010' on page 22 undefined on in
-put line 1178.
-
-
-Package natbib Warning: Citation `he_lattice_2012' on page 22 undefined on inpu
-t line 1213.
 
 
 Overfull \hbox (15.58669pt too wide) in paragraph at lines 1220--1226
@@ -1815,182 +1071,17 @@ l.1395 \end{ruledtabular}
                          
 ? 
 [24] [25]
-
-Package natbib Warning: Citation `sellan_cross-plane_2010' on page 26 undefined
- on input line 1426.
-
-
-Package natbib Warning: Citation `he_morphology_2011' on page 26 undefined on i
-nput line 1452.
-
-
-Package natbib Warning: Citation `esfarjani_method_2008' on page 26 undefined o
-n input line 1457.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 26 undefined on input
- line 1457.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 26 undefined on inp
-ut line 1457.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 26 undefined on
- input line 1457.
-
-
-Package natbib Warning: Citation `chaput_phonon-phonon_2011' on page 26 undefin
-ed on input line 1457.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 26 undefined on input
- line 1465.
-
-
-Package natbib Warning: Citation `tamura_isotope_1983' on page 26 undefined on 
-input line 1482.
-
 File: /home/jason/disorder/paper/vc/fig8.eps Graphic file (type eps)
-</home/jason/disorder/paper/vc/fig8.eps>
+ </home/jason/disorder/paper/vc/fig8.eps>
 File: /home/jason/disorder/paper/vc/fig9.eps Graphic file (type eps)
 
 </home/jason/disorder/paper/vc/fig9.eps> [26
 
 ] [27] [28]
-
-Package natbib Warning: Citation `abeles_thermal_1962' on page 29 undefined on 
-input line 1649.
-
-
-Package natbib Warning: Citation `abeles_lattice_1963' on page 29 undefined on 
-input line 1649.
-
-
-Package natbib Warning: Citation `kamitakahara_vibrations_1974' on page 29 unde
-fined on input line 1649.
-
-
-Package natbib Warning: Citation `cahill_thermal_2004' on page 29 undefined on 
-input line 1649.
-
-
-Package natbib Warning: Citation `cahill_thermal_2005' on page 29 undefined on 
-input line 1649.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 29 undefined on input
- line 1649.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 29 undefined on
- input line 1649.
-
-
-Package natbib Warning: Citation `cheaito_experimental_2012' on page 29 undefin
-ed on input line 1649.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 29 undefined on 
-input line 1670.
-
-
-Package natbib Warning: Citation `cahill_thermal_2004' on page 29 undefined on 
-input line 1670.
-
-
-Package natbib Warning: Citation `cahill_thermal_2005' on page 29 undefined on 
-input line 1670.
-
-
-Package natbib Warning: Citation `cheaito_experimental_2012' on page 29 undefin
-ed on input line 1670.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 29 undefined on input
- line 1671.
-
-
-Package natbib Warning: Citation `ward_intrinsic_2010' on page 29 undefined on 
-input line 1675.
-
-
 Overfull \hbox (6.88658pt too wide) in paragraph at lines 1654--1676
 []\OT1/ptm/m/n/12 LJ ar-gon is a ma-te-rial whose ther-mal trans-port has sig-n
 if-i-cant con-tri-bu-tion from high-frequency
  []
-
-
-Package natbib Warning: Citation `ward_intrinsic_2010' on page 29 undefined on 
-input line 1681.
-
-
-Package natbib Warning: Citation `lindsay_thermal_2012' on page 29 undefined on
- input line 1681.
-
-
-Package natbib Warning: Citation `garg_role_2011' on page 29 undefined on input
- line 1681.
-
-
-Package natbib Warning: Citation `shiga_microscopic_2012' on page 29 undefined 
-on input line 1681.
-
-
-Package natbib Warning: Citation `tian_phonon_2012' on page 29 undefined on inp
-ut line 1681.
-
-
-Package natbib Warning: Citation `li_thermal_2012' on page 29 undefined on inpu
-t line 1681.
-
-
-Package natbib Warning: Citation `luckyanova_coherent_2012' on page 29 undefine
-d on input line 1681.
-
-
-Package natbib Warning: Citation `sheng_heat_1991' on page 29 undefined on inpu
-t line 1686.
-
-
-Package natbib Warning: Citation `kittel_interpretation_1949' on page 29 undefi
-ned on input line 1691.
-
-
-Package natbib Warning: Citation `graebner_phonon_1986' on page 29 undefined on
- input line 1691.
-
-
-Package natbib Warning: Citation `cahill_lattice_1988' on page 29 undefined on 
-input line 1691.
-
-
-Package natbib Warning: Citation `sheng_heat_1991' on page 29 undefined on inpu
-t line 1691.
-
-
-Package natbib Warning: Citation `sheng_heat_1991' on page 29 undefined on inpu
-t line 1694.
-
-
-Package natbib Warning: Citation `allen_thermal_1993' on page 29 undefined on i
-nput line 1694.
-
-
-Package natbib Warning: Citation `allen_diffusons_1999' on page 29 undefined on
- input line 1694.
-
-
-Package natbib Warning: Citation `taraskin_determination_1999' on page 29 undef
-ined on input line 1694.
-
-
-Package natbib Warning: Citation `xu_energy_2009' on page 29 undefined on input
- line 1694.
-
-
-Package natbib Warning: Citation `vitelli_heat_2010' on page 29 undefined on in
-put line 1694.
 
 
 Package natbib Warning: Citation `beltukov_ioffe_2013' on page 29 undefined on 
@@ -2016,47 +1107,22 @@ Type  H <return>  for immediate help.
 l.1704 \end{acknowledgements}
                              
 ? 
+) (/home/jason/thesis/thesis/mfp/mfp.tex [29
 
-Package natbib Warning: Citation `mcgaughey_predicting_2013' on page 29 undefin
-ed on input line 1823.
-
-
-Package natbib Warning: Citation `larkin_comparison_2012' on page 29 undefined 
-on input line 1832.
-
-[29
+] [30
 
 ]
+Chapter 3.
+) (/home/jason/thesis/thesis/pcbm/pcbm.tex [31] [32
 
-Package natbib Warning: Citation `landau_statistical_1980' on page 30 undefined
- on input line 1848.
+]
+Chapter 4.
+) (./conclusion.tex [33] [34
 
-
-Package natbib Warning: Citation `rajabpour_thermal_2010' on page 30 undefined 
-on input line 1848.
-
-File: /home/jason/disorder/paper/vc/fig10.eps Graphic file (type eps)
-</home/jason/disorder/paper/vc/fig10.eps>)
-
-! LaTeX Error: File `/home/jason/thesis/thesis/mfp/mfp.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-! LaTeX Error: File `/home/jason/thesis/thesis/pcbm/pcbm.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(./conclusion.tex [30]
-Appendix A.
+]
+Chapter 5.
 ) (/home/jason/thesis/thesis/appendix/appendix.tex
-(/home/jason/thesis/thesis/appendix/appendix_nmd.tex [31
-
-] [32
+(/home/jason/thesis/thesis/appendix/appendix_nmd.tex [35] [36
 
 ]
 Appendix A.
@@ -2067,24 +1133,24 @@ cies and life-times us-ing the phonon
  []
 
 
-Package natbib Warning: Citation `maradudin_dynamical_1974' on page 33 undefine
+Package natbib Warning: Citation `maradudin_dynamical_1974' on page 37 undefine
 d on input line 38.
 
 
-Package natbib Warning: Citation `mcgaughey_size-independent_2011' on page 33 u
+Package natbib Warning: Citation `mcgaughey_size-independent_2011' on page 37 u
 ndefined on input line 53.
 
 
-Package natbib Warning: Citation `turney_assesing_2009' on page 33 undefined on
+Package natbib Warning: Citation `turney_assesing_2009' on page 37 undefined on
  input line 83.
 
-[33]
+[37]
 
-Package natbib Warning: Citation `dekoker_thermal_2009' on page 34 undefined on
+Package natbib Warning: Citation `dekoker_thermal_2009' on page 38 undefined on
  input line 132.
 
 
-Package natbib Warning: Citation `brenner_second_2002' on page 34 undefined on 
+Package natbib Warning: Citation `brenner_second_2002' on page 38 undefined on 
 input line 159.
 
 
@@ -2100,13 +1166,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 170.
 
 
-Package natbib Warning: Citation `maradudin_dynamical_1974' on page 34 undefine
+Package natbib Warning: Citation `maradudin_dynamical_1974' on page 38 undefine
 d on input line 176.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [38]
 ! Undefined control sequence.
 \SUM #1#2->\ifthenelse 
                        {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
@@ -2229,410 +1295,888 @@ l.204 $\mathbf{r}_0\ab{l}{0}
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 252.
+(hyperref)                removing `math shift' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Phi' on input line 252.
+(hyperref)                removing `\Phi' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 252.
+(hyperref)                removing `math shift' on input line 253.
+
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.270  \end{split}
+                  
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.270  \end{split}
+                  
+? 
+[39]
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.286 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse 
+                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM #1#2->\ifthenelse {\equal 
+                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
+                                                  {\equal {#1}{1}}{\sum _{\a...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
+                                                  {#1}{1}}{\sum _{\alpha _{#...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.293 \end{split}
+                 
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.296 $\mathbf{r}_0\ab{l}{0}
+                            $ is the equilibrium position vector of the
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.296 $\mathbf{r}_0\ab{l}{0}
+                            $ is the equilibrium position vector of the
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.296 $\mathbf{r}_0\ab{l}{0}
+                            $ is the equilibrium position vector of the
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.296 $\mathbf{r}_0\ab{l}{0}
+                            $ is the equilibrium position vector of the
+? 
+[40]
+
+Package natbib Warning: Citation `maradudin_dynamical_1974' on page 41 undefine
+d on input line 403.
+
+[41] [42]
+
+Package natbib Warning: Citation `turneythesis' on page 43 undefined on input l
+ine 556.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 567.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Phi' on input line 567.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 567.
 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.268 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
+l.583 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
                                                   -\omega t]$.
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.268 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
+l.583 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
                                                   -\omega t]$.
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.268 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
+l.583 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
                                                   -\omega t]$.
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.268 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
+l.583 ... i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}
                                                   -\omega t]$.
 ? 
 ! Undefined control sequence.
 \SUMprime #1#2->\ifthenelse 
                             {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \SUMprime #1#2->\ifthenelse {\equal 
                                     {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \SUMprime ...b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
                                                   {\equal {#1}{1}}{\sum _{\a...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \SUMprime ..._{#2}}^{3,n,N}} {\ifthenelse {\equal 
                                                   {#1}{1}}{\sum _{\alpha _{#...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \SUMprime #1#2->\ifthenelse 
                             {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \SUMprime #1#2->\ifthenelse {\equal 
                                     {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \SUMprime ...b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
                                                   {\equal {#1}{1}}{\sum _{\a...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \SUMprime ..._{#2}}^{3,n,N}} {\ifthenelse {\equal 
                                                   {#1}{1}}{\sum _{\alpha _{#...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.278 \end{split}
+l.593 \end{split}
                  
 ? 
-[35]
+[43]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 647.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Phi' on input line 647.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 647.
+
+
+Package natbib Warning: Citation `dekoker_thermal_2009' on page 44 undefined on
+ input line 657.
+
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.350 \end{split}
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
+                                                  {#1}{}}{a}{#1} \\& \ifthen...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
+                                                  {\equal {#2}{}}{b}{#2} \en...
+l.681  \end{split}
+                  
+? 
+! Undefined control sequence.
+\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
+                                                  {#2}{}}{b}{#2} \end {small...
+l.681  \end{split}
+                  
+? 
+[44]
+File: /home/jason/disorder/paper/vc/fig10.eps Graphic file (type eps)
+ </home/jason/disorder/paper/vc/fig10.eps>
+! Undefined control sequence.
+\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
+                                                  {\equal {#1}{}}{a}{#1} \\&...
+l.767 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.350 \end{split}
+l.767 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.350 \end{split}
+l.767 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.350 \end{split}
+l.767 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.350 \end{split}
+l.767 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.350 \end{split}
+l.767 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.350 \end{split}
+l.767 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.350 \end{split}
+l.767 \end{split}
                  
 ? 
-[36]
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.362 \end{split}
+l.779 \end{split}
                  
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.364 where $\mathbf{r}_0\ab{0}{b}
+l.781 where $\mathbf{r}_0\ab{0}{b}
                                   $ is the equilibrium position of the
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.364 where $\mathbf{r}_0\ab{0}{b}
+l.781 where $\mathbf{r}_0\ab{0}{b}
                                   $ is the equilibrium position of the
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.364 where $\mathbf{r}_0\ab{0}{b}
+l.781 where $\mathbf{r}_0\ab{0}{b}
                                   $ is the equilibrium position of the
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.364 where $\mathbf{r}_0\ab{0}{b}
+l.781 where $\mathbf{r}_0\ab{0}{b}
                                   $ is the equilibrium position of the
 ? 
 ! Undefined control sequence.
 \ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
                                                   {\equal {#1}{}}{a}{#1} \\&...
-l.366 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
+l.783 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
                                                   $. The allowed wavevectors
 ? 
 ! Undefined control sequence.
 \ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
                                                   {#1}{}}{a}{#1} \\& \ifthen...
-l.366 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
+l.783 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
                                                   $. The allowed wavevectors
 ? 
 ! Undefined control sequence.
 \ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
                                                   {\equal {#2}{}}{b}{#2} \en...
-l.366 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
+l.783 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
                                                   $. The allowed wavevectors
 ? 
 ! Undefined control sequence.
 \ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
                                                   {#2}{}}{b}{#2} \end {small...
-l.366 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
+l.783 ...t cell relative to $\mathbf{r}_0\ab{l}{0}
                                                   $. The allowed wavevectors
 ? 
-[37]
+[45] [46] [47]
 File: /home/jason/thesis/thesis/appendix/figure1.eps Graphic file (type eps)
  </home/jason/thesis/thesis/appendix/figure1.eps>
-Underfull \hbox (badness 2521) in paragraph at lines 487--487
-[]\OT1/ptm/m/n/12 Figure A.1: [][][]  []The SED (us-ing $\OT1/cmr/m/n/12 ^^H$\O
+Underfull \hbox (badness 2521) in paragraph at lines 935--935
+[]\OT1/ptm/m/n/12 Figure A.2: [][][]  []The SED (us-ing $\OT1/cmr/m/n/12 ^^H$\O
 T1/ptm/m/n/12 ) for the first three po-lar-iza-tions at the wavevec-tor
  []
 
 
-Overfull \hbox (2.28003pt too wide) detected at line 503
+Overfull \hbox (2.28003pt too wide) detected at line 951
 [] []
  []
-
-[38]
-
-Package natbib Warning: Citation `LAMMPS' on page 39 undefined on input line 60
-7.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 608.
-
-
-Package natbib Warning: Citation `GULP' on page 39 undefined on input line 611.
-
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 614.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [48]
+
+LaTeX Warning: File `LJ_NMD_SED_COND_2.eps' not found on input line 1035.
+
+
+! LaTeX Error: File `LJ_NMD_SED_COND_2.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1035 ...e=0,width=70.0mm]{LJ_NMD_SED_COND_2.eps}
+                                                  
+? 
+
+! LaTeX Error: Cannot determine size of graphic in LJ_NMD_SED_COND_2.eps (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1035 ...e=0,width=70.0mm]{LJ_NMD_SED_COND_2.eps}
+                                                  
+? 
+File: LJ_NMD_SED_COND_2.eps Graphic file (type eps)
+<LJ_NMD_SED_COND_2.eps> [49]
+
+Package natbib Warning: Citation `LAMMPS' on page 50 undefined on input line 11
+04.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 1105.
+
+
+Package natbib Warning: Citation `GULP' on page 50 undefined on input line 1108
+.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 1111.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
 File: /home/jason/thesis/thesis/appendix/figure2.eps Graphic file (type eps)
 
 </home/jason/thesis/thesis/appendix/figure2.eps>
@@ -2644,7 +2188,7 @@ File: /home/jason/thesis/thesis/appendix/figure3_b.eps Graphic file (type eps)
 </home/jason/thesis/thesis/appendix/figure3_b.eps>
 File: /home/jason/thesis/thesis/appendix/figure3_c.eps Graphic file (type eps)
 
-</home/jason/thesis/thesis/appendix/figure3_c.eps> [40] [41]
+</home/jason/thesis/thesis/appendix/figure3_c.eps> [51] [52]
 
 ! LaTeX Error: Environment ruledtabular undefined.
 
@@ -2652,680 +2196,140 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.801 \begin{ruledtabular}
-                          
+l.1298 \begin{ruledtabular}
+                           
 ? 
 
-! LaTeX Error: \begin{table} on input line 784 ended by \end{ruledtabular}.
+! LaTeX Error: \begin{table} on input line 1281 ended by \end{ruledtabular}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.817 \end{ruledtabular}
-                        
+l.1314 \end{ruledtabular}
+                         
 ? 
 
-LaTeX Warning: Command \r invalid in math mode on input line 829.
+LaTeX Warning: Command \r invalid in math mode on input line 1326.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-[43]
+ [53]
+[54]
 File: /home/jason/thesis/thesis/appendix/figure4.eps Graphic file (type eps)
- </home/jason/thesis/thesis/appendix/figure4.eps> [44]
+ </home/jason/thesis/thesis/appendix/figure4.eps> [55]
 
-Package natbib Warning: Citation `brenner_second_2002' on page 45 undefined on 
-input line 894.
+Package natbib Warning: Citation `brenner_second_2002' on page 56 undefined on 
+input line 1391.
 
 File: /home/jason/thesis/thesis/appendix/figure5.eps Graphic file (type eps)
 </home/jason/thesis/thesis/appendix/figure5.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45
+ [56
 
 ]
 
-Package natbib Warning: Citation `dekoker_thermal_2009' on page 46 undefined on
- input line 992.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1002.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Phi' on input line 1002.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1002.
+Package natbib Warning: Citation `dekoker_thermal_2009' on page 57 undefined on
+ input line 1489.
 
 ! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1019  \end{split}
-                   
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1035 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1035 \end{split}
-                  
-? 
-[46]
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse 
-                       {\equal {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM #1#2->\ifthenelse {\equal 
-                               {#1}{0}} {\sum _{\alpha _{#2},b_{#2},l_{#2}}^...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...{#2},b_{#2},l_{#2}}^{3,n,N}} {\ifthenelse 
-                                                  {\equal {#1}{1}}{\sum _{\a...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\SUM ...#2},l_{#2}}^{3,n,N}} {\ifthenelse {\equal 
-                                                  {#1}{1}}{\sum _{\alpha _{#...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1042 \end{split}
-                  
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1045 $\mathbf{r}_0\ab{l}{0}
-                             $ is the equilibrium position vector of the
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1045 $\mathbf{r}_0\ab{l}{0}
-                             $ is the equilibrium position vector of the
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1045 $\mathbf{r}_0\ab{l}{0}
-                             $ is the equilibrium position vector of the
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1045 $\mathbf{r}_0\ab{l}{0}
-                             $ is the equilibrium position vector of the
-? 
-[47]
-
-Package natbib Warning: Citation `maradudin_dynamical_1974' on page 48 undefine
-d on input line 1152.
-
-[48] [49]
-
-Package natbib Warning: Citation `turneythesis' on page 50 undefined on input l
-ine 1305.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1314.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Phi' on input line 1314.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1314.
-
-
-Package natbib Warning: Citation `dekoker_thermal_2009' on page 50 undefined on
- input line 1324.
-
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ... {-8.0mu} \begin {smallmatrix}&\ifthenelse 
-                                                  {\equal {#1}{}}{a}{#1} \\&...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...} \begin {smallmatrix}&\ifthenelse {\equal 
-                                                  {#1}{}}{a}{#1} \\& \ifthen...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...lse {\equal {#1}{}}{a}{#1} \\& \ifthenelse 
-                                                  {\equal {#2}{}}{b}{#2} \en...
-l.1348  \end{split}
-                   
-? 
-! Undefined control sequence.
-\ab ...ual {#1}{}}{a}{#1} \\& \ifthenelse {\equal 
-                                                  {#2}{}}{b}{#2} \end {small...
-l.1348  \end{split}
-                   
-? 
-[50]
-
-LaTeX Warning: File `LJ_NMD_SED_COND_2.eps' not found on input line 1388.
-
-
-! LaTeX Error: File `LJ_NMD_SED_COND_2.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1388 ...e=0,width=70.0mm]{LJ_NMD_SED_COND_2.eps}
-                                                  
-? 
-
-! LaTeX Error: Cannot determine size of graphic in LJ_NMD_SED_COND_2.eps (no Bo
-undingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1388 ...e=0,width=70.0mm]{LJ_NMD_SED_COND_2.eps}
-                                                  
-? 
-File: LJ_NMD_SED_COND_2.eps Graphic file (type eps)
-<LJ_NMD_SED_COND_2.eps>
-! Undefined control sequence.
-l.1401 \ack
+l.1500 \ack
            
 ? 
-) (/home/jason/thesis/thesis/appendix/appendix_computing.tex [51] [52
+) (/home/jason/thesis/thesis/appendix/appendix_computing.tex [57] [58
 
 ]
 Appendix B.
 
-Package natbib Warning: Citation `peierls_' on page 53 undefined on input line 
-31.
-
-
-Package natbib Warning: Citation `ziman' on page 53 undefined on input line 31.
-
-
-
-Package natbib Warning: Citation `wallace_thermodynamics_1976' on page 53 undef
-ined on input line 31.
-
-
-Package natbib Warning: Citation `srivastava_1990' on page 53 undefined on inpu
-t line 31.
-
-
-Package natbib Warning: Citation `dove_lattice_1993' on page 53 undefined on in
-put line 31.
-
-
-Package natbib Warning: Citation `griffiths_introduction_1995' on page 53 undef
-ined on input line 34.
-
-
-Package natbib Warning: Citation `martin_electronic_2004' on page 53 undefined 
-on input line 41.
-
-
-Package natbib Warning: Citation `mcquarrie_mathematical_2003' on page 53 undef
-ined on input line 51.
-
-
-Package natbib Warning: Citation `moin_fundamentals_2010' on page 53 undefined 
-on input line 54.
-
-
-Overfull \hbox (26.56593pt too wide) in paragraph at lines 43--58
-[]\OT1/ptm/m/n/12 Analytical meth-ods for [][][][] and [][][][], [][][][] and [
-][][][],[\OT1/ptm/b/n/12 ?
+Overfull \hbox (63.6717pt too wide) in paragraph at lines 75--93
+[]\OT1/ptm/m/n/12 There are many op-tions for in-stalling Ubuntu and the in-str
+uc-tions can be found on [][][][].
  []
 
-[53] [54]
+
+Overfull \hbox (1.7315pt too wide) in paragraph at lines 75--93
+\OT1/ptm/m/n/12 Ubuntu is cer-ti-fied on [][][][] and a com-pany, [][][][],
+ []
+
+[59]
+! Undefined control sequence.
+<recently read> \gt 
+                    
+l.168 resources which are typically large ($\gt
+                                                100$ cpu) computing clusters.
+? 
+[60]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.223 {DL_POLY}
+l.281 {DL_POLY}
                ,
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.223 {DL_POLY}
+l.281 {DL_POLY}
                ,
 ? 
-[55]
+[61]
+Overfull \hbox (76.83768pt too wide) in paragraph at lines 316--328
+\OT1/ptm/m/n/12 pre-installed with Ubuntu. Here is a [][][][] and how to gen-er
+-ate a [][][][]
+ []
+
+
+Package hyperref Warning: Empty destination name,
+(hyperref)                using `UNDEFINED' on input line 332.
+
+
+Overfull \hbox (93.28697pt too wide) in paragraph at lines 393--431
+[][][][][]\OT1/ptm/m/n/12 , [][][][], [][][][] [][][][], [][][][], nor-mand.mou
+sseau@umontreal.ca,
+ []
+
+
+Overfull \hbox (39.15836pt too wide) in paragraph at lines 393--431
+\OT1/ptm/m/n/12 guido.raos@polimi.it, [][][][], [][][][], [][][][], [][][][], [
+][][][],
+ []
+
+[62]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.380 http://en.wikipedia.org/wiki/Compiled_
-                                            language
+l.446 https://en.wikipedia.org/wiki/Lennard-Jones_
+                                                  potential
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.381 
+l.447 
       
 ? 
-[56]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.382 http://en.wikipedia.org/wiki/Interpreted_
-                                               language
+l.448 ...ki.org/SklogWiki/index.php/Lennard-Jones_
+                                                  model
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.383 
+l.449 
       
 ? 
-
-Overfull \hbox (3.07169pt too wide) in paragraph at lines 384--390
-[]\OT1/ptm/m/n/12 The most com-monly used com-piled lan-guages are [][][][] (li
-nux, LAMMPS, spglib) and [][][][]:
- []
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.398 ...rce) http://en.wikipedia.org/wiki/Python_
-                                                  (programming_language).
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.399 
-      
-? 
-
-Overfull \hbox (153.74637pt too wide) in paragraph at lines 395--399
-\OT1/ptm/m/n/12 http://en.wikipedia.org/wiki/MATLAB and python (open-source) ht
-tp://en.wikipedia.org/wiki/Python$[]\OML/cmm/m/it/12 programming[]anguage\OT1/c
-mr/m/n/12 )\OML/cmm/m/it/12 :$ 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.404 ...p://www.mathworks.com/help/matlab/matlab_
-                                                  prog/vectorization.html
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.408 
-      
-? 
-
-Overfull \hbox (249.79385pt too wide) in paragraph at lines 402--408
-\OT1/ptm/m/n/12 ``vec-tor'' func-tions and op-er-a-tions pro-vided by the mat-l
-ab http://www.mathworks.com/help/matlab/matlab$[]\OML/cmm/m/it/12 rog=vectoriza
-tion:htmlandpythonhttp \OT1/cmr/m/n/12 :
- []
-
-
-Overfull \hbox (103.84898pt too wide) in paragraph at lines 402--408
-\OML/cmm/m/it/12 ==faculty:washington:edu=rjl=uwamath\OT1/cmr/m/n/12 583\OML/cm
-m/m/it/12 s\OT1/cmr/m/n/12 11\OML/cmm/m/it/12 =sphinx=notes=html=python[]ect:ht
-mlprogramminglibraries:$ 
- []
-
-
-Overfull \hbox (123.17754pt too wide) in paragraph at lines 445--456
-[]\OT1/ptm/m/n/12 Execellent dis-cus-sion of en-sem-bles and new-to-nian dy-nam
--ics http://lammps.sandia.gov/threads/msg13979.htmlmanium
- []
-
-
-Overfull \hbox (83.84198pt too wide) in paragraph at lines 463--465
-[]\OT1/ptm/m/n/12 Execellent dis-cus-sion of en-sem-bles and new-to-nian dy-nam
--ics http://lammps.sandia.gov/threads/msg13979.html 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.494 /home/jason/classes/cmu/molecular_
+l.514 /home/jason/classes/cmu/molecular_
                                         simulation/HW5
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.495 
+l.515 
       
 ? 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -3344,7 +2348,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.496 \lstset{language=Shell}
+l.516 \lstset{language=Shell}
                              
 ? 
 
@@ -3354,13 +2358,13 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.496 \lstset{language=Shell}
+l.516 \lstset{language=Shell}
                              
 ? 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 497.
+nput line 517.
 
-Overfull \hbox (208.88557pt too wide) in paragraph at lines 498--499
+Overfull \hbox (208.88557pt too wide) in paragraph at lines 518--519
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -3380,7 +2384,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.501 \lstset{language=Shell}
+l.521 \lstset{language=Shell}
                              
 ? 
 
@@ -3390,15 +2394,15 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.501 \lstset{language=Shell}
+l.521 \lstset{language=Shell}
                              
 ? 
 
-Overfull \hbox (86.48433pt too wide) in paragraph at lines 503--504
+Overfull \hbox (86.48433pt too wide) in paragraph at lines 523--524
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[57] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -3414,7 +2418,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.509 \lstset{language=Shell}
+l.529 \lstset{language=Shell}
                              
 ? 
 
@@ -3424,18 +2428,18 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.509 \lstset{language=Shell}
+l.529 \lstset{language=Shell}
                              
 ? 
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 511.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 531.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 511.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 531.
 
-Overfull \hbox (230.4858pt too wide) in paragraph at lines 511--512
+Overfull \hbox (230.4858pt too wide) in paragraph at lines 531--532
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -3455,7 +2459,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.517 \lstset{language=Shell}
+l.537 \lstset{language=Shell}
                              
 ? 
 
@@ -3465,14 +2469,45 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.517 \lstset{language=Shell}
+l.537 \lstset{language=Shell}
                              
 ? 
 
-Overfull \hbox (165.68513pt too wide) in paragraph at lines 519--520
+Overfull \hbox (165.68513pt too wide) in paragraph at lines 539--540
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
+[63] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569 \lstset{language=Shell}
+                             
+? 
+
+! Package Listings Error: language shell undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569 \lstset{language=Shell}
+                             
+? 
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 571.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -3489,7 +2524,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.549 \lstset{language=Shell}
+l.594 \lstset{language=Shell}
                              
 ? 
 
@@ -3499,118 +2534,58 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.549 \lstset{language=Shell}
+l.594 \lstset{language=Shell}
                              
 ? 
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 551.
-[58] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2004/09/05 1.3 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2004/09/05 1.3 listings language file
-)
+[64]
 
-! Package Listings Error: Couldn't load requested language.
+LaTeX Warning: Command \~ invalid in math mode on input line 633.
 
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \lstset{language=Shell}
-                             
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.633 It costs a minimal amount ($\~1
+                                     4\%$) to study every system smaller
 ? 
-
-! Package Listings Error: language shell undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \lstset{language=Shell}
-                             
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.633 It costs a minimal amount ($\~1
+                                     4\%$) to study every system smaller
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.602 https://en.wikipedia.org/wiki/Lennard-Jones_
-                                                  potential
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.603 
-      
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.604 ...ki.org/SklogWiki/index.php/Lennard-Jones_
-                                                  model
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.605 
-      
-? 
-[59] [60]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.763 (SYS_
-           SIZE^alpha with alpha > 1). Pick a maximum system size based
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.766 
-      
-? 
+Missing character: There is no è in font cmex10!
+)) [65] [66
 
-Overfull \hbox (35.76576pt too wide) in paragraph at lines 762--766
-[]\OT1/ptm/m/n/12 1) Run sys-tem sizes by dou-bling. Most cal-cual-tions scale 
-poorly (i.e., (SYS$[]\OML/cmm/m/it/12 IZE[]lphawithalpha >
- []
-
-
-Overfull \hbox (291.75768pt too wide) in paragraph at lines 762--766
-\OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 :Pickamaximumsystemsizebasedoncomputatinalre
-sourcesandtimeconstraints:Runallsystemsizeshalvedbeforerunningmaximumsystemsize
-:$ 
- []
-
-))
-Underfull \vbox (badness 1688) has occurred while \output is active []
-
- [61]
-[62] (./cmuthesis_jlarkin.bbl (./cmuthesis_jlarkin.brf)
+] (./cmuthesis_jlarkin.bbl (./cmuthesis_jlarkin.brf)
 \tf@brf=\write7
 \openout7 = `cmuthesis_jlarkin.brf'.
 
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []\OT1/ptm/m/n/12 Yuping He, Da-vide Dona-dio, Joo-Hyoung Lee, Jef-frey C. Gros
 s-man,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \OT1/ptm/m/n/12 and Giu-lia Galli.  Ther-mal trans-port in nanoporous sil-i-con
 : In-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \OT1/ptm/m/n/12 play be-tween dis-or-der at meso-scopic and atomic scales.  \OT
 1/ptm/m/it/12 ACS Nano\OT1/ptm/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \OT1/ptm/m/n/12 5:1839\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextbacksl
 ashtextbackslashtextbackslashtextbackslash961844,
  []
@@ -3636,17 +2611,10 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63
-
+ [67
 
 ]
 Missing character: There is no â in font ptmr7t!
@@ -3667,17 +2635,23 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
+ [68]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 
-Underfull \hbox (badness 1097) in paragraph at lines 186--186
+Underfull \hbox (badness 1097) in paragraph at lines 198--198
 []\OT1/ptm/m/n/12 Gabriele C. Sosso, Da-vide Dona-dio, Se-bas-tiano Car-a-vati,
  Jrg Behler, and Marco
  []
@@ -3691,11 +2665,15 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 1389) in paragraph at lines 246--246
+Underfull \hbox (badness 1389) in paragraph at lines 258--258
 []\OT1/ptm/m/n/12 Daniel Charles Mat-tis.  Phonon free path in an iso-topic mix
 -ture.  \OT1/ptm/m/it/12 Phys. Rev.\OT1/ptm/m/n/12 ,
  []
@@ -3704,32 +2682,29 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
 []\OT1/ptm/m/n/12 W. A. Kami-taka-hara and B. N. Brock-house.  Vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
 \OT1/ptm/m/n/12 bra-tions of a mixed crys-tal: Neu-tron scat-ter-ing from
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65]
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 []\OT1/ptm/m/n/12 David G. Cahill and Fu-miya Watan-abe.  Ther-mal con-duc-tiv-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 \OT1/ptm/m/n/12 ity of iso-topi-cally pure and ge-doped si epi-tax-ial lay-ers 
 from
  []
 
 
-Overfull \hbox (1613.11563pt too wide) in paragraph at lines 259--259
+Overfull \hbox (1613.11563pt too wide) in paragraph at lines 271--271
 \OT1/ptm/m/n/12 $300\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextbackslas
 htextbackslashphantom\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextbacksla
 shtextbackslashrule0.3em0ex\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextb
@@ -3756,6 +2731,16 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -3765,24 +2750,14 @@ Missing character: There is no “ in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \hbox (badness 2443) in paragraph at lines 415--415
+ [71]
+Underfull \hbox (badness 2443) in paragraph at lines 421--421
 []\OT1/ptm/m/n/12 Yuping He, Da-vide Dona-dio, and Giu-lia Galli.  Mor-phol-ogy
  and tem-per-a-ture
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 415--415
+Underfull \hbox (badness 3769) in paragraph at lines 421--421
 \OT1/ptm/m/n/12 de-pen-dence of the ther-mal con-duc-tiv-ity of nanoporous SiGe
 .  \OT1/ptm/m/it/12 Nano Let-ters\OT1/ptm/m/n/12 ,
  []
@@ -3793,26 +2768,13 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
+ [72]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -3837,14 +2799,21 @@ Missing character: There is no “ in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
-Underfull \hbox (badness 2005) in paragraph at lines 643--643
+ [73]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 2005) in paragraph at lines 626--626
 []\OT1/ptm/m/n/12 Bo Qiu, Hua Bao, Gengqiang Zhang, Yue Wub, and Xi-ulin Ruan. 
  Molec-u-
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 643--643
+Underfull \hbox (badness 1400) in paragraph at lines 626--626
 \OT1/ptm/m/n/12 free path of PbTe: bulk and nanos-truc-tures.  \OT1/ptm/m/it/12
  Com-pu-ta-tional Ma-te-ri-als Sci-ence\OT1/ptm/m/n/12 ,
  []
@@ -3856,39 +2825,40 @@ Missing character: There is no “ in font ptmr7t!
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
-[70]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
- (./cmuthesis_jlarkin.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
+[74]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
+ (./cmuthesis_jlarkin.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
 
-)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 414.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 414.
-Package rerunfilecheck Info: File `cmuthesis_jlarkin.out' has not changed.
-(rerunfilecheck)             Checksum: 092F1C723FE10DB26FF564057012FC61;5419.
+Package rerunfilecheck Warning: File `cmuthesis_jlarkin.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `cmuthesis_jlarkin.out':
+(rerunfilecheck)             Before: 987F4B1A3CAB1EF52DFD45082862425E;5348
+(rerunfilecheck)             After:  7F9C52B1A3E405F86E43063F7BEFB0BF;5364.
 
 Package rerunfilecheck Warning: File `cmuthesis_jlarkin.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `cmuthesis_jlarkin.brf':
-(rerunfilecheck)             Before: C31CB2E426C03199A8D0868E17947174;14174
-(rerunfilecheck)             After:  63DB4E62CABA37BD273BD6FF0CA48DD5;14158.
+(rerunfilecheck)             Before: DCE29E4D74A590D1EA5B263CFFE671F4;26840
+(rerunfilecheck)             After:  6D6DD3A6EDB5F83ADFE38C37FC94C364;26906.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 414.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 9197 strings out of 495060
- 141306 string characters out of 3182053
- 287271 words of memory out of 3000000
- 12189 multiletter control sequences out of 15000+200000
+ 9199 strings out of 495060
+ 141363 string characters out of 3182053
+ 290871 words of memory out of 3000000
+ 12183 multiletter control sequences out of 15000+200000
  20338 words of font info for 60 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,27n,57p,908b,1675s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,27n,57p,908b,1667s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on cmuthesis_jlarkin.dvi (84 pages, 552864 bytes).
+Output written on cmuthesis_jlarkin.dvi (86 pages, 628668 bytes).

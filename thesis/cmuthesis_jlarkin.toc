@@ -1,73 +1,66 @@
-\contentsline {chapter}{\numberline {1}Predicting alloy vibrational mode properties using lattice dynamics calculations, molecular dynamics simulations, and the virtual crystal approximation}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Theoretical and Computational Framework}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1} Thermal Conductivity Prediction}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Virtual Crystal Approximation}{6}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Calculation and Simulation Details}{7}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3} Vibrational Mode Properties in Alloys}{8}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Density of States}{8}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Dispersion and Group Velocity}{11}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Lifetimes}{14}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}new section}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Predicting alloy vibrational mode properties using lattice dynamics calculations, molecular dynamics simulations, and the virtual crystal approximation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Theoretical and Computational Framework}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1} Thermal Conductivity Prediction}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Virtual Crystal Approximation}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Calculation and Simulation Details}{8}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3} Vibrational Mode Properties in Alloys}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Density of States}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Dispersion and Group Velocity}{11}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Lifetimes}{14}{subsection.2.3.3}
 \contentsline {subsubsection}{From VC-NMD and Gamma-NMD}{14}{section*.4}
 \contentsline {subsubsection}{From VC-ALD}{17}{section*.5}
-\contentsline {subsection}{\numberline {1.3.4} Diffusivities}{20}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Discussion}{22}{subsection.1.3.5}
-\contentsline {section}{\numberline {1.4}Thermal Conductivity Prediction}{22}{section.1.4}
-\contentsline {section}{\numberline {1.5}SW silicon}{26}{section.1.5}
-\contentsline {section}{\numberline {1.6}Summary}{29}{section.1.6}
-\contentsline {section}{\numberline {.1} NMD using Non-Exact Normal Modes}{30}{section.Alph0.1}
-\contentsline {chapter}{\numberline {A}Conclusion}{31}{appendix.A}
-\contentsline {chapter}{\numberline {A}Vibrational Lifetimes from Molecular Dynamics}{33}{appendix.A}
-\contentsline {section}{\numberline {A.1}Introduction}{33}{section.A.1}
-\contentsline {section}{\numberline {A.2}Phonon Spectral Energy Density}{35}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}As Derived from Normal Mode Coordinates, $\Phi $}{35}{subsection.A.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Alternative Formulation, $\Phi '$}{35}{subsection.A.2.2}
-\contentsline {section}{\numberline {A.3}Computational Details}{36}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Allowed Wavevectors}{36}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Phonon Lifetimes and Frequencies}{37}{subsection.A.3.2}
-\contentsline {subsection}{\numberline {A.3.3}Thermal Conductivity}{38}{subsection.A.3.3}
-\contentsline {subsection}{\numberline {A.3.4}Computational Cost}{39}{subsection.A.3.4}
-\contentsline {section}{\numberline {A.4}Case Studies}{40}{section.A.4}
-\contentsline {subsection}{\numberline {A.4.1}Lennard-Jones Argon}{40}{subsection.A.4.1}
-\contentsline {subsection}{\numberline {A.4.2}Stillinger-Weber Silicon}{44}{subsection.A.4.2}
-\contentsline {subsection}{\numberline {A.4.3}Carbon Nanotube}{45}{subsection.A.4.3}
-\contentsline {section}{\numberline {A.5}Summary}{46}{section.A.5}
-\contentsline {section}{\numberline {A.6}Derivation of Phonon Spectral Energy Density, $\Phi $}{46}{section.A.6}
-\contentsline {section}{\numberline {A.7}Interpretation of $\Phi '$}{50}{section.A.7}
-\contentsline {section}{\numberline {A.8}Finite Simulation-Size Scaling for Thermal Conductivity}{50}{section.A.8}
-\contentsline {chapter}{\numberline {B}Setting Up Computing Environment}{53}{appendix.B}
-\contentsline {section}{\numberline {B.1}Setting Up Computing Environment}{53}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Setting Up Computing Environment}{53}{subsection.B.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Suggested Reading}{53}{subsection.B.1.2}
-\contentsline {subsection}{\numberline {B.1.3}Setting Up Computing Environment}{53}{subsection.B.1.3}
-\contentsline {subsection}{\numberline {B.1.4}Managing the Operating System}{54}{subsection.B.1.4}
-\contentsline {subsection}{\numberline {B.1.5}Managing Remote Systems}{54}{subsection.B.1.5}
-\contentsline {subsection}{\numberline {B.1.6}Available Programs}{55}{subsection.B.1.6}
-\contentsline {subsection}{\numberline {B.1.7}Installing Available Programs}{55}{subsection.B.1.7}
-\contentsline {subsection}{\numberline {B.1.8}Preparing Journal Articles and Thesis}{55}{subsection.B.1.8}
-\contentsline {subsection}{\numberline {B.1.9}Advice}{56}{subsection.B.1.9}
-\contentsline {subsection}{\numberline {B.1.10}Expert Advice}{56}{subsection.B.1.10}
-\contentsline {subsection}{\numberline {B.1.11}Coding Languages}{56}{subsection.B.1.11}
-\contentsline {subsection}{\numberline {B.1.12}Compiled versus Interpreted}{57}{subsection.B.1.12}
-\contentsline {subsection}{\numberline {B.1.13}Importance of Open-Source Code}{57}{subsection.B.1.13}
-\contentsline {subsection}{\numberline {B.1.14}Case-study 1: LJ Argon Molecular Dynamics}{57}{subsection.B.1.14}
-\contentsline {subsection}{\numberline {B.1.15}Case-study 1: LJ Dispersion}{58}{subsection.B.1.15}
-\contentsline {subsection}{\numberline {B.1.16}Case-study 1: Allen-Feldman Diffusivity Calculation}{58}{subsection.B.1.16}
-\contentsline {subsection}{\numberline {B.1.17}Online Resources}{59}{subsection.B.1.17}
-\contentsline {subsection}{\numberline {B.1.18}Google Searching}{59}{subsection.B.1.18}
-\contentsline {subsection}{\numberline {B.1.19}Symmetry Discussion}{59}{subsection.B.1.19}
-\contentsline {subsubsection}{KPT symmetries}{60}{section*.6}
-\contentsline {subsection}{\numberline {B.1.20}Normal Mode Decomposition}{60}{subsection.B.1.20}
-\contentsline {subsubsection}{Eigvec mapping}{60}{section*.7}
-\contentsline {subsection}{\numberline {B.1.21}VC-NMD versus Gamma-NMD}{60}{subsection.B.1.21}
-\contentsline {section}{\numberline {B.2}Computability}{60}{section.B.2}
-\contentsline {section}{\numberline {B.3}Unsorted}{60}{section.B.3}
-\contentsline {section}{\numberline {B.4}Perspectives}{60}{section.B.4}
-\contentsline {subsection}{\numberline {B.4.1}Preparing Journal Articles}{60}{subsection.B.4.1}
-\contentsline {subsection}{\numberline {B.4.2}Scaling Calculations}{61}{subsection.B.4.2}
-\contentsline {subsection}{\numberline {B.4.3}Plottable Code}{61}{subsection.B.4.3}
-\contentsline {subsection}{\numberline {B.4.4}Scaling into Multi-CPU Dimension}{62}{subsection.B.4.4}
-\contentsline {subsubsection}{Python w/o shared Memory}{62}{section*.8}
-\contentsline {subsubsection}{Python w/ shared Memory (Parallel Python)}{62}{section*.9}
-\contentsline {subsubsection}{Compiled Code w/ Python Wrapper: Fortran and C++}{62}{section*.10}
-\contentsline {chapter}{Bibliography}{63}{appendix*.11}
+\contentsline {subsection}{\numberline {2.3.4} Diffusivities}{20}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Discussion}{22}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Thermal Conductivity Prediction}{22}{section.2.4}
+\contentsline {section}{\numberline {2.5}SW silicon}{26}{section.2.5}
+\contentsline {section}{\numberline {2.6}Summary}{29}{section.2.6}
+\contentsline {chapter}{\numberline {3}Vibrational Mean Free Paths and Thermal Conductivity Accumulation Functions for Amorphous Materials}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}new section}{31}{section.3.1}
+\contentsline {chapter}{\numberline {4}Origin of the Exceptionall Low Thermal Conductivity of PCBM Thin Films}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}new section}{33}{section.4.1}
+\contentsline {chapter}{\numberline {5}Conclusion}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}new section}{35}{section.5.1}
+\contentsline {chapter}{\numberline {A}Vibrational Lifetimes from Molecular Dynamics}{37}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introduction}{37}{section.A.1}
+\contentsline {section}{\numberline {A.2}Phonon Spectral Energy Density}{39}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}As Derived from Normal Mode Coordinates, $\Phi $}{39}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Derivation of Phonon Spectral Energy Density, $\Phi $}{39}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Alternative Formulation, $\Phi '$}{43}{subsection.A.2.3}
+\contentsline {section}{\numberline {A.3}Interpretation of $\Phi '$}{44}{section.A.3}
+\contentsline {section}{\numberline {A.4} NMD using Non-Exact Normal Modes}{45}{section.A.4}
+\contentsline {section}{\numberline {A.5}Computational Details}{45}{section.A.5}
+\contentsline {subsection}{\numberline {A.5.1}Allowed Wavevectors}{45}{subsection.A.5.1}
+\contentsline {subsection}{\numberline {A.5.2}Symmetry Discussion}{47}{subsection.A.5.2}
+\contentsline {subsection}{\numberline {A.5.3}Phonon Lifetimes and Frequencies}{47}{subsection.A.5.3}
+\contentsline {subsection}{\numberline {A.5.4}Thermal Conductivity}{49}{subsection.A.5.4}
+\contentsline {subsection}{\numberline {A.5.5}Finite Simulation-Size Scaling for Thermal Conductivity}{49}{subsection.A.5.5}
+\contentsline {subsection}{\numberline {A.5.6}Computational Cost}{50}{subsection.A.5.6}
+\contentsline {section}{\numberline {A.6}Case Studies}{51}{section.A.6}
+\contentsline {subsection}{\numberline {A.6.1}Lennard-Jones Argon}{51}{subsection.A.6.1}
+\contentsline {subsection}{\numberline {A.6.2}Stillinger-Weber Silicon}{55}{subsection.A.6.2}
+\contentsline {subsection}{\numberline {A.6.3}Carbon Nanotube}{56}{subsection.A.6.3}
+\contentsline {section}{\numberline {A.7}Summary}{57}{section.A.7}
+\contentsline {chapter}{\numberline {B}Research using High Performance Computing}{59}{appendix.B}
+\contentsline {section}{\numberline {B.1}Setting Up Computing Environment}{59}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Hardware and Operating System Choice}{59}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}System Terminal and Commands}{59}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}Environment Variables}{59}{subsection.B.1.3}
+\contentsline {subsection}{\numberline {B.1.4}Shell Scripts and System Commands in Python}{60}{subsection.B.1.4}
+\contentsline {subsection}{\numberline {B.1.5}Remote Resources Commands}{60}{subsection.B.1.5}
+\contentsline {subsection}{\numberline {B.1.6}Installing Programs}{60}{subsection.B.1.6}
+\contentsline {subsection}{\numberline {B.1.7}Available Programs}{61}{subsection.B.1.7}
+\contentsline {section}{\numberline {B.2}Preparing Journal Articles and Thesis}{61}{section.B.2}
+\contentsline {subsection}{\numberline {B.2.1}Journal Articles}{62}{subsection.B.2.1}
+\contentsline {subsection}{\numberline {B.2.2}Thesis}{62}{subsection.B.2.2}
+\contentsline {section}{\numberline {B.3}Technical Advice}{62}{section.B.3}
+\contentsline {subsection}{\numberline {B.3.1}Expert Advice}{62}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.2}Online Resources}{63}{subsection.B.3.2}
+\contentsline {section}{\numberline {B.4}Coding Languages: Compiled versus Interpreted}{63}{section.B.4}
+\contentsline {subsection}{\numberline {B.4.1}Compiled Language Case-study: Lennard-Jones Argon Molecular Dynamics}{63}{subsection.B.4.1}
+\contentsline {subsection}{\numberline {B.4.2}Compiled versus Interpreted Case-study(a): Lennard-Jones Dispersion}{64}{subsection.B.4.2}
+\contentsline {subsection}{\numberline {B.4.3}Compiled versus Interpreted Case-study(b): Allen-Feldman Diffusivity Calculation}{64}{subsection.B.4.3}
+\contentsline {subsection}{\numberline {B.4.4}Scaling Calculations}{65}{subsection.B.4.4}
+\contentsline {chapter}{Bibliography}{67}{appendix*.6}

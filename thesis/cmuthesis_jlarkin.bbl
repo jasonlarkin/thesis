@@ -493,28 +493,6 @@ C.~Kittel.
 \newblock Interpretation of the thermal conductivity of glasses.
 \newblock {\em Physical Review}, 75:974, 1949.
 
-\bibitem{mcgaughey_predicting_2013}
-A.~J.~H. {McGaughey} and J.~M. Larkin.
-\newblock Predicting phonon properties from equilibrium molecular dynamics
-  simulations.
-\newblock {\em to appear in Annual Review of Heat Transfer}, 17, 2013.
-
-\bibitem{landau_statistical_1980}
-{L.D.} Landau, {E.M.} Lifshitz, and {L.P.} Pitaevskii.
-\newblock {\em Statistical Physics, Part 2 : Volume 9}.
-\newblock Pt 2. Elsevier Science \& Technology Books, 1980.
-
-\bibitem{srivastava_physics_1990}
-G.~P. Srivastava.
-\newblock {\em The Physics of Phonons}.
-\newblock Adam Hilger, Bristol, 1990.
-
-\bibitem{rajabpour_thermal_2010}
-A.~Rajabpour and S.~Volz.
-\newblock Thermal boundary resistance from mode energy relaxation times: Case
-  study of argon-like crystals by molecular dynamics.
-\newblock {\em Journal of Applied Physics}, 108:094324, 2010.
-
 \bibitem{cahill_nanoscale_2003}
 D.~G. Cahill, W.~K. Ford, K.~E. Goodson, G.~D. Mahan, A.~Majumdar, H.~J. Maris,
   R.~Merlin, and S.~R. Phillpot.
@@ -525,6 +503,11 @@ D.~G. Cahill, W.~K. Ford, K.~E. Goodson, G.~D. Mahan, A.~Majumdar, H.~J. Maris,
 A.~D. {McConnell} and K.~E. Goodson.
 \newblock Thermal conduction in silicon micro and nanostructures.
 \newblock {\em Annual Review of Heat Transfer}, 14:129–168, 2005.
+
+\bibitem{srivastava_physics_1990}
+G.~P. Srivastava.
+\newblock {\em The Physics of Phonons}.
+\newblock Adam Hilger, Bristol, 1990.
 
 \bibitem{wallace_thermodynamics_1972}
 D.~C. Wallace.
@@ -652,15 +635,32 @@ W.~Rudin.
 \newblock {\em Real and Complex Analysis}.
 \newblock {McGraw-Hill}, New York, 1987.
 
-\bibitem{thomas_water_2010}
-J.~A. Thomas.
-\newblock {\em water flow and thermal transport through carbon nanotubes}.
-\newblock {PhD} thesis, Carnegie Mellon University, Pittsburgh, {PA}, 2010.
+\bibitem{mcgaughey_predicting_2013}
+A.~J.~H. {McGaughey} and J.~M. Larkin.
+\newblock Predicting phonon properties from equilibrium molecular dynamics
+  simulations.
+\newblock {\em to appear in Annual Review of Heat Transfer}, 17, 2013.
+
+\bibitem{landau_statistical_1980}
+{L.D.} Landau, {E.M.} Lifshitz, and {L.P.} Pitaevskii.
+\newblock {\em Statistical Physics, Part 2 : Volume 9}.
+\newblock Pt 2. Elsevier Science \& Technology Books, 1980.
+
+\bibitem{rajabpour_thermal_2010}
+A.~Rajabpour and S.~Volz.
+\newblock Thermal boundary resistance from mode energy relaxation times: Case
+  study of argon-like crystals by molecular dynamics.
+\newblock {\em Journal of Applied Physics}, 108:094324, 2010.
 
 \bibitem{sinha_scattering_2005}
 S.~Sinha, P.~K. Schelling, S.~R. Phillpot, and K.~E. Goodsen.
 \newblock Scattering of \$g\$-process longitudinal optical phonons at hotspots
   in silicon.
 \newblock {\em Journal of Applied Physics}, 97:023702, 2005.
+
+\bibitem{thomas_water_2010}
+J.~A. Thomas.
+\newblock {\em water flow and thermal transport through carbon nanotubes}.
+\newblock {PhD} thesis, Carnegie Mellon University, Pittsburgh, {PA}, 2010.
 
 \end{thebibliography}
