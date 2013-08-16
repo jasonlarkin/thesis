@@ -1,0 +1,857 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian)
+ restricted \write18 enabled.
+entering extended mode
+(./cmuthesis_jlarkin.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(./cmuthesis.cls (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg))))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty) (./fullpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+
+Package hyperref Warning: Invalid value `000'
+(hyperref)                for option `pdfborder'.
+(hyperref)                Option setting is ignored on input line 3941.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+
+Package hyperref Warning: You have enabled option `breaklinks'.
+(hyperref)                But driver `hdvips.def' does not suppport this.
+(hyperref)                Expect trouble with the link areas of broken links.
+
+)) (./subfigure.sty) (./comment.sty Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)
+(/usr/share/texmf/tex/latex/iop/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(./cmuthesis_jlarkin.aux
+
+LaTeX Warning: Label `F:supercells' multiply defined.
+
+
+LaTeX Warning: Label `T:cond_table' multiply defined.
+
+
+LaTeX Warning: Label `F:NMD XCORR' multiply defined.
+
+
+LaTeX Warning: Label `A:E:ave_T_t' multiply defined.
+
+
+LaTeX Warning: Label `F:NMD XCORR' multiply defined.
+
+
+LaTeX Warning: Label `A:E:equipartition' multiply defined.
+
+
+LaTeX Warning: Label `A:NMD XCORR' multiply defined.
+
+
+LaTeX Warning: Label `A:unitcell' multiply defined.
+
+
+LaTeX Warning: Label `A:unitcell' multiply defined.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./cmuthesis_jlarkin.out) (./cmuthesis_jlarkin.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd) [1] [2] [3] [4]
+Overfull \hbox (3.63689pt too wide) in paragraph at lines 428--438
+[]\OT1/ptm/m/n/12 Disordering a crys-tal (i.e., al-loy-ing, amor-phiza-tion, et
+c..) breaks down the phonon
+
+Overfull \hbox (5.06422pt too wide) in paragraph at lines 439--446
+[]\OT1/ptm/m/n/12 Why dis-or-dered ma-te-ri-als are im-por-tant... Ther-mal man
+-age-ment (i.e., heat spread-
+[5] [6] [7] [8] (./cmuthesis_jlarkin.toc [9] [10]
+Overfull \hbox (6.9635pt too wide) in paragraph at lines 56--56
+ [][] [][]\OT1/ptm/m/n/12 Primitive, Con-ven-tional, and Gamma Rep-re-sen-ta-ti
+ons us-ing Nor-mal Mode 
+[11]
+Overfull \hbox (5.7644pt too wide) in paragraph at lines 69--69
+ [][] [][]\OT1/ptm/m/n/12 Case-study: Com-piled Lan-guage, Lennard-Jones Ar-gon
+ Molec- 
+
+Overfull \hbox (7.31175pt too wide) in paragraph at lines 70--70
+ [][] [][]\OT1/ptm/m/n/12 Compiled ver-sus In-ter-preted Case-study(a): Lennard
+-Jones Dis- 
+) [12] (./cmuthesis_jlarkin.lof
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page xiii undefined on input line 3.
+
+
+Overfull \hbox (29.66577pt too wide) in paragraph at lines 5--5
+ [][] [][]\OT1/ptm/m/n/12 The SED (us-ing $\OT1/cmr/m/n/12 ^^H$\OT1/ptm/m/n/12 
+) for the first three po-lar-iza-tions at the wavevec-tor $\OT1/cmr/m/n/12 [\OM
+L/cmm/m/it/12 ^^Y=\OT1/cmr/m/n/12 4\OML/cmm/m/it/12 a; ^^Y=\OT1/cmr/m/n/12 4\OM
+L/cmm/m/it/12 a; ^^Y=\OT1/cmr/m/n/12 4\OML/cmm/m/it/12 a\OT1/cmr/m/n/12 ]$ 
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active [14]
+Overfull \hbox (10.11963pt too wide) in paragraph at lines 17--17
+ \OT1/ptm/m/n/12 amor-phous phases. The amor-phous phase is well-described by a
+ mode-independent 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [15]
+Underfull \vbox (badness 10000) has occurred while \output is active [16]
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page xvii undefined on input line 26.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [17])
+[18] (./cmuthesis_jlarkin.lot
+Underfull \vbox (badness 10000) has occurred while \output is active [19])
+[20] (/home/jason/thesis/thesis/introduction.tex
+Chapter 1.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 17.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]\OT1/ptm/m/n/12 Anharmonic Lat-tice
+
+Underfull \hbox (badness 1609) in paragraph at lines 26--26
+\OT1/ptm/m/n/12 lat-tice dy-nam-ics cal-
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]\OT1/ptm/m/n/12 Explicit so-lu-tion to
+
+Underfull \hbox (badness 4792) in paragraph at lines 28--28
+[]\OT1/ptm/m/n/12 Dispersion and life-
+
+Underfull \hbox (badness 1325) in paragraph at lines 28--28
+\OT1/ptm/m/n/12 time mod-els, ex-per-i-
+
+Underfull \hbox (badness 1314) in paragraph at lines 36--37
+[]\OT1/ptm/m/n/12 Can be nat-u-rally in-
+
+Underfull \hbox (badness 1975) in paragraph at lines 38--38
+\OT1/ptm/m/n/12 to non-isotropic sys-
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/ptm/m/n/12 Requires fit-ting
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\OT1/ptm/m/n/12 Partial fourth-order
+
+Underfull \hbox (badness 1609) in paragraph at lines 38--38
+\OT1/ptm/m/n/12 the-ory for pre-dict-ing
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/ptm/m/n/12 Calculation scales
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/ptm/m/n/12 of the num-ber of
+
+Underfull \hbox (badness 5787) in paragraph at lines 38--40
+\OT1/ptm/m/n/12 Can also pre-dict $\OML/cmm/m/it/12 k$
+
+Underfull \hbox (badness 1769) in paragraph at lines 38--40
+\OT1/ptm/m/n/12 from top-down tech-
+) (/home/jason/thesis/thesis/sed/sed.tex [1] [2]
+Chapter 2.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.376 ...k/m_book_lj_nmd_xcorr_compare_c0_sed.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.376 ...k/m_book_lj_nmd_xcorr_compare_c0_sed.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.376 ...k/m_book_lj_nmd_xcorr_compare_c0_sed.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.376 ...k/m_book_lj_nmd_xcorr_compare_c0_sed.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.378 ...book_lj_nmd_xcorr_compare_c0_xcorr-5.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.378 ...book_lj_nmd_xcorr_compare_c0_xcorr-5.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.378 ...book_lj_nmd_xcorr_compare_c0_xcorr-5.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.378 ...book_lj_nmd_xcorr_compare_c0_xcorr-5.eps}
+                                                  
+? 
+LaTeX Warning: Reference `E-NMD-E-exp' on page 3 undefined on input line 385.
+
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page 3 undefined on input line 385.
+
+
+LaTeX Warning: Reference `S-vg' on page 3 undefined on input line 404.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 414.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 414.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Phi' on input line 414.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 414.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [3]
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 495.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Phi' on input line 495.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 495.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+[6] [7] [8]
+Underfull \hbox (badness 2799) in paragraph at lines 755--755
+[]\OT1/ptm/m/n/12 Figure 2.3: [][][]  []The SED (us-ing $\OT1/cmr/m/n/12 ^^H$\O
+T1/ptm/m/n/12 ) for the first three po-lar-iza-tions at the wavevec-tor
+
+Overfull \hbox (2.28003pt too wide) detected at line 771
+ []
+
+Underfull \vbox (badness 1910) has occurred while \output is active [9]
+[10]
+
+LaTeX Warning: Reference `E:q_hld' on page 11 undefined on input line 881.
+
+
+LaTeX Warning: Reference `E:qdot_hld' on page 11 undefined on input line 881.
+
+
+LaTeX Warning: Reference `E-NMD-T-time' on page 11 undefined on input line 884.
+
+
+
+LaTeX Warning: Reference `E-NMD-E-time' on page 11 undefined on input line 884.
+
+
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page 11 undefined on input line 885.
+
+
+LaTeX Warning: Reference `E:T_avg_w' on page 11 undefined on input line 886.
+
+
+LaTeX Warning: Reference `E-NMD-E-frequency' on page 11 undefined on input line
+ 888.
+
+
+LaTeX Warning: Reference `E-NMD-T-time' on page 11 undefined on input line 890.
+
+
+
+LaTeX Warning: Reference `E-NMD-E-frequency' on page 11 undefined on input line
+ 891.
+
+[11] [12]
+
+LaTeX Warning: Reference `E-NMD-T-time' on page 13 undefined on input line 940.
+
+
+
+LaTeX Warning: Reference `E-NMD-E-time' on page 13 undefined on input line 940.
+
+
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page 13 undefined on input line 940.
+
+
+LaTeX Warning: Reference `E-NMD-E-frequency' on page 13 undefined on input line
+ 941.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 965.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 971.
+
+[13] [14]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1084 }
+        
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.1084 }
+        
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.1084 }
+        
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.1084 }
+        
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.1088 }
+        
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.1088 }
+        
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.1088 }
+        
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.1088 }
+        
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.1092 }
+        
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.1092 }
+        
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.1092 }
+        
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.1092 }
+        
+? [15]
+
+LaTeX Warning: Command \r invalid in math mode on input line 1188.
+
+[16] [17] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active [19])
+(/home/jason/thesis/thesis/vc/vc.tex [20]
+Chapter 3.
+[21] [22] [23] [24] [25] [26]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.384 ...sorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+                                                  
+? 
+Overfull \hbox (109.84929pt too wide) in paragraph at lines 384--386
+ [] 
+[27]
+
+LaTeX Warning: Command \r invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 463.
+
+[28]
+
+LaTeX Warning: Command \r invalid in math mode on input line 475.
+
+[29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+Underfull \vbox (badness 1308) has occurred while \output is active [39]
+[40]
+Underfull \vbox (badness 10000) has occurred while \output is active [41]
+[42] [43]
+Underfull \vbox (badness 10000) has occurred while \output is active [44]
+Overfull \hbox (15.58669pt too wide) in paragraph at lines 1239--1245
+[]\OT1/ptm/m/n/12 The ther-mal con-duc-tiv-i-ties pre-dicted by VC-NMD, VC-ALD,
+ and GK are sys-tem size-dependent
+
+Underfull \vbox (badness 10000) has occurred while \output is active [45]
+Overfull \hbox (8.2048pt too wide) in paragraph at lines 1307--1320
+[]\OT1/ptm/m/n/12 By ap-ply-ing the high-scatter limit ad-just-ment VC-ALD$[]$,
+ the ther-mal con-duc-tiv-i-ties are brought
+[46] [47]
+Underfull \vbox (badness 5359) has occurred while \output is active [48]
+[49]
+Overfull \hbox (6.88658pt too wide) in paragraph at lines 1673--1695
+[]\OT1/ptm/m/n/12 LJ ar-gon is a ma-te-rial whose ther-mal trans-port has sig-n
+if-i-cant con-tri-bu-tion from high-frequency
+
+Underfull \vbox (badness 2302) has occurred while \output is active [50])
+(/home/jason/thesis/thesis/mfp/mfp.tex [51] [52]
+Chapter 4.
+) (./conclusion.tex [53] [54]
+Chapter 5.
+[55]
+Underfull \vbox (badness 10000) has occurred while \output is active [56]
+Underfull \vbox (badness 10000) has occurred while \output is active [57]
+[58] [59] [60]) (/home/jason/thesis/thesis/appendix/appendix.tex
+(/home/jason/thesis/thesis/appendix/appendix_sed.tex [61] [62]
+Appendix A.
+
+Overfull \hbox (11.46156pt too wide) in paragraph at lines 9--9
+[][] \OT1/ptm/b/n/17.28 Deriva-tion of Phonon Spec-tral En-ergy Den-sity, $\OT1
+/cmr/m/n/17.28 ^^H$ \OT1/ptm/b/n/17.28 (WORK) 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Phi' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9.
+
+[63]
+Underfull \vbox (badness 10000) has occurred while \output is active [64]
+Underfull \vbox (badness 4391) has occurred while \output is active [65]
+Underfull \vbox (badness 10000) has occurred while \output is active [66]
+Underfull \vbox (badness 10000) has occurred while \output is active [67]
+Underfull \vbox (badness 10000) has occurred while \output is active [68]
+
+LaTeX Warning: Reference `S-crystal' on page 69 undefined on input line 379.
+
+
+Underfull \vbox (badness 6110) has occurred while \output is active [69]
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page 70 undefined on input line 432.
+
+[70]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.440 ...k_lj_nmd_xcorr_compare_c0_c05_c5_sed.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.440 ...k_lj_nmd_xcorr_compare_c0_c05_c5_sed.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.440 ...k_lj_nmd_xcorr_compare_c0_c05_c5_sed.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.440 ...k_lj_nmd_xcorr_compare_c0_c05_c5_sed.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.442 ...m_book_lj_nmd_xcorr_compare_c5_xcorr.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.442 ...m_book_lj_nmd_xcorr_compare_c5_xcorr.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.442 ...m_book_lj_nmd_xcorr_compare_c5_xcorr.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.442 ...m_book_lj_nmd_xcorr_compare_c5_xcorr.eps}
+                                                  
+? 
+LaTeX Warning: Reference `E-NMD-E-exp' on page 71 undefined on input line 450.
+
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page 71 undefined on input line 450.
+
+[71] [72]
+Overfull \hbox (79.92445pt too wide) in paragraph at lines 551--552
+[]| 
+
+Overfull \hbox (79.92445pt too wide) in paragraph at lines 552--553
+[]| 
+
+Overfull \hbox (55.25302pt too wide) in paragraph at lines 558--559
+[]| 
+
+Overfull \hbox (55.25302pt too wide) in paragraph at lines 559--560
+[]| 
+
+LaTeX Warning: Reference `S-NMDformulation' on page 73 undefined on input line 
+591.
+
+
+LaTeX Warning: Reference `S-workflow' on page 73 undefined on input line 592.
+
+
+Overfull \hbox (9.75847pt too wide) in paragraph at lines 590--602
+\OT1/ptm/m/n/12 Having de-scribed the nor-mal mode de-com-po-si-tion the-o-ret-
+i-cal ap-proach and com-pu-ta-tional method-
+
+Underfull \vbox (badness 10000) has occurred while \output is active [73]
+Underfull \vbox (badness 1127) has occurred while \output is active [74]
+[75]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.639 ...ok/m_book_lj_disp_dos_vg_prim_novg-2.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.639 ...ok/m_book_lj_disp_dos_vg_prim_novg-2.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.639 ...ok/m_book_lj_disp_dos_vg_prim_novg-2.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.639 ...ok/m_book_lj_disp_dos_vg_prim_novg-2.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.641 ...ok/m_book_lj_disp_dos_vg_conv_novg-2.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.641 ...ok/m_book_lj_disp_dos_vg_conv_novg-2.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.641 ...ok/m_book_lj_disp_dos_vg_conv_novg-2.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.641 ...ok/m_book_lj_disp_dos_vg_conv_novg-2.eps}
+                                                  
+? [76]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.682 ...ok/m_book_lj_nmd_prim_conv_compare-2.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.682 ...ok/m_book_lj_nmd_prim_conv_compare-2.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.682 ...ok/m_book_lj_nmd_prim_conv_compare-2.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.682 ...ok/m_book_lj_nmd_prim_conv_compare-2.eps}
+                                                  
+? 
+LaTeX Warning: Reference `S-alloy' on page 77 undefined on input line 693.
+
+
+LaTeX Warning: Reference `S-amorphous' on page 77 undefined on input line 693.
+
+
+LaTeX Warning: Reference `E-kBTE' on page 77 undefined on input line 707.
+
+[77]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.735 ...x/book/m_book_cond_extrap_c0-3_boxon.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.735 ...x/book/m_book_cond_extrap_c0-3_boxon.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.735 ...x/book/m_book_cond_extrap_c0-3_boxon.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.735 ...x/book/m_book_cond_extrap_c0-3_boxon.eps}
+                                                  
+? 
+Underfull \vbox (badness 5217) has occurred while \output is active [78]
+
+LaTeX Warning: Reference `E-NMD-E-exp' on page 79 undefined on input line 795.
+
+[79]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.816 ...opbox/book/m_nmd_xcorr_fit_lj_plot-2.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.816 ...opbox/book/m_nmd_xcorr_fit_lj_plot-2.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.816 ...opbox/book/m_nmd_xcorr_fit_lj_plot-2.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.816 ...opbox/book/m_nmd_xcorr_fit_lj_plot-2.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.827 ...n/Dropbox/book/m_lj_nmd_c0_amor_life.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.827 ...n/Dropbox/book/m_lj_nmd_c0_amor_life.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.827 ...n/Dropbox/book/m_lj_nmd_c0_amor_life.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.827 ...n/Dropbox/book/m_lj_nmd_c0_amor_life.eps}
+                                                  
+? [80]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.873 ...is/thesis/appendix/LJ_NMD_SED_COND_2.eps}
+                                                  
+? ! Extra }, or forgotten $.
+\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.873 ...is/thesis/appendix/LJ_NMD_SED_COND_2.eps}
+                                                  
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.873 ...is/thesis/appendix/LJ_NMD_SED_COND_2.eps}
+                                                  
+? ! Missing } inserted.
+<inserted text> 
+                }
+l.873 ...is/thesis/appendix/LJ_NMD_SED_COND_2.eps}
+                                                  
+? [81]) (/home/jason/thesis/thesis/appendix/appendix_computing.tex [82]
+Appendix B.
+
+Overfull \hbox (63.6717pt too wide) in paragraph at lines 75--93
+[]\OT1/ptm/m/n/12 There are many op-tions for in-stalling Ubuntu and the in-str
+uc-tions can be found on [][]http://www.ubuntu.com/[][][].
+[83] [84]
+Underfull \vbox (badness 10000) has occurred while \output is active [85]
+[86] [87] [88] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd)
+[89] [90] [91] [92] [93]
+
+Package hyperref Warning: Empty destination name,
+(hyperref)                using `UNDEFINED' on input line 749.
+
+[94]
+Overfull \hbox (89.6864pt too wide) in paragraph at lines 823--861
+[][][]\OT1/ptm/m/n/12 Alan Mc-Gaughey[][][], [][]Jon Malen[][][], [][]Ju-lian G
+ale[][][] [][](GULP au-thor)[][][], [][]Keivan Es-far-jani[][][], nor-mand.mous
+seau@umontreal.ca,
+
+Overfull \hbox (6.50656pt too wide) in paragraph at lines 823--861
+\OT1/ptm/m/n/12 guido.raos@polimi.it, [][]Joseph Feld-man[][][], [][]Junchiro S
+h-iomi[][][], [][]Da-vide Dona-dio[][][], [][]Craig Mal-oney[][][], [][]Jivtesh
+
+[95])) [96] (./cmuthesis_jlarkin.bbl (./cmuthesis_jlarkin.brf)
+Underfull \vbox (badness 10000) has occurred while \output is active [97]
+Underfull \hbox (badness 2005) in paragraph at lines 94--94
+[]\OT1/ptm/m/n/12 Bo Qiu, Hua Bao, Gengqiang Zhang, Yue Wub, and Xi-ulin Ruan. 
+ Molec-u-
+
+Underfull \hbox (badness 1400) in paragraph at lines 94--94
+\OT1/ptm/m/n/12 free path of PbTe: bulk and nanos-truc-tures.  \OT1/ptm/m/it/12
+ Com-pu-ta-tional Ma-te-ri-als Sci-ence\OT1/ptm/m/n/12 ,
+
+Underfull \vbox (badness 10000) has occurred while \output is active [98]
+Underfull \vbox (badness 10000) has occurred while \output is active [99]
+Underfull \vbox (badness 10000) has occurred while \output is active [100]
+Underfull \vbox (badness 10000) has occurred while \output is active [101]
+Underfull \vbox (badness 10000) has occurred while \output is active [102]
+Underfull \hbox (badness 1097) in paragraph at lines 354--354
+[]\OT1/ptm/m/n/12 Gabriele C. Sosso, Da-vide Dona-dio, Se-bas-tiano Car-a-vati,
+ Jrg Behler, and Marco
+
+Underfull \vbox (badness 10000) has occurred while \output is active [103]
+Underfull \hbox (badness 1389) in paragraph at lines 386--386
+[]\OT1/ptm/m/n/12 Daniel Charles Mat-tis.  Phonon free path in an iso-topic mix
+-ture.  \OT1/ptm/m/it/12 Phys. Rev.\OT1/ptm/m/n/12 ,
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\OT1/ptm/m/n/12 W. A. Kami-taka-hara and B. N. Brock-house.  Vi-
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\OT1/ptm/m/n/12 bra-tions of a mixed crys-tal: Neu-tron scat-ter-ing from
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]\OT1/ptm/m/n/12 David G. Cahill and Fu-miya Watan-abe.  Ther-mal con-duc-tiv-
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+\OT1/ptm/m/n/12 ity of iso-topi-cally pure and ge-doped si epi-tax-ial lay-ers 
+from
+
+Overfull \hbox (1613.11563pt too wide) in paragraph at lines 399--399
+\OT1/ptm/m/n/12 $300\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextbackslas
+htextbackslashphantom\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextbacksla
+shtextbackslashrule0.3em0ex\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextb
+ackslashtextbackslashtextto\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtextb
+ackslashtextbackslashphantom\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbackslashtext
+backslashtextbackslashrule0.3em0ex550\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textback
+slashtextbackslashtextbackslashphantom\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 textbac
+kslashtextbackslashtextbackslashrule0.3em0ex\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 t
+extbackslashtextbackslashtextbackslashmathrmK$.
+
+Underfull \vbox (badness 10000) has occurred while \output is active [104]
+Underfull \vbox (badness 10000) has occurred while \output is active [105]
+Underfull \vbox (badness 10000) has occurred while \output is active [106]
+Underfull \vbox (badness 10000) has occurred while \output is active [107]
+Underfull \vbox (badness 10000) has occurred while \output is active [108])
+[109] (./cmuthesis_jlarkin.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+Output written on cmuthesis_jlarkin.dvi (129 pages, 778680 bytes).
+Transcript written on cmuthesis_jlarkin.log.

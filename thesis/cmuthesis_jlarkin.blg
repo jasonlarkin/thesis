@@ -2,59 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cmuthesis_jlarkin.aux
 The style file: unsrt.bst
-Database file #1: /home/jason/Dropbox/ntpl-paper/ntpl-060313.bib
-Warning--I didn't find a database entry for "beltukov_ioffe_2013"
-Warning--I didn't find a database entry for "vc_fn1"
-Warning--I didn't find a database entry for "vc_fn2"
-Warning--I didn't find a database entry for "vc_fn4"
-Warning--I didn't find a database entry for "vc_fn5"
-Warning--I didn't find a database entry for "maradudin_dynamical_1974"
-Warning--I didn't find a database entry for "mcgaughey_size-independent_2011"
-Warning--I didn't find a database entry for "turney_assesing_2009"
-Warning--I didn't find a database entry for "dekoker_thermal_2009"
-Warning--I didn't find a database entry for "brenner_second_2002"
-Warning--I didn't find a database entry for "turneythesis"
-Warning--I didn't find a database entry for "LAMMPS"
-Warning--I didn't find a database entry for "GULP"
-You've used 113 entries,
+Database file #1: /home/jason/Dropbox/ntpl-paper/ntpl-072613.bib
+You've used 202 entries,
             1791 wiz_defined-function locations,
-            1062 strings with 23756 characters,
-and the built_in function-call counts, 28832 in all, are:
-= -- 2431
-> -- 1303
-< -- 1
-+ -- 479
-- -- 366
-* -- 2423
-:= -- 4653
-add.period$ -- 340
-call.type$ -- 113
-change.case$ -- 104
+            1462 strings with 39248 characters,
+and the built_in function-call counts, 51564 in all, are:
+= -- 4339
+> -- 2475
+< -- 8
++ -- 900
+- -- 698
+* -- 4333
+:= -- 8271
+add.period$ -- 608
+call.type$ -- 202
+change.case$ -- 188
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 1023
-empty$ -- 2843
-format.name$ -- 366
-if$ -- 6227
+cite$ -- 202
+duplicate$ -- 1954
+empty$ -- 4953
+format.name$ -- 698
+if$ -- 11189
 int.to.chr$ -- 0
-int.to.str$ -- 113
-missing$ -- 119
-newline$ -- 568
-num.names$ -- 113
-pop$ -- 173
+int.to.str$ -- 202
+missing$ -- 208
+newline$ -- 1010
+num.names$ -- 208
+pop$ -- 319
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 364
+skip$ -- 835
 stack$ -- 0
-substring$ -- 2910
-swap$ -- 120
-text.length$ -- 1
+substring$ -- 4603
+swap$ -- 334
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 210
-width$ -- 116
-write$ -- 1239
-(There were 13 warnings)
+while$ -- 401
+width$ -- 205
+write$ -- 2212

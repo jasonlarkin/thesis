@@ -372,6 +372,19 @@ Here is a Carnegie Mellon thesis template:
 %reccomendation: explore all predictive methods and models possible
 
 %--------------------------------------------------------------------------
+\subsection{Producing Figures}
+%--------------------------------------------------------------------------
+
+Python has a plotting module, \href{http://matplotlib.org/}{matplotlib}, 
+which has \href{http://matplotlib.org/examples/index.html}{many examples}. 
+Here is a \href{https://gist.github.com/kparrish/6101681}{simple example 
+demonstrating how to generate and save data, load that data, and plot.} 
+
+
+\href{https://github.com/ntpl/ntpy/tree/master/examples/thesis}
+{Here is a simple example demonstrating how to }
+
+%--------------------------------------------------------------------------
 \section{Technical Advice}
 %--------------------------------------------------------------------------
 

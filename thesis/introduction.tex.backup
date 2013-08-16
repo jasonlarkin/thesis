@@ -1,0 +1,376 @@
+%--------------------------------------------------------------------------
+\chapter{Introduction}
+%--------------------------------------------------------------------------
+There are two sections to this introductory chapter.
+
+Crystals well understoopd, except for brand-new stuff(cite broido, 
+esfajani)
+
+Disordered materials, what is known or unknown.
+
+Physics community lots of studies, but nothing pushing the towards 
+thermal.
+
+Kinetic Theory
+
+Callaway/Holland-type
+
+%--------------------------------------------------------------------------
+\section{Thermal Conductivity Theory}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Green-Kubo Formulation}
+%--------------------------------------------------------------------------
+
+Discussed in other works.
+
+
+
+%--------------------------------------------------------------------------
+\subsection{Kinetic Phonon Gas and Perturbation Theory}
+%--------------------------------------------------------------------------
+
+For a perfect lattice, 
+all vibrational modes are phonon modes, which by 
+definition are delocalized, propagating plane waves.
+\cite{ziman_electrons_2001} Using the single-mode relaxation
+time approximation \cite{ziman_electrons_2001} to solve 
+the Boltzmann transport equation gives an 
+expression for thermal conductivity kph Eq. \ref{EQ:k_vib}. 
+
+The relaxation time approximation has been found to be valid  
+for lower thermal conductivity materials 
+(e.g., Si and SiGe alloys),
+\cite{broido_intrinsic_2007,ward_intrinsic_2010,garg_role_2011} 
+while larger thermal conductivity 
+materials such as GaN and diamond require an  
+iterative solution to the BTE for more accurate predictions 
+using Eq. \eqref{EQ:k_vib}.
+\cite{ward_ab_2009,lindsay_thermal_2012} 
+
+
+In the VC-ALD method, the phonon-phonon scattering is  
+predicted using ALD.\cite{turney_predicting_2009,esfarjani_heat_2011} 
+with phonon-phonon and phonon-defect scattering treated as 
+perturbations.
+\cite{garg_role_2011,tian_phonon_2012,lindsay_thermal_2012} 
+Phonon-phonon scattering in ALD is modeled by including three-phonon 
+processes.\cite{turney_predicting_2009-1,garg_role_2011,tian_phonon_2012} 
+The present study is concerned with temperatures much less than the 
+melting temperature of either LJ argon
+\cite{mcgaughey_phonon_2004} or 
+SW silicon\cite{stillinger_computer_1985} so that we believe the effects 
+of higher-order phonon processes are 
+negligible.\cite{ecsedy_thermal_1977,turney_predicting_2009-1} 
+We predict the phonon-phonon lifetimes using the method 
+described in Ref. \citenum{turney_predicting_2009-1}, 
+with all classical expressions for the populations to remain 
+consistent with the classical MD-based methods from 
+Section \ref{S:From VC Gamma}. 
+
+
+
+
+The phonon-defect scattering is treated 
+using perturbative methods that can handle mass and/or bond disorder.
+\cite{klemens_scattering_1955,klemens_thermal_1957,mattis_phonon_1957,
+tamura_isotope_1983} 
+Using perturbation theory, Tamura derived a general expression for 
+phonon scattering by mass point defects to second order that was applied 
+to study isotopic germanium.\cite{tamura_isotope_1983} Bond disorder 
+can be accounted for using a similar expression with an average
+atomic radius or suitable scattering cross-section.
+\cite{klemens_scattering_1955,klemens_thermal_1957} 
+In Ni$_{0.55}$Pd$_{0.45}$, 
+which has a large mass ratio (1.8) and concentration of each species, 
+experimental measurements of   
+vibrational frequencies and linewidths agree well with 
+predictions from the perturbative mass-disorder theory.
+\cite{mattis_phonon_1957,kamitakahara_vibrations_1974,tamura_isotope_1983} 
+
+Using DFT methods to predict 
+the mode-specific phonon properties of the VC, Lindsay and Broido 
+found good agreement between VC-ALD and experimental measurements of 
+thermal conductivity for 
+isotopically defected GaN (the gallium isotopes have concentrations of 
+0.6 and 0.4 and a mass ratio of 1.03).\cite{lindsay_thermal_2012} 
+Garg et al. used DFT calculations with VC-ALD   
+to predict the thermal conductivity of SiGe alloys 
+for all concentrations at a temperature of 300 K, 
+obtaining good agreement with experiment.\cite{garg_role_2011}  
+By including disorder explicitly in their ALD calculations, the predicted 
+thermal conductivity decreased by 15$\%$. 
+Isotopically-defected GaN and low concentration SiGe alloys 
+have relatively large 
+thermal conductivities at a temperature of 300 K ($\sim$ 100 W/m-K). 
+Li et al. used DFT calculations with VC-ALD to predict the thermal 
+conductivity of Mg$_2$Si$_x$Sn$_{1-x}$ ($\sim$ 10 W/m-K) 
+in good agreement with 
+experimental measurements for all concentrations.\cite{li_thermal_2012}
+The VC-ALD approach has also been used to predict the effect of interfacial 
+mixing in GaAs/AlAs superlattices, but the thermal 
+conductivity predictions were not compared with experimental 
+measurements.\cite{luckyanova_coherent_2012}  
+In our survey of experimental measurements and numerical modeling, 
+we find that 
+VC predictions tend to be accurate when the disordered lattice 
+thermal conductivity 
+is significantly above the high-scatter limit [Eq. \eqref{EQ:M:k_AF,HS}],  
+which tends to be around 1 W/m-K.
+\cite{abeles_lattice_1963,kamitakahara_vibrations_1974,
+cahill_thermal_2004,cahill_thermal_2005,cahill_lattice_1988,
+garg_role_2011,lindsay_thermal_2012} 
+
+An ALD study using phonon properties from DFT calculations for 
+crystalline PbTe\cite{shiga_microscopic_2012} predicted 
+thermal conductivities of 2 W/m-K at a temperature of 300 K 
+in fair agreement with experiment. 
+For PbTeSe alloys, a VC-ALD 
+study predicted a small thermal conductivity reduction compared to the 
+perfect crystals.\cite{tian_phonon_2012} Experimental results are limited 
+for these alloys,\cite{kudman_thermoelectric_1972,pei_convergence_2011} 
+making it difficult to asses the validity of the VC-ALD approach for 
+materials whose thermal conductivities approach the high-scatter limit.
+
+Given all these results, it is unclear what limitations exist for 
+using the VC approach. 
+In this study, we will consider a low thermal conductivity alloy  
+using the LJ potential and a high thermal conductivity alloy using the 
+SW potential. The computational studies discussed above were 
+limited to VC-ALD 
+because of DFT calculation costs. Our use of computationally 
+inexpensive empirical potentials allows us to include the disorder 
+explicitly and as a perturbation and to compare the predictions. 
+
+
+%--------------------------------------------------------------------------
+\subsection{Diffuson Theory}
+%--------------------------------------------------------------------------
+
+For disordered systems, the vibrational modes are no 
+longer pure plane-waves (i.e., phonon modes), except in the low-frequency 
+(long-wavelength) limit. When applied in the classical limit, 
+the Allen-Feldman (AF) theory computes 
+the contribution of diffusive, non-propagating modes (i.e., diffusons) 
+to thermal conductivity.\cite{allen_thermal_1993} 
+
+kAF Eq. \eqref{EQ:M:k_AF} 
+The diffusivity of diffusons 
+can be calculated from harmonic lattice dynamics theory.
+\cite{allen_thermal_1993,feldman_thermal_1993,feldman_numerical_1999} 
+
+Assuming that all vibrational modes travel with the sound speed, $v_s$, and 
+scatter over a distance of the lattice constant, $a$, 
+a high-scatter (HS) limit of thermal conductivity in the classical 
+limit is\cite{cahill_lattice_1988} 
+\begin{equation}\label{EQ:M:k_AF,HS}
+k_{HS} = \frac{k_{\text{B}}}{V_b}b v_s a,
+\end{equation}
+where $V_b$ is the volume of the unit cell and $b$ is the number of atoms 
+in the unit cell. The HS limit will be used to 
+discuss the differences between the LJ argon and SW silicon alloys. 
+
+
+
+
+%--------------------------------------------------------------------------
+\subsection{Diffuson Theory}
+%--------------------------------------------------------------------------
+Harmonic theory
+
+Does not work at low-frequencies
+
+
+%--------------------------------------------------------------------------
+\subsection{Bottom-up versus Top-Down Thermal Conductivity}
+%--------------------------------------------------------------------------
+
+Callaway-Holland (CH) theory uses empircally fit models for the 
+mode properties. The CH empircal models can be used together 
+with harmonic lattice dynamics calculations on atomistic 
+models based on interatomic potentials or DFT calcualtions. 
+
+Because empirically fit models are used, the CH theory lacks 
+predictive capability. 
+
+Anharmonic lattice dynamic (ALD) can be used to predict 
+phonon properties
+
+anharmonic lattice dynamics (ALD)
+
+Allen-Feldman (AF) theory
+
+MD-based Green-Kubo (GK) method
+
+normal mode decomposition (NMD)
+
+
+
+\begin{center}
+%\squeezetable
+\begin{table}
+\small
+\caption{\label{T-comparison}Comparison of theoretical techniques 
+for predicting phonon properties and thermal conductivity.}
+%\begin{tabular}{llllll}
+\begin{tabular}{p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}}
+\hline\hline
+&CH Theory 
+&ALD
+&AF Theory
+&GK 
+&NMD\\ 
+\hline\hline
+Description
+&Empirical
+&Predictive 
+&Predictive 
+&stuff\\
+\hline
+Input
+&Empirical Models Dispersion and lifetime models, experimental $k$ data 
+&Force constants \newline (from DFT or potentials)  
+&Forces \newline (from potentials) 
+&stuff \\
+\hline
+Anharmonicity
+&Full 
+&Third-order 
+&Full 
+&Harmonic 
+&Quasi-Harmonic\\
+\hline
+Statistics
+&Bose-Einstein or \newline Boltzmann 
+&Bose-Einstein or \newline Boltzmann 
+&Boltzmann 
+&Bose-Einstein or \newline Boltzmann
+&Boltzmann\\
+\hline
+Temperature
+&All 
+&Low 
+&High 
+&All
+&Mid-range\\
+\hline
+Disorder
+&As additional \newline perturbation 
+&As additional \newline perturbation 
+&Can be naturally included 
+&stuff
+&\\
+\hline \hline
+\end{tabular}
+\end{table}
+\end{center}
+%--------------------------------------------------------------------------
+
+
+
+\begin{center}
+%\squeezetable
+\begin{table}
+\small
+\caption{\label{T-comparison}Comparison of theoretical techniques 
+for predicting phonon properties and thermal conductivity.}
+%\begin{tabular}{llllll}
+\begin{tabular}{p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}}
+\hline\hline
+&CH Theory 
+&Anharmonic Lattice Dynamics 
+&Green-Kubo 
+&AF Theory
+&NMD\\ 
+\hline\hline
+Description
+&Empirical
+&Predictive 
+&Predictive 
+&stuff\\
+\hline
+Input
+&Empirical Models Dispersion and lifetime models, experimental $k$ data 
+&Force constants \newline (from DFT or potentials)  
+&Forces \newline (from potentials) 
+&stuff \\
+\hline
+Anharmonicity
+&Full 
+&Third-order 
+&Full 
+&Harmonic 
+&Quasi-Harmonic\\
+\hline
+Statistics
+&Bose-Einstein or \newline Boltzmann 
+&Bose-Einstein or \newline Boltzmann 
+&Boltzmann 
+&Bose-Einstein or \newline Boltzmann
+&Boltzmann\\
+\hline
+Temperature
+&All 
+&Low 
+&High 
+&All
+&Mid-range\\
+\hline
+Disorder
+&As additional \newline perturbation 
+&As additional \newline perturbation 
+&Can be naturally included 
+&stuff
+&\\
+\hline \hline
+\end{tabular}
+\end{table}
+\end{center}
+%--------------------------------------------------------------------------
+
+
+
+Comments
+
+Callaway/Holland model: 
+Challenging to apply to non-isotropic systems. 
+Requires fitting parameters. 
+
+
+ALD
+Partial fourth-order theory for predicting frequency shifts available. 
+Calculation scales with the fourth power of the number of 
+atoms in the unit cell. 
+
+Requires $\emph{a priori}$ harmonic lattice dynamics calculations. 
+Can also predict $k$ from the mode-level properties.
+
+
+The Allen-Feldman (AF) theory can use quantum or classical expressions 
+for the specific heat, while the mode properties it predicts are 
+based on the harmonic approximation. While this should limit the 
+applicability of the AF theory to low temperatures where the harmonic 
+approximation is valid, anharmonic effects have been shown to be 
+small for disordered solids such as amorphous silicon.
+\cite{feldman_thermal_1993}
+
+NMD Mid-range\cite{turney_predicting_2009-1}
+
+
+%--------------------------------------------------------------------------
+\subsection{Computational Cost and Modeling Choices}
+%--------------------------------------------------------------------------
+
+The key to explicitly incorporating the effects of disorder 
+is to use large disordered supercells. 
+
+Efficient MD 
+codes like LAMMPS scale linearly with the number of atoms in 
+the system, $N_a$, which makes the GK method (see Section 
+\ref{S:Thermal Conductivity}) 
+computationally-inexpensive when used with empirical potentials. 
+
+
+
+

@@ -1,0 +1,163 @@
+%--------------------------------------------------------------------------
+\chapter{Conclusion}
+%--------------------------------------------------------------------------
+There are two sections to this introductory chapter.
+
+%--------------------------------------------------------------------------
+\section{Contributions}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{Molecular Dynamics-based Methods for Predicting Vibrational 
+Lifetimes}
+%--------------------------------------------------------------------------
+
+Clarified the proposed spectral method.  Related it to the properly-defined 
+dynamic structure factor. 
+
+%--------------------------------------------------------------------------
+\subsection{Future Work}
+%--------------------------------------------------------------------------
+
+
+
+Current correlation function can even be used to study the spectral 
+character of motions in a fluid.  One study showed that the 
+effective dispersion in liquid SiO$_2$ is nearly identical to 
+a-SiO$_2$ for low wavevectors (low-frequency).\cite{horbach_high_2001} 
+
+
+%--------------------------------------------------------------------------
+\subsection{Thermal Transport in Alloys and Importance of High-scatter 
+Limits}
+%--------------------------------------------------------------------------
+
+New Understanding of Physics
+Our manuscript provides original insight into the physics of thermal 
+transport in disordered lattices (i.e., isotopic solids and alloys). 
+Notably:
+1. The first rigourous test of the virtual crystal (VC) approximation 
+when used in anharmonic lattice dynamics (ALD) calculations. The VC-ALD 
+technique has been used in a number of recent papers published in PRB 
+and PRL (REFS), but its limits have not been assessed.  In VC-ALD, 
+the disorder in the alloy is treated as a perturbation. The perturbative 
+disorder model was originally developed to model isotopic solids where 
+the disorder is weak [11]. We determined the limits of the VC-ALD 
+approach using computationally-inexpensive empirical potentials and 
+self- consistently treating the disorder explicitly and as a 
+perturbation. We are not aware of any such previous study. Our results 
+indicate that while VC-ALD is generally an accurate method for materials 
+whose thermal conductivity is dominated by low-frequency vibrational 
+modes, care must be taken when modeling alloys with low thermal 
+conductivities, where significant underprediction of thermal 
+conductivity is likely. 
+1. 2. The indentification of important connections between the modeling 
+of disordered lattices and amorphous materials [1,2,11,35,86]. We 
+demonstrate that the high-scatter limit of thermal diffusivity 
+typically used in modeling amorphous materials is directly relevant 
+to the modeling of disordered lattices. Application of the VC 
+approximation leads to vibrational mode diffusivities that are 
+non-physical and the high-scatter limit provides a simple, 
+physically-sound approach for correcting these predictions. 
+Scientific Interest
+The breakdown of the VC-ALD method has gone unnoticed in previous 
+computational work because these studies: (i) were limited to the 
+VC-ALD method because of computationally-expensive DFT calculations, 
+so that validation was not possible [12,18-27], (ii) focused on 
+materials where the thermal conductivity is dominated by low-frequency 
+vibration modes [12,18-27], and/or (iii) did not always compare their 
+predictions with experimental measurements [21,22,26]. 
+In our work, we provide a self-consistent study of thermal transport 
+in disordered lattices using a set of complementary computational tools 
+based in molecular dynamics simulations and lattice dynamics calculations. 
+The use of empirical potentials versus computationally-expensive DFT 
+calculations allowed us to perform the molecular dynamics simulations 
+that were necessary to observe the breakdown of the VC-ALD method. Our 
+study includes two test materials that demonstrate the applicability 
+and breakdown of the VC-ALD method. The conclusions are of general use 
+for the study of any disordered lattice. 
+The following calculations that we performed are novel additions to the 
+literature:
+1) Virtual Crystal + Normal Mode Decomposition. To model disordered 
+lattices explicitly, we (and others) used normal mode decomposition 
+(NMD) on the fully disordered supercell. This approach is limited in 
+that the group velocity cannot be extracted so that thermal conductivity 
+cannot be predicted.  The novel contribution of our work is the use of 
+NMD to predict the lifetimes of a disordered lattice using VC-NMD, 
+where the normal modes of the Virtual Crystal (VC) are used as an 
+approximation.
+2) Allen-Feldman Theory on Disodered Lattice.To model the disorder 
+explicitly, we also use the Allen-Feldman (AF) theory of diffusons. 
+This theory has only previously been applied to amorphous phases 
+[16,17,35,36,74].  We use the AF theory to show that the lower-limit 
+of diffusivity of high-frequency modes in a disordered lattice is the 
+high-scatter limit, in contrast to the VC-ALD method, which incorrectly 
+predicts that the limiting value is zero. Identification of this 
+high-scatter limit of mode diffusivity was essential for identifying 
+the breakdown in the VC-ALD method.  The high-scatter limit of 
+diffusivity is usually assumed, without theoretical justification, in 
+models for disordered and amorphous materials [1,2,80,83]. Our study 
+gives self-consistent justification for its use.
+3) Structure Factor of Disordered Lattice to Predict Group Velocities. 
+We calculated the structure factor for modes in a disordered lattice, 
+which has previously only been done for modes in amorphous materials.
+\cite{PRB articles} The structure factor predictions help us to 
+understand that the VC-predicted group velocities are an 
+underprediction of the representative velocity scale for mode 
+diffusivities in the disordered lattice.  While previous studies 
+have attempted to predict the group velocity of modes in disordered 
+systems, there is no theoretical justification for the methods used 
+[60-62]. The structure factor provides a rigorous manner to estimate 
+group velocities and is a significant contribution to understanding 
+how to predict the correct velocity scale for mode diffusivities in 
+disordered systems.[] 
+Work Quality
+We present a self-consistent study of the VC approximation using five 
+different method (VC-ALD, VC-NMD, Gamma-NMD, AF theory, and Green-Kubo). 
+We study the thermal transport of Lennard-Jones argon in three solid 
+phases of the materials: perfect crystal, disordered lattice, and 
+amorphous phase. By using three phases, we demonstrate the applicability 
+of the different methods for predicting the thermal conductivity and 
+mode-properties:
+1) Molecular Dynamics-based Green-Kubo: suitable for modeling all 
+three phases, but does not predict the mode properties.
+2) Phonon based VC-ALD and VC-NMD: suitable for the perfect crystal 
+and disordered lattices with the high-scatter limit correction.
+3) The AF theory of diffusons: suitable for the high-frequency modes 
+of the disordered lattice and all modes of the amorphous phase. 
+We are unaware of any other study that uses all five of these methods 
+self-consistently on the same material system. Our work provides clear 
+guidelines for others on what tools are appropriate for different 
+solid state systems.
+Contribution to the Literature
+Due to their low thermal conductivities, alloys are currently an active 
+area of research, notably in the thermoelectric energy conversion field. 
+The ability to predict alloy thermal conductivity is critical in 
+narrowing down a large materials design space. Recent papers 
+[e.g., PRL 106, 045901 (2011), PRL 109, 095901 (2012), 
+PRB 85, 184303 (2012)] have used the VC-ALD method to make such 
+predictions.
+We believe this work will make an important contribution to the 
+literature because the high-scatter limit adjustment is of interest 
+to the study of low-thermal conductivity alloys. Thermoelectric energy 
+generation materials, such as PbTe/Se alloys [21,22,49], maximize their 
+efficiency by minimizing their thermal conductivity. The search for 
+lower thermal conductivity alloys will require the modeling of even 
+lower-thermal conductivity alloys, where the high-scatter limit we 
+have proposed should be considered.
+
+
+%--------------------------------------------------------------------------
+\subsection{Mean Free Paths of Propagating Modes in Amorphous 
+Materials}
+%--------------------------------------------------------------------------
+
+Draw on results and theory from the amorphous literature, which 
+is extensive. 
+
+Present a clear modeling framework for amorphous materials, which 
+can be used for studying a 
+
+
+
+

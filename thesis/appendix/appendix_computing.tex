@@ -1,9 +1,10 @@
 %--------------------------------------------------------------------------
-\chapter{Research using High Performance Computing}
+\chapter{\label{Appendix_HPC}
+Research using High Performance Computing (WORK)}
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
-\section{Setting Up Computing Environment}
+\section{\label{A:Comp_Env}Setting Up Computing Environment}
 %--------------------------------------------------------------------------
 
 
@@ -54,7 +55,7 @@
 %{verlet integration method}. 
 
 %--------------------------------------------------------------------------
-\subsection{Hardware and Operating System Choice}
+\subsection{\label{A:Comp_Env:OS}Hardware and Operating System Choice}
 %--------------------------------------------------------------------------
 
 The choice of hardware determines the operating system. The three 
@@ -92,7 +93,8 @@ so there is a benefit of having portability and long
 battery life over large computational power.  
 
 %--------------------------------------------------------------------------
-\subsection{System Terminal and Commands}
+\subsection{\label{A:Comp_Env:Term}
+Linux/Unix Terminal, Commands, and Environment Variables}
 %--------------------------------------------------------------------------
 
 These instructions work best for Ubuntu operating system, and will work 
@@ -109,9 +111,6 @@ vi, cat, which, echo
 \href{https://www.google.com/search?q=linux+sed}
 {google: linux sed} 
 
-%--------------------------------------------------------------------------
-\subsection{Environment Variables}
-%--------------------------------------------------------------------------
 
 \href{http://en.wikipedia.org/wiki/Environment_variable}
 {environment variable} such as $\$$PATH.  Here is how we determine what 
@@ -140,14 +139,10 @@ location of this file is typically: /home/user/.bashrc.  The
 \href{https://gist.github.com/kparrish/6064111}{.bashrc} from 
 Kevin Parrish.
 
-%--------------------------------------------------------------------------
-\subsection{Shell Scripts and System Commands in Python}
-%--------------------------------------------------------------------------
 
-Shell scripts are relatively low-level scripts which execute system 
-commands (Section ) and 
-manipulate environment variables (Section )   
-of the Linux operating system. 
+Shell scripts are relatively low-level sets of system commands 
+which can manipulate environment variables (Section )   
+and the Linux operating system. 
 
 Here is a simple tutorial on writing shell scripts 
 \href{http://linuxcommand.org/wss0010.php}
@@ -161,11 +156,11 @@ Here is an example:
 lmp.in.iseed
 
 %--------------------------------------------------------------------------
-\subsection{Remote Resources Commands}
+\subsection{\label{A:Comp_Env:Remote}Working on Remote Resources}
 %--------------------------------------------------------------------------
 
 At some point during research you will need to excecute code on remote 
-resources which are typically large ($\gt 100$ cpu) computing clusters. 
+resources which are typically large ($> 100$ cpu) computing clusters. 
 You will be provided with a terminal session similar to the session 
 provided by Ubuntu with most of the same system commands. 
 
@@ -199,11 +194,25 @@ During my work I used the
 calculations on a computing cluster.
 
 %--------------------------------------------------------------------------
-\subsection{Installing Programs}
+\section{\label{A:Comp_Env:Programs}
+Installing, Writing and Executing Programs}
 %--------------------------------------------------------------------------
 
-Ubuntu and similar linux OS have automatic software installation and 
-management using the apt-get system command:
+%--------------------------------------------------------------------------
+\subsection{\label{A:Comp_Env:Install}Installing Available Packages}
+%--------------------------------------------------------------------------
+
+Before writing any of your own code, it is best to utilize any useful 
+code which may already exist. There are numerous available packages 
+for performing calculations in fields such as genetics, computational, 
+fluid mechanics, and (of course) thermal transport modeling (see the 
+following Section ). 
+
+
+Most linux OS have automatic software installation. For Ubuntu, program  
+management is achieved using the 
+\href{https://help.ubuntu.com/community/AptGet/Howto}{apt-get} 
+system command:
 
 jason@jason-900X3C ~/ (master) $\$$ sudo apt-get install gfortran
 [sudo] password for jason: 
@@ -242,12 +251,29 @@ jason@jason-900X3C ~/disorder/pcbm/topotools-tutorial-part2 (master) $\$$ ls -l 
 lrwxrwxrwx 1 root root 12 Apr 22 03:44 /usr/bin/gfortran -> gfortran-4.7
 
 %--------------------------------------------------------------------------
-\subsection{Available Programs}
+\subsection{\label{A:Comp_Env:Avail}Available Programs and Packages for 
+Thermal Transport Modeling}
 %--------------------------------------------------------------------------
 
 Available progams represent oppurtunities to perform research quickly and 
 easily. I suggest you read their documentation carefully and try the 
 tutorials which are typically computationally inexpensive. 
+
+Most of the packages listed below cannot be installed using Ubuntu's 
+apt-get command, although 
+\href{http://lammps.sandia.gov/download.html#ubuntu}
+{this feature does exist for LAMMPS} and more packages are likely 
+to be added in the future. It is important to read the installation 
+documentation carefully. It is also helpful to contact any system 
+linux/unix system administration staff or other researchers who are 
+experienced with installing packages. These people can usually be 
+found at campus or local computing centers, or in your own 
+research group! 
+
+For a first-time user, I reccomend trying to install the LAMMPS 
+package as it is one of the easiest and most versatile. It has 
+standard installation files for systems ranging from your 
+personal computer up to massively-parallel supercomputer. 
 
 Install lammps:
 
@@ -278,7 +304,7 @@ and
 \href{http://github.com/ntpl/ntpy}{ntpy},
 \href{https://www.vasp.at/}{VASP}
 \href{http://www.stfc.ac.uk/CSE/randd/ccg/software/DL_POLY/25526.aspx}
-{DL_POLY}, 
+{DL$\_$POLY}, 
 \href{http://icmab.cat/leem/siesta/}
 {siesta}, 
 \href{http://www.msg.ameslab.gov/gamess/}{GAMESS}, 
@@ -293,169 +319,14 @@ many programs and packages, including lammps for parallel computing
 with openmpi.
 
 %--------------------------------------------------------------------------
-\section{Preparing Journal Articles and Thesis}
+\subsection{\label{A:Comp_Env:Writing}Writing Programs}
 %--------------------------------------------------------------------------
 
-reccomendation: student advisor should try and exchange editing a written 
-research documen at least every week. The exchange of such a document 
-
-Such a research document could be the running 
-collection of journal articles which turn into the thesis. Maintenance 
-of this document can be achieved with 
-\href{https://www.dropbox.com/}{Dropbox} or 
-Github. 
-Github offers to advantage of smart version control and a built-in 
-wiki. 
-
-
+its in this section \ref{A:coding_lang}
 
 %--------------------------------------------------------------------------
-\subsection{Journal Articles}
-%--------------------------------------------------------------------------
-
-The job of the student is to prepare, submit, and publish 
-peer-reviewed journal articles. There are many journals suitable for 
-nanoscale transport topics. All of them accept 
-\href{http://www.latex-project.org/}{Latex} prepared manuscripts. 
-I recommend the Latex editor 
-\href{http://kile.sourceforge.net/}{Kile}, while the simple 
-\href{https://projects.gnome.org/gedit/}{gedit} works well and comes 
-pre-installed with Ubuntu. Here is a 
-\href{http://mally.stanford.edu/~sr/computing/latex-example.html}
-{simple latex example} and how to generate a 
-\href{http://tex.stackexchange.com/questions/1596/how-to-compile-a-latex-document}
-{portable document format (PDF)} from the latex document.  
-
-To maintain the reference library I 
-recommend 
-\href{http://www.zotero.org/}{zotero}.  Here is an example 
-\href{}{reference.bib} 
-file which is exported automatically by zotero. 
-The references are generated from the latex document using 
-\href{http://www.bibtex.org/Using/}{bibtex} which compiles the contents of 
-the reference.bib.
-
-Here is an example of the latex files 
-used to create an article published from this work:
-
-\href{https://github.com/jasonlarkin/thesis/tree/master/thesis}
-{Predicting alloy properties}.
-
-This file uses 
-\href{http://publish.aps.org/revtex}{revtex}, 
-which is an article class used by Physical Review, 
-Journal of Applied Physics, and others.
-
-%--------------------------------------------------------------------------
-\subsection{Thesis}
-%--------------------------------------------------------------------------
-
-These can be used as templates
-
-Here is a Carnegie Mellon thesis template:
-
-\href{https://github.com/robsimmons/cmu-thesis}
-{https://github.com/robsimmons/cmu-thesis}
-
-\href{https://github.com/jasonlarkin/thesis/tree/master/thesis}
-{J. Larkin thesis files}.
-
-\href{http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html}
-{Article on structuring large documents.}
-
-%2) Computational cost of each paper
-%CPU, memory
-%parallel cpu, parallel memory
-%Trends: 
-%small single cpu jobs -> large parallel cpu jobs
-%single predictive method -> several predictive methods
-%reccomendation: explore all predictive methods and models possible
-
-%--------------------------------------------------------------------------
-\section{Technical Advice}
-%--------------------------------------------------------------------------
-
-In addition to your advisor and close mentors, 
-I reccomend communicating with experts in the field as much as 
-possible without being an annoying.  How often to 
-communicate depends on the situation. 
-It is best to let the expert dictate the pace of the conversation. 
-
-%--------------------------------------------------------------------------
-\subsection{Expert Advice}
-%--------------------------------------------------------------------------
-
-Here is a list of experts I used as resources for this work. They 
-will typically answer emails within 24-48 hours:
-
-
-\href{http://ntpl.me.cmu.edu/people.html}
-{Alan McGaughey},
-\href{http://www.cmu.edu/me/malen/Lab_Website/People.html}
-{Jon Malen},
-\href{http://chemistry.curtin.edu.au/people/academic.cfm/J.Gale}
-{Julian Gale} 
-\href{http://projects.ivec.org/gulp/news.html}
-{(GULP author)},
-\href{http://mech.rutgers.edu/content/keivan-esfarjani}
-{Keivan Esfarjani},
-normand.mousseau@umontreal.ca,
-guido.raos@polimi.it,
-\href{mailto:joseph.feldman.ctr@nrl.navy.mil}
-{Joseph Feldman},
-\href{http://www.phonon.t.u-tokyo.ac.jp/}
-{Junchiro Shiomi},
-\href{http://www2.mpip-mainz.mpg.de/~donadio/tnt/People.html}
-{Davide Donadio},
-\href{http://www.ce.cmu.edu/people/faculty/maloney.html}
-{Craig Maloney},
-\href{http://quasiamore.mit.edu/pmwiki.php?n=Main.JivteshGarg}
-{Jivtesh Garg},
-\href{John Duda}
-{John Duda},
-\href{Wissam Al-Saidi}
-{Wissam Al-Saidi},
-\href{Dan Sellan}
-{Dan Sellan},
-\href{Ankit Jain}
-{Ankit Jain},
-\href{wong@andrew.cmu.edu}
-{Wee-Liat Ong},
-\href{John Kitchin}
-{John Kitchin},
-Steve Plimpton via the 
-\href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
-Axel Kolhmeyer via the 
-\href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
-and \href{akohlmey@gmail.com}{email}
-
-\href{http://atztogo.users.sourceforge.net/}{Atz Togo}, creator of 
-\href{http://phonopy.sourceforge.net/}{phonopy}
-
-\href{http://jasonlarkin.github.io}{me}
-
-%--------------------------------------------------------------------------
-\subsection{Online Resources}
-%--------------------------------------------------------------------------
-
-wikipedia
-
-\href{http://www.sklogwiki.org/SklogWiki/index.php/Main_Page}
-{octave}
-
-https://en.wikipedia.org/wiki/Lennard-Jones_potential
-
-http://www.sklogwiki.org/SklogWiki/index.php/Lennard-Jones_model
-
-we can do better, needs to be organization. 
-
-http://nanohub.org/
-
-does not provide good HPC resources. 
-
-
-%--------------------------------------------------------------------------
-\section{Coding Languages: Compiled versus Interpreted}
+\subsubsection{\label{A:coding_lang}
+Coding Languages: Compiled versus Interpreted}
 %--------------------------------------------------------------------------
 
 There are many languages 
@@ -503,52 +374,140 @@ yield useful results. A good open-source substitute for matlab is
 {octave} which is capable to running most matlab scripts.
 
 %--------------------------------------------------------------------------
-\subsection{Compiled Language Case-study: Lennard-Jones Argon Molecular Dynamics}
+\subsubsection{\label{A:coding_lang:case1}Case-study(a): Compiled 
+Language, Lennard-Jones Argon Molecular Dynamics}
 %--------------------------------------------------------------------------
 
 The first case study is a 
 \href{https://github.com/jasonlarkin/classes/tree/master/cmu/molecular_simulation/HW5}
 {single C code to perform Molecular Dynamics 
-on LJ argon}. The code is a serial code with 
+on LJ argon}. The code uses simple subroutines and operates using 
+a single (serial) processor. The 
+\href{http://www.cplusplus.com/doc/tutorial/arrays/}
+{arrays in this code are built statically}. 
+Arrays can be created 
+\href{http://www.cplusplus.com/doc/tutorial/dynamic/}{dynamically}, 
+which allows for the input of systems with varying number of 
+atoms. Addtionally, 
+\href{http://www.cplusplus.com/reference/vector/vector/}{vectors} 
+can be created and destroyed dynamically and have some advantages 
+over arrays.  
 
-/home/jason/classes/cmu/molecular_simulation/HW5
-
-\lstset{language=Shell}
-\begin{lstlisting}[label=some-code,caption=Some Code]
-jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) c++ ArgonMD.cpp -o ArgonMD
+The code is compiled using the 
+\href{http://www.gnu.org/}{GNU project's} 
+C++ compiler, \href{http://www.cprogramming.com/g++.html}{g++}:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+g++ ArgonMD.cpp -o ArgonMD_O_g++
 \end{lstlisting}
-
-\lstset{language=Shell}
-\begin{lstlisting}[label=some-code,caption=Some Code]
-jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) ./ArgonMD
+The code can be run and the output can be directed using a useful 
+shell operation called 
+\href{http://www.linfo.org/pipes.html}{piping}, 
+which is demonstrated below:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+ArgonMD_O_g++ > ./ArgonMD_O/output.txt
 \end{lstlisting}
-
-The output is.  A useful shell operation is 
-\href{http://www.linfo.org/pipes.html}{"piping"}, which is demonstrated below:
-
-\lstset{language=Shell}
-\begin{lstlisting}[label=some-code,caption=Some Code]
-jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) $ ./ArgonMD > props_piped.txt
+The code can be compiled using 
+\href{http://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#Optimize-Options}
+{optimization flags, such as -O and -O3}:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+g++ -O3 ArgonMD.cpp -o ArgonMD_O3_g++
 \end{lstlisting}
-
-Another useful shell command is 
-\href{http://www.tuxfiles.org/linuxhelp/vimcheat.html}{"vi"}, a 
-shell-based text editor:
-\lstset{language=Shell}
-\begin{lstlisting}[label=some-code,caption=Some Code]
-jason@jason-900X3C ~/classes/cmu/molecular_simulation/HW5 (master) $ vi props_piped.txt
-5.61358 2.01864 5.26596
-3.4073  1.72339 1.32187
-5.28007 0.107792        4.95407
-1.45285 5.09976 0.961697
-4.5679  4.82261 5.78293
-5.29423 0.880753        0.709709
-3.63248 5.45978 2.70637
+which greatly decreases the run time of this particular code. 
+The total run time 
+can dispalyed by using the shell command 
+\href{http://linux.about.com/od/commands/l/blcmdl1_grep.htm}{grep},  
+which shows for no optimization:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+grep -A 1 "Total Time" ./ArgonMD/output.txt
+Total Time: 38.42 (s)
+\end{lstlisting}
+for -O optimization:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+grep -A 1 "Total Time" ./ArgonMD_O/output.txt
+Total Time: 18.06 (s)
+\end{lstlisting}
+and for -O3 optimization:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+grep -A 1 "Total Time" ./ArgonMD_O3/output.txt
+Total Time: 11.74 (s)
+\end{lstlisting}
+A useful shell command is 
+\href{http://www.tuxfiles.org/linuxhelp/vimcheat.html}{vi}, a 
+shell-based text editor, which can display the output within 
+a shell terminal:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) 
+$ vi ./ArgonMD/output.txt
+0       1       5.61358 2.01864 5.26596
 ...
 \end{lstlisting}
 
+To compare with the above results, the lammps code is compiled in serial 
+using no optimization, -O, and -O3.  
+The results are contained in folders beginning with ``lmp''.  A useful 
+shell function is 
+\href{http://www.tuxfiles.org/linuxhelp/tabtrick.html}{tab-twice}, 
+where tapping the tab key twice 
+will display files and folders which begin with the same 
+characters:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+grep -A 1 "Loop time" ./lmp
+lmp.in.lj~     lmp_serial/    lmp_serial_O/  lmp_serial_O3/
+\end{lstlisting}
+The tab key can also be used for  
+\href{http://en.wikipedia.org/wiki/Command-line_completion}
+{command-line completion} to complete directory and file names. The run 
+time for no optimization is:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+grep -A 1 "Loop time" ./lmp_serial/log.lammps
+Loop time of 0.718188 on 1 procs for 1000 steps with 256 atoms
+
+--
+Loop time of 3.4892 on 1 procs for 5000 steps with 256 atoms
+\end{lstlisting}
+for -O optimization:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+grep -A 1 "Loop time" ./lmp_serial_O/log.lammps
+Loop time of 0.19842 on 1 procs for 1000 steps with 256 atoms
+
+--
+Loop time of 0.917175 on 1 procs for 5000 steps with 256 atoms
+\end{lstlisting}
+and for -O3 optimization:
+\begin{lstlisting}
+jason@jason-900X3C ~/disorder/md_serial (master) $ 
+grep -A 1 "Loop time" ./lmp_serial_O3/log.lammps
+Loop time of 0.164066 on 1 procs for 1000 steps with 256 atoms
+
+--
+Loop time of 0.786311 on 1 procs for 5000 steps with 256 atoms
+\end{lstlisting}
+
+The decrease in run time with increasing optimization 
+for lammps is roughly the same as for my code. However, for every 
+optimization the lammps code is approximately an order of 
+magnitude faster.  This is 
+due to a several factors, the most important being 
+the implementation of 
+\href{http://en.wikipedia.org/wiki/Neighbor_list}{neighbor lists} 
+as discussed in the 
+\href{http://lammps.sandia.gov/doc/neighbor.html}
+{lammps documentation}. The interested reader is encouraged to 
+investigate the lammps code further for useful C++ coding 
+practices. 
+
 %--------------------------------------------------------------------------
-\subsection{Compiled versus Interpreted Case-study(a): Lennard-Jones Dispersion}
+\subsubsection{\label{A:coding_lang:case2}Compiled versus Interpreted 
+Case-study(b): Lennard-Jones Dispersion}
 %--------------------------------------------------------------------------
 
 With interpreted languages traditional programming practice of using 
@@ -559,15 +518,16 @@ Matlab version using mixture of loops and vectorized functions.
 Fortran version (GULP) 
 
 %--------------------------------------------------------------------------
-\subsection{Compiled versus Interpreted Case-study(b): Allen-Feldman Diffusivity Calculation}
+\subsubsection{\label{A:coding_lang:case3}Compiled versus Interpreted 
+Case-study(c): Allen-Feldman Diffusivity Calculation}
 %--------------------------------------------------------------------------
 
 Two systems, my local laptop:
 
 http://www.samsung.com/us/computer/series-9-notebooks
 
-\lstset{language=Shell}
-\begin{lstlisting}[label=some-code,caption=Some Code]
+
+\begin{lstlisting}
 jason@jason-900X3C ~/disorder (master) $\$$ cat /proc/cpuinfo 
 processor	: 0
 vendor_id	: GenuineIntel
@@ -587,12 +547,11 @@ initial apicid	: 0
 \end{lstlisting}
 
 
-and gilgamesh
+\href{http://gilgamesh.cheme.cmu.edu/doc/gilgamesh.html}{gilgamesh}
 
-http://gilgamesh.cheme.cmu.edu/doc/gilgamesh.html
 
-\lstset{language=Shell}
-\begin{lstlisting}[label=some-code,caption=Some Code]
+
+\begin{lstlisting}
 jason@gilgamesh > cat /proc/cpuinfo
 processor	: 0
 vendor_id	: AuthenticAMD
@@ -610,7 +569,22 @@ apicid		: 16
 \end{lstlisting}
 
 %--------------------------------------------------------------------------
-\subsection{Scaling Calculations}
+\subsection{\label{A:coding_lang:Execute}Executing Programs}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{\label{A:coding_lang:Execute:Local}
+Executing Locally: Rapid Development}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{\label{A:coding_lang:Execute:Remote}
+Executing Remotely: Portable Batch Systems}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsubsection{\label{A:coding_lang:Execute:Scaling}
+Scaling Calculations}
 %--------------------------------------------------------------------------
 
 The majority of the methods 
@@ -630,7 +604,7 @@ with common ratio $r=1/8$
 cost_{total} = N_{a,large}\frac{1}{1-r} = 1.143N_{a,large} 
 \end{split}
 \end{equation}
-It costs a minimal amount ($\~14\%$) to study every system smaller 
+It costs a minimal amount ($ \approx 14\%$) to study systems smaller 
 than the largest system considered. Even a linear scaling 
 $N_a$ has $cost_{total} = 2N_{a,large}$. 
 Because of this I recommend 
@@ -643,12 +617,11 @@ computationally expensive calculations.
 This scheme for performing calculations can follow these time-scales 
 for calculation costs:  
 one second, minute, hour, day, and week. I have performed 
-countless calculations costing around one second and very few which cost 
+countless calculations costing around one second, and very few which cost 
 more than one week. Publication quality results will typically 
 cost between one hour and one week.
 
 %--------------------------------------------------------------------------
-
 
 
 %%--------------------------------------------------------------------------
@@ -739,4 +712,178 @@ cost between one hour and one week.
 %
 %ntpl most cited paper 1-5:
 %maradudin, ladd, dove, ziman, 
+
+%--------------------------------------------------------------------------
+\section{Preparing Journal Articles and Thesis}
+%--------------------------------------------------------------------------
+
+reccomendation: student advisor should try and exchange editing a written 
+research documen at least every week. The exchange of such a document 
+
+Such a research document could be the running 
+collection of journal articles which turn into the thesis. Maintenance 
+of this document can be achieved with 
+\href{https://www.dropbox.com/}{Dropbox} or 
+Github. 
+Github offers to advantage of smart version control and a built-in 
+wiki. 
+
+
+
+%--------------------------------------------------------------------------
+\subsection{Journal Articles}
+%--------------------------------------------------------------------------
+
+The job of the student is to prepare, submit, and publish 
+peer-reviewed journal articles. There are many journals suitable for 
+nanoscale transport topics. All of them accept 
+\href{http://www.latex-project.org/}{Latex} prepared manuscripts. 
+I recommend the Latex editor 
+\href{http://kile.sourceforge.net/}{Kile}, while the simple 
+\href{https://projects.gnome.org/gedit/}{gedit} works well and comes 
+pre-installed with Ubuntu. Here is a 
+\href{http://mally.stanford.edu/~sr/computing/latex-example.html}
+{simple latex example} and how to generate a 
+\href{http://tex.stackexchange.com/questions/1596/how-to-compile-a-latex-document}
+{portable document format (PDF)} from the latex document.  
+
+To maintain the reference library I 
+recommend 
+\href{http://www.zotero.org/}{zotero}.  Here is an example 
+\href{}{reference.bib} 
+file which is exported automatically by zotero. 
+The references are generated from the latex document using 
+\href{http://www.bibtex.org/Using/}{bibtex} which compiles the contents of 
+the reference.bib.
+
+Here is an example of the latex files 
+used to create an article published from this work:
+
+\href{https://github.com/jasonlarkin/thesis/tree/master/thesis}
+{Predicting alloy properties}.
+
+This file uses 
+\href{http://publish.aps.org/revtex}{revtex}, 
+which is an article class used by Physical Review, 
+Journal of Applied Physics, and others.
+
+%--------------------------------------------------------------------------
+\subsection{Thesis}
+%--------------------------------------------------------------------------
+
+These can be used as templates
+
+Here is a Carnegie Mellon thesis template:
+
+\href{https://github.com/robsimmons/cmu-thesis}
+{https://github.com/robsimmons/cmu-thesis}
+
+\href{https://github.com/jasonlarkin/thesis/tree/master/thesis}
+{J. Larkin thesis files}.
+
+\href{http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html}
+{Article on structuring large documents.}
+
+%2) Computational cost of each paper
+%CPU, memory
+%parallel cpu, parallel memory
+%Trends: 
+%small single cpu jobs -> large parallel cpu jobs
+%single predictive method -> several predictive methods
+%reccomendation: explore all predictive methods and models possible
+
+%--------------------------------------------------------------------------
+\subsection{Producing Figures}
+%--------------------------------------------------------------------------
+
+Python has a plotting module, \href{http://matplotlib.org/}{matplotlib}, 
+which has \href{http://matplotlib.org/examples/index.html}{many examples}. 
+Here is a \href{https://gist.github.com/kparrish/6101681}{simple example 
+demonstrating how to generate and save data, load that data, and plot.} 
+
+
+\href{https://github.com/ntpl/ntpy/tree/master/examples/thesis}
+{Here is a simple example demonstrating how to }
+
+%--------------------------------------------------------------------------
+\section{Technical Advice}
+%--------------------------------------------------------------------------
+
+In addition to your advisor and close mentors, 
+I reccomend communicating with experts in the field as much as 
+possible without being an annoying.  How often to 
+communicate depends on the situation. 
+It is best to let the expert dictate the pace of the conversation. 
+
+%--------------------------------------------------------------------------
+\subsection{Expert Advice}
+%--------------------------------------------------------------------------
+
+Here is a list of experts I used as resources for this work. They 
+will typically answer emails within 24-48 hours:
+
+
+\href{http://ntpl.me.cmu.edu/people.html}
+{Alan McGaughey},
+\href{http://www.cmu.edu/me/malen/Lab_Website/People.html}
+{Jon Malen},
+\href{http://chemistry.curtin.edu.au/people/academic.cfm/J.Gale}
+{Julian Gale} 
+\href{http://projects.ivec.org/gulp/news.html}
+{(GULP author)},
+\href{http://mech.rutgers.edu/content/keivan-esfarjani}
+{Keivan Esfarjani},
+normand.mousseau@umontreal.ca,
+guido.raos@polimi.it,
+\href{mailto:joseph.feldman.ctr@nrl.navy.mil}
+{Joseph Feldman},
+\href{http://www.phonon.t.u-tokyo.ac.jp/}
+{Junchiro Shiomi},
+\href{http://www2.mpip-mainz.mpg.de/~donadio/tnt/People.html}
+{Davide Donadio},
+\href{http://www.ce.cmu.edu/people/faculty/maloney.html}
+{Craig Maloney},
+\href{http://quasiamore.mit.edu/pmwiki.php?n=Main.JivteshGarg}
+{Jivtesh Garg},
+\href{John Duda}
+{John Duda},
+\href{Wissam Al-Saidi}
+{Wissam Al-Saidi},
+\href{Dan Sellan}
+{Dan Sellan},
+\href{Ankit Jain}
+{Ankit Jain},
+\href{wong@andrew.cmu.edu}
+{Wee-Liat Ong},
+\href{John Kitchin}
+{John Kitchin},
+Steve Plimpton via the 
+\href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
+Axel Kolhmeyer via the 
+\href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
+and \href{akohlmey@gmail.com}{email}
+
+\href{http://atztogo.users.sourceforge.net/}{Atz Togo}, creator of 
+\href{http://phonopy.sourceforge.net/}{phonopy}
+
+\href{http://jasonlarkin.github.io}{me}
+
+%--------------------------------------------------------------------------
+\subsection{Online Resources}
+%--------------------------------------------------------------------------
+
+\href{https://en.wikipedia.org/wiki/Lennard-Jones_potential}
+{wikipedia}
+
+\href{http://www.sklogwiki.org/}
+{sklogwiki}
+
+we can do better, needs to be organization. 
+
+\href{http://nanohub.org/}{http://nanohub.org/}
+
+does not provide good HPC resources. 
+
+
+
 
