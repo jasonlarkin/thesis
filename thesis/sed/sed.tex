@@ -1,5 +1,6 @@
 %--------------------------------------------------------------------------
-\chapter{\label{Chapter:SED}Vibrational Lifetimes from Molecular Dynamics}
+\chapter{\label{Chapter:SED}Vibrational Lifetimes from Molecular Dynamics 
+(READ)}
 %--------------------------------------------------------------------------
 
 Two frequency-domain methods for predicting phonon frequencies and 
@@ -261,16 +262,15 @@ time-domain approach.
 
 The time-domain approach can be simplified by calculating the  
 potential energy normal mode coordinate, $q\kvt$, 
-\begin{equation}\label{E:q_hld}
+\begin{equation}\label{E:q_HLD}
 \begin{split}
 q\kvt=& \sum_{b,l} \left(\frac{m_b}{N}\right)^{1/2} \EXP{i\pmb{\kappa}
 \cdot\mathbf{r}_0\ab{l}{0}} \mathbf{e}_b^*\kv \cdot \mathbf{u}\lbt,
 \end{split}
 \end{equation}
-and using it to calculate the 
-total normal mode energy, $E\kvt$. The autocorrelation of the 
-total normal mode energy is 
-$E\kvt$ [Eq. \eqref{A:E:q_E}]
+and use it along with Eq. \eqref{E:qdot_HLD} to calculate the 
+total normal mode energy, $E\kvt$ [Eq. \eqref{A:E:q_E}]. 
+The autocorrelation of the total normal mode energy is 
 \begin{equation}\label{E:E_xcorr}
 \begin{split}
 \frac{E\kvt E\kvzero}{E \kvzero E\kvzero} = \exp[-2 \Gamma \kv t],
@@ -299,8 +299,7 @@ $\Phi'$}
 %--------------------------------------------------------------------------
 
 We now seek to motivate the 
-expression $\Phi'$ that was proposed in previous studies and examined 
-in Chapter \ref{Chapter:SED}, but has not 
+expression $\Phi'$ that was proposed in previous studies, but has not 
 been validated 
 \cite{maruyama_molecular_2003,shiomi_non-fourier_2006,
 thomas_predicting_2010}. Thomas et al. 
@@ -472,16 +471,17 @@ so that $N_1 = N_2 = 1$, and we take $N_3=50$
 
 %--------------------------------------------------------------------------
 \subsection{\label{Subsection_Comp_Details_2}Phonon Lifetimes and 
-Frequencies (WORK)}
+Frequencies (WORK) (READ)}
 %--------------------------------------------------------------------------
 Once the allowed wavevectors are specified, the atomic velocities from 
 an MD simulation can be used to calculate $\Phi'$ using Equation 
 \eqref{Lorentzian_SED}. To calculate $\Phi$ 
-[Equation \eqref{E:Lorentzian_NMD}], (WORK) 
+[Equation \eqref{E:Lorentzian_NMD_fft}], 
 require the phonon mode eigenvector, which can be obtained using 
 harmonic lattice dynamics calculations and the finite temperature 
 lattice constant (i.e., quasi-harmonic lattice dynamics calculations) 
-\cite{dove_introduction_1993}. The $\Phi$ and $\Phi'$ methods can used 
+\cite{dove_introduction_1993,gale_general_2003}. 
+The $\Phi$ and $\Phi'$ methods can used 
 for any material system where there are 
 available interatomic potentials.
 
@@ -535,7 +535,7 @@ is shown in Fig$.$ \ref{F-bulkfitting}(b). The lower-frequency peak
 corresponds to the longitudinal acoustic mode,
 \cite{dove_introduction_1993} while the higher 
 frequency peak corresponds to an acoustic mode which has been 
-''zone-folded`` (see Section \ref{A:unitcell}). 
+zone-folded (see Section \ref{A:unitcell}). 
 As discussed in Section \ref{S:Subsection_SED_time-domain}, the frequency 
 and lifetime extraction in normal mode decomposition can als be performed 
 in the time domain. The autocorrelation of the normal 
@@ -567,14 +567,14 @@ is easily extracted from the frequency-domain analysis.
 decomposition in (a) time-, and (b) frequency-domain analysis for two 
 of the [100] phonon modes from the conventional unit cell for $N_0=10$ 
 [see Fig. \ref{F-dispersion}(b)] The inset in (a) shows the convergence 
-of the lifetime according to Eq. \eqref{E-NMD-E-exp}. In (b), the vertical 
+of the lifetime according to Eq. \eqref{E:tau_E_xcorr}. In (b), the vertical 
 lines denote the frequency predicted from harmonic lattice dynamics 
 calculations.}
 \end{center}
 \end{figure}
 % %--------------------------------------------------------------------------
-\vspace{10mm}
-%\clearpage
+\clearpage
+
 
 % The anharmonic frequencies (3.68 and 17.8) are close to the frequencies 
 % obtained from harmonic lattice dynamics calculations (3.70 and 17.5). 
@@ -695,12 +695,12 @@ of $40$ K and are less for the other temperatures and systems studied here.}
 
 %--------------------------------------------------------------------------
 \subsection{\label{Subsection_Comp_Details_4}Computational Cost 
-and Work Flow Optimization (WORK)}
+and Work Flow Optimization (WORK) (READ)}
 %--------------------------------------------------------------------------
 
 The computational time required to perform normal mode decomposition 
 depends on the number of atoms in the system, $N_a$, and the number of 
-atoms in the unit cell, $b$. 
+atoms in the unit cell, $n$. 
 For the eigenvalue problem associated with 
 harmonic lattice dynamics, the time required for each wave vector scales 
 as $n^3$ and the required memory scales as $n^2$. This poor scaling limits 
@@ -736,8 +736,9 @@ In normal mode decomposition, the sampling rate must be high enough to
 capture the maximum frequency in the system. The sampling rate and total 
 run time should be chosen in powers of two as a convenience in performing 
 fast Fourier transforms. Obtaining the phonon properties from 
-Eqs.~\eqref{E-NMD-T-time}, \eqref{E-NMD-E-time}, \eqref{E-NMD-E-exp}, 
-and \eqref{E-NMD-E-frequency} requires specification of a time or frequency 
+Eqs. \eqref{E:Lorentzian_NMD}, \eqref{E:xcorr_NMD}, 
+\eqref{E:E_xcorr}, and \eqref{E:tau_E_xcorr}, 
+requires specification of a time or frequency 
 range and initial guesses for the frequency and lifetime. These parameters 
 can be obtained from observation of the raw data. An initial guess for the 
 frequency can also be obtained from the harmonic lattice dynamics 
@@ -752,7 +753,7 @@ See Appendix \ref{A:symmetry} for a discussion of symmetries.
 
 For the $\Phi$ and $\Phi'$ methods, the computational cost of 
 evaluating Equation \eqref{Lorentzian_SED} is less than that for 
-Equation \eqref{E:Lorentzian_NMD} by a factor of $3b$. 
+Equation \eqref{E:Lorentzian_NMD_fft} by a factor of $3b$. 
 For bulk crystals, the number of atoms in the unit cell is 
 typically small 
 ($b<10$).  For the (8,8) CNT system, $b=32$ and evaluating $\Phi'$ is 
@@ -914,6 +915,7 @@ $\Phi$ does not suffer
 from this issue since the broadened peaks can be fit individually.}
 \end{figure}
 %--------------------------------------------------------------------------
+\clearpage
 
 The phonon frequencies and lifetimes extracted for all allowed wavevectors 
 in the first Brillouin 
@@ -975,6 +977,7 @@ all three temperatures,
 while the phonon lifetimes show large scatter.}
 \end{figure}
 %--------------------------------------------------------------------------
+\clearpage
 
 The phonon properties are then used to predict thermal conductivity using 
 Equation 
@@ -1052,7 +1055,8 @@ CNT ($N_1=N_2=1, N_3=50$) \\
 \end{table}
 \end{center}
 %--------------------------------------------------------------------------
-\vspace*{0mm}
+\clearpage
+
 %--------------------------------------------------------------------------
 \subsection{\label{S:Subsection_prop_SW}Stillinger-Weber Silicon}
 %--------------------------------------------------------------------------
@@ -1114,6 +1118,7 @@ scatter.}
 \end{figure}
 %--------------------------------------------------------------------------
 \clearpage
+
 %--------------------------------------------------------------------------
 \subsection{\label{S:Subsection_prop_CNT}Carbon Nanotube}
 %--------------------------------------------------------------------------
@@ -1178,7 +1183,8 @@ potential. The phonon frequencies agree well, while the phonon lifetimes
 show large scatter.}
 \end{figure}
 %--------------------------------------------------------------------------
-\vspace*{1mm}
+\clearpage
+
 %--------------------------------------------------------------------------
 \section{\label{Section_Conclusions}Summary}
 %--------------------------------------------------------------------------

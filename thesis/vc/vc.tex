@@ -1,6 +1,6 @@
 \chapter{\label{chapter:vc}Predicting alloy vibrational mode properties 
 using lattice dynamics calculations, molecular dynamics simulations, 
-and the virtualcrystal approximation}
+and the virtualcrystal approximation (READ)}
 
 %--------------------------------------------------------------------------
 %\begin{abstract}
@@ -385,28 +385,28 @@ explicitly and as a perturbation and to compare the predictions.
 % Sound speeds of alloys: CRC, (Cahill-Pohl).
 
 %--------------------------------------------------------------------------
-\begin{figure}
-\begin{center}
-\mbox{\subfigure{
-(a)
-\includegraphics[scale=0.13]
-{/home/jason/disorder/si/si_conv_2x2x2_disorder-4.eps}
-\subfigure{
-(b)
-\includegraphics[scale=0.13]
-{/home/jason/disorder/si/si_conv_2x2x2_perfect-4.eps}}}}
-\vspace*{0mm}
-\end{center}
-\caption{\label{F:supercells} 
-(a) Explicitly disordered supercell of 
-Si and ``heavy'' Si ([100] direction into the paper).
-\cite{momma_vesta:_2008} 
-(b) Equivalent VC supercell with one averaged mass. 
-The sphere size represents increasing mass only, no bond disorder 
-is considered. The 8-atom conventional cubic unit cell is shown 
-in (b). 
-}
-\end{figure}
+% \begin{figure}
+% \begin{center}
+% \mbox{\subfigure{
+% (a)
+% \includegraphics[scale=0.13]
+% {/home/jason/disorder/si/si_conv_2x2x2_disorder-4.eps}
+% \subfigure{
+% (b)
+% \includegraphics[scale=0.13]
+% {/home/jason/disorder/si/si_conv_2x2x2_perfect-4.eps}}}}
+% \vspace*{0mm}
+% \end{center}
+% \caption{\label{F:supercells} 
+% (a) Explicitly disordered supercell of 
+% Si and ``heavy'' Si ([100] direction into the paper).
+% \cite{momma_vesta:_2008} 
+% (b) Equivalent VC supercell with one averaged mass. 
+% The sphere size represents increasing mass only, no bond disorder 
+% is considered. The 8-atom conventional cubic unit cell is shown 
+% in (b). 
+% }
+% \end{figure}
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
@@ -428,6 +428,7 @@ in (b).
 \end{figure}
 %--------------------------------------------------------------------------
 
+\clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Calculation}Calculation and Simulation Details}
@@ -1399,6 +1400,8 @@ and the high-scatter adjusted VC-NMD$^*$ and VC-ALD$^*$ are also plotted.
 \end{figure}
 %--------------------------------------------------------------------------
 
+\clearpage
+
 %--------------------------------------------------------------------------
 \begin{center}
 %\begingroup
@@ -1439,6 +1442,8 @@ SW \\
 %\endgroup
 \end{center}
 %--------------------------------------------------------------------------
+
+\clearpage
 
 % %--------------------------------------------------------------------------
 % \begin{figure}
@@ -1544,6 +1549,8 @@ which peak at low frequency, in contrast to LJ argon
 }
 \end{figure}
 %--------------------------------------------------------------------------
+
+\clearpage
 
 %--------------------------------------------------------------------------
 \begin{figure}
@@ -1688,7 +1695,10 @@ Materials dominated by low-frequency modes tend to have high
 thermal conductivities that are significantly larger than the 
 high-scatter limit [Eq. \eqref{EQ:M:k_AF,HS}], 
 which is due to the large group velocities and long lifetimes 
-of low-frequency modes.\cite{abeles_thermal_1962,abeles_lattice_1963,kamitakahara_vibrations_1974,cahill_thermal_2004,cahill_thermal_2005,garg_role_2011,lindsay_thermal_2012,cheaito_experimental_2012} 
+of low-frequency modes.\cite{abeles_thermal_1962,
+abeles_lattice_1963,kamitakahara_vibrations_1974,
+cahill_thermal_2004,cahill_thermal_2005,garg_role_2011,
+lindsay_thermal_2012,cheaito_experimental_2012} 
 These low-frequency modes  
 closely follow the scalings predicted by the perturbative VC-ALD 
 models, which are valid at low-frequencies. 
@@ -1709,7 +1719,9 @@ of high-frequency modes is demonstrated by experimental measurements
 of the thermal conductivity of SiGe alloys, which exceed the high-scatter limit 
 by more than an order of magnitude at room temperature for all 
 compositions.
-\cite{cahill_lattice_1988,cahill_thermal_2004,cahill_thermal_2005,cheaito_experimental_2012} Experimentally-accurate 
+\cite{cahill_lattice_1988,
+cahill_thermal_2004,cahill_thermal_2005,
+cheaito_experimental_2012} Experimentally-accurate 
 theoretical predictions\cite{garg_role_2011} 
 also demonstrate that high-frequency modes 
 are unimportant to thermal transport, 
@@ -1895,26 +1907,26 @@ VC predicted group velocity is an approximation.
 %equilibrium ensemble.
 %\cite{landau_statistical_1980,srivastava_physics_1990,rajabpour_thermal_2010}
 
-%%--------------------------------------------------------------------------
-\begin{figure}
-\begin{center}
-\includegraphics[scale=1.0]
-{/home/jason/disorder/paper/vc/fig10.eps}
-\vspace*{-5mm}
-\end{center}
-\caption{\label{F:NMD XCORR} The normal mode kinetic energy, $\Phi$,  
-of two modes (A and B) at wavevector [0.25 0 0] calculated 
-using VC-NMD for a mass disordered LJ FCC supercell 
-($N_0=8$ and $c=0.5$) is shown in the main figure. 
-The VC dispersion-predicted peaks are labeled 
-by $\omega_0$. The inset shows the same mode's energy 
-[kinetic ($KE$) and total ($TE$)] autocorrelation functions.  
-Note the additional oscillation effects in the KE and TE autocorrelation 
-functions for Mode B which are due to the two peaks in $\Phi$. 
-A mode lifetime can 
-be extracted unambiguously using the integral of the TE autocorrelation 
-function [Eq. \eqref{EQ:tau_nmd} in Section \ref{S:From VC Gamma}].}
-\end{figure}
-%%--------------------------------------------------------------------------
-
-
+% %%--------------------------------------------------------------------------
+% \begin{figure}
+% \begin{center}
+% \includegraphics[scale=1.0]
+% {/home/jason/disorder/paper/vc/fig10.eps}
+% \vspace*{-5mm}
+% \end{center}
+% \caption{\label{F:NMD XCORR} The normal mode kinetic energy, $\Phi$,  
+% of two modes (A and B) at wavevector [0.25 0 0] calculated 
+% using VC-NMD for a mass disordered LJ FCC supercell 
+% ($N_0=8$ and $c=0.5$) is shown in the main figure. 
+% The VC dispersion-predicted peaks are labeled 
+% by $\omega_0$. The inset shows the same mode's energy 
+% [kinetic ($KE$) and total ($TE$)] autocorrelation functions.  
+% Note the additional oscillation effects in the KE and TE autocorrelation 
+% functions for Mode B which are due to the two peaks in $\Phi$. 
+% A mode lifetime can 
+% be extracted unambiguously using the integral of the TE autocorrelation 
+% function [Eq. \eqref{EQ:tau_nmd} in Section \ref{S:From VC Gamma}].}
+% \end{figure}
+% %%--------------------------------------------------------------------------
+% 
+% \clearpage

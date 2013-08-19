@@ -1,0 +1,159 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian)
+ restricted \write18 enabled.
+entering extended mode
+(./cmuthesis_jlarkin.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(./cmuthesis.cls (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg))))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty) (./fullpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+
+Package hyperref Warning: Invalid value `000'
+(hyperref)                for option `pdfborder'.
+(hyperref)                Option setting is ignored on input line 3941.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+
+Package hyperref Warning: You have enabled option `breaklinks'.
+(hyperref)                But driver `hdvips.def' does not suppport this.
+(hyperref)                Expect trouble with the link areas of broken links.
+
+)) (./breakurl.sty (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex)))
+(./subfigure.sty) (./comment.sty Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)
+(/usr/share/texmf/tex/latex/iop/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(./cmuthesis_jlarkin.aux
+
+LaTeX Warning: Label `T:cond_table' multiply defined.
+
+
+LaTeX Warning: Label `S:Introduction' multiply defined.
+
+
+LaTeX Warning: Label `S:Calculation' multiply defined.
+
+
+LaTeX Warning: Label `S:Vibrational' multiply defined.
+
+
+LaTeX Warning: Label `EQ:SLT' multiply defined.
+
+
+LaTeX Warning: Label `EQ:EL' multiply defined.
+
+
+LaTeX Warning: Label `EQ:ET' multiply defined.
+
+
+LaTeX Warning: Label `EQ:qdot' multiply defined.
+
+
+LaTeX Warning: Label `S:Diffusivities' multiply defined.
+
+
+LaTeX Warning: Label `F:supercells' multiply defined.
+
+
+LaTeX Warning: Label `F:supercells' multiply defined.
+
+
+LaTeX Warning: Label `A:E:equipartition' multiply defined.
+
+
+LaTeX Warning: Label `A:unitcell' multiply defined.
+
+
+LaTeX Warning: Label `A:unitcell' multiply defined.
+
+
+LaTeX Warning: Label `F:LJ_COND' multiply defined.
+
+
+LaTeX Warning: Label `F:LJ_COND' multiply defined.
+
+
+LaTeX Warning: Label `F:LJ_COND' multiply defined.
+
+
+LaTeX Warning: Label `Appendix:Accum' multiply defined.
+
+
+LaTeX Warning: Label `F:LJ_COND' multiply defined.
+
+
+LaTeX Warning: Label `F:LJ_COND' multiply defined.
+
+
+LaTeX Warning: Label `F:LJ_COND' multiply defined.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./cmuthesis_jlarkin.out) (./cmuthesis_jlarkin.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd) [1] [2] [3] [4]
+Overfull \hbox (3.63689pt too wide) in paragraph at lines 442--452
+[]\OT1/ptm/m/n/12 Disordering a crys-tal (i.e., al-loy-ing, amor-phiza-tion, et
+c..) breaks down the phonon
+
+Overfull \hbox (5.06422pt too wide) in paragraph at lines 453--460
+[]\OT1/ptm/m/n/12 Why dis-or-dered ma-te-ri-als are im-por-tant... Ther-mal man
+-age-ment (i.e., heat spread-
+[5] [6] [7]
+! Undefined control sequence.
+l.478 \cfoot
+            {\hyperlink{contents}{TOC}}% links the TOC at the center of the ...
+
+? Output written on cmuthesis_jlarkin.dvi (7 pages, 27296 bytes).
+Transcript written on cmuthesis_jlarkin.log.

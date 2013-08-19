@@ -422,6 +422,8 @@ in different ways.}
 \renewcommand{\baselinestretch}{2.0}
 %--------------------------------------------------------------------------
 
+\clearpage
+
 The selection of the unit cell sets the shape of the Brillouin zone and 
 the points that will be resolved inside it (i.e., the allowed wave 
 vectors, $\pmb{\kappa}$). For a simulation cell with $N$ atoms, there 
@@ -437,7 +439,7 @@ always $3N$ normal modes.
 \subsection{\label{A:symmetry}Crystal Symmetries (WORK)}
 %--------------------------------------------------------------------------
 
-Symmetry operations define a crystal. 
+Symmetry operations define the properties of a crystal. 
 This applies to any vector or tensor property of the crystal. The 
 symmetries do not depend on the unit cell represenation, although 
 conventional unit cells may have additional symmetries compared 
@@ -565,7 +567,7 @@ lattice vectors of the conventional unit cell. The red and blue dots in
 \end{figure}
 
 \vspace{10mm}
-%\clearpage
+\clearpage
 
 The lifetimes predicted from the frequency-domain analysis for the 
 primitive and conventional unit cell representations of the $N_0=10$ 
@@ -598,6 +600,8 @@ cells, and (b) treating the simulation cell as the unit cell (i.e.,
 Gamma-point analysis). All lifetimes extracted from time-domain analysis.}
 \end{center}\normalsize
 \end{figure}
+
+\clearpage
 
 In performing the normal mode decomposition, one is not limited to the 
 primitive or conventional unit cells. As needed for disordered systems 
@@ -640,16 +644,16 @@ conventional unit cells. The Green-Kubo predictions for the same system
 are also plotted and show no size effect, consistent with previous work 
 \cite{mcgaughey_quantitative_2004}.
 
-\begin{figure}[t]
-\begin{center}
-\includegraphics[scale=1.0]
-{/home/jason/Dropbox/book/m_book_cond_extrap_c0-3_boxon.eps}
-\caption{\label{F-bulksizeeffect} Size dependence of thermal conductivity 
-for the LJ crystal at a temperature of 0.0827 from normal mode 
-decomposition and the Green-Kubo method.}
-\end{center}\normalsize
-\vspace*{-0mm}
-\end{figure}
+% \begin{figure}[t]
+% \begin{center}
+% \includegraphics[scale=1.0]
+% {/home/jason/Dropbox/book/m_book_cond_extrap_c0-3_boxon.eps}
+% \caption{\label{F-bulksizeeffect} Size dependence of thermal conductivity 
+% for the LJ crystal at a temperature of 0.0827 from normal mode 
+% decomposition and the Green-Kubo method.}
+% \end{center}\normalsize
+% \vspace*{-0mm}
+% \end{figure}
 
 The extrapolated thermal conductivities from the primitive and 
 conventional unit cells are $177 \pm 15$ and $176 \pm 14$ W/m-K. 
@@ -784,15 +788,15 @@ Virtual crystal (a) frequency-domain
 and (b) time-domain normal mode decomposition analysis for two modes 
 in LJ alloys with concentrations of 0.05 and 0.5. For modes that are 
 not well-approximated by the virtual crystal modes, the lifetime can 
-be approximated using Eq. \eqref{E-NMD-E-exp}, as shown in (d).
+be approximated using Eq. \eqref{E:tau_E_xcorr}, as shown in (d).
 }
 \end{figure}
 %--------------------------------------------------------------------------
 \vspace{5mm}
-%\clearpage
+\clearpage
 
 %--------------------------------------------------------------------------
-\section{\label{A:metastability}Effect of Metastability for   
+\section{\label{A:metastability}Effect of Metastability for 
 Amorphous Solids on Normal Mode Decomposition (WORK)}
 %--------------------------------------------------------------------------
 
@@ -853,6 +857,8 @@ LJ solid at at a dimensionless temperature of 0.0413.}
 \vspace*{-5mm}
 \end{figure}
 
+\clearpage
+
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=1.0]
@@ -864,6 +870,7 @@ temperature of 0.0827 are provided for comparison.}
 \end{center}\normalsize
 \vspace*{-5mm}
 \end{figure}
+
 \clearpage
 
 %--------------------------------------------------------------------------
@@ -918,5 +925,281 @@ from $\Phi'$ differ (see Table \ref{T:cond_table}).}
 \clearpage
 
 
+%--------------------------------------------------------------------------
+\section{\label{Appendix:AF}AF Calculations (WORK)}
+%--------------------------------------------------------------------------
+
+
+% https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_compare_broadening.m
+
+The AF theory suggests a broadening which is larger than the average 
+frequency spacing, $\delta_{avg}$. 
+
+The role of energy broadening in MD simulations could be helpful. The 
+energy of a given mode is broadened for two reasons: 
+
+1) due to anharmonic interactions.
+
+2) due to disorder (i.e., phonon-defect scattering in alloys, 
+diffuson theory). 
+
+The NMD-predicted lifetimes are predicted from MD simulations where 
+all scattering mechanisms are present. Based on the comparison 
+of NMD- and AF-predicted diffusivities in Fig. , a frequency-dependent 
+broadening may be necessary for the AF theory. The role of frequency 
+broadening needs further investigation. 
+
+%--------------------------------------------------------------------------
+\subsection{\label{Appendix:AF:Physical}Physical Picture}
+%--------------------------------------------------------------------------
+
+The AF theory makes the harmonic approximation. Physically, modes 
+couple by spatial and energetic (harmonic, elastic scattering) overlap.  
+The strength of the overlap is determined by how close the mode 
+energies (frequencies) are and how much the eigenvectors spatially overlap. 
+The two highest frequency modes of the LJ alloy at a concentration of 
+0.5 (see Section , Fig. ) are shown in Fig. . The mode frequencies are 
+and . These modes are both highly localized locons, which is indicated 
+by the small amount of spatial overlap in the eigenvector components. Only 
+the two spatial-dimensional components of the total three 
+spatial-dimensional components of the eigenvectors are plotted. The 
+three dimensional atomic coordinates are plotted in two dimensions. 
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000.eps}
+\end{center}
+\caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+locons. The spatial localization is evident from the small amount of 
+spaital overlap of the mode eigenvectors.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\subsection{\label{Appendix:AF:Finite}Finite Size Effects}
+%--------------------------------------------------------------------------
+
+
+% Hi Julian,
+% 
+% No problem about the silence, I have been busy trying to wrap up my thesis and find a job!
+% 
+% So, here are the issues:
+% 
+% 1) On the journey back from the most recent trip I was reading though the draft
+% manuscript that you sent me & puzzling over the issue of the size / Lorentzian sensitivity
+% of the answers.
+% 
+% Yes, this is kind of a tricky part of the AF method.  It seems like this was never addressed in the 
+% main paper, they simply suggest using a broadening equal to the average frequency spacing,\cite{feldman_thermal_1993} 
+% which is continued in \cite{feldman_numerical_1999} and \cite{shenogin_thermal_2009}. 
+% It turns out that the frequency spacing \delta_{freq} is strongly freq dependent, especially at low frequencies where the modes 
+% are sparse. Here is a crude plot for an a-LJ sample:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_dw_amor.png
+% 
+% This has different effects depending on the system.  
+% 
+% For LJ alloys, the k_{AF} is strongly system-size dependent:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_k_kmax.png
+% 
+% This is due to the harmonic approximation used in the AF theory, which leads to a Rayleigh scaling of 
+% the low-freq modes, \tau\propto\omega^{-4}. Here is another crude plot, showing the \omega^{-4} scaling 
+% predicted
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_all.png
+% 
+% While a-LJ shows a dependence on the broadening,  (\bra{\delta}=x*\delta_{avg} in this figure). Amorphous LJ is equivalent to a disordered lattice with a large disorder parameter.\cite{beltukov_ioffe-regel_2013}
+% 
+% 
+% The effect on a-Si is more complicated. For broaden = \delta_{avg}, the diffusivities at low frequency 
+% have large fluctuations. No definitive scaling can be seen, there seems to be a mix of \omega^{-4} and \omega^{-2} scalings. 
+% 
+% By increasing the broadening, the low frequency scaling can be tuned to match \omega^{-2} or \omega^{-4}:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_si_normand_N0_3.png
+% 
+% The low-frequecy fluctuations can be smoothed by increasing the broadening over a small range:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_si_normand_N0_5.png
+% 
+% This exaplins why Shenogin et al.'s prediction of k_{AF} = 1.0 W/m-K for a 512 atom system:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_feldman_shenogin_fabian.png
+% 
+% which is due to using a small broadening. 
+% 
+% 
+% 
+% 
+% 
+% 
+% 1) I'm not quite clear on is what the final result is for the K_ph contribution that has to be
+% added. I realise that this was an early draft since all the cross referencing etc wasn't 
+% finished, and so perhaps you have an updated version that might help?
+% 
+% Ya sorry, that was a pretty early draft.  Here is the one which is just about to be submitted:
+% 
+% https://github.com/jasonlarkin/disorder/raw/master/paper/mfp/prb_mfp_jl_081613.pdf
+
+%--------------------------------------------------------------------------
+% \begin{figure}
+% \begin{center}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/af_di_all.png}
+% \end{center}
+% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+% locons. The spatial localization is evident from the small amount of 
+% spaital overlap of the mode eigenvectors.}
+% \end{figure}
+% %--------------------------------------------------------------------------
+% 
+% 
+% %--------------------------------------------------------------------------
+% \begin{figure}
+% \begin{center}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/af_di_dw_0.05.png}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/af_di_dw_amor.png}
+% \end{center}
+% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+% locons. The spatial localization is evident from the small amount of 
+% spaital overlap of the mode eigenvectors.}
+% \end{figure}
+% %--------------------------------------------------------------------------
+% 
+% %--------------------------------------------------------------------------
+% \begin{figure}
+% \begin{center}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/af_di_kappa(broaden).png}
+% \end{center}
+% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+% locons. The spatial localization is evident from the small amount of 
+% spaital overlap of the mode eigenvectors.}
+% \end{figure}
+% %--------------------------------------------------------------------------
+% 
+% %--------------------------------------------------------------------------
+% \begin{figure}
+% \begin{center}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/af_k_kmax.png}
+% \end{center}
+% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+% locons. The spatial localization is evident from the small amount of 
+% spaital overlap of the mode eigenvectors.}
+% \end{figure}
+%--------------------------------------------------------------------------
+
+
+
+%--------------------------------------------------------------------------
+\section{\label{Appendix:SF}Spectral Density of Disordered Modes (WORK)}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+% \begin{figure}
+% \begin{center}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/dsf_alloy_0.5_mode100.png}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/dsf_alloy_0.5_mode3000.png}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/dsf_alloy_0.5_mode4000.png}
+% \end{center}
+% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+% locons. The spatial localization is evident from the small amount of 
+% spaital overlap of the mode eigenvectors.}
+% \end{figure}
+%--------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------
+\section{\label{Appendix:Accum}Size-effects for Low-frequency Dominated 
+Materials (WORK)}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps}
+\end{center}
+\caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+locons. The spatial localization is evident from the small amount of 
+spaital overlap of the mode eigenvectors.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\section{\label{Appendix:Accum}Accumulation Functions in Alloys 
+(WORK)}
+%--------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum.eps}
+\end{center}
+\caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+locons. The spatial localization is evident from the small amount of 
+spaital overlap of the mode eigenvectors.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/lj/alloy/xcorr_alloy_cum_cond.eps}
+\end{center}
+\caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+locons. The spatial localization is evident from the small amount of 
+spaital overlap of the mode eigenvectors.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/si/alloy/m_ald_taud_si_klambda.eps}
+\end{center}
+\caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+locons. The spatial localization is evident from the small amount of 
+spaital overlap of the mode eigenvectors.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps}
+\end{center}
+\caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
+locons. The spatial localization is evident from the small amount of 
+spaital overlap of the mode eigenvectors.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
 
 

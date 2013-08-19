@@ -32,23 +32,26 @@
 \usepackage{times}
 \usepackage{fullpage}
 \usepackage[numbers,sort]{natbib}
-\usepackage[breaklinks,backref,pageanchor=true,
+\usepackage[linktocpage,breaklinks,backref,
+pageanchor=true,pagebackref=true,
 plainpages=false, pdfpagelabels, bookmarks,bookmarksnumbered,
 pdfborder=0 0 0,  %removes outlines around hyper links in online display
-]{hyperref}\makeatletter
+]{hyperref}
+\makeatletter
 \let\org@hyper@linkend\hyper@linkend
 \def\hyper@linkend{%
 \baselineskip=.5\baselineskip
 \org@hyper@linkend
 }	%!!! here was the fix...%http://newsgroups.derkeiler.com/Archive/Comp/comp.text.tex/2008-10/msg01039.html
 \makeatother
+\usepackage[hyphenbreaks]{breakurl}
 \usepackage{subfigure}
 \usepackage{comment}   % package for block comment
-%\renewcommand{\includegraphics}[2][]{\fbox{}}
+\renewcommand{\includegraphics}[2][]{\fbox{}} %fig suppress
 %\batchmode
 %\renewcommand{\includegraphics}[2][]{\fbox{#2}}
 %\usepackage[demo]{graphicx}
-%\usepackage{graphicx}
+\usepackage{graphicx}
 %\usepackage{hyperref}
 %\usepackage{url}
 %\usepackage{breakurl}
@@ -415,6 +418,17 @@ and Zhiting Tian for helpful discussions.
 
 MFP
 
+This work was supported by AFOSR award FA95501010098 and by a grant 
+of computer time from the DOD 
+High Performance Computing Modernization Program at the US Army 
+Engineer 
+Research and Development Center. 
+We thank Davide Donadio, Joseph Feldman, Asad Hasan, Jonathan Malen,  
+Craig Maloney, Normand Mousseau, Keith Regner, and Michael Widom 
+for helpful discussions.
+
+I would like to thank 
+
 %\end{acknowledgments}
 
 
@@ -463,9 +477,11 @@ and nanoscaled systems.
 Disordered materials are 
 \end{abstract}
 
+%\cfoot{\hyperlink{contents}{TOC}}% links the TOC at the center of the page footer
+
 \cleardoublepage
 \phantomsection
-\hypertarget{contents}
+\hypertarget{contents}{}
 \tableofcontents
 \hyperlink{contents}{Contents}
 %F) Table of Contents – with page references
@@ -520,7 +536,7 @@ Disordered materials are
 \input{/home/jason/thesis/thesis/vc/vc}
 \input{/home/jason/thesis/thesis/mfp/mfp}
 %\input{/home/jason/thesis/thesis/pcbm/pcbm}
-\input{conclusion}
+\input{/home/jason/thesis/thesis/conclusion}
 %C) Summary and Conclusions – highlighting the key findings and 
 % conclusions of the work presented. For engineering and science theses 
 % and dissertations, this section often also includes recommendations 
@@ -555,6 +571,9 @@ Disordered materials are
 % be numbered consecutively throughout each chapter.
 
 \backmatter
+
+
+
 
 %\renewcommand{\baselinestretch}{1.0}\normalsize
 

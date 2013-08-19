@@ -4,6 +4,7 @@ Conductivity Accumulation Functions for Amorphous Materials}
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
+%\clearpage
 \section{\label{S:Introduction}Introduction}
 %--------------------------------------------------------------------------
 
@@ -46,7 +47,9 @@ he_heat_2011,regner_broadband_2013}
 and amorphous silicon nitride,
 \cite{sultan_heat_2013} but not to that of 
 amorphous silica (a-SiO$_2$).
-\cite{love_estimate_1990,lee_heat_1997,baldi_thermal_2008,
+\cite{freeman_thermal_1986,graebner_phonon_1986,
+cahill_lattice_1988,cahill_thermal_1989,love_estimate_1990,
+lee_heat_1997,yamane_measurement_2002,baldi_thermal_2008,
 regner_broadband_2013} 
 Notably, using broadband frequency domain thermoreflectance, 
 Regner et al. measured how the thermal conductivity of a-SiO$_2$ and 
@@ -57,7 +60,7 @@ Following the suggestion of Koh and Cahill,\cite{koh_frequency_2007}
 they interpret the 
 measured thermal conductivity at a given penetration depth to be 
 representative 
-of the phonons with mean free path (MFP) less than that value, 
+of the phonons with mean free paths (MFP) less than that value, 
 allowing for the 
 construction of the thermal conductivity accumulation 
 function.\cite{dames_thermal_2005,minnich_thermal_2011,
@@ -72,7 +75,7 @@ vary by
 that propagating modes with MFPs in this range contribute 
 significantly to thermal conductivity.  
 
-To understand the results of Regner et al. requires knowledge of 
+To interpret the results of Regner et al. requires knowledge of 
 the MFPs of the 
 propagating modes and the contribution to thermal conductivity 
 from the non-propagating modes. 
@@ -141,13 +144,8 @@ The objective of this work is to investigate the propagating
 and non-propagating contributions to the thermal conductivity 
 of a-SiO2 and a-Si   
 by predicting the MFPs and thermal conductivity 
-accumulation functions for realistic models and compare to 
-experimental measurements.
-\cite{freeman_thermal_1986,graebner_phonon_1986,
-cahill_lattice_1988,cahill_thermal_1989,
-love_estimate_1990,cahill_thermal_1994,lee_heat_1997,
-yamane_measurement_2002,baldi_thermal_2008,
-liu_high_2009,yang_anomalously_2010,regner_broadband_2013} 
+accumulation functions for realistic models and comparing the 
+predictions to experimental measurements. 
 The paper is organized as follows. 
 The theoretical formulation and modeling framework are 
 discussed in Section \ref{S:Theory:Thermal}. The sample preparation 
@@ -167,22 +165,13 @@ mode diffusivities (i.e., the product of the square of
 the group velocity and the lifetime) are calculated and compared 
 with predictions from the AF theory in Section \ref{S:Diffusivities}. 
 Using this comparison, a cutoff frequency between propagating and 
-non-propagating modes is specified.
-
+non-propagating modes is specified. 
 The properties of the propagating and non-propagating 
 modes are then used to predict the total thermal 
-conductivity in Section \ref{S:Bulk}. We also predict the total 
-thermal conductivity using the Green-Kubo method 
-and molecular dynamics simulations (a top-down approach). 
+conductivity in Section \ref{S:Bulk}. 
 The thermal conductivity accumulation functions 
 are predicted in Section \ref{S:Accumulation} 
-where the results are compared with the measurements of  
-Regner et al.\cite{regner_broadband_2013} and thermal conductivity 
-experiments on thin films.\cite{freeman_thermal_1986,
-graebner_phonon_1986,cahill_lattice_1988,cahill_thermal_1989,
-love_estimate_1990,cahill_thermal_1994,lee_heat_1997,
-yamane_measurement_2002,baldi_thermal_2008,
-liu_high_2009,yang_anomalously_2010} 
+where the results are compared with the experimental results. 
 
 % The thermal conductivity accumulation functions predicted for a-Si 
 % using both $\omega^{-2}$ 
@@ -498,8 +487,9 @@ Visualizations using the VESTA package.\cite{momma_vesta:_2008}
 }
 \end{figure}
 %--------------------------------------------------------------------------
-%\clearpage
-\vspace{50mm}
+
+\clearpage
+
 %--------------------------------------------------------------------------
 \subsection{\label{S:Simulation}Simulation Details}
 %--------------------------------------------------------------------------
@@ -604,8 +594,8 @@ frequency gap that separates
 the Si-O interactions.\cite{mcgaughey_thermal_2004} }
 \end{figure}
 %--------------------------------------------------------------------------
-%\clearpage
-\vspace{100mm}
+
+\clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Structure}Structure Factor}
@@ -767,8 +757,8 @@ on the lattice constants of the crystalline phases.
 \cite{wyckoff_crystal_1963,stillinger_computer_1985} }
 \end{figure}
 %--------------------------------------------------------------------------
-%\clearpage
-\vspace{130mm}
+
+\clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Vg}Sound Speed}
@@ -929,7 +919,8 @@ Longitudinal & 7,840 & 8,271 & 8,047 & \\
 \endgroup
 \end{center}
 %--------------------------------------------------------------------------
-\vspace{10mm}
+
+\clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Life}Lifetimes}
@@ -1077,7 +1068,9 @@ $10^{13}$ rads$/$s, which corresponds to where the DOS first peaks
 in Fig. \ref{FIG:DOS}.}
 \end{figure}
 %--------------------------------------------------------------------------
-%\clearpage
+
+\clearpage
+
 %--------------------------------------------------------------------
 %\begin{figure}
 %\begin{center}
@@ -1242,7 +1235,8 @@ are localized.
 }
 \end{figure}
 %--------------------------------------------------------------------------
-%\clearpage
+
+\clearpage
 
 %--------------------------------------------------------------------------
 % \begin{figure}
@@ -1445,8 +1439,9 @@ contribution from propagating modes. For a-Si, there is a clear size
 dependance, indicating the importance of propagating modes. }
 \end{figure}
 %--------------------------------------------------------------------------
-%\clearpage
-\vspace{100mm}
+
+\clearpage
+
 %--------------------------------------------------------------------------
 \begin{center}
 \begingroup
@@ -1478,9 +1473,8 @@ $k_{vib}$ (quantum) & 1.5 $\pm$ 0.1 & 1.6 $\pm$ 0.2 & \\
 \endgroup
 \end{center}
 %--------------------------------------------------------------------------
-%\clearpage
-\vspace{200mm}
 
+\clearpage
 
 % \begin{center}
 % \begin{table}
@@ -1526,13 +1520,14 @@ grouped broadly by sample preparation technique:
 \cite{moon_thermal_2002,liu_high_2009,yang_anomalously_2010}
 and (B) sputtering.
 \cite{kuo_thermal_1992,cahill_thermal_1994,wada_thermal_1996} 
-Application of Eq. \eqref{EQ:LambdaMatth} ignores modes 
+We note that building the accumulation function using MFPs from 
+Eq. \eqref{EQ:LambdaMatth} ignores modes 
 that propagate in a direction that is not perpendicular to the 
-cross-plane film direction and may have MFPs larger than the film 
-thickness that are not included in the accumulation function. 
-Since we consider inifite (a-SiO$_2$) and 
-80 $\mu$m (a-Si) film thickness, the effect is not important 
-for the range of $t_f$ and MFP shown in 
+cross-plane film direction that may have MFPs larger than the film 
+thickness. Since we consider inifite (a-SiO$_2$) and 
+80 $\mu$m (a-Si) film thickness in evaluating 
+Eq. \eqref{EQ:LambdaMatth}, the effect is not important for the 
+range of film thickness and MFPs shown in 
 Figs. \ref{FIG:sio2_accum}(a) and \ref{FIG:sio2_accum}(b). 
 
 Based on the results in Section \ref{S:Diffusivities}, we build 
@@ -1540,13 +1535,14 @@ thermal conductivity accumulation functions for a-SiO$_2$ and a-Si
 from
 \begin{equation}\label{EQ:kLambda}
 k(\Lambda^{*}) = k_{AF} + 
-\frac{1}{V}\int^{\Lambda^{*}}_{\Lambda_{cut}} 
+\int^{\Lambda^{*}}_{\Lambda_{cut}} 
 k(\Lambda)d\Lambda,
 \end{equation}
 where $\Lambda_{cut}$ is the MFP at the cut-off frequency, 
 $\Lambda^*$ is the maximum MFP considered in the thermal 
 conductivity accumulation, $k(\Lambda)$ is the thermal conductivity 
-as a function of MFP, and the propagating mode MFPs are 
+as a function of MFP,\cite{yang_mean_2013} 
+and the propagating mode MFPs are 
 calculated using lifetimes from Eq. \eqref{EQ:LambdaMatth}. The 
 non-propagating contribution $k_{AF}$ is evaluated using the quantum 
 specific heat (see Section \ref{S:Bulk}). 
@@ -1561,7 +1557,7 @@ of our model. This result is in good quantitative agreement
 with the penetration depth-independent thermal 
 conductivity measurements using broadband FDTR
 \cite{regner_broadband_2013} and experimental measurements 
-that show minimal film thickness dependance.
+that show minimal film-thickness dependance.
 \cite{lee_heat_1997,yamane_measurement_2002} 
 
 For a-Si, the low-MFP plateau of thermal conductivity in the   
@@ -1575,16 +1571,18 @@ feldman_numerical_1999,zink_thermal_2006,zink_excess_2006,
 liu_high_2009,yang_anomalously_2010} 
 Predictions for both the $\omega^{-2}$ 
 and $\omega^{-4}$ scalings pass reasonably 
-through the experimental measurements, particularly for thermal 
-conductivity measurements in the 50-2000 nm range. 
-For the $\omega^{-2}$ scaling, which best matches our model, 
+through the experimental measurements, particularly for thin-film 
+measurements in the 50-2000 nm range. The measurements of 
+Regner et al. show sharper accumulations 
+than either the $\omega^{-2}$ or $\omega^{-4}$ scalings, 
+particularly for the $2000$ nm film. 
+For the $\omega^{-2}$ scaling, which best matches our model 
+[see Fig. \ref{FIG:Lifetimes}(b)], 
 the thermal conductivity accumulation 
 saturates at $1$ $\mu$m, in good agreement with where the measurements 
-of Regner et al. saturate for a 500 nm thick film, while the 2000 nm 
-measurements show no sign of saturation. 
-The measurements of Regner et al. show much sharper accumulations 
-than either the $\omega^{-2}$ or $\omega^{-4}$ scalings, 
-particularly for the $2000$ nm measurements. 
+of Regner et al. saturate for their 500 nm thick film. The 2000 nm 
+thick film accumulation shows no sign of saturation. 
+
 
 %--------------------------------------------------------------------------
 % \begin{figure}
@@ -1643,8 +1641,8 @@ hot-wire chemical vapor deposition.\cite{yang_anomalously_2010}
 }
 \end{figure}
 %--------------------------------------------------------------------------
-%\clearpage
-\vspace{130mm}
+
+\clearpage
 
 %--------------------------------------------------------------------------
 \section{\label{S:Lifetimes}Summary}
@@ -1657,7 +1655,7 @@ a-SiO$_2$ and a-Si using the NMD method (Section \ref{S:Life}),
 AF theory (Section \ref{S:Diffusivities}), and 
 the GK method (Section \ref{S:Bulk}). 
 The atomic structures of a-SiO$_2$ and a-Si play an important role 
-in determining the mode-by-mode needed to predict the 
+in determining the mode-level properties needed to predict the 
 propagating and non-propagating contributions. The 
 propagating regime ends at a lower frequency for a-SiO$_2$, which is 
 evident from the DOS (Fig. \ref{FIG:DOS}) 
@@ -1675,9 +1673,10 @@ allen_diffusons_1999,barkema_high-quality_2000}
 The structural differences are also 
 apparent in the low-frequency scalings of the mode lifetimes (Fig. 
 \ref{FIG:Lifetimes}) which show a clear $\omega^{-2}$ dependance 
-for a-Si, but not for a-SiO$_2$. The combined differences of all the 
-mode-by-mode properties results in a significant difference 
-in the propagating ($k_{pr}$) and non-propagating ($k_{AF}$) contributions 
+(i.e., phonon-like) 
+for a-Si, but not for a-SiO$_2$. The combined effect of all the 
+mode-level properties results in a significant difference 
+in the propagating and non-propagating contributions 
 to thermal conductivity for a-SiO$_2$ and a-Si (Table \ref{T:cond}). 
 
 For our model of a-SiO$_2$, the contribution from propagating modes 
@@ -1686,7 +1685,7 @@ Our predictions align with experimental measurements of the film
 thickness-independence of thermal conductivity 
 \cite{lee_heat_1997,yamane_measurement_2002} 
 and penetration depth-independence in the measurements  
-by Regner et al.\cite{regner_broadband_2013}
+of Regner et al.\cite{regner_broadband_2013}
 While the finite size 
 of our model makes it difficult to identify a clear scaling 
 of the low-frequency lifetime scaling, experiments show that 
@@ -1696,33 +1695,29 @@ baldi_emergence_2013} In all cases, the propagating contribution to
 thermal conductivity is negligible.\cite{love_estimate_1990,
 lee_heat_1997,yamane_measurement_2002,baldi_thermal_2008}
 
-For our model of bulk a-Si, 
+For our model of a-Si, 
 the thermal conductivity has a significant ($\sim$35$\%$) 
 contribution from propagating modes that are best 
 described by a lifetime scaling of $\omega^{-2}$. Our predicted 
 non-propagating thermal conductivity contribution is in good 
-agreement with the plateau at low-MFP for all measurements of 
-Regner et al. Our predicted 
-thermal conductivity accumulation saturates at a value which 
-is in agreement with the saturation for the smallest thin film 
-measurements by Regner et al. For all film thicknesses 
-studied by Regner et al. the thermal conductivities accumulate 
+agreement with the plateau at low-MFP for both films studied by 
+Regner et al. For both films, the thermal conductivities accumulate 
 much faster than our accumulations. 
-Our bulk and thin-film thermal conductivity predictions agree with 
-a subset of the widely-varying experimental measurements. 
 The large range of thermal conductivity measurements on 
 a-Si thin films suggest that a comprehensive 
-experimental study using the recently developed thermoreflectance 
+experimental study using recently developed thermoreflectance 
 techniques\cite{koh_frequency_2007,minnich_thermal_2011,
 regner_broadband_2013,regner_instrumentation_2013} 
 on varying film thicknesses and preparation techniques is necessary.  
 It may be particularly helpful to perform the experiments 
 at temperatures less than $10$ K, where the propagating contribution 
 dominates for both a-SiO$_2$ and a-Si and the low-frequency 
-lifetime scaling is still under debate.
-\cite{freeman_thermal_1986,cahill_lattice_1988,
+lifetime scaling, which is still under debate, can be better resolved. 
+\cite{graebner_phonon_1986,freeman_thermal_1986,cahill_lattice_1988,
 cahill_thermal_1989,love_estimate_1990,feldman_thermal_1993,
-cahill_thermal_1994,feldman_numerical_1999,baldi_thermal_2008,
-liu_high_2009,yang_anomalously_2010} 
+cahill_thermal_1994,feldman_numerical_1999,
+zink_excess_2006,zink_thermal_2006,baldi_thermal_2008,
+liu_high_2009,yang_anomalously_2010,baldi_sound_2010,
+baldi_elastic_2011,baldi_emergence_2013} 
 
 

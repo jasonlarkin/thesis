@@ -615,8 +615,17 @@ developed mush faster by performing computationally cheap calculations
 first, documenting the results, and then iterating to more 
 computationally expensive calculations. 
 This scheme for performing calculations can follow these time-scales 
-for calculation costs:  
-one second, minute, hour, day, and week. I have performed 
+for calculation costs:
+\begin{itemize}
+
+\item 1 second: exploratory work, debugging.  
+\item 1 minute/1 hour: testing the scaling of algorithms, precision  
+\item 1 day: publication-quality calculations
+\item 1 week: publication-quality calculations, but should be limited 
+to when necessary. 
+\end{itemize}
+
+I have performed 
 countless calculations costing around one second, and very few which cost 
 more than one week. Publication quality results will typically 
 cost between one hour and one week.

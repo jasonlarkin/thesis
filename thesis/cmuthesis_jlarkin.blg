@@ -2,45 +2,57 @@ This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cmuthesis_jlarkin.aux
 The style file: unsrt.bst
+Reallocated field_info (elt_size=4) to 10083 items from 5000.
 Database file #1: /home/jason/Dropbox/ntpl-paper/ntpl-072613.bib
-You've used 202 entries,
+Warning--I didn't find a database entry for "broido_inrinsic_2007"
+Warning--I didn't find a database entry for "ward_ab_initio_2009"
+Warning--I didn't find a database entry for "intrinsic_ward_2010"
+Warning--I didn't find a database entry for "lindsay_first-principles_2013"
+Warning--I didn't find a database entry for "kundu_light_2011"
+Warning--I didn't find a database entry for "wang_mode-wise_2013"
+Warning--I didn't find a database entry for "bao_first-principles_2013"
+Warning--I didn't find a database entry for "shenogin_"
+Warning--I didn't find a database entry for ""
+Warning--empty booktitle in slack_thermal_1979
+You've used 212 entries,
             1791 wiz_defined-function locations,
-            1462 strings with 39248 characters,
-and the built_in function-call counts, 51564 in all, are:
-= -- 4339
-> -- 2475
-< -- 8
-+ -- 900
-- -- 698
-* -- 4333
-:= -- 8271
-add.period$ -- 608
-call.type$ -- 202
-change.case$ -- 188
+            1516 strings with 42411 characters,
+and the built_in function-call counts, 55094 in all, are:
+= -- 4569
+> -- 2790
+< -- 10
++ -- 1009
+- -- 797
+* -- 4686
+:= -- 8884
+add.period$ -- 639
+call.type$ -- 212
+change.case$ -- 198
 chr.to.int$ -- 0
-cite$ -- 202
-duplicate$ -- 1954
-empty$ -- 4953
-format.name$ -- 698
-if$ -- 11189
+cite$ -- 213
+duplicate$ -- 2065
+empty$ -- 5210
+format.name$ -- 797
+if$ -- 11913
 int.to.chr$ -- 0
-int.to.str$ -- 202
-missing$ -- 208
-newline$ -- 1010
-num.names$ -- 208
-pop$ -- 319
+int.to.str$ -- 212
+missing$ -- 218
+newline$ -- 1060
+num.names$ -- 218
+pop$ -- 335
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 835
+skip$ -- 888
 stack$ -- 0
-substring$ -- 4603
-swap$ -- 334
-text.length$ -- 8
+substring$ -- 4838
+swap$ -- 362
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 401
-width$ -- 205
-write$ -- 2212
+warning$ -- 1
+while$ -- 421
+width$ -- 215
+write$ -- 2323
+(There were 10 warnings)
