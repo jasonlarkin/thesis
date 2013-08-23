@@ -1,17 +1,10 @@
 %--------------------------------------------------------------------------
-\chapter{\label{Conclusion}Conclusion (WORK)}
+\chapter{\label{Conclusion}Conclusion}
 %--------------------------------------------------------------------------
-There are two sections to this introductory chapter.
-
-
 
 %--------------------------------------------------------------------------
 \section{\label{Overview}Overview and Contributions}
 %--------------------------------------------------------------------------
-
-
-
-
 
 %--------------------------------------------------------------------------
 \subsection{\label{Overview:SED} 
@@ -19,35 +12,39 @@ Molecular Dynamics-based Methods for Predicting Vibrational
 Lifetimes}
 %--------------------------------------------------------------------------
 
-Properly derived the NMD method starting with anharmonic lattice 
+In Chapter \ref{Chapter:SED}, two MD-based methods for predicting 
+phonon properties and thermal conductivity were compared. 
+The $\Phi$ method, which is the NMD method in the frequency-domain, 
+was properly derived starting with anharmonic lattice 
 dynamics theory (see Appendix \ref{Appendix_A:Derivation}). 
-
-Clarified the meaning of the proposed spectral method, $\Phi'$, 
-and related it to the dynamic structure factor 
+The meaning of the proposed spectral method, $\Phi'$, 
+was clarified and related to the dynamic structure factor 
 (see Appendix \ref{Appendix_B}). 
-
 While 
 the $\Phi'$ method does not accurately predict the mode lifetimes, 
 the advantage of the $\Phi'$ versus the $\Phi$ method is that it does 
 not require an eigenvalue solution for the mode eigenvectors.  
-Closely-related to the $\Phi'$ method is the dynamic structure factor 
-(see Appendix \ref{Appendix_B}), which can predict frequency-dependent 
-timescales from MD simulations with a number of atoms that 
-would limit the $\Phi$ method due to the necessary eigenvalue solution 
-(see Section ).
+The dynamic structure factor, closely related to the $\Phi'$ method 
+(see Appendix \ref{Appendix_B}), can predict frequency-dependent 
+timescales from MD simulations for systems with a larger number of 
+atoms than those studied in this work using the NMD method 
+(see Section \ref{Future:Timescales}). 
 
 %--------------------------------------------------------------------------
 \subsection{\label{Overview:VC}
 Thermal Transport in Alloys and the High-scatter Limit}
 %--------------------------------------------------------------------------
 
-The thermal transport study of alloys in Chapter provides original 
+In Chapter \ref{chapter:vc}, thermal transport in two model alloys 
+was investigated. The work provides several original 
 insight into the physics of thermal 
 transport in disordered lattices (i.e., isotopic solids and alloys). 
-
 The first rigourous test of the virtual crystal (VC) approximation 
 was presented. The VC-ALD technique has been used in a number of 
-recent studies,(cite) but its limits have not been assessed. 
+recent studies,
+\cite{garg_role_2011,tian_phonon_2012,lindsay_thermal_2012,
+li_thermal_2012,luckyanova_coherent_2012} 
+but its limits had not been assessed until this study.  
 The limits of the VC-ALD 
 approach were determined using computationally-inexpensive empirical 
 potentials and self-consistently treating the disorder explicitly 
@@ -59,89 +56,86 @@ modes, care must be taken when modeling alloys with low thermal
 conductivities, where significant underprediction of thermal 
 conductivity is likely. 
 
-By using all four methods discussed in Section , 
-important connections were identified between the modeling 
-of disordered lattices and amorphous materials [1,2,11,35,86]. 
-The high-scatter limit of thermal diffusivity,  
-typically used in modeling amorphous materials, is directly relevant 
-to the modeling of disordered lattices (see Section ). 
-Application of the VC 
-approximation leads to vibrational mode diffusivities that are 
-non-physical and the high-scatter limit provides a simple, 
-physically-sound approach for correcting these predictions. 
+% The high-scatter limit of thermal diffusivity,  
+% typically used in modeling amorphous materials, is directly relevant 
+% to the modeling of disordered lattices. 
+% Application of the VC 
+% approximation leads to vibrational mode diffusivities that are 
+% non-physical and the high-scatter limit provides a simple, 
+% physically-sound approach for correcting these predictions. 
 
-The following calculations that we performed are novel additions to the 
-literature:
+The following calculations that were performed are novel additions 
+to the literature:
 \begin{itemize}
-\item Virtual Crystal + Normal Mode Decomposition. To model disordered 
-lattices explicitly, we (and others) used normal mode decomposition 
-(NMD) on the fully disordered supercell. This approach is limited in 
+\item Use of the VC-NMD method to model disordered 
+lattices explicitly. This approach is limited in 
 that the group velocity cannot be extracted so that thermal conductivity 
-cannot be predicted.  The novel contribution of our work is the use of 
+cannot be predicted.  The novel contribution is the use of 
 NMD to predict the lifetimes of a disordered lattice using VC-NMD, 
 where the normal modes of the Virtual Crystal (VC) are used as an 
-approximation.
-\item Allen-Feldman Theory on Disodered Lattice.To model the disorder 
-explicitly, we also use the Allen-Feldman (AF) theory of diffusons. 
-This theory has only previously been applied to amorphous phases 
-[16,17,35,36,74].  We use the AF theory to show that the lower-limit 
+approximation 
+(see Section \ref{S:From VC Gamma} and Appendix \ref{A:NMD XCORR}).
+\item  To model the disorder explicitly, the AF Theory calcualtions 
+were perfomred on a disodered lattice (Section \ref{S:Diffusivities_vc}). 
+This theory has only previously been applied to amorphous phases.
+\cite{feldman_thermal_1993,feldman_numerical_1999,
+shenogin_predicting_2009,he_heat_2011}
+The AF theory predictions showed that the lower-limit 
 of diffusivity of high-frequency modes in a disordered lattice is the 
-high-scatter limit, in contrast to the VC-ALD method, which incorrectly 
-predicts that the limiting value is zero. Identification of this 
+high-scatter limit, in contrast to the VC-NMD ans VC-ALD methods, 
+which incorrectly 
+predict that the limiting value is zero. Identification of this 
 high-scatter limit of mode diffusivity was essential for identifying 
-the breakdown in the VC-ALD method.  The high-scatter limit of 
+the breakdown in the VC methods.  The high-scatter limit of 
 diffusivity is usually assumed, without theoretical justification, in 
-models for disordered and amorphous materials [1,2,80,83]. Our study 
-gives self-consistent justification for its use.
-\item Structure Factor of Disordered Lattice to Predict Group Velocities. 
-We calculated the structure factor for modes in a disordered lattice, 
-which has previously only been done for modes in amorphous materials.
-(cite PRB articles) The structure factor predictions help us to 
-understand that the VC-predicted group velocities are an 
+phenomological models for disordered and amorphous materials.
+\cite{kittel_interpretation_1949,graebner_phonon_1986,
+cahill_lattice_1988} 
+This study gives self-consistent justification for its use.
+\item Calcualtion of the structure factor of disordered lattices to 
+predict group velocities (Section \ref{S:Dispersion}). 
+The structure factor was calculated for modes in a model disordered 
+lattice, which has previously been calculated for modes in amorphous 
+materials.
+\cite{biswas_vibrational_1988,feldman_thermal_1993,
+allen_diffusons_1999,feldman_numerical_1999,
+taraskin_determination_1999,taraskin_propagation_2000,
+volz_molecular-dynamics_2000,
+gotze_evolution_2000,horbach_high_2001,
+martin-mayor_dynamical_2001,feldman_calculations_2002,
+ciliberti_brillouin_2003,christie_vibrational_2007,
+shintani_universal_2008,wyart_scaling_2010,
+beltukov_ioffe-regel_2013,larkin_predicting_2013,
+marruzzo_heterogeneous_2013} 
+The structure factor predictions help to 
+demonstrate that the VC-predicted group velocities are an 
 underprediction of the representative velocity scale for mode 
 diffusivities in the disordered lattice.  While previous studies 
 have attempted to predict the group velocity of modes in disordered 
-systems, there is no theoretical justification for the methods used 
-[60-62]. The structure factor provides a rigorous manner to estimate 
+systems, there is no theoretical justification for the methods used.
+\cite{duda_reducing_2011,donadio_atomistic_2009,
+he_heat_2011,he_thermal_2011,he_morphology_2011,hori_phonon_2013} 
+The structure factor provides a rigorous manner to estimate 
 group velocities and is a significant contribution to understanding 
 how to predict the correct velocity scale for mode diffusivities in 
-disordered systems.[] 
+disordered systems. 
 \end{itemize}
 
-We present a self-consistent study of the VC approximation using five 
-different method (VC-ALD, VC-NMD, Gamma-NMD, AF theory, and Green-Kubo). 
-We study the thermal transport of Lennard-Jones argon in three solid 
-phases of the materials: perfect crystal, disordered lattice, and 
-amorphous phase. By using three phases, we demonstrate the applicability 
+By using all four methods discussed in Section \ref{S-SystemMode}, 
+a self-consistent study of the VC approximation 
+identified important connections between the modeling 
+of disordered lattices and amorphous materials. 
+By using three phases of LJ argon (perfect crystal, disordered lattice, 
+and amorphous phase), the applicability 
 of the different methods for predicting the thermal conductivity and 
-mode-properties:
+mode-properties was demonstrated:
 \begin{itemize}
-\item Molecular Dynamics-based Green-Kubo: suitable for modeling all 
+\item MD-based GK method: suitable for modeling all 
 three phases, but does not predict the mode properties.
-\item Phonon based VC-ALD and VC-NMD: suitable for the perfect crystal 
+\item Phonon-based VC-ALD and VC-NMD: suitable for the perfect crystal 
 and disordered lattices with the high-scatter limit correction.
 \item The AF theory of diffusons: suitable for the high-frequency modes 
 of the disordered lattice and all modes of the amorphous phase. 
-We are unaware of any other study that uses all five of these methods 
-self-consistently on the same material system. Our work provides clear 
-guidelines for others on what tools are appropriate for different 
-solid state systems.
-Contribution to the Literature
-Due to their low thermal conductivities, alloys are currently an active 
-area of research, notably in the thermoelectric energy conversion field. 
-The ability to predict alloy thermal conductivity is critical in 
-narrowing down a large materials design space. Recent papers 
-[e.g., PRL 106, 045901 (2011), PRL 109, 095901 (2012), 
-PRB 85, 184303 (2012)] have used the VC-ALD method to make such 
-predictions.
-We believe this work will make an important contribution to the 
-literature because the high-scatter limit adjustment is of interest 
-to the study of low-thermal conductivity alloys. Thermoelectric energy 
-generation materials, such as PbTe/Se alloys [21,22,49], maximize their 
-efficiency by minimizing their thermal conductivity. The search for 
-lower thermal conductivity alloys will require the modeling of even 
-lower-thermal conductivity alloys, where the high-scatter limit we 
-have proposed should be considered.
 \end{itemize}
 
 % The breakdown of the VC-ALD method has gone unnoticed in previous 
@@ -166,161 +160,159 @@ have proposed should be considered.
 % study includes two test materials that demonstrate the applicability 
 % and breakdown of the VC-ALD method. The conclusions are of general use 
 % for the study of any disordered lattice. 
+% 
+% The work provides clear 
+% guidelines for others on what tools are appropriate for different 
+% solid state systems.
 
 %--------------------------------------------------------------------------
 \subsection{\label{Overview:MFP}
 Mean Free Paths of Propagating Modes in Disordered Materials}
 %--------------------------------------------------------------------------
 
-Drew on results and theory from the amorphous literature, which 
-is extensive. 
-Much work has been done by the physics community on vibrational spectra 
-in amorphous solids, particularly on a-SiO$_2$. However, few of these 
-studies investigated thermal transport properties. Only recently 
-have thermal transport properties been studied.\cite{}
+In Chapter \ref{chapter:mfp}, a clear theoretical and modeling framework 
+for amorphous materials was 
+presented, which can form the basis for studying a range of disordered 
+materials. 
+This modeling framework grew as a natural extension of the work and results 
+from Chapter \ref{chapter:vc}. 
+The NMD-predicted lifetimes, along with the material's sound speed, 
+can be used with the AF theory diffusivities to determine the transition 
+from propagating to non-propagating modes (Section ). The challenge is that in 
+disordered materials, the group velocities 
+are not well-defined and there is no theoretical basis to predict 
+them.\cite{duda_reducing_2011,donadio_atomistic_2009,
+he_heat_2011,he_thermal_2011,he_morphology_2011,hori_phonon_2013}
+Instead, the mode diffusivities are the fundamental quantities, and 
+the predictions from both the NMD and AF theory methods must be considered 
+simultaneously. 
 
-A clear theoretical and modeling framework for amorphous materials was 
-presented, which can form the basis for studying any disordered material.  
-
-
-
-
-
-The mode lifetimes can be predicted using NMD.
-
-If the model is large and low enough frequencies are accessed, the sound 
-speed can be used. This can establish an upper bound on the mode 
-diffusivities. 
-
-The NMD lifetimes can be used with the AF theory diffusivities to predict 
-effective diffuson MFPs and group velocities, which are shown in insets 
-of Figs. \ref{F:vAF}(a) and \ref{F:vAF}(b). As noted in Section , the 
-diffuson MFPs range between the system size $L$ and the lattice constant 
-$a$ (see Section ). 
-For diffusons, this effective diffuson velocities range from the 
-sound speed to a fraction of it (about 0.3 for a-Si, see Fig. ). These 
-diffuson velocities are much larger than 
-those predicted in previous studies where the effective group velocities 
-for some modes were approximately zero.\cite{}
-
+The following calculations that were performed are novel additions 
+to the literature:
 \begin{itemize}
 \item Identified the effects of metastability in amorphous materials 
 on predicting lifetimes using the NMD method 
-(see Section and Appendix ). 
-Metastability is likely 
-to affect the application of the NMD method in other ordered and 
-disordered systems with weak bonding (see Section \ref{Future:LUC}). 
+(see Section \ref{S:Sample} and Appendix \ref{A:metastability}). 
+Metastability is likely to affect the application of the NMD method 
+in other ordered and disordered systems with weak atomic bonding 
+(see Section \ref{Future:LUC}). 
 \item Identified differnces in the structural properties of 
 of a-SiO$_2$ and a-Si that lead to a substantial difference in the 
-propagating contribution to thermal conductivity in each. 
-\item Predicted effective dispersion from the static structure factor (see 
-Section ). The effective dispersion, when combined with diffusivity 
-predictions from the AF theory and NMD method, are able to predict 
-self-consistently the mode group velocities in a disorded system. 
-Previous attempts to predict mode group velocities lack a theoretical basis. 
-Presented a clear theoretical and computational framework 
-for predicting the mode-level properties in amorphous materials. 
-By predicting the effective dispersion using the static structrue 
-factor, showed that the sound speed is the valid for 
-low frequency modes. By using the NMD and AF-predicted 
-diffusivities, demonstrated that the effective group velocity of 
-diffuson modes is larger than predictions from recent studies.
-(cite) 
-\item Demonstrated that the NMD-predicted diffusivities are more 
+propagating contributions to thermal conductivity in each. 
+\item Predicted the effective dispersion from the static structure factor 
+to estimate mode group velocities (Section \ref{S:Structure}). 
+While effective dispersions have been predicted from the structure factors 
+for models amorphous materials previously, they had not been used to help  
+predict the thermal conductivity. The effective dispersions 
+justify the use of the sound speed at low frequencies. 
+\item Using the justified sound speeds, 
+it was demonstrated that the NMD-predicted diffusivities are more 
 reliable than those predicted by the AF theory at low frequencies 
-(see Section ).
-\item By comparing predictions from the models of a-Si using 
-both $\omega^{-2}$ and $\omega^{-4}$ scalings, showed that 
-further experimentation for a-Si thin films.
-
+(Section \ref{S:Diffusivities_mfp}).
+\item By comparing predictions from the NMD, AF, and GK method, it was 
+demonstrated that an $\omega^{-2}$ scaling of the low-frequency mode 
+lifetimes best describes the model of bulk amorphous silicon 
+(Section \ref{S:Bulk}). Comparisons  
+of the predicted thermal conductivity accumulations with experimental 
+measurements demonstrates that the low-frequency scaling of the mode 
+lifetimes is still under debate in the literature and further 
+experimentation is necessary. 
 \end{itemize}
-
-
-%--------------------------------------------------------------------------
-\begin{figure}
-\begin{center}
-\centering
-\includegraphics[scale=1.0]
-{/home/jason/disorder/si/amor/m_af_si_normand_4096_Lambda_3.eps}
-\end{center}
-\caption{\label{F:vAF} 
-MFPs of propagons and diffusons in a-SiO$_2$ and a-Si (see Section ).
-}
-\end{figure}
-%--------------------------------------------------------------------------
 
 \clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Predictive}
-Predictive ability versus Computational Cost (WORK) (READ)}
+Predictive ability versus Computational Cost}
 %--------------------------------------------------------------------------
 
-With the results from all studies...
+With the results from all of the studies presented in this work, 
+a new ranking of the predictive capabilities for the four methods 
+discussed in Section \ref{S-SystemMode} is made in Table 
+\ref{T-comparison-predictive}. 
 
-now prepared to make a ranking of predictive capability. 
-
-The GK method played an imporant role in verifying the mode properties 
-prediced by all methods. In Section, the GK method provided a common 
+The GK method played an important role in verifying the mode properties 
+predicted by all methods. In Chapter \ref{Chapter:SED}, 
+the GK method provided a common 
 comparison for the $\Phi$ and $\Phi'$ methods, which helps to confirm 
-the disagreement between the two methods. In Section, the GK method 
-provides a comparison for predictions from the VC-NMD and VC-ALD 
-methods, which helps to identify the high-scatter limit of 
-the diffuson mode diffusivities in disordered lattices.(cite) 
-Finally, the GK method helps to confirm the scaling of the 
-low-frequency contribution of the finite models of a-Si which 
-is used to extrapolate to a bulk (infinte)-size value (Section ). 
-The GK method will most likely be a vaulable modeling tool 
-for future work. 
+the disagreement between the two methods. In Chapter \ref{chapter:vc}, 
+the GK method provides a comparison for predictions from the VC-NMD 
+and VC-ALD methods, which helps to identify the validity of the 
+high-scatter limit of the diffuson mode diffusivities in disordered 
+lattices. Finally, in Chapter \ref{chapter:mfp}, the GK method helps to 
+confirm the scaling of the low-frequency contribution of the 
+finite models of a-Si (Section \ref{S:Bulk}). 
+The GK method will likely be a valuable modeling tool 
+for future work on disordered systems. 
 
 The VC-ALD method was shown to be limited to low frequency modes 
-and best suited to high-thermal conductivity materials. High thermal 
-conductivity (low-frequency dominated) materials are well-modeled 
-by VC-ALD. VC-ALD is not well-suited to low thermal conductivity 
-(full spectrum) materials. 
+and best suited to high-thermal conductivity materials 
+(Chapter \ref{chapter:vc}). High thermal 
+conductivity materials are typically dominated by the contribution from 
+low-frequency modes that are well-modeled 
+by VC-ALD. VC-ALD may not be well-suited for low thermal conductivity 
+(full spectrum) materials, where the perturbation theory is not 
+valid (Section \ref{chapter:vc}). 
 The AF theory models accurately the mid- and high-frequency 
-modes in disordered materials, it does not handle the low-frequency 
-modes for disordered lattices. The predictions for amorphous 
-materials is also inconsistent. 
-The VC-ALD method and AF theory can be supplimented by NMD calcualtions. 
-The VC-NMD method is able to accurately predict the lifetimes 
-of all vibrons in disordered lattices (see Section ). Propagating modes 
-in a-Si can be identified definitively by NMD-predicted 
-lifetimes (see Section ), while the AF theory does not show a 
-definitive scaling (see Section ). 
+modes in disordered materials (Section \ref{S:Diffusivities_vc}), 
+but it does not properly model the low-frequency 
+modes for disordered lattices. It also does not definitively model 
+the low-frequency modes in amorphous materials 
+(Section \ref{S:Diffusivities_mfp}). 
 
-With these findings, the theoretical methods (first discussed in 
-Section ) are ranked in order of their predictive capabilites are in 
-Table \ref{T-comparison-predictive}. The NMD, while the most 
-computationally demanding of the four theoretical methods 
+The VC-ALD method and AF theory can be supplemented by predictions 
+from the NMD method, 
+but additional assumptions are also required. 
+The VC-NMD method is able to accurately predict the lifetimes 
+of all vibrons in disordered lattices 
+(see Section \ref{S:From VC Gamma}). However, the 
+effective group velocities are still assumed to be those of the VC, 
+which limits the NMD method's predictive ability 
+(Section \ref{S:Thermal Conductivity}). Propagating modes in a-Si 
+can be identified definitively by NMD-predicted 
+lifetimes (see Section \ref{S:Life}), 
+but an assumption about the effective mode 
+group velocities must be made (Section \ref{S:Diffusivities_mfp}. 
+Clearly, predicting group velocities for modes in disordered materials  
+is a major challenge that deserves further investigation.
+\cite{duda_reducing_2011,donadio_atomistic_2009,
+he_heat_2011,he_thermal_2011,he_morphology_2011,hori_phonon_2013}
+
+With these findings, the predictive methods are re-ranked in order 
+of their capabilities in 
+Table \ref{T-comparison-predictive}. The NMD method, while the most 
+computationally demanding of the four predictive methods 
 (Table \ref{T-comparison}), 
 is ranked first in mode- and second in system-level predictive 
 capability. The reasons for these rankings are:
 
 \begin{itemize}
 \item The NMD method is derived correctly from anharmonic lattice dynamics 
-theroy (see Section ).. NMD predicts accurately the mode lifetimes and 
-theraml conductivities compared to the $\Phi'$ method (see Section ).
+theory. The NMD method ($\Phi$) accurately predicts the mode lifetimes and 
+thermal conductivities compared to the $\Phi'$ method.
 \item The VC-NMD method accurately predicts the mode lifetimes for 
 disordered lattices compared to the VC-ALD method. This leads to better 
 agreement with the GK method, which is the most accurate system-level 
 method.
-\item The NMD method accurately predicts the low-frequncy lifetimes 
-for a-Si, while the AF theory predictions have large fluctuations and 
+\item The NMD method accurately predicts the low-frequency lifetimes 
+for a-Si, while the AF theory predictions have large fluctuations that  
 depend on the broadening factor. The scaling from the NMD lifetimes is 
 used to extrapolate a bulk thermal conductivity which is in good 
-agreement with the system-level GK method (see Section ). 
+agreement with the system-level GK method. 
 \end{itemize}
 
 The ALD and AF theory are considered to be equivalent at predicting 
-mode-level and system-level properties because, for disordered lattices 
-(alloys, see Section ), the VC-ALD method fails to accurately 
-predict the mode lifetimes at high frequencies, 
-while the AF theory is invalid at low frequencies 
-(see Section ). Either 
+mode-level and system-level properties because, for disordered lattices, 
+the VC-ALD method fails to accurately 
+predict the mode lifetimes for high frequencies, 
+while the AF theory is not valid for low frequencies. Either 
 method could be considered superior depending on whether the material 
-being studied is low-frequency dominated or full-spectrum 
-(see Section ). 
+being studied is a disordered lattice that is low-frequency dominated 
+or full-spectrum. The AF theory is superior if the material is amorphous, 
+although there have been ALD predictions\cite{fabian_anharmonic_1996} 
+of the mode lifetimes in a-Si that are in good agreement with 
+NMD predictions\cite{bickham_calculation_1998,bickham_numerical_1999} 
+in the literature. 
 
 %--------------------------------------------------------------------------
 \begin{center}
@@ -357,61 +349,69 @@ Mode-level
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
-\subsection{\label{Future:LUC}Large Unit Cell Materials (WORK) (READ)}
+\subsection{\label{Future:LUC}Large Unit Cell Materials}
 %--------------------------------------------------------------------------
 
 Large unit cell (LUC) materials are an important class of crystalline 
-materials with a wide range of transport applications.(cite) 
-Large unit cell crystals have an ordered (crystalline) structure, but 
-the basic building block (unit cell) of the crystal has a large number 
-of distinct atoms. 
-They are effectively disordered 
+materials with a wide range of thermal transport applications 
+\cite{nolas_effect_1998,nolas_skutterudites:_1999,
+mcgaughey_thermal_2004,mcgaughey_phonon_2004,ong_surface_2013}. 
+LUCs have an ordered (crystalline) structure, but 
+the unit cell of the crystal has a large number 
+of distinct atoms. LUCs are effectively disordered 
 over length scales on the order of the atomic spacing and their thermal 
-conductivities can be as low as a glass.\cite{cahill_lower_1992} 
+conductivities can be as low as a glass \cite{cahill_lower_1992}. 
 The key advantage of LUC materials is that they are still ordered 
-from the standpoint of electrons, which results in good thermoelectric 
-performance.
-\cite{he_thermoelectric_2006,yang_effect_2006,wang_thermoelectric_2007} 
+from the standpoint of electrons, that results in good thermoelectric 
+performance 
+\cite{he_thermoelectric_2006,yang_effect_2006,wang_thermoelectric_2007}. 
 
-Some LUC 
-materials, such as SiO$_2$-based zeolites, have been 
-long-studied. Others, such as C$_60$(cite) or 
+Some LUC materials, such as SiO$_2$-based zeolites, have been 
+well-studied.\cite{mcgaughey_thermal_2004} 
+Others, such as C$_{60}$\cite{olson_specific_1993} or 
 \href{http://en.wikipedia.org/wiki/Phenyl-C61-butyric_acid_methyl_ester}
 {PCBM}, are currently being investigated for their thermal properties.
 \cite{duda_exceptionally_2013} 
 While experimental measurements of PCBM demonstrates that propagating 
-modes contribute negligibly, the mechanism for its 
-$\emph{exceptionally-low}$ is still not understood. Modeling could 
-provide the necessary insights. 
+modes contribute negligibly (see Fig. \ref{F:PCBM}), the mechanisms for its 
+$\emph{exceptionally-low}$ conductivity are still not understood. Modeling 
+could provide the necessary insights. 
 
 From a modeling perspective, LUC materials pose a number of challenges,
 theoretically and computationally, as compared to small unit cell 
 (SUC) materials:
 
 \begin{itemize}
+\item Predicting model-level properties  
+using ALD is challenging because the computational time 
+scales as $n^4$ (see Section \ref{S-CompCost}). 
+
 \item LUC are crystalline, but are often organic or 
 organic/inorganic hybrid materials. The structure of LUC 
 materials is often poly- or quasi-crystalline, with less 
-long-range order than SUC materials.(cite) 
+long-range order than SUC materials.
+\cite{andersson_thermal_1996,ong_surface_2013}
 
-\item Predicting model-level properties  
-using ALD is challenging because the computational time 
-scales as $b^4$ (see Section \ref{S-CompCost}). 
-
-\item The presence of weak bonding in organic/inorganic 
-materials can lead to metastability 
+\item The presence of weak bonding in organic/inorganic materials
+\cite{frigerio_molecular_2012,
+casalegno_solvent-free_2013,ong_surface_2013} 
+can lead to metastability 
 (see Appendix \ref{A:metastability}), which  
 makes it challenging to perform the NMD method. 
 
 \item MD simulations of LUC materials also face challenges. 
 Based on the classical MD simulations of disordered 
 materials studied in this work, systems sizes of 100-1000 atoms 
-and simualtion times of up to 1 ns are expected to be 
-necessary to accurately predict thermal conductivity. DFT calcualtions 
-are too computationally expensive for such MD simulations.(cite)
-Because many LUC materials have complex bonding environments, 
-even the classical interatomic 
-potentials are often computationally-expensive.(cite)
+and simulation times of up to 1 ns are expected to be 
+necessary to accurately predict thermal conductivity. DFT calculations 
+are too computationally expensive for such MD simulations 
+\cite{kresse_ab_1993,koker_thermal_2009,huang_filler-reduced_2010,
+huang_ab_2008,luo_molecular_2011,esfarjani_heat_2011,
+shiomi_thermal_2011}. Because many LUC materials have complex 
+bonding environments, even empirical interatomic 
+potentials are often computationally-expensive.
+\cite{jorgensen_transferable_1981,jorgensen_comparison_1983,
+jorgensen_development_1996,jensen_halide_2006}
 \end{itemize}
 
 Based on the results in this work, there are several 
@@ -419,22 +419,23 @@ modeling strategies that can be used to study LUC materials:
 
 \begin{itemize}
 \item Identify signs of propagating modes from experimental 
-measurements, if available.(cite) 
-\item Based on the results for alloys (see Section ), the AF 
+measurements, if available.
+\cite{efimov_phonon-defect_2004,duda_exceptionally_2013} 
+\item Based on the results for alloys 
+(see Section \ref{S:Diffusivities_vc}), the AF 
 diffuson theory may have application for LUC materials, particularly 
-at high frequencies and for 
-those LUC materials which are only quasi-crystalline, 
-such as PCBM.(cite)
-\item The high-scatter limit for thermal conductivity (Eq. ) 
-can be used to establigh a plasuible lower-bound for LUC 
-materials.(cite) Similarly, the 
+at high frequencies and for those LUC materials which are only 
+quasi-crystalline, such as C$_{60}$.\cite{andersson_thermal_1996}
+\item The high-scatter limit for thermal conductivity 
+(Eq. \eqref{EQ:M:k_AF,HS}) 
+can be used to establish a plausible lower-bound for LUC 
+materials.\cite{cahill_lower_1992} Similarly, the 
 high-scatter limit for mode diffusivity can establish 
 lower-bounds on the mode-level properties. 
-\item Perform calcualtions using computationally-inexpensive 
+\item Perform calculations using computationally-inexpensive 
 classical interatomic potentials to asses if DFT calculations 
 are necessary. 
 \end{itemize}
-
 
 %--------------------------------------------------------------------------
 \begin{figure}
@@ -443,10 +444,10 @@ are necessary.
 \includegraphics[scale=0.4]
 {/home/jason/thesis/thesis/duda_exceptionally_2013_fig4.eps}
 \end{center}
-\caption{\label{F:supercells} 
-Range of thermal conductivity for crystalline and amorphous materials. 
-Recent measurements on LUC materials show thermal conductivities 
-much lower than bulk amorphous materials. 
+\caption{\label{F:PCBM} 
+Range of thermal conductivity for crystalline, amorphous and LUC 
+materials. Recent measurements on LUC materials show thermal 
+conductivities much lower than bulk amorphous materials. 
 Reproduced from Ref. \citenum{duda_exceptionally_2013}.
 }
 \end{figure}
@@ -456,7 +457,7 @@ Reproduced from Ref. \citenum{duda_exceptionally_2013}.
 
 %--------------------------------------------------------------------------
 \subsection{\label{Future:Timescales}
-Timescales from Larger MD Simulations (WORK) (READ)}
+Timescales from Larger MD Simulations}
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
@@ -464,64 +465,30 @@ Timescales from Larger MD Simulations (WORK) (READ)}
 Exact Normal Modes}
 %--------------------------------------------------------------------------
 
-The NMD method used throughout this work is limited by the computational 
+The NMD method used throughout this work is limited by its computational 
 demands, which require a larger number ($\sim$ 100) of parallel processors 
 to perform the analysis in a reasonable amount of time 
 (less than 24 hours, see Appendix \ref{A:coding_lang:Execute:Scaling}). 
 While the NMD method is trivially-parallelizable over the normal 
 modes, the eigenvalue solution of the normal modes themselves 
 is more computationally demanding. 
-Standard routines for eigenvalue solutions of the dynamical matrix 
-(see Section ) can 
-calculate the exact normal modes for systems up to 8000 atoms 
-in less than 24 hours using current computational resources.
-\cite{gale_general_2003}  
-These eigenvalue solution routines typically run on single 
-processors. 
-The eigenvalue solutions can be performed using the 
-\href{http://www.mcs.anl.gov/petsc/}{Portable, Extensible 
-Toolkit for Scientific Computation}(PETSc), which has routines for 
-performing eigenvalue solutions in parallel. The PETSc pacakge has 
-\href{http://wiki.python.org/moin/IntegratingPythonWithOtherLanguages}
-{Python bindings} contained in the 
-\href{https://code.google.com/p/petsc4py/}{petsc4py} 
-pacakage, which allows for easy interface with existing MD packages
-such as LAMMPS.\cite{plimpton_fast_1995}  
-Here is a tutorial on 
-\href{https://github.com/thehackerwithin/PyTrieste/wiki/F2Py}
-{using the f2py package}, and a general tutorial on 
-\href{http://docs.scipy.org/doc/numpy/user/c-info.python-as-glue.html}
-{using Python as a ``glue'' language}. 
-
-The controlling Python script would work as follows...
-
-\begin{itemize}
-\item The GULP package could be 
-compiled as a Python module using the 
-\href{https://code.google.com/p/f2py/}{f2py} package. 
-\item The dynamical 
-matrix could then be transferred to the parallel eigenvalue solution 
-routines contained in PETSc using petsc4py.
-\item The atomic trajectories are generated using the LAMMPS 
-package with the liblammps Python module.
-\item The 
-\end{itemize}
+The eigenvalue solutions can be performed in parallel using the suggestions 
+given in Section \ref{Future:Package}. 
 
 A previous studied investigated the vibrational normal modes 
-which has been used in a previous study on LJ argon to compute a 
-(cite) 
+which has been used in a previous study on LJ argon to compute a  
 small subset of the normal modes for a system of 32,000 atoms
 \cite{mazzacurati_low-frequency_1996} 
 using the 
 \href{http://en.wikipedia.org/wiki/Lanczos_algorithm}
 {Lanczos algorithm}.\cite{golub_matrix_2012} 
-The same 32,000 system was subsquently studied using MD simulations 
+The same 32,000 system was subsequently studied using MD simulations 
 and the dynamic structure factor,\cite{ruocco_relaxation_2000} 
-which was discussed in Section .
-
+which was discussed in Appendix \ref{Appendix_B}.
 While parallel eigenvalue solution can increase the system sizes 
-accesible with NMD, the method is ultimately limited by the 
-poor scaling of the run time and memory requirements (see Section ). 
+accessible with NMD, the method is ultimately limited by the 
+poor scaling of the run time and memory requirements 
+(see Section \ref{S-CompCost}). 
 
 %--------------------------------------------------------------------------
 \subsubsection{\label{Future:Timescales:DSF}
@@ -538,69 +505,115 @@ of the atomic trajectories. This method,
 combined with appropriately shaped supercells, could probe the 
 timescales of vibrational modes up to wavelengths between 
 24 and 100 nm using similar computational resources to those 
-used in this work (see Section ). 
+used in this work. 
 This presents an oppurtunity to compare with recent experimental 
-measurements spectral linewidths in the frequency range below 
-1 THz, which have been recently reported for a-SiO$_2$ but are 
-lacking for a-Si.\cite{hondongwa_ultrasonic_2011} 
+measurements of spectral linewidths in the frequency range below 
+1 THz, which have been recently reported for a-SiO$_2$
+\cite{masciovecchio_evidence_2006,baldi_sound_2010,baldi_high_2011,
+baldi_emergence_2013}
+but are 
+lacking for a-Si \cite{hondongwa_ultrasonic_2011}. 
 The current correlation function, closely related to the dynamic 
-structure factor,\cite{horbach_high_2001} can even be used to study 
-the spectral character of motions in a fluid.\cite{boom_molecular_1980}  
-
-%--------------------------------------------------------------------------
-\subsection{\label{Future:DFT}DFT and Thermal Modeling}
-%--------------------------------------------------------------------------
-
-Try MD and AF using better scaling DFT packages such as CP2K and BigDFT. 
-
-BigDFT is linear scaling, but not until a large system size is reached. 
+structure factor \cite{horbach_high_2001}, can even be used to study 
+the spectral character of motions in a fluid \cite{boom_molecular_1980}.  
 
 %--------------------------------------------------------------------------
 \subsection{\label{Future:Package}
-Comprehensive Package for Thermal Transport Calculations (WORK) (READ)}
+Comprehensive Package for Thermal Transport Calculations}
 %--------------------------------------------------------------------------
 
-Four different methods were used in this work. No single package 
-exists to perform the necessary calcaultions for all these methods. 
-
-
-There exist numerous packages for performing calculations necessary for 
-predicting thermal transport properties. No one package can perform all 
+Four different predictive methods were used in this work (see Section 
+\ref{S-SystemMode}). 
+There exist packages for performing some of the calculations 
+necessary for these methods. However, no one package can perform all 
 calculations necessary, particularly both the 
-mode-level (bottom-up) and system-level (top-down) thermal transport 
-properties.   
-
-\begin{center}
-\begingroup
-%\squeezetable
-\begin{table}
-\caption{\label{T:available_codes}
-Available packages
-}
-%\begin{ruledtabular}
-\begin{tabular}{llllll}
-\hline
-Package & Language & Capabilities \\
-\hline
-GULP & Fortran & mode-level (harmonic) \\
-LAMMPS & C++ & system-level, mode-level (limited) \\
-phonopy & Python & mode-level (harmonic) \\
-\end{tabular}
-%\end{ruledtabular}
-\end{table}
-\endgroup
-\end{center}
-
-LAMMPS, for example, contains most methods for predicting the 
+mode-level and system-level thermal transport 
+properties. 
+LAMMPS, for example, contains both the GK and direct methods for 
+predicting the 
 system-level thermal conductivity. A package to predict the 
 mode-level properties is needed.  Ideally, the mode-level properties 
 could be predicted alongside the system-level calculations, as is 
 necessary to perform the NMD and spectral techniques described in 
-Sections and . 
+Section \ref{S:Subsection_NMD}. 
 
-The Python language is an ideal environment for ''gluing`` together 
+The Python language is an ideal environment for 
+\href{http://docs.scipy.org/doc/numpy/user/c-info.python-as-glue.html}
+{``gluing``} together 
 the availble codes, and extending their functionality in dynamic ways. 
+For example, while the NMD method is trivially-parallelizable over 
+the normal modes, the eigenvalue solution of the normal modes themselves 
+is more computationally demanding. 
+Standard routines for eigenvalue solutions of the dynamical matrix can 
+calculate the exact normal modes for systems up to 8000 atoms 
+in less than 24 hours using current computational resources.
+\cite{gale_general_2003}  
+These eigenvalue solution routines typically run on single 
+processors. 
+The eigenvalue solutions can be performed using the 
+\href{http://www.mcs.anl.gov/petsc/}{Portable, Extensible 
+Toolkit for Scientific Computation} (PETSc), which has routines for 
+performing eigenvalue solutions in parallel. The PETSc pacakge has 
+\href{http://wiki.python.org/moin/IntegratingPythonWithOtherLanguages}
+{Python bindings} contained in the 
+\href{https://code.google.com/p/petsc4py/}{petsc4py} 
+pacakage, which allows for easy interface the existing lattice 
+dynamics package GULP\cite{gale_general_2003} and MD package LAMMPS.
+\cite{plimpton_fast_1995}  
+LAMMPS already contains a 
+\href{http://lammps.sandia.gov/doc/Section_python.html}{Python interface}, 
+and such an interface could be created for GULP using the 
+\href{https://github.com/thehackerwithin/PyTrieste/wiki/F2Py}
+{f2py} package.
 
-LAMMPS as a model of social interaction, mailing list. 
+% Try MD and AF using better scaling DFT packages such as CP2K and BigDFT. 
+% BigDFT is linear scaling, but not until a large system size is reached. 
+
+% The controlling Python script would work as follows...
+% 
+% \begin{itemize}
+% \item The GULP package could be 
+% compiled as a Python module using the 
+% \href{https://code.google.com/p/f2py/}{f2py} package. 
+% \item The dynamical 
+% matrix could then be transferred to the parallel eigenvalue solution 
+% routines contained in PETSc using petsc4py.
+% \item The atomic trajectories are generated using the LAMMPS 
+% package with the liblammps Python module.
+% \item The 
+% \end{itemize}
+
+% \begin{center}
+% \begingroup
+% %\squeezetable
+% \begin{table}
+% \caption{\label{T:available_codes}
+% Available packages
+% }
+% %\begin{ruledtabular}
+% \begin{tabular}{llllll}
+% \hline
+% Package & Language & Methods & Capabilities \\
+% \hline
+% \href{http://projects.ivec.org/gulp/}{GULP} & Fortran & mode-level (harmonic) \\
+% \href{http://lammps.sandia.gov/}{LAMMPS} & C++/Python & system-level, mode-level (limited) \\
+% \href{http://phonopy.sourceforge.net/}{phonopy} & Python & mode-level (harmonic) \\
+% \href{http://phonopy.sourceforge.net/}{phonopy} & Python & mode-level (harmonic) \\
+% \end{tabular}
+% %\end{ruledtabular}
+% \end{table}
+% \endgroup
+% \end{center}
+
+
+% LAMMPS as a model of social interaction, mailing list. 
+% num-gulp-citations(year) = 
+% [1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013] 
+% 
+% num-gulp-citations-year = 
+% [1 1 1 1 15 65 59 68 88 77 92 98 114 116 139 128 139 79*(12/9)] 
+
+
+
 
 

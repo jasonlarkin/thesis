@@ -68,7 +68,7 @@
 \vskip 3em
 
 \begin{center}
-    School of Computer Science \\
+    Carnegie Institute of Technology \\
     Carnegie Mellon University \\
     Pittsburgh, PA 15213
 \end{center}
@@ -81,7 +81,7 @@
 \begin{center}
     \em
     Submitted in partial fulfillment of the requirements \\
-    for the degree of Doctor of Philosophy.
+    for the degree of Doctor of Philosophy in Mechanical Engineering.
 \end{center}
 
 

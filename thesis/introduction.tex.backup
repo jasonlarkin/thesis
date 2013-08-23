@@ -1,195 +1,186 @@
 %--------------------------------------------------------------------------
-\chapter{Introduction (WORK)}
+\chapter{Introduction}
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
-\section{Thermal Transport in Disordered Materials (WORK)}
+\section{Motivation}
 %--------------------------------------------------------------------------
-
-Why disordered materials are important...
 
 Due to their potentially low thermal conductivities, 
 disordered materials (e.g., alloys, amorphous solids, aerogels) 
 are used in 
 applications such a photoelectric energy conversion, 
-thermoelectric energy conversion, and thermally insulating barriers.
+thermoelectric energy conversion, and thermally insulating barriers 
 \cite{graebner_phonon_1986,cahill_lattice_1988,lu_thermal_1992,
 chen_recent_2003,clarke_thermal_2005,snyder_complex_2008,
 minnich_bulk_2009,toberer_phonon_2011,zebarjadi_perspectives_2012,
-schiffres_gas_2012,duda_exceptionally_2013}
-
-Thermal management (i.e., heat spreaders and thermal insulators) 
-depends critically on accurate predictions of thermal conductivity. 
-Often the scattering from defects and boundaries reduces the thermal 
-conductivity in these materials and devices, which is an area of 
-active research.(cite) 
-
-Recently, the search for more efficient thermoelectric 
-materials has focused on reducing the thermal conductivity by alloying.
-(cite)
-
-The study of disordered lattices (i.e., alloys) has become increasingly 
-quantitative as research seeks lower thermal conductivity 
-thermoelectric materials, which have increased thermoelectric 
-efficiency.(cite) Alloy modeling can be experimentally accurate 
-to a high precision using quantum mechanically based density 
-functional theory (DFT) calcualtions.(cite) However, DFT calcualtions 
-are computationally expensive and are based on a unit cell 
-with a small number of atoms.(cite) These calcualtions based on 
-a small unit cell include the effects of disorder through 
-perturbation techniques, which are only suited to a small amount of 
-disorder. There is a need to asses the applicability of the perturbative 
-methods used in DFT calculations so they can continue to make 
-experimentally-accurate predictions. 
-
-Amorphous materials have been long-studied by the physics community for 
-their interesting properties such as the Boson peak...(cite)
-However, most of thesis studies do not focus on thermal mode properties 
-or conductivity predictions. 
-Only in the past 20 years has the theory for the mode 
-thermal properties been formulated.(cite) Most subsequent modeling 
-studies have focused on amorphous silicon.
-
-
-
-Thermal transport in ordered (crystalline) materials is well understood 
-in terms of the phonon gas model.(cite) 
+schiffres_gas_2012,duda_exceptionally_2013}. 
 The focus of this work is on dielectric or semiconducting solids,  
 where the heat is conducted by the atomic vibrational modes. 
-Predicting the thermal conductivity of such materials 
-requires the properties of the full spectrum of vibrational modes.
-\cite{ziman_electrons_2001,feldman_thermal_1993,allen_diffusons_1999} 
+Thermal management engineering (i.e., heat spreaders and thermal insulators) 
+depends critically on accurate predictions of the vibrational mode 
+properties. 
+The mode properties allow 
+for a deeper understanding of the nature of thermal transport at the 
+atomistic scale, which can be used to understand the 
+effects of vibrational scattering mechanisms in bulk and 
+nanostructured materials, which is an area of 
+active research \cite{chen_recent_2003,snyder_complex_2008,
+turney_predicting_2009,minnich_bulk_2009,toberer_phonon_2011,
+mcgaughey_size-dependent_2011,zebarjadi_perspectives_2012,
+mcgaughey_nanostructure_2012,regner_broadband_2013}. 
+
+Thermal transport in ordered (crystalline) materials is well understood 
+in terms of the phonon gas model 
+\cite{maradudin_dynamical_1974,wallace_thermodynamics_1972,
+srivastava_physics_1990,dove_introduction_1993,ziman_electrons_2001}. 
+Predicting the thermal conductivity requires the properties of the 
+full spectrum of vibrational modes. 
 Theoretical formulations for phonon properties date back to the work of 
-Callaway,\cite{callaway_model_1959} 
-Holland,
-\cite{holland_analysis_1963} 
-Klemens,\cite{klemens_scattering_1955} 
-and Slack.\cite{slack_thermal_1979}. Their theory derived and/or 
+Callaway \cite{callaway_model_1959}, 
+Holland \cite{holland_analysis_1963}, 
+Klemens \cite{klemens_scattering_1955}, 
+and Slack \cite{slack_thermal_1979}. Their theory derived and/or 
 postulated analytical models for the phonon dispersion and lifetimes 
 (typically based on low-frequency limits) to be used in a solution 
 of the BTE for predicting thermal conductivity. By fitting the
 BTE solution to experimental bulk thermal conductivity data, expressions 
 for the lifetimes are obtained. While good fits to the experimental 
 data can be found, this agreement may be due to the numerous fitting 
-parameters and not due to the correctness of the phonon lifetime models.
-\cite{chung_role_2004} 
+parameters and not due to the correctness of the phonon lifetime models 
+\cite{chung_role_2004}. 
 Atomistic techniques, which can predict the properties of individual phonon
 modes without any assumptions about the dispersion or scattering, 
-are thus required.
+are thus required. Newly-developed computational methods based on density 
+functional theory (DFT) calcualtions can make experimentally-accurate 
+predcitions of the phonon properties and thermal conductivity of bulk 
+crystals, whose structures are based on a unit cell with a small number of 
+atoms \cite{broido_intrinsic_2007,ward_ab_2009,ward_intrinsic_2010,
+esfarjani_heat_2011,lindsay_thermal_2012,shiga_microscopic_2012,
+luckyanova_coherent_2012,lindsay_first-principles_2013}. 
 
-Newly-developed $\emph{ab initio}$ 
-computational methods can make experimentally-accurate predcitions 
-of the phonon properties and thermal conductivity of bulk crystals, 
-whose structures are based on a unit cell with a small number of 
-atoms.
-\cite{broido_inrinsic_2007,ward_ab_initio_2009,intrinsic_ward_2010,
-li_thermal_2012,lindsay_thermal_2012,lindsay_first-principles_2013}
-The $\emph{ab initio}$ methods have been used to make predictions 
-for materials which are 
-difficult to produce experimentally, such as isotopically 
-pure bulk,\cite{lindsay_thermal_2012} 
-nanostructured\cite{kundu_light_2011,li_thermal_2012}
-and difficult-to-manufacture 
-materials.\cite{kundu_light_2011,lindsay_first-principles_2013} 
-The lack of comparison with experiments 
-in these $\emph{ab initio}$ 
-studies makes it difficult to asses their predictive capability.
-\cite{kundu_light_2011,lindsay_first-principles_2013} 
-
-Incorporating 
-disorder into the $\emph{ab initio}$ methods is difficult because 
-a disordered material has a unit cell with an infinite 
-number of atoms, by deinition. 
-Disordering a crystal (i.e., alloying, amorphization) 
+Disordering a crystal (i.e., alloying, 
+amorphization) 
 breaks down the phonon gas theory and a new theoretical formulation 
-is necessary.\cite{allen_thermal_1993,allen_diffusons_1999} 
-For small disorder, theoretical formulations begin 
-with perturbation theory, which is valid for weakly disordered systems 
-(i.e., isotopically disordered crystals).
-\cite{klemens_scattering_1955,abeles_lattice_1963,tamura_isotope_1983} 
-These perturbation theories can lead to simple models which can be 
-fit empirically to experimental measurements. However, predictive 
-methods which do not rely on perturbation theory are still in active  
-development.  
-Comparison with experiment is excellent for recent 
-DFT predictions of thermal conductivity. 
-For disordered materials, the comparison to experiment is often 
-only qualititative. 
-\cite{shiomi_thermal_2011,tian_phonon_2012,tian_enhancing_2012}
+is necessary. Theoretical formulations for disordered crystals begin  
+with perturbation theory 
+\cite{klemens_scattering_1955,abeles_lattice_1963,
+wallace_thermodynamics_1972,maradudin_dynamical_1974,
+tamura_isotope_1983}, 
+which is only valid for weakly disordered 
+systems (i.e., isotopically disordered crystals) and bases the 
+calculations on a unit cell with a small 
+number of atoms. 
+The study of disordered lattices (i.e., alloys) has become 
+increasingly quantitative as researchers seek lower thermal 
+conductivity thermoelectric materials 
+\cite{chen_recent_2003,snyder_complex_2008,toberer_phonon_2011,
+shiomi_thermal_2011,
+zebarjadi_perspectives_2012,tian_phonon_2012,li_thermal_2012}. 
+Modeling can be experimentally accurate using 
+DFT calcualtions together with perturbative 
+methods 
+\cite{broido_intrinsic_2007,ward_ab_2009,ward_intrinsic_2010,
+garg_role_2011,
+li_thermal_2012,lindsay_thermal_2012,lindsay_first-principles_2013}. 
+Because DFT calculations are computationally expensive, they rely on 
+the perturbative methods. 
+The comparison of the perturbative DFT predictions to experiments 
+is only qualititative for some disordered materials, particularly 
+for those with lower thermal conductivities 
+\cite{kundu_role_2011,shiomi_thermal_2011,tian_phonon_2012,
+tian_enhancing_2012}. 
+Thus, there is a need to asses the 
+applicability of the perturbative methods used in DFT calculations 
+for disordered crystals with a range of disorder 
+\cite{luckyanova_coherent_2012,kundu_role_2011,shiomi_thermal_2011,
+tian_phonon_2012,tian_enhancing_2012,luckyanova_coherent_2012}.
 
-Accurate modeling of amorphous materials is even more 
-difficult with DFT calcualtions because the strong topological 
-disorder prohibits the use of perturbation theory.(cite)  
+Amorphous materials have been well-studied in the literature for 
+their interesting properties such as the Boson peak 
+\cite{schirmacher_harmonic_1998,schirmacher_acoustic_2007,
+chumakov_equivalence_2011}, 
+excess modes \cite{sette_dynamics_1998,zink_excess_2006}, 
+and, most relevant to the current study, phonon-like 
+thermal transport 
+\cite{allen_thermal_1993,feldman_thermal_1993,freeman_thermal_1986,
+graebner_phonon_1986,love_estimate_1990,cahill_thermal_1994,
+feldman_numerical_1999,baldi_thermal_2008,liu_high_2009,
+yang_anomalously_2010,zink_thermal_2006,
+hondongwa_ultrasonic_2011,masciovecchio_evidence_2006,
+baldi_sound_2010,baldi_elastic_2011,baldi_emergence_2013,
+he_heat_2011,pompe_thermal_1988,
+hasselman_thermal_1989,kuo_thermal_1992,
+wada_thermal_1996,moon_thermal_2002,zink_excess_2006,
+zeller_thermal_1971,cahill_lattice_1988,cahill_heat_1989,
+cahill_thermal_1989,lee_heat_1997,yamane_measurement_2002,
+regner_broadband_2013}.  
+Theoretical modeling of amorphous materials has previously relied 
+on phenomenological models, which have limited predictive capability 
+\cite{kittel_interpretation_1949,slack_thermal_1979,freeman_thermal_1986,
+graebner_phonon_1986,cahill_heat_1989,cahill_lattice_1988}. 
+The theoretical formulation 
+for the mode properties in amorphous materials has only been 
+recently developed.
+\cite{allen_thermal_1993,feldman_thermal_1993,allen_diffusons_1999} 
+Like a disordered crystal, an amorphous material has a unit cell 
+with an infinite number of atoms, by definition. 
+However, modeling of amorphous materials is  
+difficult because the topological 
+disorder prohibits the use of perturbative methods. Instead, the 
+disordered material must be modeled explicitly. 
 A finite unit cell can be used to model an amorphous material, but 
-the size of these modes are typically larger than 100 atoms.(cite) 
-The theoretical framework for studying heat transport in 
-amorphous materials is fundamentally different from 
-phonon perturbation theory.
-\cite{allen_thermal_1993,allen_diffusons_1999} No comprehensive 
-study has been performed to asses the applicability of the 
-phonon perturbation and amorphous thermal transport theories 
-on materials with a range of disorder (i.e., crystals, 
-weakly disordered crystals, heavily disordered crystals, 
-and amorphous materials). 
-
-Thermal transport in disordered materials is studied in this 
-work using several predictive methods (see Section \ref{ThermalModes}). 
-Because disordering complicates 
-the theory of thermal transport, no single method can provide 
-both the system-level (total thermal conductivity) and mode-level 
-properties for all vibrations in the system. Each 
-predictive method provides complimentary information which is 
-compared wherever possible. Important 
-assumptions about thermal transport in disordered 
-materials are investigated using fully atomisitic models. 
-Using these comparisons, critical information 
-about the vibrational mode-level properties is identified.  
-The predicted 
-results are compared to phenomological and empirical 
-models. The results presented in this work provide a theoretical and 
-computational framework for the study of emerging disordered 
-and nanoscaled systems, which are discussed in Section 
-\ref{Conclusion}. 
+the required size of these models is typically large 
+\cite{feldman_thermal_1993,feldman_numerical_1999}, which 
+limits the use of DFT calculations. As with disordered crystals, 
+modeling of amorphous materials is becoming increasingly 
+quantitative as new experimental techniques for measuring 
+thermal properties reach higher levels of resolution 
+\cite{masciovecchio_evidence_2006,baldi_thermal_2008,
+baldi_sound_2010,baldi_emergence_2013,baldi_elastic_2011,
+liu_high_2009,yang_anomalously_2010,
+regner_broadband_2013,sultan_heat_2013}. 
+Thus, there is a need to asses the predictive capabilities of 
+the theoretical models for predicting vibrational mode properties 
+in amorphous materials.
 
 %--------------------------------------------------------------------------
 \section{\label{ThermalModes}
-Thermal Modes: Phonons, Propagons, Diffusons, and Locons 
-(WORK) (READ)}
+Vibrational Modes: Phonons, Propagons, Diffusons, and Locons}
 %--------------------------------------------------------------------------
 
-For a perfect lattice, 
-all vibrational modes are phonon modes, which by 
-definition are delocalized, propagating plane waves.
-\cite{ziman_electrons_2001} For disordered materials, all vibrational 
-modes are not phonons because there is no translational order.  
-Allen and Feldman define all disordered vibrational modes to be 
+For a perfect lattice, all vibrational modes are phonon modes, which by 
+definition are delocalized, propagating plane waves 
+\cite{ziman_electrons_2001}. For disordered materials, all 
+vibrational modes are not phonons because there is no translational 
+order.  Allen and Feldman define all disordered vibrational modes to be 
 vibrons because they are all bosons and follow Bose-Einstein 
-statistics.\cite{allen_diffusons_1999} The vibrons are propagons, 
-diffusons, and locons. Propagon are propagating and delocalized 
+statistics \cite{allen_diffusons_1999}. The vibrons are propagons, 
+diffusons, or locons. Propagons are propagating and delocalized 
 (i.e., phonon-like) and are typically found in the low-frequency 
-range of the vibrational spectrum.(cite) 
-Diffusons are non-propagating and delocalized modes which couple 
-harmonically due to the disorder and spatial delocalization.
-\cite{allen_thermal_1993} While diffusons are non-propagating, 
-they can contribute a significant amount to thermal transport,
+range of the vibrational spectrum \cite{allen_diffusons_1999}. 
+Diffusons are non-propagating and delocalized modes that couple 
+harmonically due to the disorder and spatial delocalization 
+\cite{allen_thermal_1993}. While diffusons are non-propagating, 
+they can contribute a significant amount to thermal transport 
 \cite{feldman_thermal_1993,feldman_numerical_1999}. 
 Locons are non-propagating and spatially 
-localized modes which do not couple to others, and are typically 
-found at the high frequency of the vibrational spectrum. 
-Because of this locons are spatially localized, 
-they do not contribute to thermal transport.(cite) 
+localized modes that not contribute to thermal transport, 
+and are typically found at the high frequency of the vibrational 
+spectrum \cite{allen_thermal_1993,allen_diffusons_1999}.
 
 The spectrum of vibrons is depcited in Fig. 
-\ref{F:allen_diffuson_1999_fig1} for a model of amorphous silicon.
-\cite{allen_diffusons_1999} The propagons exist at low frequencies below 
-the Ioffe-Regel limit,(cite) which marks the transition between 
+\ref{F:allen_diffuson_1999_fig1} for a model of amorphous silicon
+\cite{allen_diffusons_1999}. The propagons exist at low frequencies below 
+the Ioffe-Regel (IR) limit \cite{taraskin_determination_1999}, 
+which is the proposed transition between 
 propagating and non-propagating modes. The IR limit is discussed in 
-Sections and . 
-Propagaons and diffusons are called extendons because they are 
+Sections \ref{S:Phonon Lifetimes} and \ref{S:Life}. 
+Propagons and diffusons are called extendons because they are 
 delocalized. The mobility edge marks the transition from 
-the delocalized diffusons to the localized locons.(cite) 
-
-
+the delocalized diffusons to the localized locons 
+\cite{allen_diffusons_1999}.
+ 
 %--------------------------------------------------------------------------
 \begin{figure}
 \begin{center}
@@ -198,21 +189,22 @@ the delocalized diffusons to the localized locons.(cite)
 {/home/jason/thesis/thesis/allen_diffuson_1999_fig1.eps}
 \end{center}
 \caption{\label{F:allen_diffuson_1999_fig1} 
-Density of vibrational states of amorphous silicon and classification 
-of vibrational modes (vibrons). Figure is reproduced from 
-Ref. \citenum{allen_diffusons_1999}.
+Density of vibrational states for a model of amorphous silicon and 
+classification of vibrational modes (vibrons). 
+Figure is reproduced from Ref. \citenum{allen_diffusons_1999}.
 }
 \end{figure}
 %--------------------------------------------------------------------------
 \clearpage
 
 %--------------------------------------------------------------------------
-\section{System-level versus Mode-level Thermal Predictions}
+\section{\label{S-SystemMode}
+System-level versus Mode-level Predictions}
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
 \subsection{\label{S-ktopdown} 
-System-level Thermal Conductivity Prediction (WORK) (READ)}
+System-level Prediction}
 %--------------------------------------------------------------------------
 
 % There are two commonly-used top-down techniques for predicting thermal 
@@ -268,26 +260,30 @@ conductivity at the system level. The molecular dynamics (MD)-based
 {direct method} predicts the thermal conductivity by a direct 
 application of the 
 \href{http://en.wikipedia.org/wiki/Thermal_conduction#Fourier.27s_law}
-{Fourier law} for heat conduction.(cite) While the direct method 
+{Fourier law} for heat conduction 
+\cite{skye_thermal_2008,landry_complex_2008,
+landry_effect_2009,landry_thermal_2009,
+turney_predicting_2009,thomas_thermal_2010}. 
+While the direct method 
 is conceptually simple, it can be difficult to account for finite-size 
-effects.(cite) The 
+effects. The 
 \href{http://lammps.sandia.gov/doc/compute_heat_flux.html}{Green-Kubo}
 method can predict the thermal conductivity from equilibrium MD 
 simulations. These equilibrium simulations are often simpler 
-to setup and account for finite-size effects (see Section ).
-(cite) The GK method has been used extensively in other modeling 
-studies(cite) and is discussed in detail elsewhere.(cite) 
-While the GK  and direct methods have been shown to take into 
-account the effects of disorder,(cite)they predict no mode-level 
-properties of the thermal carriers. 
-
+to setup and account for finite-size effects 
+(see Section \ref{Appendix_A:Finite}).  
 The Green-Kubo and direct methods can be applied to crystals, alloys, 
-amorphous solids, and fluids. Recent work has focused on computational 
-aspects, notably accounting for size effects, quantifying and reducing 
-uncertainty, and reducing computational time 
-\cite{landry_complex_2008,buongiorno_benchmark_2009,
-chen_how_2010,sellan_size_2010,he_lattice_2012}.
-need howell2011a howell2011b howell2012 jones2012
+amorphous solids 
+\cite{mcgaughey_quantitative_2004,mcgaughey_thermal_2004,
+landry_complex_2008,he_lattice_2012,
+he_heat_2011,he_morphology_2011,he_thermal_2011,turney_predicting_2009,
+landry_complex_2008,shiomi_thermal_2011,esfarjani_heat_2011}, 
+and is described in detail elsewhere 
+\cite{mcquarrie_statistical_2000,mcgaughey_phonon_2004}.
+While the GK and direct methods can take into 
+account the effects of disorder, 
+they predict no mode-level 
+properties of the thermal carriers. 
 
 While so-called ``quantum corrections" to 
 thermal conductivities predicted from classical MD simulations have been 
@@ -296,126 +292,144 @@ rigorous and should not be applied \cite{turney_assessing_2009}.
 Comparison of MD-predicted thermal conductivities to experimental 
 measurements should 
 therefore be limited to high temperatures, around and above a material's 
-Debye temperature. Top-down techniques are important in the context of 
-this chapter because they can be used to validate the bottom-up 
-techniques that are our focus.
-
+Debye temperature. The GK method, which is a system-level technique, 
+is important for the present study because it can be used to validate 
+the mode-level techniques that are the focus. The capabilities 
+of the GK method are summarized in Table \ref{T-comparison}. It is 
+important to note that the theoretical formulation of the GK method 
+prohibits its use with DFT calculations.(cite)
 
 %--------------------------------------------------------------------------
-\subsection{\label{S-kbottomup} Mode-level Thermal Conductivity 
-Prediction (WORK) (READ)}
+\subsection{\label{S-kbottomup}Mode-level Prediction}
 %--------------------------------------------------------------------------
 
 While the total thermal conductivity is typically the quantity of 
 interest for modeling and engineering analysis, the mode-level 
-properties can be useful. The mode-level properties 
-allow for a deeper understanding of the total thermal conductivity. 
+properties can be just as important. The mode-level properties 
+allow for a deeper understanding of the total thermal conductivity.  
 The mode-level properties are used to understand the difference 
-between predictions for alloys in Chapter and amorphous 
-materials in Chapter . The mode-level properties also allow for an 
-understanding of the effects of nanostructuring, which can cause 
-increased scattering from boundaries(cite) and modifications to the 
-vibrational density of states.(cite)
+between predictions for alloys in Chapter \ref{chapter:vc} 
+and amorphous materials in Chapter \ref{chapter:mfp}. 
 
 The Callaway-Holland (CH) theory, which is based on the work of 
-Callaway,\cite{callaway_model_1959} Holland,
-\cite{holland_analysis_1963} Klemens,\cite{klemens_scattering_1955} 
-and Slack,\cite{slack_thermal_1979} uses analytical models for phonon 
-dispersion and lifetimes. These analytical models are often empircally 
+Callaway \cite{callaway_model_1959}, Holland \cite{holland_analysis_1963},
+Klemens \cite{klemens_scattering_1955}, 
+and Slack \cite{slack_thermal_1979}, uses analytical models for phonon 
+dispersion and lifetimes. These analytical models are often empirically 
 fit to experimental results, which limits the predictive capability of 
 the CH theory. While the CH theory can calculate mode properties 
 from the analytical models, it is unclear how accurate these properties 
-are.
+are.\cite{chung_role_2004}
 
-There are several methods which can predict the mode-level vibrational 
+There are several methods that can predict the mode-level vibrational 
 properties. 
-Anharmonic lattice dynamics (ALD) calculations,
-\cite{turney_predicting_2009,esfarjani_heat_2011} 
-based on perturbation 
-theory,\cite{maradudin_dynamical_1974,srivastava_physics_1990} 
+Anharmonic lattice dynamics (ALD) calculations 
+\cite{turney_predicting_2009,esfarjani_heat_2011}, 
+based on perturbation theory 
+\cite{maradudin_dynamical_1974,srivastava_physics_1990},
 can be used along with phonon-defect scattering perturbation 
 theory to predict the mode properties and thermal conductivity 
-of mass and/or bond disordered lattices (see Section ).
+of mass and/or bond disordered lattices (see Section \ref{S:From VC-ALD}) 
 \cite{klemens_scattering_1955,klemens_thermal_1957,mattis_phonon_1957,
-tamura_isotope_1983} 
-However, the ALD is a perturbative method which is valid at low 
-temperatures where 3-phonon processes dominate.(cite) 
+tamura_isotope_1983}.  
+However, ALD is a perturbative method that is valid at low 
+temperatures where 3-phonon processes dominate 
+\cite{wallace_thermodynamics_1972,maradudin_dynamical_1974,
+turney_predicting_2009}. 
+Quantum or classical statistics can be used with the ALD method. 
 Because the ALD method is based on a unit cell 
 and disorder is included as a perturbation, the mode properties 
 predicted are for phonons. One of the objectives of this work is 
 to investigate if the phonon properties predicted by the ALD method 
-are consistent with the properties of propagaons in a fully 
-disordered system (see Section ). 
+are consistent with the properties of propagons in a fully 
+disordered system (see Chapter \ref{chapter:vc}). 
 
-The ALD and phonon-defect perturbative method is computationally 
-inexpensive so that 
-computationally expensive DFT calcualtions can be used to predict 
-thermal conductivities that are experimentally accurate.
-\cite{garg_role_2011,lindsay_thermal_2012,li_thermal_2012} 
+The inputs to the ALD method are the harmonic and anharmonic 
+force constants from the interatomic interactions, 
+which can be obtained from empirical interatomic potentials or 
+DFT calculations \cite{esfarjani_method_2008,turney_predicting_2009}. 
+Because the ALD method is computationally inexpensive, it can be 
+used with computationally expensive DFT calculations to predict 
+thermal conductivities that are experimentally accurate 
+\cite{broido_intrinsic_2007,ward_intrinsic_2010,ward_ab_2009,
+garg_role_2011,lindsay_thermal_2012,li_thermal_2012,lindsay_thermal_2012,
+lindsay_first-principles_2013,li_thermal_2012}. 
 However, most studies using ALD and DFT have been limited to 
 disordered lattices (i.e., alloys) whose thermal conductivities 
-are large and dominated by low-frequency propagons.
-(cite) 
+are large and dominated by low-frequency propagons 
+\cite{broido_intrinsic_2007,ward_intrinsic_2010,ward_ab_2009,
+garg_role_2011,lindsay_thermal_2012,lindsay_thermal_2012,
+lindsay_first-principles_2013}. 
 Because no comprehensive study has been performed on a range 
 of materials, it is unclear what limitations exist for using the ALD and 
-phonon-defect perturbative method.
-\cite{luckyanova_coherent_2012,tian_phonon_2012,tian_enhancing_2012} 
-We investigate the limitations of the ALD and phonon-defect perturbative 
-method in Section . 
+phonon-defect perturbative method 
+\cite{luckyanova_coherent_2012,kundu_role_2011,shiomi_thermal_2011,
+tian_phonon_2012,tian_enhancing_2012,luckyanova_coherent_2012}. 
+The limitations of the ALD and phonon-defect perturbative 
+method is investigated in Chapter \ref{chapter:vc}. 
 
 The key to explicitly incorporating the effects of disorder 
 is to use large disordered supercells, or a unit cell with a large 
-number of atoms, $N_a$.  
-The use of computationally 
-inexpensive empirical potentials allows for calcualtions to be 
-performed on a large number of atoms, typically $N_a$ > 500.(cite) 
+number of atoms. The use of computationally 
+inexpensive empirical potentials allows for calculations to be 
+performed on a large number of atoms, up to $10^5-10^6$ 
+\cite{he_heat_2011,he_thermal_2011,he_morphology_2011,
+he_lattice_2012}. 
 The Allen-Feldman (AF) theory computes 
 the contribution of diffusons 
-to thermal conductivity from large disordered supercells.
-\cite{allen_thermal_1993} 
-The AF theory calculations are based on harmonic lattice dynamics which 
-rely on the system disorder to couple modes thermally.
-\cite{allen_thermal_1993,feldman_thermal_1993,feldman_numerical_1999} 
+to thermal conductivity from large disordered supercells 
+\cite{allen_thermal_1993}. 
+The AF theory calculations are based on harmonic lattice dynamics that 
+rely on the system disorder to couple modes thermally 
+\cite{allen_thermal_1993,feldman_thermal_1993,feldman_numerical_1999}.  
 However, because the AF theory is harmonic, it is not suited to studying 
-the low-frequency propagons in disordered materials. For disordered lattices, 
-the low-frequency propagons are subject to Rayleigh scattering under the 
-harmonic approximation, which 
-causes a divergence in the thermal conductivity in the zero frequency 
-limit.(cite)  
-The Allen-Feldman (AF) theory can use quantum or classical expressions 
+the low-frequency propagons in disordered materials 
+\cite{feldman_thermal_1993}, particularly for disordered 
+lattices where the harmonic theory predicts Rayleigh scattering, which 
+causes a divergent thermal conductivity with increasing system 
+size \cite{sheng_heat_1991,sheng_introduction_2006,vitelli_heat_2010}. 
+The AF theory can use quantum or classical expressions 
 for the specific heat. While the AF theory should be limited to low 
 temperatures where the harmonic approximation is valid, 
 anharmonic effects have been shown to be 
-small for disordered solids such as amorphous silicon.
-\cite{feldman_thermal_1993}
+small for disordered solids such as amorphous silicon 
+\cite{feldman_thermal_1993}.
 
-The NMD method can be used to predict the lifetime of all vibrons from 
-MD simulations.(cite) While the method can only predict the 
+The normal mode decomposition (NMD) method can be used to predict the 
+lifetime of all vibrons from MD simulations 
+\cite{bickham_calculation_1998,
+bickham_numerical_1999,fabian_numerical_2003,
+ladd_lattice_1986,mcgaughey_quantitative_2004,donadio_thermal_2007,
+henry_spectral_2008,donadio_atomistic_2009,turney_predicting_2009,
+goicochea_thermal_2010,he_morphology_2011,he_thermal_2011,he_heat_2011,
+he_lattice_2012,sosso_thermal_2012,qiu_molecular_2012,wang_mode-wise_2013}.  
+While this method can only predict the 
 mode lifetimes, these can be used with other predictive methods 
-and assumptions to predict the thermal conductivity (see Sections ). 
-NMD is limited to mid-range temperatures because of the harmoninc 
-approximation used to calcualte the normal mode eigenvectors. 
+and assumptions to predict the thermal conductivity (see Sections 
+\ref{S:Diffusivities_vc} and \ref{S:Diffusivities_mfp}). 
+Because the lifetimes predicted by NMD are obtained from MD simulations, 
+they should be used in a classical limit \cite{turney_assessing_2009}. 
 The thermal conductivity predicted 
 by NMD begins to deviate from GK and direct-method prediction 
-near about half the melting temperature for lennard-jones argon.
-\cite{turney_predicting_2009} 
+near about half the melting temperature for Lennard-Jones argon 
+\cite{turney_predicting_2009}. 
 
-Because of the theroetical limtations of the methods discussed above, 
+Because of the theoretical limitations of the methods discussed above, 
 no one method is sufficient for predicting the mode 
-properties of all vibrons in a given disordeded material. The 
+properties of all vibrons in a given disordered material. The 
 theoretical methods are summarized and compared in 
 Table \ref{T-comparison}. 
 The methods in Table \ref{T-comparison} are ranked in the order 
 of their thermal conductivity predictive capability based on 
-prior work in the literature.(cite) 
-For example, the CH theory relies completely on empircal fitting, 
+prior work in the literature, starting 
+with the least predictive on the left. 
+For example, the CH theory relies completely on empirical fitting, 
 while the GK method can predict the thermal conductivity of some 
-materials in any phase (crystalline, amorphous, liquid).(cite) 
-In Section , the predictive capabilities are ranked in 
-Table \ref{T-comparison-predictive} based on the results from 
-this work.
-
-(more discussion on Table \ref{T-comparison})
+materials in any phase (crystalline, amorphous, liquid) 
+\cite{mcgaughey_phonon_2004}. 
+In Chapter \ref{Conclusion}, the predictive capabilities are re-ranked in 
+Table \ref{T-comparison-predictive} based on their ability to predict the 
+mode properties in disordered systems from the results in this work.
 
 %--------------------------------------------------------------------------
 \begin{center}
@@ -443,10 +457,10 @@ Description
 \hline
 Input
 &Fitted Models
-&Force constants \newline (classical or DFT)  
-&Force constants \newline (classical or DFT)
-&Forces and Force Constants \newline (classical or DFT) 
-&Forces \newline (classical or DFT) \\
+&Force constants \newline (empirical potential or DFT)  
+&Force constants \newline (empirical potential or DFT)
+&Forces and Force Constants \newline (empirical potential or DFT) 
+&Forces \newline (empirical potential) \\
 \hline
 Disorder
 &As additional \newline perturbation 
@@ -470,10 +484,10 @@ Temperature
 &All\\
 \hline
 Modes
-&Phonons (Propagons?)
-&Phonons (Propagons?)
+&Phonons (Vibrons?)
+&Phonons (Vibrons?)
 &Diffusons
-&Propagaons and Diffusons
+&Propagons and Diffusons
 &N/A\\
 \hline \hline
 \end{tabular}
@@ -484,7 +498,7 @@ Modes
 
 %--------------------------------------------------------------------------
 \subsection{\label{S-CompCost}
-Computational Cost vesus Preditictive Ability (WORK) (READ)}
+Computational Cost vesus Predictive Ability}
 %--------------------------------------------------------------------------
 
 The computational costs of the methods discussed in Sections 
@@ -493,37 +507,36 @@ are given in Table \ref{T-comparison-cost}.
 In most cases, the 
 computational cost of a method is known $\emph{a priori}$ and should 
 be considered before any analysis is performed. The computational 
-costs are for these methods can be represented by the total number of 
+costs for these methods can be represented by the total number of 
 atoms, $N_a$, that are being simulated. For ordered and disordered 
 systems, the total 
 number of atoms can be related to the number of atoms in the unit 
-cell ($n$) and the 
-number of unit cells, $N$ ($N$ = 0 for a disordered system), 
-which gives $N_a = N n$ (see Section ).
+cell, $n$, and the 
+number of unit cells, $N$ ($N$ = 1 for a disordered system), 
+which gives $N_a = N n$ (see Section \ref{Subsection_Comp_Details_1}).
 
 One of the goals 
-of this work is to more thoroughly asses the predictive 
-abilities of these methods.
-The predictive abilities of all methods are examined throughout 
-this work and are summarized in Section \ref{S:Predictive}, 
-Table \ref{T-comparison-predictive}. 
+of this work is to thoroughly asses the predictive 
+abilities of these methods in relation to their computational costs. 
+For example, 
 The NMD method can predict the mode lifetimes for the vibrational 
 modes in ordered and disordered systems, making its predictive 
-ability high.
+ability high 
 \cite{ladd_lattice_1986,mcgaughey_quantitative_2004,donadio_thermal_2007,
 henry_spectral_2008,donadio_atomistic_2009,turney_predicting_2009,
 goicochea_thermal_2010,he_morphology_2011,he_thermal_2011,he_heat_2011,
-he_lattice_2012,sosso_thermal_2012,qiu_molecular_2012,wang_mode-wise_2013,
-bao_first-principles_2013} 
+he_lattice_2012,sosso_thermal_2012,qiu_molecular_2012,wang_mode-wise_2013}. 
 However, the explicit use of disorder makes it 
-computational cost high. 
-Efficient MD 
-codes like LAMMPS scale linearly with the number of atoms in 
-the system, $N_a$, which makes the GK method (see Section 
-\ref{S:Thermal Conductivity}) 
-computationally-inexpensive when used with classical interatomic 
-potentials.(cite) 
- 
+computational cost high (see Section \ref{Subsection_Comp_Details_4}), 
+making NMD particularly challenging to use with DFT calculations 
+\cite{koker_thermal_2009,huang_filler-reduced_2010,
+huang_ab_2008,luo_molecular_2011,esfarjani_heat_2011,
+shiomi_thermal_2011}. 
+
+For the AF Theory and NMD method, the major computational cost is the 
+eigenvalue solution of the dynamical matrix 
+(see Sections \ref{S:VC Gamma DOS} and \ref{S:Simulation}), which scales 
+poorly in both CPU and memory costs. 
 For ALD, $N_a$ determines the resolution of the 
 \href{https://en.wikipedia.org/wiki/Brillouin_zone}
 {Brillouin zone} sampling (see Section \ref{Subsection_Comp_Details_1} 
@@ -533,20 +546,34 @@ require a fine sampling
 of the BZ, which increases the ALD computational costs. Using large 
 systems can be avoided by following the extrapolation procedure 
 which is discussed in Appendix \ref{Appendix_A:Finite}.
-
-The ranking of computational cost in Table \ref{T-comparison-cost} 
-does not take into account the coefficients of the computaional 
+Efficient MD 
+codes like LAMMPS scale linearly with the number of atoms in 
+the system which makes the GK method (see Section 
+\ref{S:Thermal Conductivity}) 
+computationally-inexpensive.
+ 
+The computational costs for each method are ranked in Table \ref{T-comparison-cost} 
+starting with least expensive on the left. 
+The rankings do not take into account the coefficients of the computational 
 scalings. For example, to perform NMD 
-on a system of 6912 atoms in less than 24 hours may take 100 
-CPUs (see Section ). The same number of CPUs are required to perform 
-the GK method on a system of 100000 atoms in the same amount of time. 
-Coefficients of the computational scalings would take into 
+on a system of 6912 atoms in less than 24 hours may take 100 central processing 
+units (CPUs) (see Appendix \ref{A:unitcell}). The same number of CPUs are required 
+to perform the GK method on a system of 100000 atoms in the same amount of 
+time. Coefficients of the computational scalings would take into 
 account the difference in computational cost of classical pair 
 potentials versus multi-body potentials, for example. 
 Thus, the ranking in Table \ref{T-comparison-cost} is to be used as a 
-rough guideline. 
+rough guideline. The maximum system sizes are those achived in this work.  
 
-(more discussion of the Table \ref{T-comparison-cost})
+The GK method, which scales most efficiently in both memory and CPU 
+cost, has the most potential to simulate systems with increased 
+$N_a$. While large $N_a$ are reached with the ALD method in this work, 
+no explicit atomic dynamics are simulated. The poor scaling of the 
+computational cost with system size for the ALD method prohibits 
+increasing the system size significantly. The same is true for the 
+AF and NMD methods. Suggestions are given in 
+Section \ref{Future:Timescales} for increasing the system sizes for the 
+AF and NMD methods, as well as suggestion for other MD-based methods.
 
 %--------------------------------------------------------------------------
 \begin{center}
@@ -556,7 +583,7 @@ rough guideline.
 \caption{\label{T-comparison-cost}Ranking of computational costs 
 for theoretical 
 techniques for predicting vibrational mode properties and thermal 
-conductivity.}
+conductivity, starting with the least expensive on the left.}
 %\begin{tabular}{llllll}
 \begin{tabular}{p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}|p{0.9in}}
 \hline\hline
@@ -598,3 +625,94 @@ Memory
 \end{center}
 %--------------------------------------------------------------------------
 \clearpage
+
+%--------------------------------------------------------------------------
+\section{\label{S-CompCost}
+Overview and Scope}
+%--------------------------------------------------------------------------
+
+The objective of this work is to develop a theoretical and computational 
+framework for predicting the vibrational mode properties in a range 
+of disordered materials using atomistic techniques. 
+This objectives will be achieved through the use of four predictive 
+methods: MD-based GK, MD-based NMD, ALD, AF Theory 
+(see Section \ref{S-SystemMode}). 
+The analysis is performed on atomistic models of a wide-range of 
+ordered and disordered systems. Emphasis is placed on investigating each 
+material with as many of the four methods as possible to 
+analyze the thermal properties self-consistenly. The outline of the 
+remainder of the work is as follows:
+
+In Chapter \ref{Chapter:SED}, two MD-based methods for predicting 
+vibrational mode properties are compared and evaluated. The vibrational 
+mode properties and thermal conductivities are predicted for 
+models of three materials: argon, silicon, and 
+a carbon nanotunbe. Theoretical derivations are presented 
+and the computational framework for performing the analysis is discussed. 
+Reccomendations are made based on the comparison of the two methods 
+for future work using MD-based methods 
+(see Section \ref{Future:Timescales:DSF}).
+
+In Chapter \ref{chapter:vc}, the virtual crystal approximation for 
+predicting the vibrational properties of alloys is investigated. 
+Two model systems, Lennard-Jones argon and Stillinger-Weber
+silicon, are used to perform the analysis. 
+The analysis is performed using molecular dynamics simulations and lattice
+dynamics calculations. 
+Mode frequencies and lifetimes are first calculated by treating the disorder
+explicitly and under the virtual crystal approximation. The two model systems 
+have different vibrational mode spectra, which plays an important role in 
+determining the applicability of the virtual crystal approximation. 
+The mode properties are then used to predict thermal conductivity, and 
+common phenomenological limits are used to interpret the results. Important 
+connections between disordered lattices and amorphous materials are made 
+through a comparison of their mode properties, which solidifies 
+the modeling framework for studying the propagating and non-propagating 
+vibrational modes in disordered systems. 
+
+In Chapter \ref{chapter:mfp}, the properties of the propagating and 
+non-propagating vibrational modes in amorphous silica and silicon 
+are predicted using realistic atomistic models.   
+The calculations are performed using molecular dynamics simulations, 
+lattice dynamics calculations, and theoretical models. 
+Using the mode properties, 
+the thermal conductivity accumulation functions are predicted and compared 
+with recent experimental measurements by Regner et al. and thin film 
+thermal conductivity measurements.  The two amorphous materials studied 
+have significantly different contributions from propagating and 
+non-propagating vibrational modes, which is evident in their 
+accumulation functions. 
+
+In Chapter \ref{Conclusion}, the major contributions of the work are
+presented and suggestions for future study are discussed.
+
+
+
+
+
+The vibrational mode properties in crystalline, 
+alloyed, and amorphous materials are studied in this 
+work using several predictive methods (see Section \ref{ThermalModes}) 
+using fully atomistic models. 
+Because disordering complicates the theory of thermal transport, 
+no single predictive method can provide 
+both the system-level (total thermal conductivity) and mode-level 
+properties for all vibrations in a given disordered system. 
+Each predictive method provides complementary information, which is 
+compared wherever possible. By comparison of the predictions from these 
+methods, critical information about the 
+vibrational mode properties is identified and important assumptions 
+about the nature of thermal transport in disordered materials are 
+investigated. The predicted results 
+are compared to experimental measurements, perturbative methods, 
+and phenomenological/empirical models. 
+The results presented in this work provide a theoretical and 
+computational framework for the study of emerging disordered 
+and nanoscaled systems, which are discussed in Section 
+\ref{Conclusion}. 
+
+
+
+
+
+

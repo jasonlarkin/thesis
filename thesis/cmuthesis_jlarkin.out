@@ -1,110 +1,76 @@
-\BOOKMARK [0][-]{chapter.1}{1 Introduction \(WORK\)}{}% 1
-\BOOKMARK [1][-]{section.1.1}{1.1 Thermal Transport in Disordered Materials \(WORK\) \(READ\)}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{1.2 \040Thermal Modes: Phonons, Propagons, Diffusons, and Locons \(WORK\) \(READ\)}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{1.3 \040System-level versus Mode-level Thermal Predictions}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 \040System-level Thermal Conductivity Prediction \(WORK\) \(READ\)}{section.1.3}% 5
-\BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 \040Mode-level Thermal Conductivity Prediction \(WORK\) \(READ\)}{section.1.3}% 6
-\BOOKMARK [2][-]{subsection.1.3.3}{1.3.3 \040Computational Cost vesus Preditictive Ability \(WORK\) \(READ\)}{section.1.3}% 7
-\BOOKMARK [0][-]{chapter.2}{2 Vibrational Lifetimes from Molecular Dynamics \(READ\)}{}% 8
-\BOOKMARK [1][-]{section.2.1}{2.1 Introduction}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{2.2 Phonon Spectral Energy Density}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 As Derived from Normal Mode Coordinates, }{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Formulation in the Time-Domain \(WORK\) \(READ\)}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Alternative Formulation, '}{section.2.2}% 13
-\BOOKMARK [1][-]{section.2.3}{2.3 Computational Details}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Allowed Wavevectors}{section.2.3}% 15
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Phonon Lifetimes and Frequencies \(WORK\) \(READ\)}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Thermal Conductivity}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Computational Cost and Work Flow Optimization \(WORK\) \(READ\)}{section.2.3}% 18
-\BOOKMARK [1][-]{section.2.4}{2.4 Case Studies}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Lennard-Jones Argon}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Stillinger-Weber Silicon}{section.2.4}% 21
-\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Carbon Nanotube}{section.2.4}% 22
-\BOOKMARK [1][-]{section.2.5}{2.5 Summary}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{3 Predicting alloy vibrational mode properties using lattice dynamics calculations, molecular dynamics simulations, and the virtualcrystal approximation \(READ\)}{}% 24
-\BOOKMARK [1][-]{section.3.1}{3.1 Introduction}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.2}{3.2 Theoretical and Computational Framework}{chapter.3}% 26
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 \040Thermal Conductivity Prediction}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Virtual Crystal Approximation}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Calculation and Simulation Details}{section.3.2}% 29
-\BOOKMARK [1][-]{section.3.3}{3.3 \040Vibrational Mode Properties in Alloys}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Density of States}{section.3.3}% 31
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Dispersion and Group Velocity}{section.3.3}% 32
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Lifetimes}{section.3.3}% 33
-\BOOKMARK [3][-]{subsubsection.3.3.3.1}{3.3.3.1 From VC-NMD and Gamma-NMD}{subsection.3.3.3}% 34
-\BOOKMARK [3][-]{subsubsection.3.3.3.2}{3.3.3.2 From VC-ALD}{subsection.3.3.3}% 35
-\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 \040Diffusivities}{section.3.3}% 36
-\BOOKMARK [2][-]{subsection.3.3.5}{3.3.5 Discussion}{section.3.3}% 37
-\BOOKMARK [1][-]{section.3.4}{3.4 Thermal Conductivity Prediction}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.5}{3.5 SW silicon}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.6}{3.6 Summary}{chapter.3}% 40
-\BOOKMARK [0][-]{chapter.4}{4 Vibrational Mean Free Paths and Thermal Conductivity Accumulation Functions for Amorphous Materials}{}% 41
-\BOOKMARK [1][-]{section.4.1}{4.1 Introduction}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.2}{4.2 Theoretical Formulation of Vibrational Thermal Conductivity}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.3}{4.3 Calculation Details}{chapter.4}% 44
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Sample Preparation}{section.4.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Simulation Details}{section.4.3}% 46
-\BOOKMARK [1][-]{section.4.4}{4.4 Vibrational Mode Properties}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Density of States}{section.4.4}% 48
-\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Structure Factor}{section.4.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 Sound Speed}{section.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.4}{4.4.4 Lifetimes}{section.4.4}% 51
-\BOOKMARK [2][-]{subsection.4.4.5}{4.4.5 Diffusivities}{section.4.4}% 52
-\BOOKMARK [1][-]{section.4.5}{4.5 Thermal Conductivity}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Bulk}{section.4.5}% 54
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Accumulation Function}{section.4.5}% 55
-\BOOKMARK [1][-]{section.4.6}{4.6 Summary}{chapter.4}% 56
-\BOOKMARK [0][-]{chapter.5}{5 Conclusion \(WORK\) \(READ\)}{}% 57
-\BOOKMARK [1][-]{section.5.1}{5.1 Overview and Contributions}{chapter.5}% 58
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 \040Molecular Dynamics-based Methods for Predicting Vibrational Lifetimes}{section.5.1}% 59
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 \040Thermal Transport in Alloys and the High-scatter Limit}{section.5.1}% 60
-\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 \040Mean Free Paths of Propagating Modes in Disordered Materials}{section.5.1}% 61
-\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 \040Predictive ability versus Computational Cost \(WORK\) \(READ\)}{section.5.1}% 62
-\BOOKMARK [1][-]{section.5.2}{5.2 Future Work}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Large Unit Cell Materials \(WORK\) \(READ\)}{section.5.2}% 64
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 \040Timescales from Larger MD Simulations \(WORK\) \(READ\)}{section.5.2}% 65
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 \040Exact Normal Modes}{subsection.5.2.2}% 66
-\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 \040Dynamic Structure Factor}{subsection.5.2.2}% 67
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 DFT and Thermal Modeling}{section.5.2}% 68
-\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 \040Comprehensive Package for Thermal Transport Calculations \(WORK\) \(READ\)}{section.5.2}% 69
-\BOOKMARK [0][-]{appendix.A}{A Normal Mode Decomposition Technique and Computational Details}{}% 70
-\BOOKMARK [1][-]{section.A.1}{A.1 \040Derivation of Phonon Spectral Energy Density, \040\(WORK,READ\)}{appendix.A}% 71
-\BOOKMARK [1][-]{section.A.2}{A.2 Interpretation of ' \(WORK,READ\)}{appendix.A}% 72
-\BOOKMARK [1][-]{section.A.3}{A.3 Unit Cell and Supercell Representations \(WORK\)}{appendix.A}% 73
-\BOOKMARK [2][-]{subsection.A.3.1}{A.3.1 Primitive and Conventional Unit Cells \(WORK\)}{section.A.3}% 74
-\BOOKMARK [2][-]{subsection.A.3.2}{A.3.2 Crystal Symmetries \(WORK\)}{section.A.3}% 75
-\BOOKMARK [2][-]{subsection.A.3.3}{A.3.3 Primitive, Conventional, and Supercell Representations using Normal Mode Decomposition \(WORK\)}{section.A.3}% 76
-\BOOKMARK [1][-]{section.A.4}{A.4 NMD using Non-Exact Normal Modes \(WORK\)}{appendix.A}% 77
-\BOOKMARK [1][-]{section.A.5}{A.5 Effect of Metastability for Amorphous Solids on Normal Mode Decomposition \(WORK\)}{appendix.A}% 78
-\BOOKMARK [1][-]{section.A.6}{A.6 Finite Simulation-Size Scaling for Thermal Conductivity \(WORK\)}{appendix.A}% 79
-\BOOKMARK [1][-]{section.A.7}{A.7 AF Calculations \(WORK\)}{appendix.A}% 80
-\BOOKMARK [2][-]{subsection.A.7.1}{A.7.1 Physical Picture}{section.A.7}% 81
-\BOOKMARK [2][-]{subsection.A.7.2}{A.7.2 Finite Size Effects}{section.A.7}% 82
-\BOOKMARK [1][-]{section.A.8}{A.8 Spectral Density of Disordered Modes \(WORK\)}{appendix.A}% 83
-\BOOKMARK [1][-]{section.A.9}{A.9 Size-effects for Low-frequency Dominated Materials \(WORK\)}{appendix.A}% 84
-\BOOKMARK [1][-]{section.A.10}{A.10 Accumulation Functions in Alloys \(WORK\)}{appendix.A}% 85
-\BOOKMARK [0][-]{appendix.B}{B \040Research using High Performance Computing \(WORK\)}{}% 86
-\BOOKMARK [1][-]{section.B.1}{B.1 Setting Up Computing Environment}{appendix.B}% 87
-\BOOKMARK [2][-]{subsection.B.1.1}{B.1.1 Hardware and Operating System Choice}{section.B.1}% 88
-\BOOKMARK [2][-]{subsection.B.1.2}{B.1.2 \040Linux/Unix Terminal, Commands, and Environment Variables}{section.B.1}% 89
-\BOOKMARK [2][-]{subsection.B.1.3}{B.1.3 Working on Remote Resources}{section.B.1}% 90
-\BOOKMARK [1][-]{section.B.2}{B.2 \040Installing, Writing and Executing Programs}{appendix.B}% 91
-\BOOKMARK [2][-]{subsection.B.2.1}{B.2.1 Installing Available Packages}{section.B.2}% 92
-\BOOKMARK [2][-]{subsection.B.2.2}{B.2.2 Available Programs and Packages for Thermal Transport Modeling}{section.B.2}% 93
-\BOOKMARK [2][-]{subsection.B.2.3}{B.2.3 Writing Programs}{section.B.2}% 94
-\BOOKMARK [3][-]{subsubsection.B.2.3.1}{B.2.3.1 \040Coding Languages: Compiled versus Interpreted}{subsection.B.2.3}% 95
-\BOOKMARK [3][-]{subsubsection.B.2.3.2}{B.2.3.2 Case-study\(a\): Compiled Language, Lennard-Jones Argon Molecular Dynamics}{subsection.B.2.3}% 96
-\BOOKMARK [3][-]{subsubsection.B.2.3.3}{B.2.3.3 Compiled versus Interpreted Case-study\(b\): Lennard-Jones Dispersion}{subsection.B.2.3}% 97
-\BOOKMARK [3][-]{subsubsection.B.2.3.4}{B.2.3.4 Compiled versus Interpreted Case-study\(c\): Allen-Feldman Diffusivity Calculation}{subsection.B.2.3}% 98
-\BOOKMARK [2][-]{subsection.B.2.4}{B.2.4 Executing Programs}{section.B.2}% 99
-\BOOKMARK [3][-]{subsubsection.B.2.4.1}{B.2.4.1 \040Executing Locally: Rapid Development}{subsection.B.2.4}% 100
-\BOOKMARK [3][-]{subsubsection.B.2.4.2}{B.2.4.2 \040Executing Remotely: Portable Batch Systems}{subsection.B.2.4}% 101
-\BOOKMARK [3][-]{subsubsection.B.2.4.3}{B.2.4.3 \040Scaling Calculations}{subsection.B.2.4}% 102
-\BOOKMARK [1][-]{section.B.3}{B.3 Preparing Journal Articles and Thesis}{appendix.B}% 103
-\BOOKMARK [2][-]{subsection.B.3.1}{B.3.1 Journal Articles}{section.B.3}% 104
-\BOOKMARK [2][-]{subsection.B.3.2}{B.3.2 Thesis}{section.B.3}% 105
-\BOOKMARK [2][-]{subsection.B.3.3}{B.3.3 Producing Figures}{section.B.3}% 106
-\BOOKMARK [1][-]{section.B.4}{B.4 Technical Advice}{appendix.B}% 107
-\BOOKMARK [2][-]{subsection.B.4.1}{B.4.1 Expert Advice}{section.B.4}% 108
-\BOOKMARK [2][-]{subsection.B.4.2}{B.4.2 Online Resources}{section.B.4}% 109
-\BOOKMARK [0][-]{appendix*.5}{Bibliography}{}% 110
+\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{1.1 Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{1.2 \040Vibrational Modes: Phonons, Propagons, Diffusons, and Locons}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{1.3 \040System-level versus Mode-level Predictions}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 \040System-level Prediction}{section.1.3}% 5
+\BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Mode-level Prediction}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.3}{1.3.3 \040Computational Cost vesus Predictive Ability}{section.1.3}% 7
+\BOOKMARK [1][-]{section.1.4}{1.4 \040Overview and Scope}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{2 Vibrational Lifetimes from Molecular Dynamics}{}% 9
+\BOOKMARK [1][-]{section.2.1}{2.1 Introduction}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{2.2 Phonon Spectral Energy Density}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 As Derived from Normal Mode Coordinates, }{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Formulation in the Time-Domain}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Alternative Formulation, '}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{2.3 Computational Details}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Allowed Wavevectors}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Phonon Lifetimes and Frequencies}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Thermal Conductivity}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Computational Cost and Work Flow Optimization}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{2.4 Case Studies}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Lennard-Jones Argon}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Stillinger-Weber Silicon}{section.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Carbon Nanotube}{section.2.4}% 23
+\BOOKMARK [1][-]{section.2.5}{2.5 Summary}{chapter.2}% 24
+\BOOKMARK [0][-]{chapter.3}{3 Predicting Alloy Vibrational Mode Properties using Lattice Dynamics Calculations, Molecular Dynamics Simulations, and the Virtual Crystal Approximation}{}% 25
+\BOOKMARK [1][-]{section.3.1}{3.1 Introduction}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.2}{3.2 Theoretical and Computational Framework}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 \040Thermal Conductivity Prediction}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Virtual Crystal Approximation}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Calculation and Simulation Details}{section.3.2}% 30
+\BOOKMARK [1][-]{section.3.3}{3.3 \040Vibrational Mode Properties in Alloys}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Density of States}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Dispersion and Group Velocity}{section.3.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Lifetimes}{section.3.3}% 34
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{3.3.3.1 From VC-NMD and Gamma-NMD}{subsection.3.3.3}% 35
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{3.3.3.2 From VC-ALD}{subsection.3.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 \040Diffusivities}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.5}{3.3.5 Discussion}{section.3.3}% 38
+\BOOKMARK [1][-]{section.3.4}{3.4 Thermal Conductivity Prediction}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.5}{3.5 SW silicon}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.6}{3.6 Summary}{chapter.3}% 41
+\BOOKMARK [0][-]{chapter.4}{4 \040Thermal Conductivity Accumulation in Amorphous Materials}{}% 42
+\BOOKMARK [1][-]{section.4.1}{4.1 Introduction}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.2}{4.2 Theoretical Formulation of Vibrational Thermal Conductivity}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.3}{4.3 Calculation Details}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Sample Preparation}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Simulation Details}{section.4.3}% 47
+\BOOKMARK [1][-]{section.4.4}{4.4 Vibrational Mode Properties}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Density of States}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Structure Factor}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 Sound Speed}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.4}{4.4.4 Lifetimes}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.5}{4.4.5 Diffusivities}{section.4.4}% 53
+\BOOKMARK [1][-]{section.4.5}{4.5 Thermal Conductivity}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Bulk}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Accumulation Function}{section.4.5}% 56
+\BOOKMARK [1][-]{section.4.6}{4.6 Summary}{chapter.4}% 57
+\BOOKMARK [0][-]{chapter.5}{5 Conclusion}{}% 58
+\BOOKMARK [1][-]{section.5.1}{5.1 Overview and Contributions}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 \040Molecular Dynamics-based Methods for Predicting Lifetimes}{section.5.1}% 60
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 \040Thermal Transport in Alloys and the High-scatter Limit}{section.5.1}% 61
+\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 \040Mean Free Paths of Propagating Modes in Amorphous Materials}{section.5.1}% 62
+\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 \040Predictive Ability versus Computational Cost}{section.5.1}% 63
+\BOOKMARK [1][-]{section.5.2}{5.2 Future Work}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Large Unit Cell Materials}{section.5.2}% 65
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 \040Lifetimes from Larger MD Simulations}{section.5.2}% 66
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 \040Exact Normal Modes}{subsection.5.2.2}% 67
+\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 \040Dynamic Structure Factor}{subsection.5.2.2}% 68
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 \040Comprehensive Package for Thermal Transport Calculations}{section.5.2}% 69
+\BOOKMARK [0][-]{appendix.A}{A Computational Details}{}% 70
+\BOOKMARK [1][-]{section.A.1}{A.1 \040Derivation of Phonon Spectral Energy Density, }{appendix.A}% 71
+\BOOKMARK [1][-]{section.A.2}{A.2 Interpretation of '}{appendix.A}% 72
+\BOOKMARK [1][-]{section.A.3}{A.3 NMD using Non-Exact Normal Modes}{appendix.A}% 73
+\BOOKMARK [1][-]{section.A.4}{A.4 Effect of Metastability for Amorphous Solids on Normal Mode Decomposition}{appendix.A}% 74
+\BOOKMARK [1][-]{section.A.5}{A.5 Finite Simulation-Size Scaling for Thermal Conductivity}{appendix.A}% 75
+\BOOKMARK [0][-]{appendix*.6}{Bibliography}{}% 76

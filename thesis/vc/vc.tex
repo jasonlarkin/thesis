@@ -1,6 +1,8 @@
-\chapter{\label{chapter:vc}Predicting alloy vibrational mode properties 
-using lattice dynamics calculations, molecular dynamics simulations, 
-and the virtualcrystal approximation (READ)}
+%--------------------------------------------------------------------------
+\chapter{\label{chapter:vc}Predicting Alloy Vibrational Mode Properties 
+using Lattice Dynamics Calculations, Molecular Dynamics Simulations, 
+and the Virtual Crystal Approximation}
+%--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
 %\begin{abstract}
@@ -130,7 +132,7 @@ treated as a perturbation in the VC approximation.
 A breakdown of the VC-ALD method is identified by a comparison 
 with the VC-NMD method in 
 Section \ref{S:From VC-ALD}   
-and a correction is suggested in Section \ref{S:Diffusivities}. 
+and a correction is suggested in Section \ref{S:Diffusivities_vc}. 
 The vibrational 
 mode properties are then used to predict thermal conductivities 
 in Section \ref{S:Thermal Conductivity}, 
@@ -465,7 +467,7 @@ codes like LAMMPS scale linearly with the number of atoms in
 the system, $N_a$, which makes the GK method (see Section 
 \ref{S:Thermal Conductivity}) 
 computationally-inexpensive when used with empirical potentials. 
-An amorphous LJ phase, discussed in Section \ref{S:Diffusivities}, 
+An amorphous LJ phase, discussed in Section \ref{S:Diffusivities_vc}, 
 was created by liquefying the crystal 
 and instantly quenching by removing all kinetic energy.  The energy 
 of the resulting structure was minimized and then annealed in an 
@@ -516,7 +518,7 @@ Gamma modes require the eigenvalue solution of a dynamical matrix of size
 $(3N_a)^2$ that scales as $[(3N_a)^2]^3$, limiting the system 
 sizes that can be considered. This eigenvalue solution is also 
 required to perform the Gamma-NMD (see Section \ref{S:From VC Gamma})  
-and AF calculations (see Section \ref{S:Diffusivities}). 
+and AF calculations (see Section \ref{S:Diffusivities_vc}). 
 
 The DOS for the VC and Gamma modes are plotted in Figs. \ref{F:DOS}(a), 
 \ref{F:DOS}(b), and \ref{F:DOS}(c) 
@@ -1048,7 +1050,7 @@ which peaks at high frequency, in contrast to SW silicon
 % $c=0.5$ $g_3 = 0.0$, $g_4 = 0.0625$
 
 %--------------------------------------------------------------------------
-\subsection{\label{S:Diffusivities}
+\subsection{\label{S:Diffusivities_vc}
 Diffusivities}
 %--------------------------------------------------------------------------
 
@@ -1300,7 +1302,7 @@ significantly underpredicts the thermal conductivity of the LJ argon alloys.
 The largest deviation is at a concentration of 0.05, where 
 $k_{VC-ALD}$ is $56\%$ of $k_{GK}$.
 
-In Section \ref{S:Diffusivities}, 
+In Section \ref{S:Diffusivities_vc}, 
 we argued for the existence of a minimum mode 
 diffusivity, $D_{HS}$ [Eq. \eqref{EQ:M:D_HS}]. 
 As shown in Fig. \ref{F:Dph_lj}(b), the diffusivities of 
@@ -1465,7 +1467,7 @@ SW \\
 The failure of VC-ALD to predict the thermal conductivities of the LJ 
 alloys is due to an underprediction of the high-frequency mode lifetimes, 
 which make an important contribution to the thermal conductivity 
-[see Sections \ref{S:Diffusivities} and \ref{S:Thermal Conductivity}, 
+[see Sections \ref{S:Diffusivities_vc} and \ref{S:Thermal Conductivity}, 
 Figs. \ref{F:Dph_lj}(a) and \ref{F:Dph_lj}(c)]. To provide a contrast, 
 we now predict the vibrational mode properties and thermal conductivity for bulk 
 and alloyed SW silicon, where it is known that low-frequency modes 
@@ -1501,7 +1503,8 @@ Eq. \eqref{EQ:k0} is valid for SW silicon and $38 \le N_0 \le 42$.
 This system-size requirement highlights the efficiency of the 
 VC-ALD method compared to VC-NMD, which is necessary when 
 computationally-expensive DFT calculations are used.
-\cite{esfarjani_method_2008,garg_role_2011,tian_phonon_2012,lindsay_thermal_2012,esfarjani_heat_2011,chaput_phonon-phonon_2011}
+\cite{esfarjani_method_2008,garg_role_2011,tian_phonon_2012,lindsay_thermal_2012,
+esfarjani_heat_2011,chaput_phonon-phonon_2011}
 The bulk thermal conductivity 
 predictions for VC-ALD and GK are shown in Table \ref{T:cond_table} and 
 plotted in Fig. \ref{F:cond_si}. The alloy thermal conductivities predicted 
@@ -1673,7 +1676,7 @@ By using computationally-inexpensive
 empirical potentials we self-consistently studied the effects of 
 disorder both explicitly (Sections \ref{S:VC Gamma DOS}, 
 \ref{S:Dispersion},  
-\ref{S:From VC Gamma}, \ref{S:Diffusivities}, and \ref{S:SW}) 
+\ref{S:From VC Gamma}, \ref{S:Diffusivities_vc}, and \ref{S:SW}) 
 and as a perturbation (Sections \ref{S:From VC-ALD} and \ref{S:SW}). 
 By spanning a range of disorder, the limits of the 
 perturbative models were examined.

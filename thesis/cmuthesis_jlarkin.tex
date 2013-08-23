@@ -1,5 +1,8 @@
 %for a more compact document, add the option openany to avoid
 %starting all chapters on odd numbered pages
+% compile with: pdflatex -shell-escape cmuthesis_jlarkin.tex
+% unstructions from: 
+% http://macosx-tex.576846.n2.nabble.com/epstopdf-problem-restricted-mode-td6008485.html
 %--------------------------------------------------------------------------
 \documentclass[12pt]{cmuthesis}
 %\usepackage{doublespacing}
@@ -32,7 +35,7 @@
 \usepackage{times}
 \usepackage{fullpage}
 \usepackage[numbers,sort]{natbib}
-\usepackage[linktocpage,breaklinks,backref,
+\usepackage[linktocpage,breaklinks=true,backref,
 pageanchor=true,pagebackref=true,
 plainpages=false, pdfpagelabels, bookmarks,bookmarksnumbered,
 pdfborder=0 0 0,  %removes outlines around hyper links in online display
@@ -47,7 +50,7 @@ pdfborder=0 0 0,  %removes outlines around hyper links in online display
 \usepackage[hyphenbreaks]{breakurl}
 \usepackage{subfigure}
 \usepackage{comment}   % package for block comment
-\renewcommand{\includegraphics}[2][]{\fbox{}} %fig suppress
+%\renewcommand{\includegraphics}[2][]{\fbox{}} %fig suppress
 %\batchmode
 %\renewcommand{\includegraphics}[2][]{\fbox{#2}}
 %\usepackage[demo]{graphicx}
@@ -336,7 +339,7 @@ hmarginratio=1:1]{geometry}
 
 
 % Provides a draft mark at the top of the document. 
-\draftstamp{\today}{DRAFT}
+%\draftstamp{\today}%{DRAFT}
 
 %need to have doublespace:
 % http://www.cit.cmu.edu/current_students/graduates/
@@ -355,7 +358,8 @@ hmarginratio=1:1]{geometry}
 
 
 \title{ %% {\it \huge Thesis Proposal}\\
-{\bf Thermal Modeling of Disordered Materials}}
+{\bf Vibrational mode properties of disordered solids from 
+high-performance atomistic simulations and calculations}}
 \author{Jason M. Larkin}
 \date{August 2013}
 \Year{2013}
@@ -367,7 +371,7 @@ hmarginratio=1:1]{geometry}
 \href{http://www.cmu.edu/me/people/alan-j-h-mcgaughey.html}
 {Alan J. H. McGaughey, Chair} \\
 \href{http://www.cmu.edu/me/people/jonathan-a-malen.html}
-{Jonathan Malen} \\
+{Jonathan A. Malen} \\
 \href{http://www.ce.cmu.edu/people/faculty/maloney.html}
 {Craig Maloney} \\
 \href{http://www.cmu.edu/physics/people/faculty/widom.html}
@@ -383,13 +387,13 @@ hmarginratio=1:1]{geometry}
 % copyright notice generated automatically from Year and author.
 % permission added if \permission{} given.
 
-\keywords{Phonon}
+\keywords{Phonons, disorder, thermal, transport, nanoscale, atomistic}
 
 \maketitle
 
-%\begin{dedication}
-%For my dog
-%\end{dedication}
+\begin{dedication}
+%For my mom...
+\end{dedication}
 
 \pagestyle{plain} % for toc, was empty
 
@@ -398,83 +402,62 @@ hmarginratio=1:1]{geometry}
 %% into different files and input them into this file...
 
 \begin{acknowledgments}
-D) Acknowledgments – must include financial support acknowledgment as 
-discussed in Section 5
-
-SED
-
-This work is supported by AFOSR award FA95501010098. We thank John A. 
-Thomas (Johns Hopkins 
-University Applied Physics Laboratory) for helpful discussions.
-
-VC
+I would like to thank 
+\href{http://www.ices.cmu.edu/home.asp}{ICES} 
+for financial assistance through the 
+\href{http://www.ices.cmu.edu/northrop-grumman.asp}
+{Northrop-Grumman fellowship} during the 2011-2012 year. 
+I would like to thank the Carnegie Mellon 
+\href{http://www.cmu.edu/stugov/gsa/}{Graduate Student Assembly} and the 
+\href{http://www.cmu.edu/graduate/professional-development/conference-funding/}
+{conference travel fund} for funding during the 2012 year.
 
 This work was supported by AFOSR award FA95501010098 and by a grant 
 of computer time from the DOD 
 High Performance Computing Modernization Program at the US Army Engineer 
 Research and Development Center. 
-We thank Davide Donadio, Jivtesh Garg, Asad Hasan, Ankit Jain, Craig Maloney, 
-and Zhiting Tian for helpful discussions.
 
-MFP
-
-This work was supported by AFOSR award FA95501010098 and by a grant 
-of computer time from the DOD 
-High Performance Computing Modernization Program at the US Army 
-Engineer 
-Research and Development Center. 
-We thank Davide Donadio, Joseph Feldman, Asad Hasan, Jonathan Malen,  
-Craig Maloney, Normand Mousseau, Keith Regner, and Michael Widom 
-for helpful discussions.
-
-I would like to thank 
-
-%\end{acknowledgments}
-
-
+For technical advice and discussion, I would like to thank  
+Davide Donadio, Joseph Feldman, Jivtesh Garg, Asad Hasan, 
+Ankit Jain, Jonathan Malen, Craig Maloney, Normand Mousseau,  
+Keith Regner, John A. Thomas, Zhiting Tian, and Michael Widom. 
 \end{acknowledgments}
 
+%\clearpage
+
 \begin{abstract}
-Thermal transport in ordered (crystalline) materials is well understood 
-in terms of the phonon gas model. 
-Theoretical formulations date back to... Theory has been compared 
-extensively to experimental measurements, which typically leads to 
-good quantitative agreement.(cite) 
+The vibrational mode properties of crystalline, alloyed, and amorphous
+materials are predicted using methods based in molecular dynamics
+simulations and lattice dynamics calculations. The mode properties allow for
+an understanding of the nature of thermal transport at the atomic scale not
+accessible from system-level thermal conductivity prediction.
 
-Disordering a crystal (i.e., alloying, 
-amorphization, etc..) 
-breaks down the phonon gas theory and a new theoretical formulation 
-is necessary. Typically, theoretical formulations begin 
-with perturbation theory, which is valid for weakly disordered systems. 
-These perturbation theories lead to simple models which can be 
-fit empirically to experimental measurements. However, predictive 
-methods which do not rely on perturbation theory are still in active  
-developed, particularly for use with \emph{ab initio} computaional 
-techniques.  
+Thermal transport in crystalline materials is well-understood in terms of
+the phonon gas model. Disordering a crystal (i.e., by alloying or
+amorphization) breaks down the applicability of the phonon gas model and
+additional theoretical formulation is necessary. Typical formulations (e.g.,
+the virtual crystal approximation) begin with perturbation theory, which is
+only valid for weakly-disordered systems, and lead to simple models whose
+predictive capabilities are unknown. Predictive methods that explicitly
+include the disorder (e.g., normal mode decomposition and Allen-Feldman
+theory) are still under development. Because disordering complicates the
+theory of thermal transport, each method provides complementary information
+that must often be integrated together.
 
-Why disordered materials are important...
-Thermal management (i.e., heat spreaders and thermal insulators) 
-depends critically on accurate predictions of thermal conductivity. 
-Often the scattering from defects and boundaries reduces the thermal 
-conductivity in these materials and devices, which is still being 
-understood. Recently, the search for more efficient thermoelectric 
-materials has focused on reducing the thermal conductivity by alloying. 
-
-Thermal transport in alloys and amorphous materials is studied in this 
-work using four predictive methods. Because disordering complicates 
-the theory of thermal transport, each 
-predictive method provides complimentary information which is compared 
-whereever possible. By comparison, critical information about the 
-vibrational mode-level properties is identified. Important assumptions 
-about the nature of thermal transport in disordered materials are 
-investigated using fully atomisitic models. The predicted results 
-are compared to phenomological, empirical, and perturbative models. 
-The results presented in this work provide a theoretical and 
-computational framework for the study of emerging disordered 
-and nanoscaled systems. 
-
-
-Disordered materials are 
+To assess the predictive capabilities of theoretical models for thermal
+transport in disordered materials, Lennard-Jones argon, crystalline and
+amorphous silicon, carbon nanotubes, and amorphous silica are studied. The
+theoretical and computational framework for performing the predictive
+analyses is first presented and discussed. Important assumptions about the
+nature of thermal transport in disordered materials are then investigated
+using perturbative approaches and fully atomistic models where the disorder
+is included explicitly. The relative contributions of propagating (i.e.,
+phonon-like) and non-propagating vibrational modes are quantified. The
+predicted mode properties are compared to experimental measurements and
+phenomenological/empirical models, leading to an understanding of the
+variation in the system-level thermal conductivity for all the materials.
+The results provide a theoretical and computational framework for the study
+of emerging disordered and nanostructured materials.
 \end{abstract}
 
 %\cfoot{\hyperlink{contents}{TOC}}% links the TOC at the center of the page footer
@@ -485,10 +468,16 @@ Disordered materials are
 \tableofcontents
 \hyperlink{contents}{Contents}
 %F) Table of Contents – with page references
+%--------------------------------------------------------------------------
 \listoffigures
 %G) List of Tables – with titles and page references
 \listoftables
 %H) List of Figures and Illustrations – with titles and page references.
+%--------------------------------------------------------------------------
+\clearpage
+
+\input{nomenclature}
+
 %--------------------------------------------------------------------------
 \mainmatter
 
@@ -528,10 +517,10 @@ Disordered materials are
 % title be a meaningful description of the content of your dissertation. 
 % Avoid highly specialized terms to the extent possible, and use word 
 % substitutes for formulas, symbols, superscripts, Greek letters, etc.
- 
-\input{/home/jason/thesis/thesis/introduction}
+
 %6.3 Body of thesis or dissertation
 %A) Introduction
+\input{/home/jason/thesis/thesis/introduction}
 \input{/home/jason/thesis/thesis/sed/sed}
 \input{/home/jason/thesis/thesis/vc/vc}
 \input{/home/jason/thesis/thesis/mfp/mfp}
@@ -541,7 +530,10 @@ Disordered materials are
 % conclusions of the work presented. For engineering and science theses 
 % and dissertations, this section often also includes recommendations 
 % for follow-up research.
-\input{/home/jason/thesis/thesis/appendix/appendix}
+%\input{/home/jason/thesis/thesis/appendix/appendix}
+\appendix
+\input{/home/jason/thesis/thesis/appendix/appendix_sed}
+%\input{/home/jason/thesis/thesis/appendix/appendix_computing}
 %D) References – >see discussion in Section 6.9
 %E) Appendices – each appendix should have a title and be listed in the 
 % Table of Contents
@@ -569,6 +561,16 @@ Disordered materials are
 % line of each footnote should be indented 0.5 inches and identified by a 
 % raised numeral corresponding to that used in the test. Footnotes should 
 % be numbered consecutively throughout each chapter.
+
+
+%F) Table of Contents – with page references
+% %--------------------------------------------------------------------------
+% \listoffigures
+% %G) List of Tables – with titles and page references
+% \listoftables
+% %H) List of Figures and Illustrations – with titles and page references.
+% %--------------------------------------------------------------------------
+
 
 \backmatter
 

@@ -1,6 +1,5 @@
 %--------------------------------------------------------------------------
-\chapter{\label{Chapter:SED}Vibrational Lifetimes from Molecular Dynamics 
-(READ)}
+\chapter{\label{Chapter:SED}Vibrational Lifetimes from Molecular Dynamics}
 %--------------------------------------------------------------------------
 
 Two frequency-domain methods for predicting phonon frequencies and 
@@ -12,18 +11,16 @@ but differ in the form of the phonon spectral energy density.
 One phonon spectral energy density expression (referred to as $\Phi$) 
 can be
 formally derived from lattice dynamics theory. A similar approach in the
-time domain has been validated [Turney et al. \emph{Phys. Rev. B} 
-\textbf{79}, 224305
-(2009)]. The other phonon spectral energy density expression 
+time domain has been validated \cite{turney_predicting_2009}. 
+The other phonon spectral energy density expression 
 (referred to as
-$\Phi'$) has been proposed [Thomas et al., \emph{Phys. Rev. B} 
-\textbf{81}, 081411(R) (2010)]
+$\Phi'$) has been proposed \cite{thomas_predicting_2010}
 but not validated. The expressions for $\Phi$ and $\Phi'$ are 
 presented and then
 applied to predict the phonon properties and thermal conductivities 
 of three
 systems: Lennard-Jones argon, Stillinger-Weber silicon, and a carbon
-nanotube modeled using the Reactive Empirical Bond Order potential. 
+nanotube modeled using the reactive empirical bond order potential. 
 $\Phi'$ does not capture the total
 phonon spectral energy density predicted by $\Phi$ and therefore 
 cannot
@@ -135,7 +132,7 @@ expression similar to $\Phi'$ (but different than $\Phi$)
 study using Stillinger-Weber silicon predicted phonon lifetimes using 
 both $\Phi$ and $\Phi'$, but a 
 detailed comparison of the predictions between the two was not performed 
-\cite{hori_mode-dependent_2012}.
+\cite{hori_mode-dependent_2012}. 
 
 The objective of this work is to assess the validity of $\Phi'$ as a 
 phonon SED by comparing the phonon 
@@ -164,6 +161,7 @@ is found to accurately predict the
 phonon frequencies, we find that it does not correctly predict the phonon 
 lifetimes because it does not 
 capture the total phonon spectral energy density.
+
 %--------------------------------------------------------------------------
 \section{\label{S:Section_NMD}Phonon Spectral Energy Density}
 %--------------------------------------------------------------------------
@@ -234,7 +232,7 @@ is performed using a discrete fast fourier transform (see Section
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Subsection_SED_time-domain}Formulation in the 
-Time-Domain (WORK) (READ)}
+Time-Domain}
 %--------------------------------------------------------------------------
 
 Previous work using normal mode analysis has represented the phonon 
@@ -260,15 +258,15 @@ energy has the advantage of predicting both the phonon lifetime
 and frequency by fitting a simpler function than is required in the 
 time-domain approach.
 
-The time-domain approach can be simplified by calculating the  
-potential energy normal mode coordinate, $q\kvt$, 
+The time-domain approach can be simplified by calculating the 
+normal mode coordinate, $q\kvt$, 
 \begin{equation}\label{E:q_HLD}
 \begin{split}
 q\kvt=& \sum_{b,l} \left(\frac{m_b}{N}\right)^{1/2} \EXP{i\pmb{\kappa}
 \cdot\mathbf{r}_0\ab{l}{0}} \mathbf{e}_b^*\kv \cdot \mathbf{u}\lbt,
 \end{split}
 \end{equation}
-and use it along with Eq. \eqref{E:qdot_HLD} to calculate the 
+and using it along with Eq. \eqref{E:qdot_HLD} to calculate the 
 total normal mode energy, $E\kvt$ [Eq. \eqref{A:E:q_E}]. 
 The autocorrelation of the total normal mode energy is 
 \begin{equation}\label{E:E_xcorr}
@@ -276,11 +274,8 @@ The autocorrelation of the total normal mode energy is
 \frac{E\kvt E\kvzero}{E \kvzero E\kvzero} = \exp[-2 \Gamma \kv t],
 \end{split}
 \end{equation}
-where $\omega_a$ is the anharmonic frequency (as opposed to that predicted 
-from harmonic lattice dynamics) and $\Gamma \kv$ is the line width, equal 
-to $1/[2 \tau \kv]$.\footnote{The factor of two in the relationship 
-between the line width and the lifetime arises because the analysis is 
-performed on the normal mode energy and not on the normal mode coordinate.} 
+where $\omega_0$ is the anharmonic frequency (as opposed to that predicted 
+from harmonic lattice dynamics). 
 Thus, one can find the lifetime by fitting the normalized autocorrelation 
 of the mode total energy to an exponential decay. Instead of fitting an 
 exponential function, the lifetime can be approximated as
@@ -471,13 +466,13 @@ so that $N_1 = N_2 = 1$, and we take $N_3=50$
 
 %--------------------------------------------------------------------------
 \subsection{\label{Subsection_Comp_Details_2}Phonon Lifetimes and 
-Frequencies (WORK) (READ)}
+Frequencies}
 %--------------------------------------------------------------------------
 Once the allowed wavevectors are specified, the atomic velocities from 
 an MD simulation can be used to calculate $\Phi'$ using Equation 
 \eqref{Lorentzian_SED}. To calculate $\Phi$ 
 [Equation \eqref{E:Lorentzian_NMD_fft}], 
-require the phonon mode eigenvector, which can be obtained using 
+requires the phonon mode eigenvector, which can be obtained using 
 harmonic lattice dynamics calculations and the finite temperature 
 lattice constant (i.e., quasi-harmonic lattice dynamics calculations) 
 \cite{dove_introduction_1993,gale_general_2003}. 
@@ -535,7 +530,8 @@ is shown in Fig$.$ \ref{F-bulkfitting}(b). The lower-frequency peak
 corresponds to the longitudinal acoustic mode,
 \cite{dove_introduction_1993} while the higher 
 frequency peak corresponds to an acoustic mode which has been 
-zone-folded (see Section \ref{A:unitcell}). 
+zone-folded. 
+%(ADD APPENDIX) (see Section \ref{A:unitcell}). 
 As discussed in Section \ref{S:Subsection_SED_time-domain}, the frequency 
 and lifetime extraction in normal mode decomposition can als be performed 
 in the time domain. The autocorrelation of the normal 
@@ -695,7 +691,7 @@ of $40$ K and are less for the other temperatures and systems studied here.}
 
 %--------------------------------------------------------------------------
 \subsection{\label{Subsection_Comp_Details_4}Computational Cost 
-and Work Flow Optimization (WORK) (READ)}
+and Work Flow Optimization}
 %--------------------------------------------------------------------------
 
 The computational time required to perform normal mode decomposition 
@@ -712,11 +708,11 @@ different wave vectors are trivially parallelizable and can be performed
 using the open-source GULP package \cite{gale_general_2003}. For 
 efficiently parallel MD algorithms (e.g., the open-source LAMMPS package 
 \cite{plimpton_fast_1995}), the simulation time and required memory 
-scale as $\sim N$.
+scale as $N_a$.
 
 The 
 computational time and memory required to project the atomic velocities 
-and positions onto the normal mode coordinates scale as $N$ and these 
+and positions onto the normal mode coordinates scale as $N_a$ and these 
 calculations are trivially parallelizable over the normal modes. Reasonable 
 computational times can be realized by using LAMMPS to perform the MD 
 simulations, outputting the atomic trajectories, and writing programs to 
@@ -749,14 +745,14 @@ parameters are chosen, the fitting can usually be fully automated for large
 data sets. For crystalline systems, only the properties of the modes of the 
 irreducible wave vectors are needed, such that the autocorrelations or 
 Fourier transforms for symmetric modes can be averaged before fitting. 
-See Appendix \ref{A:symmetry} for a discussion of symmetries.
+%(ADD APPENDIX) See Appendix \ref{A:symmetry} for a discussion of symmetries.
 
 For the $\Phi$ and $\Phi'$ methods, the computational cost of 
 evaluating Equation \eqref{Lorentzian_SED} is less than that for 
 Equation \eqref{E:Lorentzian_NMD_fft} by a factor of $3b$. 
 For bulk crystals, the number of atoms in the unit cell is 
 typically small 
-($b<10$).  For the (8,8) CNT system, $b=32$ and evaluating $\Phi'$ is 
+($n<10$).  For the (8,8) CNT system, $n=32$ and evaluating $\Phi'$ is 
 two orders of magnitude 
 less expensive than evaluating $\Phi$.
 
@@ -938,7 +934,7 @@ frequencies compared to the quasi-harmonic predictions
 \cite{mcgaughey_phonon_2006,turney_predicting_2009}. The agreement 
 between the frequencies 
 predicted from $\Phi$ and $\Phi'$ is explained in 
-(REF) (WORK).
+Appendix \ref{Appendix_B}.
 
 The lifetimes show large scatter between $\Phi$ and $\Phi'$ on a 
 mode-by-mode basis, with increasing 
