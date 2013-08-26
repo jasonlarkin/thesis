@@ -70,7 +70,41 @@
 \BOOKMARK [0][-]{appendix.A}{A Computational Details}{}% 70
 \BOOKMARK [1][-]{section.A.1}{A.1 \040Derivation of Phonon Spectral Energy Density, }{appendix.A}% 71
 \BOOKMARK [1][-]{section.A.2}{A.2 Interpretation of '}{appendix.A}% 72
-\BOOKMARK [1][-]{section.A.3}{A.3 NMD using Non-Exact Normal Modes}{appendix.A}% 73
-\BOOKMARK [1][-]{section.A.4}{A.4 Effect of Metastability for Amorphous Solids on Normal Mode Decomposition}{appendix.A}% 74
-\BOOKMARK [1][-]{section.A.5}{A.5 Finite Simulation-Size Scaling for Thermal Conductivity}{appendix.A}% 75
-\BOOKMARK [0][-]{appendix*.6}{Bibliography}{}% 76
+\BOOKMARK [1][-]{section.A.3}{A.3 Unit Cell and Supercell Representations \(WORK\)}{appendix.A}% 73
+\BOOKMARK [2][-]{subsection.A.3.1}{A.3.1 Primitive and Conventional Unit Cells \(WORK\)}{section.A.3}% 74
+\BOOKMARK [2][-]{subsection.A.3.2}{A.3.2 Crystal Symmetries \(WORK\)}{section.A.3}% 75
+\BOOKMARK [2][-]{subsection.A.3.3}{A.3.3 Primitive, Conventional, and Supercell Representations using Normal Mode Decomposition \(WORK\)}{section.A.3}% 76
+\BOOKMARK [1][-]{section.A.4}{A.4 NMD using Non-Exact Normal Modes}{appendix.A}% 77
+\BOOKMARK [1][-]{section.A.5}{A.5 Effect of Metastability for Amorphous Solids on Normal Mode Decomposition}{appendix.A}% 78
+\BOOKMARK [1][-]{section.A.6}{A.6 Finite Simulation-Size Scaling for Thermal Conductivity}{appendix.A}% 79
+\BOOKMARK [1][-]{section.A.7}{A.7 AF Calculations \(WORK\)}{appendix.A}% 80
+\BOOKMARK [2][-]{subsection.A.7.1}{A.7.1 Physical Picture}{section.A.7}% 81
+\BOOKMARK [2][-]{subsection.A.7.2}{A.7.2 Finite Size Effects}{section.A.7}% 82
+\BOOKMARK [1][-]{section.A.8}{A.8 Spectral Density of Disordered Modes \(WORK\)}{appendix.A}% 83
+\BOOKMARK [1][-]{section.A.9}{A.9 Size-effects for Low-frequency Dominated Materials \(WORK\)}{appendix.A}% 84
+\BOOKMARK [1][-]{section.A.10}{A.10 Accumulation Functions in Alloys \(WORK\)}{appendix.A}% 85
+\BOOKMARK [0][-]{appendix.B}{B \040Research using High Performance Computing \(WORK\)}{}% 86
+\BOOKMARK [1][-]{section.B.1}{B.1 Setting Up Computing Environment}{appendix.B}% 87
+\BOOKMARK [2][-]{subsection.B.1.1}{B.1.1 Hardware and Operating System Choice}{section.B.1}% 88
+\BOOKMARK [2][-]{subsection.B.1.2}{B.1.2 \040Linux/Unix Terminal, Commands, and Environment Variables}{section.B.1}% 89
+\BOOKMARK [2][-]{subsection.B.1.3}{B.1.3 Working on Remote Resources}{section.B.1}% 90
+\BOOKMARK [1][-]{section.B.2}{B.2 \040Installing, Writing and Executing Programs}{appendix.B}% 91
+\BOOKMARK [2][-]{subsection.B.2.1}{B.2.1 Installing Available Packages}{section.B.2}% 92
+\BOOKMARK [2][-]{subsection.B.2.2}{B.2.2 Available Programs and Packages for Thermal Transport Modeling}{section.B.2}% 93
+\BOOKMARK [2][-]{subsection.B.2.3}{B.2.3 Writing Programs}{section.B.2}% 94
+\BOOKMARK [3][-]{subsubsection.B.2.3.1}{B.2.3.1 \040Coding Languages: Compiled versus Interpreted}{subsection.B.2.3}% 95
+\BOOKMARK [3][-]{subsubsection.B.2.3.2}{B.2.3.2 Case-study\(a\): Compiled Language, Lennard-Jones Argon Molecular Dynamics}{subsection.B.2.3}% 96
+\BOOKMARK [3][-]{subsubsection.B.2.3.3}{B.2.3.3 Compiled versus Interpreted Case-study\(b\): Lennard-Jones Dispersion}{subsection.B.2.3}% 97
+\BOOKMARK [3][-]{subsubsection.B.2.3.4}{B.2.3.4 Compiled versus Interpreted Case-study\(c\): Allen-Feldman Diffusivity Calculation}{subsection.B.2.3}% 98
+\BOOKMARK [2][-]{subsection.B.2.4}{B.2.4 Executing Programs}{section.B.2}% 99
+\BOOKMARK [3][-]{subsubsection.B.2.4.1}{B.2.4.1 \040Executing Locally: Rapid Development}{subsection.B.2.4}% 100
+\BOOKMARK [3][-]{subsubsection.B.2.4.2}{B.2.4.2 \040Executing Remotely: Portable Batch Systems}{subsection.B.2.4}% 101
+\BOOKMARK [3][-]{subsubsection.B.2.4.3}{B.2.4.3 \040Scaling Calculations}{subsection.B.2.4}% 102
+\BOOKMARK [1][-]{section.B.3}{B.3 Preparing Journal Articles and Thesis}{appendix.B}% 103
+\BOOKMARK [2][-]{subsection.B.3.1}{B.3.1 Journal Articles}{section.B.3}% 104
+\BOOKMARK [2][-]{subsection.B.3.2}{B.3.2 Thesis}{section.B.3}% 105
+\BOOKMARK [2][-]{subsection.B.3.3}{B.3.3 Producing Figures}{section.B.3}% 106
+\BOOKMARK [1][-]{section.B.4}{B.4 Technical Advice}{appendix.B}% 107
+\BOOKMARK [2][-]{subsection.B.4.1}{B.4.1 Expert Advice}{section.B.4}% 108
+\BOOKMARK [2][-]{subsection.B.4.2}{B.4.2 Online Resources}{section.B.4}% 109
+\BOOKMARK [0][-]{appendix*.6}{Bibliography}{}% 110

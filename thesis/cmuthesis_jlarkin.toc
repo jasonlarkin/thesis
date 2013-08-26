@@ -70,7 +70,41 @@
 \contentsline {chapter}{\numberline {A}Computational Details}{119}{appendix.A}
 \contentsline {section}{\numberline {A.1} Derivation of Phonon Spectral Energy Density, $\Phi $}{119}{section.A.1}
 \contentsline {section}{\numberline {A.2}Interpretation of $\Phi '$}{124}{section.A.2}
-\contentsline {section}{\numberline {A.3}NMD using Non-Exact Normal Modes}{125}{section.A.3}
-\contentsline {section}{\numberline {A.4}Effect of Metastability for Amorphous Solids on Normal Mode Decomposition}{130}{section.A.4}
-\contentsline {section}{\numberline {A.5}Finite Simulation-Size Scaling for Thermal Conductivity}{132}{section.A.5}
-\contentsline {chapter}{Bibliography}{133}{appendix*.6}
+\contentsline {section}{\numberline {A.3}Unit Cell and Supercell Representations (WORK)}{125}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Primitive and Conventional Unit Cells (WORK)}{125}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Crystal Symmetries (WORK)}{128}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Primitive, Conventional, and Supercell Representations using Normal Mode Decomposition (WORK)}{129}{subsection.A.3.3}
+\contentsline {section}{\numberline {A.4}NMD using Non-Exact Normal Modes}{135}{section.A.4}
+\contentsline {section}{\numberline {A.5}Effect of Metastability for Amorphous Solids on Normal Mode Decomposition}{139}{section.A.5}
+\contentsline {section}{\numberline {A.6}Finite Simulation-Size Scaling for Thermal Conductivity}{141}{section.A.6}
+\contentsline {section}{\numberline {A.7}AF Calculations (WORK)}{141}{section.A.7}
+\contentsline {subsection}{\numberline {A.7.1}Physical Picture}{142}{subsection.A.7.1}
+\contentsline {subsection}{\numberline {A.7.2}Finite Size Effects}{144}{subsection.A.7.2}
+\contentsline {section}{\numberline {A.8}Spectral Density of Disordered Modes (WORK)}{144}{section.A.8}
+\contentsline {section}{\numberline {A.9}Size-effects for Low-frequency Dominated Materials (WORK)}{144}{section.A.9}
+\contentsline {section}{\numberline {A.10}Accumulation Functions in Alloys (WORK)}{145}{section.A.10}
+\contentsline {chapter}{\numberline {B} Research using High Performance Computing (WORK)}{149}{appendix.B}
+\contentsline {section}{\numberline {B.1}Setting Up Computing Environment}{149}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Hardware and Operating System Choice}{149}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2} Linux/Unix Terminal, Commands, and Environment Variables}{150}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}Working on Remote Resources}{151}{subsection.B.1.3}
+\contentsline {section}{\numberline {B.2} Installing, Writing and Executing Programs}{152}{section.B.2}
+\contentsline {subsection}{\numberline {B.2.1}Installing Available Packages}{152}{subsection.B.2.1}
+\contentsline {subsection}{\numberline {B.2.2}Available Programs and Packages for Thermal Transport Modeling}{153}{subsection.B.2.2}
+\contentsline {subsection}{\numberline {B.2.3}Writing Programs}{154}{subsection.B.2.3}
+\contentsline {subsubsection}{\numberline {B.2.3.1} Coding Languages: Compiled versus Interpreted}{154}{subsubsection.B.2.3.1}
+\contentsline {subsubsection}{\numberline {B.2.3.2}Case-study(a): Compiled Language, Lennard-Jones Argon Molecular Dynamics}{154}{subsubsection.B.2.3.2}
+\contentsline {subsubsection}{\numberline {B.2.3.3}Compiled versus Interpreted Case-study(b): Lennard-Jones Dispersion}{157}{subsubsection.B.2.3.3}
+\contentsline {subsubsection}{\numberline {B.2.3.4}Compiled versus Interpreted Case-study(c): Allen-Feldman Diffusivity Calculation}{157}{subsubsection.B.2.3.4}
+\contentsline {subsection}{\numberline {B.2.4}Executing Programs}{159}{subsection.B.2.4}
+\contentsline {subsubsection}{\numberline {B.2.4.1} Executing Locally: Rapid Development}{159}{subsubsection.B.2.4.1}
+\contentsline {subsubsection}{\numberline {B.2.4.2} Executing Remotely: Portable Batch Systems}{159}{subsubsection.B.2.4.2}
+\contentsline {subsubsection}{\numberline {B.2.4.3} Scaling Calculations}{159}{subsubsection.B.2.4.3}
+\contentsline {section}{\numberline {B.3}Preparing Journal Articles and Thesis}{160}{section.B.3}
+\contentsline {subsection}{\numberline {B.3.1}Journal Articles}{160}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.2}Thesis}{161}{subsection.B.3.2}
+\contentsline {subsection}{\numberline {B.3.3}Producing Figures}{161}{subsection.B.3.3}
+\contentsline {section}{\numberline {B.4}Technical Advice}{161}{section.B.4}
+\contentsline {subsection}{\numberline {B.4.1}Expert Advice}{162}{subsection.B.4.1}
+\contentsline {subsection}{\numberline {B.4.2}Online Resources}{162}{subsection.B.4.2}
+\contentsline {chapter}{Bibliography}{163}{appendix*.6}
