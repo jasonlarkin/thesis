@@ -2,48 +2,48 @@ This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cmuthesis_jlarkin.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 10359 items from 5000.
+Reallocated field_info (elt_size=4) to 10382 items from 5000.
 Database file #1: /home/jason/Dropbox/ntpl-paper/ntpl-072613.bib
 Warning--empty booktitle in slack_thermal_1979
-You've used 233 entries,
+You've used 234 entries,
             1791 wiz_defined-function locations,
-            1608 strings with 45270 characters,
-and the built_in function-call counts, 60199 in all, are:
-= -- 5084
-> -- 2898
+            1614 strings with 45334 characters,
+and the built_in function-call counts, 60377 in all, are:
+= -- 5099
+> -- 2902
 < -- 10
-+ -- 1052
-- -- 819
-* -- 5101
-:= -- 9658
-add.period$ -- 707
-call.type$ -- 233
-change.case$ -- 220
++ -- 1054
+- -- 820
+* -- 5116
+:= -- 9687
+add.period$ -- 710
+call.type$ -- 234
+change.case$ -- 221
 chr.to.int$ -- 0
-cite$ -- 234
-duplicate$ -- 2274
-empty$ -- 5753
-format.name$ -- 819
-if$ -- 13050
+cite$ -- 235
+duplicate$ -- 2283
+empty$ -- 5774
+format.name$ -- 820
+if$ -- 13089
 int.to.chr$ -- 0
-int.to.str$ -- 233
-missing$ -- 242
-newline$ -- 1169
-num.names$ -- 241
-pop$ -- 351
+int.to.str$ -- 234
+missing$ -- 243
+newline$ -- 1174
+num.names$ -- 242
+pop$ -- 352
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 962
+skip$ -- 965
 stack$ -- 0
-substring$ -- 5412
-swap$ -- 391
+substring$ -- 5421
+swap$ -- 392
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 473
-width$ -- 236
-write$ -- 2565
+while$ -- 475
+width$ -- 237
+write$ -- 2576
 (There was 1 warning)

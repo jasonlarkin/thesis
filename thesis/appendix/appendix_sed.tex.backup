@@ -8,8 +8,8 @@ Derivation of Phonon Spectral Energy Density, $\Phi$}
 %--------------------------------------------------------------------------
 
 To derive the correct expression for the phonon SED, $\Phi$, we begin 
-with harmonic lattice dynamics theory.\cite{wallace_thermodynamics_1972,
-dove_introduction_1993} In reciprocal space, the system Hamiltonian, 
+with harmonic lattice dynamics theory \cite{wallace_thermodynamics_1972,
+dove_introduction_1993}. In reciprocal space, the system Hamiltonian, 
 $H$, is
 \begin{equation}\label{E:H_HLD}
 \begin{split}
@@ -25,7 +25,11 @@ $n$ are
 the total number of unit cells and the number of atoms in the unit cell.
 The
 Hamiltonian is the total system energy and is the sum of the mode- and
-time-dependent kinetic and potential energies, $T\kvt$ and $V\kvt$.  The
+time-dependent kinetic and potential energies, $T\kvt$ and $V\kvt$.
+\nomenclature[A]{$H$}{system Hamiltonian} 
+\nomenclature[V]{$T\kvt$}{normal mode kinetic energy}
+\nomenclature[V]{$V\kvt$}{normal mode potential energy} 
+The
 phonon normal mode coordinate, $q\kvt$ and its time derivative, 
 $q\kvt$, are given by
 \begin{equation}\label{A:E:q_HLD}
@@ -41,18 +45,23 @@ and
 e^*\kvba\EXP{i\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}},
 \end{split}
 \end{equation}
-where $m_b$ is the mass of the $b^{\textrm{th}}$ atom in the unit cell and
+where $m_b$ is the mass of the $b^{\textrm{th}}$ atom in the unit 
+cell and
 $\mathbf{r}_0\ab{l}{0}$ is the equilibrium position vector of the
-$l^{\textrm{th}}$ unit cell. The $\alpha$-component of the displacement from
-equilibrium, $u_{\alpha}\lbt$, and velocity, $\dot{u}_{\alpha}\lbt$, of the
-$b^{\textrm{th}}$ atom in the $l^{\textrm{th}}$ unit cell are time-dependent
-and are related to the phonon mode coordinates through the time-independent
+$l^{\textrm{th}}$ unit cell. The $\alpha$-component of the displacement 
+from
+equilibrium, $u_{\alpha}\lbt$, and velocity, $\dot{u}_{\alpha}\lbt$, 
+of the
+$b^{\textrm{th}}$ atom in the $l^{\textrm{th}}$ unit cell are 
+time-dependent
+and are related to the phonon mode coordinates through the 
+time-independent
 eigenvector that has components $e\kvba$. 
 
 The potential and kinetic energies of the normal mode are
 \begin{equation}\label{A:E:q_U}
 \begin{split}
-V\kvt = \frac{1}{2} \omega \kv^2 q^*\kvt q\kvt
+V\kvt = \frac{1}{2} \omega_0^2\kv q^*\kvt q\kvt
 \end{split}
 \end{equation}
 and
@@ -88,14 +97,14 @@ The steady-state ($SS$) and transient ($T$) parts and their time
 derivatives are given by
 \begin{equation}\label{A:E:q_A_SS}
 \begin{split}
-q_{SS}\kvt=& C_1\kv\exp[i\omega_0\kv t]
-\\& +C_2\kv\exp[-i\omega_0\kv t],
+q_{SS}\kvt=& C_1\kv\exp[i\omega_0\kv t] + 
+C_2\kv\exp[-i\omega_0\kv t],
 \end{split}
 \end{equation}
 \begin{equation}\label{A:E:q_A_T}
 \begin{split}
-q_{T}\kvt=& \EXP{-\Gamma\kv |t|}\lbrace C_3\kv\EXP{i\omega_0\kv t}
-\\ &-C_4\kv\EXP{-i\omega_0\kv t } \rbrace,
+q_{T}\kvt=& \EXP{-\Gamma\kv |t|}\lbrace C_3\kv\EXP{i\omega_0\kv t} - 
+C_4\kv\EXP{-i\omega_0\kv t } \rbrace,
 \end{split}
 \end{equation}
 \begin{equation}\label{A:E:qdot_A_SS}
@@ -123,14 +132,15 @@ $t<0$ and its decay back to equilibrium for $t>0$.
 Phonon population fluctuations are commonly modeled using the excitation 
 and decay of
 a single phonon mode (i.e., the single mode relaxation time approximation).
+\cite{ziman_electrons_2001} 
 In a real system, there will be multiple phonons in
 each mode that simultaneously grow or decay with time.  Thus, dealing 
 only
 with $\dot{q}$, we let
 \begin{equation}\label{A:E:qdot_A_kvbat}
 \begin{split}
-\dot{q}\kvt =& \sum_j i\EXP{-\Gamma\kv |t-t_j|}\times \\
-& \lbrace A_j\kv\left[\omega_0\kv+i\Gamma\kv\right]
+\dot{q}\kvt =& \sum_j i\EXP{-\Gamma\kv |t-t_j|}\times 
+\lbrace A_j\kv\left[\omega_0\kv+i\Gamma\kv\right]
 \EXP{i\omega_0\kv (t-t_j)} \\
 & -B_j\kv \left[\omega_0\kv-i\Gamma\kv\right]\EXP{-i\omega_0\kv (t-t_j) }
 \; \rbrace,
@@ -155,7 +165,7 @@ domain is
 \end{equation}
 The expectation value of the kinetic energy of the normal mode can 
 be transformed from the time domain to the
-frequency domain by Parseval's theorem,\cite{rudin_real_1987} giving
+frequency domain by Parseval's theorem \cite{rudin_real_1987}, giving
 \begin{equation}\label{A:E:ave_T_w1}
 \begin{split}
 T\kvw=&\lim_{\tau_0\rightarrow\infty}\frac{1}{2\tau_0}
@@ -211,7 +221,8 @@ a superposition of $3n$ Lorentzian
 functions with centers at $\omega_0\kv$ (one for each polarization) with 
 a linewidth (half-width at half-maximum) of
 $\Gamma\kv$. $\Phi$ is a spectral energy density since its integral over 
-all wavevectors and frequencies is the total crystal energy, i.e., the Hamiltonian is
+all wavevectors and frequencies is the total crystal energy, i.e., 
+the Hamiltonian is
 \begin{equation}\label{A:E:equipartition}
 \begin{split}
 H=\int\limits_{V_{BZ}} \int_{0}^{\infty}\Phi(\pmb{\kappa},\omega)d\omega 
@@ -219,8 +230,8 @@ d\pmb{\kappa},
 \end{split}
 \end{equation}
 where $V_{BZ}$ is the volume of the first Brillouin zone.  Like the 
-frequency broadening, there is also a broadening of the SED in wavevector.
-\cite{turney_predicting_2009-1} For a finite sampling of the 
+frequency broadening, there is also a broadening of the SED in wavevector 
+\cite{turney_predicting_2009-1}. For a finite sampling of the 
 first Brillouin zone, 
 the Hamiltonian can be approximated by
 \begin{equation}\label{A:E:equipartition}
@@ -237,9 +248,9 @@ H \approx 2\sum_{\pmb{\kappa},\nu}^{N,3n}\langle T\kvt\rangle =
 
 As demonstrated in Section \ref{S:Subsection_prop_LJ}, $\Phi'$ is not 
 the phonon spectral energy density, $\Phi$, defined by Eq$.$ 
-\eqref{E:Lorentzian_NMD_fft}. Our findings and those of others,
+\eqref{E:Lorentzian_NMD_fft}. Our findings and those of others 
 \cite{maruyama_molecular_2003,koker_thermal_2009,
-thomas_predicting_2010,qiu_molecular_2011,shiomi_thermal_2011} 
+thomas_predicting_2010,qiu_molecular_2011,shiomi_thermal_2011}, 
 however, suggest that $\Phi'$ does contain accurate information about 
 the phonon frequencies. To understand this expression, we start with 
 the real-space atomic velocities as 
@@ -268,7 +279,7 @@ and the Cartesian directions yields
 \int_{0}^{\tau_0}\dot{q}\kvt\EXP{\Theta}dt \right\rvert^2 ,
 \end{split}
 \end{equation}
-where the the sum over $\pmb{\kappa}^{'}$ on the right-hand-side is 
+where the sum over $\pmb{\kappa}^{'}$ on the right-hand-side is 
 reduced to a 
 single wavevector by the orthogonality of the allowed wavevectors over 
 the periodic 
@@ -332,8 +343,10 @@ summations over $\alpha$ and $b$ occur inside the square modulus
 for Eq. \eqref{Dynam_SF}. With the summations inside the 
 square modulus, the orthonormality of the mode eigenvectors 
 can be used to show that the static and dynamic 
-structure factors are equivalent under the harmonic approximation.
-\cite{beltukov_ioffe-regel_2013} 
+structure factors are equivalent under the harmonic approximation 
+\cite{beltukov_ioffe-regel_2013}.
+\nomenclature[V]{$S_{D}(\pmb{\kappa},\omega)$}{displacement structure factor} 
+
 % The structure factors also obey the sum rule,
 % \begin{equation}\label{Delta_SED}
 % \begin{split}
@@ -346,160 +359,188 @@ structure factors are equivalent under the harmonic approximation.
 
 
 
-% %--------------------------------------------------------------------------
-% \section{\label{A:unitcell}Unit Cell and Supercell Representations (WORK)}
-% %--------------------------------------------------------------------------
-% 
-% %--------------------------------------------------------------------------
-% \subsection{\label{A:unitcell}Primitive and Conventional 
-% Unit Cells (WORK)}
-% %--------------------------------------------------------------------------
-% 
-% Harmonic lattice dynamics is a framework for determining the frequencies 
-% and mode shapes of a linear mass-spring system. For a periodic system, 
-% the unit cell (i.e., the basis) and lattice vectors are first specified 
-% based on the atomic structure. This specification is not unique. For 
-% example, as shown in Table \ref{T-unitcell}, one can choose a one 
-% atom-basis and a face-centered cubic lattice (the primitive unit cell) 
-% or a four-atom basis and the simple cubic lattice (the conventional unit 
-% cell) to describe the same structure. The unit cell choice may be related 
-% to theoretical or computational complexity, but will not affect the bulk 
-% properties (e.g., heat capacity or thermal conductivity).
-% 
-% 
-% 
-% The choice of unit cell and supecell size determines the allowed 
-% wavevectors of a system (see Section ). 
-% The choice of unit cell, however, does not affect the allowed 
-% wavevectors, only their representation. 
-% 
-% Let's use the LJ argon FCC crystal as an example.  The system has a one 
-% atom basis with the primitive unit cell. 
-% 
-% For supercells constructed 
-% using the conventional 
-% 
-% In general, there may not be a mapping There exists a mapping between 
-% 
-% The code works by recognizing that 
-% \href{http://en.wikipedia.org/wiki/Reciprocal_lattice#Face-centered_cubic_.28FCC.29_lattice}
-% {the reciprocal space for an FCC lattice is a BCC lattice}. 
-% 
-% \href{https://github.com/jasonlarkin/disorder/blob/master/matlab/m_lj_prim_conv_mapping.m}
-% {lennard-jones FCC primitive conventional mapping}
-% 
-% Note: this script can be run using the open-source package 
-% \href{http://www.gnu.org/software/octave/}{octave}.
-% 
-% %--------------------------------------------------------------------------
-% \renewcommand{\baselinestretch}{1.0}
-% \begin{table}[h]
-% \begin{center}
-% \begin{tabular}{p{1.5in}|p{2.0in}|p{2.0in}}
-% \hline
-% \hline
-% Unit Cell&Primitive (one atom) \newline 
-% \includegraphics{/home/jason/thesis/thesis/table3-unitcell1.eps} 
-% & Conventional (four atoms) 
-% \newline \includegraphics{/home/jason/thesis/thesis/table3-unitcell4.eps}\\ 
-% \hline
-% Basis& Face-centered Cubic & Simple Cubic\\ \hline
-% Lattice Vectors& ($a/2$, $a/2$, 0), \newline ($a/2$, 0, $a/2$), 
-% \newline (0, $a/2$, $a/2$)& ($a$, 0, 0), \newline (0, $a$, 0), 
-% \newline (0, 0, $a$)\\ \hline
-% Brillouin Zone& Truncated Octahedron \newline 
-% \includegraphics{/home/jason/thesis/thesis/table3-bz1.eps} & Cube \newline 
-% \includegraphics{/home/jason/thesis/thesis/table3-bz4.eps}\\ \hline
-% Number of \newline Wave Vectors& $N$ & $N/4$\\ \hline
-% Polarizations/\newline Wave Vector& 3 & 12\\ \hline
-% \hline
-% \end{tabular}
-% \end{center}
-% \caption{The unit cell for a face-centered cubic crystal can be chosen 
-% in different ways.}
-% \label{T-unitcell}
-% \end{table}
-% \renewcommand{\baselinestretch}{2.0}
-% %--------------------------------------------------------------------------
-% 
-% \clearpage
-% 
-% The selection of the unit cell sets the shape of the Brillouin zone and 
-% the points that will be resolved inside it (i.e., the allowed wave 
-% vectors, $\pmb{\kappa}$). For a simulation cell with $N$ atoms, there 
-% are $3N$ normal modes. If the unit cell has one atom, there will be $N$ 
-% allowed wave vectors, each with three polarizations (i.e., dispersion 
-% branches, which we will denote by $\nu$). For a four-atom unit cell, 
-% there will be $N/4$ allowed wave vectors, each with 12 polarizations. 
-% In general, the choice of an $n$-atom unit cell will lead to $N/n$ 
-% allowed wave vectors, each with 3$n$ polarizations. As such, there are 
-% always $3N$ normal modes.
-% 
-% %--------------------------------------------------------------------------
-% \subsection{\label{A:symmetry}Crystal Symmetries (WORK)}
-% %--------------------------------------------------------------------------
-% 
-% Symmetry operations define the properties of a crystal. 
-% This applies to any vector or tensor property of the crystal. The 
-% symmetries do not depend on the unit cell represenation, although 
-% conventional unit cells may have additional symmetries compared 
-% to the primitive unit cells which is due to the redundant information of 
-% using a conventional cell. 
-% 
-% Ab initio codes such as abinit and quantum espresso also print the 
-% symmetry operations information. The 
-% \href{http://spglib.sourceforge.net/}{spglib} 
-% package contains a library of routines for utilizing the 
-% symmetry operations of.
-% 
-% Contact Ankit Jain for more information on symmetry operations 
-% and their application to thermal transport calculations. 
-% 
-% For the crystalline systems studied in Section , the wavevectors 
-% are averaged over according to their symmetries, 
-% which reduces the list of wavevectors to the first octant of the 
-% cubic BZ.\cite{mcgaughey_phonon_2004} This reduction is equivalent 
-% to applying roations of the 
-% \href{http://en.wikipedia.org/wiki/Rotation_group_SO(3)}
-% {SO(3) Group}, or the group of 90 degree rotations in Euclidean 
-% (3-dimensional) space. 
-% Any succesive combination of 90 degree roations is also a symmetry 
-% operation. This property leads to the identity
-% \begin{equation}\label{EQ:kpt_sym}
-%  \begin{split}
-%   \pmb{\kappa} = -\pmb{\kappa},
-%  \end{split}
-% \end{equation}
-% which is the application of two 90 degree rotations, and is a 
-% \href{http://en.wikipedia.org/wiki/Parity_(physics)#Odd}
-% {general property of any crystal}. 
-% 
-% \href{https://github.com/jasonlarkin/disorder/blob/master/matlab/issym.m}
-% {Here is a matlab function} which compares two vectors 
-% and checks if they are related by any number of orthogonal 
-% rotations.
-% 
-% For the LJ argon example, further reduction  of the wavectors is 
-% possible by using all symmetry 
-% \href{http://spglib.sourceforge.net/#rotation}{rotation operations} 
-% of the 
-% \href{http://www.wolframalpha.com/input/?i=face-centered+cubic}
-% {face centered cubic lattice}. Additional 
-% \href{http://en.wikipedia.org/wiki/Translational_symmetry}
-% {translational symmetry operations} may exist. 
-% For example, for the cubic conventional cell of LJ argon, translational 
-% symmetries ensure that all four atoms in the unit cell are 
-% equivalent. Thus, the conventional cell has more total 
-% symmetries (rotational plus translational) than the primitive cell, 
-% which is due to the redundant information contained within it. Similar 
-% to conventional unit cells, crystalline supercells also have a larger 
-% number of translational symmetries.
-% 
-% %--------------------------------------------------------------------------
-% \subsection{\label{A:unitcell}Primitive, Conventional, and Supercell 
-% Representations using Normal Mode Decomposition (WORK)}
-% %--------------------------------------------------------------------------
-% 
+%--------------------------------------------------------------------------
+\section{\label{A:unitcell}Unit Cell and Supercell Representations}
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{\label{A:unitcell:unitcell}Unit Cell Choice}
+%--------------------------------------------------------------------------
+
+Harmonic lattice dynamics is a framework for determining the frequencies 
+and mode shapes of a linear mass-spring system. For a periodic system, 
+the unit cell (i.e., the basis) and lattice vectors are first specified 
+based on the atomic structure. This specification is not unique. For 
+example, as shown in Table \ref{T-unitcell}, one can choose a one 
+atom-basis and a face-centered cubic lattice (the primitive unit cell) 
+or a four-atom basis and the simple cubic lattice (the conventional unit 
+cell) to describe the same structure. The unit cell choice may be related 
+to theoretical or computational complexity, but will not affect the bulk 
+properties (e.g., heat capacity or thermal conductivity).
+
+The selection of the unit cell defines the shape of the Brillouin zone 
+and the reciprocal points that will be accessible inside it 
+(i.e., the allowed wave vectors, $\pmb{\kappa}$). 
+A supercell can be constructed from either the primitive or conventional 
+unit cell. For a unit cell that is the supercell, the only allowed 
+wavevector is $\mathbf{\kappa} = \mathbf{0}$ (i.e., the Gamma point). 
+A supercell constructed using the conventional unit cell 
+with $N_0 = 4$ is shown in Table \ref{T-unitcell}, where $N_0$ is the 
+number of unit cells tiled along all three lattice vectors 
+(Section \ref{Subsection_Comp_Details_1}). For a supercell 
+constructed using the conventional unit cell, the allowed wave 
+vectors can be labeled using either the conventional or primitive unit 
+cell description.  For a supercell built using the primitive unit cell, 
+however, all wave vectors cannot be labeled using the conventional unit 
+cell description. The number of allowed wavevectors are given 
+in Table \ref{T-unitcell}.
+
+\href{https://github.com/jasonlarkin/disorder/blob/master/matlab/m_lj_prim_conv_mapping.m}
+{Here is a matlab code} that lists the allowed wavevectors of a supercell 
+constructed from the conventional unit cell according to both 
+primitive and conventional unit cell representations. The code maps 
+the wavevectors onto the first Brillouin zone of the primitive cell. 
+The code works by recognizing that 
+\href{http://en.wikipedia.org/wiki/Reciprocal_lattice#Face-centered_cubic_.28FCC.29_lattice}
+{the reciprocal space for an face centered cubic lattice is a body centered cubic lattice}. 
+Note that this script can be run using the open-source package 
+\href{http://www.gnu.org/software/octave/}{octave}.
+
+For a supercell with $N_a$ atoms, there 
+are $3N$ normal modes. If the unit cell has one atom, there will be $N$ 
+allowed wave vectors, each with three polarizations (i.e., dispersion 
+branches, which we will denote by $\nu$). For a four-atom unit cell, 
+there will be $N/4$ allowed wave vectors, each with 12 polarizations. 
+In general, the choice of an $n$-atom unit cell will lead to $N/n$ 
+allowed wave vectors, each with 3$n$ polarizations. As such, there are 
+always $3N$ normal modes.
+
+
+ 
+
+
+%--------------------------------------------------------------------------
+\renewcommand{\baselinestretch}{1.0}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{p{1.0in}|p{1.5in}|p{1.5in}|p{1.5in}}
+\hline
+\hline
+Unit Cell
+&\href{https://github.com/jasonlarkin/disorder/blob/master/matlab/gulp_disp_lj_prim.tmp}
+{Primitive}\newline 
+\includegraphics[scale=0.2]{/home/jason/thesis/thesis/lj_ucell_prim.eps} 
+& \href{https://github.com/jasonlarkin/disorder/blob/master/matlab/gulp_disp_lj_conv.tmp}
+{Conventional}
+\newline \includegraphics[scale=0.2]{/home/jason/thesis/thesis/lj_ucell_conv.eps} 
+& \href{https://raw.github.com/jasonlarkin/disorder/master/lj/alloy/10K/0.0/4x/GK/lmp.in.x0.1}
+{Gamma} (supercell)
+\newline \includegraphics[scale=0.2]{/home/jason/thesis/thesis/lj_sucell_conv.eps}\\
+\hline
+Basis
+& 1 atom 
+& 4 atoms
+& 256 atoms\\ \hline
+Lattice Vectors
+& ($a/2$, $a/2$, 0), \newline ($a/2$, 0, $a/2$), 
+\newline (0, $a/2$, $a/2$)
+& ($a$, 0, 0), \newline (0, $a$, 0), 
+\newline (0, 0, $a$) 
+& ($4a$, 0, 0), \newline (0, $4a$, 0), 
+\newline (0, 0, $4a$)\\ \hline
+Brillouin Zone
+& Truncated Octahedron \newline 
+\includegraphics[scale=0.18]{/home/jason/thesis/thesis/lj_octahedron.eps} 
+& Cube \newline 
+\includegraphics[scale=0.18]{/home/jason/thesis/thesis/lj_cubic.eps}
+& Cube \newline 
+\includegraphics[scale=0.18]{/home/jason/thesis/thesis/lj_cubic_super.eps}\\ \hline
+Number of \newline Wave Vectors
+& 256 
+& 64
+& 1\\ \hline
+Polarizations/\newline Wave Vector
+& 3 
+& 12
+& 768\\ \hline
+\hline
+\end{tabular}
+\end{center}
+\caption{The unit cell for a face-centered cubic crystal can be chosen 
+in different ways.}
+\label{T-unitcell}
+\end{table}
+\renewcommand{\baselinestretch}{2.0}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\subsection{\label{A:symmetry}Crystal Symmetries}
+%--------------------------------------------------------------------------
+
+Symmetry operations reduce the information necessary to describe 
+the atomic configuration of crystalline materials. The symmetry 
+operations apply to any vector or tensor property of the crystal.
+\cite{ashcroft_solid_1976} The 
+\href{http://spglib.sourceforge.net/}{spglib} 
+package contains a library of routines for utilizing the 
+symmetry operations of crystals, with 
+\href{http://spglib.sourceforge.net/#definition-of-symmetry-operation}
+{good discussion} and 
+\href{http://spglib.sourceforge.net/#example}{examples}. 
+$\emph{Ab initio}$ codes, such as 
+\href{http://www.abinit.org/}{ABINIT} and 
+\href{http://www.quantum-espresso.org/}{Quantum Espresso}, print the 
+symmetry operations during an electron structure 
+calculation. 
+
+For the crystalline and virtual crystalline LJ argon and SW silicon 
+systems studied in this work, 
+the wavevectors are averaged over according to their symmetries,   
+which reduces the list of wavevectors to the first octant of the 
+cubic Brillouin zone.\cite{mcgaughey_phonon_2004} This reduction is equivalent 
+to applying rotations of the 
+\href{http://en.wikipedia.org/wiki/Rotation_group_SO(3)}
+{SO(3) Group}, or the group of 90 degree rotations in Euclidean 
+(3-dimensional) space. 
+Any successive combination of 90 degree rotations is also a symmetry 
+operation. This property leads to the identity
+\begin{equation}\label{EQ:kpt_sym}
+ \begin{split}
+  \pmb{\kappa} = -\pmb{\kappa},
+ \end{split}
+\end{equation}
+which is the application of two 90 degree rotations, and is a 
+\href{http://en.wikipedia.org/wiki/Parity_(physics)#Odd}
+{general property of any crystal}. 
+\href{https://github.com/jasonlarkin/disorder/blob/master/matlab/issym.m}
+{Here is a matlab function} which compares two vectors 
+and checks if they are related by any number of orthogonal 
+rotations.
+
+For the face centered cubic crystals studied in this work, 
+further reduction of the wavevectors within the first octant 
+is possible by using all symmetry 
+\href{http://spglib.sourceforge.net/#rotation}{rotation operations} 
+of the 
+\href{http://www.wolframalpha.com/input/?i=face-centered+cubic}
+{face centered cubic lattice}. Additional 
+\href{http://en.wikipedia.org/wiki/Translational_symmetry}
+{translational symmetry operations} may exist. 
+For example, the cubic conventional cell of LJ argon has a four atom 
+basis where every atom is equivalent. Translational 
+symmetry operations ensure that all four atoms in the unit cell are 
+equivalent. Thus, the conventional cell has more total 
+symmetries (rotational plus translational) than the primitive cell, 
+which is due to the redundant information contained within it 
+(Section \ref{A:unitcell}). 
+ 
+
+%--------------------------------------------------------------------------
+\subsection{\label{A:unitcell}Using Normal Mode Decomposition}
+%--------------------------------------------------------------------------
+
 % Having described the normal mode decomposition theoretical approach and 
 % computational methodology in Sections \ref{S-NMDformulation} and 
 % \ref{S-workflow}, we now carry out a case study on a LJ crystal at a 
@@ -512,168 +553,107 @@ structure factors are equivalent under the harmonic approximation.
 % The zero pressure lattice constant is 1.556 (Ref. 
 % \citenum{mcgaughey_phonon_2004}) 
 % and the potential energy is cutoff and shifted at a distance of 2.5.
-% 
-% From the same simulation cell and atomic data, one can perform normal 
-% mode decomposition on either the primitive or conventional unit cells.
-% \footnote{The allowed wave vectors are defined by the basis
-% and the supercell used to perform the MD simulations. For a supercell 
-% built using the conventional unit cell, as we use, the allowed wave 
-% vectors can be labeled using either the conventional or primitive unit 
-% cell description.  For a supercell built using the primitive unit cell, 
-% however, all wave vectors cannot be labeled using the conventional unit 
-% cell description.} The [100] and [111] dispersion curves and density of 
-% states obtained from harmonic lattice dynamics calculations are plotted 
-% for each unit cell in Figs. \ref{F-dispersion}(a) and (b). While the 
-% dispersion curves in each direction show similarities, they are 
-% necessarily different due to the allowed wave vectors and shape of the 
-% Brillouin zone (see Table \ref{T-unitcell}). The density of states, 
-% however, are identical, as expected and required. We note that the 
-% conventional unit cell description leads to what appear to be optical 
-% modes. In reality, these modes are a result of zone folding and can be 
-% mapped directly to acoustic modes in the primitive unit cell description.
-% 
-% The MD simulations are run in the $NVE$ ensemble, the dimensionless 
-% time step is 0.002, and the equations of motion are integrated using 
-% the velocity Verlet algorithm. The system is equilibrated for $2^{20}$ 
-% time steps before collecting data every 25 time steps for an additional 
-% $2^{20}$ time steps. In order to capture system-size effects, cubic 
-% simulation cells with between 256 and 6912 atoms are considered 
-% (corresponding to between four and twelve conventional unit cells, $N_0$, 
-% in each of the $x$, $y$, and $z$ directions). Ten simulations are 
-% performed with different initial velocities and the autocorrelations 
-% (or Fourier transforms) are averaged over the initial conditions and 
-% symmetric wave vectors before fitting the phonon properties.
-% 
-% \vspace{10mm}
-% %\clearpage
-% 
-% \begin{figure}[t]
-% \begin{center}
-% \includegraphics[scale=1]
-% {/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2.eps}
-% \includegraphics[scale=1]
-% {/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2.eps}
-% \caption{\label{F-dispersion} {Dispersion curves and full Brillouin zone 
-% density of states for a LJ crystal at a dimensionless temperature of 
-% 0.0827. (a) [100] and [111] dispersion curves and density of states 
-% based on the primitive (i.e., one atom) unit cell. (b) [100] and [111] 
-% dispersion curves and density of states based on the conventional (i.e., 
-% four atom) unit cell. The harmonic lattice dynamics calculations are 
-% performed using a resolution of sixteen wave vectors along the reciprocal 
-% lattice vectors of the conventional unit cell. The red and blue dots in 
-% (b) are the modes considered in Fig. \ref{F-bulkfitting}.}}
-% \end{center}\normalsize
-% \vspace*{-0mm}
-% \end{figure}
-% 
-% \vspace{10mm}
-% \clearpage
-% 
-% The lifetimes predicted from the frequency-domain analysis for the 
-% primitive and conventional unit cell representations of the $N_0=10$ 
-% system are plotted in Fig. \ref{F-bulklifetimes}(a). The difference 
-% between the lifetimes is less than 5\%, which is within the uncertainty 
-% of the fitting. A $1/\omega^2$ scaling, predicted from theory for 
-% phonon-phonon scattering at low frequencies \cite{callaway_model_1959}, 
-% is plotted and is in good agreement with the trend in the data at low 
-% frequencies. Also plotted is the Ioffe-Regel (IR) limit 
-% \cite{taraskin_determination_1999},
-% \begin{eqnarray}
-% \tau_{IR} = \f{2 \pi}{\omega},
-% \end{eqnarray}
-% which corresponds to when the phonon lifetime is equal to its period. 
-% All the modes in the perfect system have lifetimes well above this limit. 
-% It is interesting to note that the phonon lifetimes do not decrease 
-% monotonically with increasing frequency, with a maximum observed near 
-% $\omega = 18$. Such a maximum is also observed in silicon lifetimes 
-% obtained from the SW potential \cite{turney_-plane_2010} and from DFT 
-% calculations \cite{esfarjani_heat_2011}.
-% 
-% \begin{figure}[t]
-% \begin{center}
-% \includegraphics[scale=1]
-% {/home/jason/Dropbox/book/m_book_lj_nmd_prim_conv_compare-2.eps}
-% \caption{\label{F-bulklifetimes} Lennard-Jones lifetimes from a 
-% $N_0=10$ system at a temperature of 0.0827 predicted from normal mode 
-% decomposition analysis on (a) the primitive and conventional unit 
-% cells, and (b) treating the simulation cell as the unit cell (i.e., 
-% Gamma-point analysis). All lifetimes extracted from time-domain analysis.}
-% \end{center}\normalsize
-% \end{figure}
-% 
-% \clearpage
-% 
-% In performing the normal mode decomposition, one is not limited to the 
-% primitive or conventional unit cells. As needed for disordered systems 
-% (see Sections \ref{S-alloy} and \ref{S-amorphous}) one can define the 
-% simulation cell as the unit cell, such that all normal modes have 
-% $\pmb{\kappa}=\mathbf{0}$ (i.e., they are all at the Gamma-point).
-% \footnote{In Gamma-point analysis, all normal modes have zero group 
-% velocity and it is not possible to predict mean free paths or thermal 
-% conductivity.} The lifetimes for Gamma-point analysis for the same MD 
-% data used to generate the lifetimes in Fig.\ref{F-bulklifetimes}(a)   
-% are plotted in Fig.\ref{F-bulklifetimes}(b). The trends for the 
-% Gamma-point analysis are the same as for the primitive and conventional 
-% unit cells. There is more scatter in the Gamma-point data as wave 
-% vector symmetry averaging is no longer possible.
-% 
-% The phonon properties obtained from normal mode decomposition and 
-% harmonic lattice dynamics calculations can now be used to predict bulk 
-% thermal conductivity using Eq.\eqref{E-kBTE}. For classical MD 
-% simulations the assumption of equipartition of energy is very good and 
-% we take the volumetric specific heat to be $k_\mathrm{B}/V$ for all 
-% modes \cite{mcgaughey_quantitative_2004,goicochea_thermal_2010,
-% larkin_comparison_2012}.
-% 
-% The Gamma point corresponds to bulk translation and therefore does not 
-% contribute to thermal conductivity. By discretizing the Brillouin zone, 
-% we assign a volume to the Gamma point. The zero contribution of this 
-% volume to the thermal conductivity introduces a size effect in the 
-% prediction. To predict a bulk thermal conductivity, an extrapolation 
-% procedure is used, whereby $k$ is plotted versus $1/N_o$ and a line is 
-% fit to the data. The point on this line where $1/N_o=0$ gives the bulk 
-% thermal conductivity \cite{turney_predicting_2009,esfarjani_heat_2011}. 
-% This extrapolation 
-% procedure requires that the low-frequency modes be dominated by
-% intrinsic scattering (i.e., $\tau \propto \omega^{-2}$) and have a 
-% similar group velocity \cite{shiomi_thermal_2011,esfarjani_heat_2011}. 
-% For the LJcrystal, this requirement is satisfied for modest system sizes
-% ($N_0 \ge 6$). The size-dependent and extrapolated thermal conductivities 
-% are plotted in Fig.\ref{F-bulksizeeffect} for both the primitive and 
-% conventional unit cells. The Green-Kubo predictions for the same system 
-% are also plotted and show no size effect, consistent with previous work 
-% \cite{mcgaughey_quantitative_2004}.
-% 
-% % \begin{figure}[t]
-% % \begin{center}
-% % \includegraphics[scale=1.0]
-% % {/home/jason/Dropbox/book/m_book_cond_extrap_c0-3_boxon.eps}
-% % \caption{\label{F-bulksizeeffect} Size dependence of thermal conductivity 
-% % for the LJ crystal at a temperature of 0.0827 from normal mode 
-% % decomposition and the Green-Kubo method.}
-% % \end{center}\normalsize
-% % \vspace*{-0mm}
-% % \end{figure}
-% 
-% The extrapolated thermal conductivities from the primitive and 
-% conventional unit cells are $177 \pm 15$ and $176 \pm 14$ W/m-K. 
-% The Green-Kubo thermal conductivity is $173 \pm 13$ W/m-K. All thermal 
-% conductivities agree well within their respective uncertainties.
-% 
-% For the perfect LJ crystal, there is no clear advantage of performing 
-% the analysis in the time or frequency domains or for the primitive or 
-% conventional unit cells. Challenges may emerge for high thermal 
-% conductivity materials like silicon or carbon nanotubes, where the 
-% time-domain decay may not be well described by an exponential and the 
-% peaks in frequency space get narrow or are not well-fit by a Lorentzian. 
-% The failure of the fitting for a perfect crystal is an indication that 
-% the relaxation time approximation may not be appropriate and that care 
-% should be taken when interpreting the results. In general, new materials 
-% should be investigated on a case-by-case basis to determine the approach 
-% that minimizes the uncertainty.
+
+From the same simulation cell and atomic data, one can perform the NMD 
+method on either the primitive or conventional unit cells. 
+The allowed wave vectors are defined by the basis 
+and the supercell used to perform the MD simulations. 
+
+The [100] and [111] dispersion curves and density of 
+states obtained from harmonic lattice dynamics calculations are plotted 
+for each unit cell in Figs. \ref{F-dispersion}(a) and (b). While the 
+dispersion curves in each direction show similarities, they are 
+necessarily different due to the allowed wave vectors and shape of the 
+Brillouin zone (see Table \ref{T-unitcell}). The density of states, 
+however, are identical, as expected and required. Note that the 
+conventional unit cell description leads to what appear to be optical 
+modes. These modes are a result of zone folding and can be 
+mapped directly to acoustic modes in the primitive unit cell description.
+
+The lifetimes predicted from the frequency-domain analysis ($\Phi$) 
+for the primitive and conventional unit cell representations of the 
+$N_0=10$ 
+system are plotted in Fig. \ref{F-bulklifetimes}(a). The difference 
+between the lifetimes is less than 5\%, which is within the uncertainty 
+of the fitting. A $1/\omega^2$ scaling, predicted from theory for 
+phonon-phonon scattering at low frequencies \cite{callaway_model_1959}, 
+is plotted and is in good agreement with the trend in the data at low 
+frequencies. Also plotted is the Ioffe-Regel (IR) limit 
+\cite{taraskin_determination_1999}, 
+which corresponds to when the phonon lifetime is equal to its period. 
+All the modes in the perfect system have lifetimes well above this limit. 
+It is interesting to note that the phonon lifetimes do not decrease 
+monotonically with increasing frequency, with a maximum observed near 
+$\omega = 18$. Such a maximum is also observed in silicon lifetimes 
+obtained from the SW potential \cite{turney_-plane_2010} and from DFT 
+calculations \cite{esfarjani_heat_2011}.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[scale=1]
+{/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2.eps}
+\includegraphics[scale=1]
+{/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2.eps}
+\caption{\label{F-dispersion} {Dispersion curves and full Brillouin zone 
+density of states for a LJ crystal at a dimensionless temperature of 
+10 K. (a) [100] and [111] dispersion curves and density of states 
+based on the primitive (i.e., one atom) unit cell. (b) [100] and [111] 
+dispersion curves and density of states based on the conventional (i.e., 
+four atom) unit cell. The harmonic lattice dynamics calculations are 
+performed using a resolution of sixteen wave vectors along the reciprocal 
+lattice vectors of the conventional unit cell. The red and blue dots in 
+(b) are the modes considered in Fig. \ref{F-bulkfitting}.}}
+\end{center}\normalsize
+\vspace*{-0mm}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[scale=1]
+{/home/jason/Dropbox/book/m_book_lj_nmd_prim_conv_compare-2.eps}
+\caption{\label{F-bulklifetimes} Lennard-Jones lifetimes from a 
+$N_0=10$ system at a temperature of 10 K predicted from the NMD method 
+on (a) the primitive and conventional unit 
+cells, and (b) treating the simulation cell as the unit cell (i.e., 
+Gamma-point analysis). All lifetimes extracted from frequency-domain analysis 
+($\Phi$).}
+\end{center}\normalsize
+\end{figure}
+
+\clearpage
+
+In performing the normal mode decomposition, one is not limited to the 
+primitive or conventional unit cells. As needed for disordered systems 
+(see Sections \ref{chapter:vc} and \ref{chapter:mfp}) one can define the 
+simulation cell as the unit cell, such that all normal modes have 
+$\pmb{\kappa}=\mathbf{0}$ (i.e., they are all at the Gamma-point). 
+In Gamma-point analysis, all normal modes have zero group 
+velocity according to the parity relation [Eq. \eqref{EQ:kpt_sym}] and 
+it is not possible to predict mean free paths or thermal 
+conductivity. The lifetimes for Gamma-point analysis for the same MD 
+data used to generate the lifetimes in Fig.\ref{F-bulklifetimes}(a)   
+are plotted in Fig.\ref{F-bulklifetimes}(b). The trends for the 
+Gamma-point analysis are the same as for the primitive and conventional 
+unit cells. There is more scatter in the Gamma-point data as wave 
+vector symmetry averaging is no longer possible.
+
+For the perfect LJ crystal, there is no clear advantage of performing 
+the analysis in the time or frequency domains or for the primitive or 
+conventional unit cells. Challenges may emerge for high thermal 
+conductivity materials like silicon or carbon nanotubes, where the 
+time-domain decay may not be well described by an exponential and the 
+peaks in frequency space get narrow or are not well-fit by a Lorentzian. 
+The failure of the fitting for a perfect crystal is an indication that 
+the relaxation time approximation may not be appropriate and that care 
+should be taken when interpreting the results. In general, new materials 
+should be investigated on a case-by-case basis to determine the approach 
+that minimizes the uncertainty.
 
 %--------------------------------------------------------------------------
-\section{\label{A:NMD XCORR}NMD using Non-Exact Normal Modes}
+\section{\label{A:NMD XCORR}Normal Mode Decomposition using Non-Exact 
+Normal Modes}
 %--------------------------------------------------------------------------
 
 In Chapter \ref{Chapter:SED}, it was shown how NMD is 
@@ -690,7 +670,7 @@ positions and velocities onto the normal modes of the unperturbed system.
 While one could perform the NMD by projecting 
 the atomic positions and velocities onto the modes of the unperturbed 
 system, it is more appropriate to use the virtual crystal approximation 
-(see Chapter \ref{chapter:vc}, Section \ref{S:From VC Gamma}). 
+(Section \ref{S:From VC Gamma}). 
 Under the virtual 
 crystal approximation, the system is replaced by one where all atoms 
 have the same mass, equal to the average of the atomic masses in the 
@@ -739,7 +719,7 @@ equilibrium ensemble.
 rajabpour_thermal_2010} The lifetimes predicted from the VC-NMD method 
 are in reasonable agreement with those predicted from the Gamma-NMD 
 method, which uses the exact normal modes of the disordered supercell 
-(see Section \ref{S:From VC Gamma}).  
+(Section \ref{S:From VC Gamma}).  
 
 % For a normal mode of the lattice supercell 
 % used for the MD simulations (i.e., a Gamma mode), 
@@ -782,26 +762,26 @@ method, which uses the exact normal modes of the disordered supercell
 % \end{figure}
 % %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\begin{figure}[t]
-\begin{center}
-\includegraphics[scale=1]
-{/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2.eps}
-\includegraphics[scale=1]
-{/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2.eps}
-\caption{\label{F-dispersion} {Dispersion curves and full Brillouin zone 
-density of states for a LJ crystal at a temperature of 
-10 K. (a) [100] and [111] dispersion curves and density of states 
-based on the primitive (i.e., one atom) unit cell. (b) [100] and [111] 
-dispersion curves and density of states based on the conventional (i.e., 
-four atom) unit cell. The harmonic lattice dynamics calculations are 
-performed using a resolution of sixteen wave vectors along the reciprocal 
-lattice vectors of the conventional unit cell. The red and blue dots in 
-(b) are the modes considered in Fig. \ref{F-bulkfitting}.}}
-\end{center}\normalsize
-\vspace*{-0mm}
-\end{figure}
-%--------------------------------------------------------------------------
+% %--------------------------------------------------------------------------
+% \begin{figure}[t]
+% \begin{center}
+% \includegraphics[scale=1]
+% {/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2.eps}
+% \includegraphics[scale=1]
+% {/home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2.eps}
+% \caption{\label{F-dispersion} {Dispersion curves and full Brillouin zone 
+% density of states for a LJ crystal at a temperature of 
+% 10 K. (a) [100] and [111] dispersion curves and density of states 
+% based on the primitive (i.e., one atom) unit cell. (b) [100] and [111] 
+% dispersion curves and density of states based on the conventional (i.e., 
+% four atom) unit cell. The harmonic lattice dynamics calculations are 
+% performed using a resolution of sixteen wave vectors along the reciprocal 
+% lattice vectors of the conventional unit cell. The red and blue dots in 
+% (b) are the modes considered in Fig. \ref{F-bulkfitting}.}}
+% \end{center}\normalsize
+% \vspace*{-0mm}
+% \end{figure}
+% %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
 \begin{figure}
@@ -824,57 +804,59 @@ be approximated using Eq. \eqref{E:tau_E_xcorr}, as shown in (d).
 \clearpage
 
 %--------------------------------------------------------------------------
-\section{\label{A:metastability}Effect of Metastability for 
-Amorphous Solids on Normal Mode Decomposition}
+\section{\label{A:metastability}Effect of Metastability on 
+Normal Mode Decomposition}
 %--------------------------------------------------------------------------
 
 Amorphous materials may have many different atomic 
 configurations with nearly equivalent potential energies, 
-leading to potential metastability during MD simulations.
+leading to potential metastability during MD simulations 
 \cite{buchenau_structural_1988,feldman_numerical_1999,
-durandurdu_<i>ab_2002,bernstein_structural_2006,he_heat_2011} 
+durandurdu_<i>ab_2002,bernstein_structural_2006,he_heat_2011}. 
 This meta-stability can 
 cause errors when predicting vibrational lifetimes using NMD, 
 which is demonstrated below. 
 
 This case study is performed on an amorphous LJ system with 2048 atoms 
 at a temperature of 5 K. 
-The amorphous solid is generated by liquifying the 
+The amorphous solid is generated by liquefying the 
 crystal, instantaneously removing all kinetic energy, and then relaxing 
-the structure (i.e., a melt-quench, see Sections \ref{S:Calculation} 
+the structure (i.e., a melt-quench, Sections \ref{S:Calculation} 
 and \ref{S:Sample}). 
 The MD simulation parameters are the same as for the 
-LJ crystal and alloy (see Section \ref{S:Calculation}). 
+LJ crystal and alloy (Section \ref{S:Calculation}). 
 The LJ 
 amorphous phase is metastable at this temperature and intermittently 
 moves between very similar low-energy states. Evidence for the 
 metastability can be found by analyzing the time-histories of the atomic 
-displacements. As such, normal mode decomposition, which requires the 
+displacements. As such, NMD, which requires the 
 average atomic positions, will be an approximation.
 
-The time- and frequency-domain approaches to normal mode decomposition 
+The time- and frequency-domain approaches to NMD 
 are shown for two mode in the amorphous system in 
-Figs.\ref{F-amorphousfitting}(a) and \ref{F-amorphousfitting}(b). 
+Figs. \ref{F-amorphousfitting}(a) and \ref{F-amorphousfitting}(b). 
 Because the analysis is performed at the Gamma-point, the peaks are 
 well formed, but they are not Lorentzian. 
-We believe that the oscillations in the total energy 
+The oscillations in the total energy 
 correlation for the low frequency mode is a consequence of the 
-metastability of the amorphous phase. As such, we extract the lifetimes 
-by using Eq.\eqref{E:tau_E_xcorr}, as shown in the inset to 
-Fig.\ref{F-amorphousfitting}(b). 
+metastability of the amorphous phase. As such, the lifetimes are extracted 
+by using Eq. \eqref{E:tau_E_xcorr}, as shown in the inset to 
+Fig. \ref{F-amorphousfitting}(b). 
 The lifetimes for the amorphous system are plotted in 
-Fig.\ref{F-amorphouslifetimes}. Compared to the crystal, the lifetimes 
+Fig. \ref{F-amorphouslifetimes}. Compared to the crystal, the lifetimes 
 show little frequency dependence and a significant number at low 
-frequencies fall below the IR limit [Eq. \eqref{EQ:IR}]. This 
+frequencies fall below the IR limit [Eq. \eqref{EQ:IR}]. This result 
 seems to be a consequence of the metastability, since this behavior 
 is not observed for the NMD-predicted lifetimes for a-SiO$_2$ and a-Si 
 (Fig. \ref{FIG:Lifetimes}, Section \ref{S:Life}), 
 which were both annealed carefully to remove metastability 
-(see Section \ref{S:Sample}).
+(Section \ref{S:Sample}). Annealing the amorphous LJ system at the 
+temperature studied does not remove metastability and leads to 
+re-crystallization if performed for a long enough time ($>$ 5 ns). 
 
 \begin{figure}[t]
 \begin{center}
-\includegraphics[scale=1.0]
+\includegraphics[scale=0.85]
 {/home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2.eps}
 \caption{\label{F-amorphousfitting} (a) Time-domain and (b) frequency 
 domain NMD analysis for two modes in an amorphous 
@@ -883,11 +865,9 @@ LJ solid at a temperature of 10 K.}
 \vspace*{-5mm}
 \end{figure}
 
-\clearpage
-
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=1.0]
+\includegraphics[scale=0.85]
 {/home/jason/Dropbox/book/m_lj_nmd_c0_amor_life.eps}
 \caption{\label{F-amorphouslifetimes} Lifetimes predicted by normal 
 mode decomposition for an amorphous LJ phase at a  
@@ -901,7 +881,7 @@ temperature of 10 K are provided for comparison.}
 
 %--------------------------------------------------------------------------
 \section{\label{Appendix_A:Finite}Finite Simulation-Size Scaling for 
-Thermal Conductivity (WORK)}
+Thermal Conductivity}
 %--------------------------------------------------------------------------
 
 The thermal conductivities predicted by the NMD ($\Phi$), 
@@ -914,17 +894,18 @@ a-SiO$_2$ (Section \ref{S:Bulk}).
 To predict a bulk thermal conductivity, $k_{bulk}$,  
 a linear extrapolation procedure is 
 used, whereby 
-\begin{equation}\label{EQ:k0}
+\begin{equation}\label{EQ:A:k0}
 \frac{k(N_0)}{k_{bulk}} = 1 - \frac{c_0}{N_0},
 \end{equation}
-where $c_0$ is a constant.\cite{turney_predicting_2009,
-esfarjani_heat_2011,shiomi_thermal_2011,he_thermal_2011} 
+where $c_0$ is a constant \cite{turney_predicting_2009,
+esfarjani_heat_2011,shiomi_thermal_2011,he_thermal_2011}. 
 This procedure is necessary because the first 
 Brillouin zone is only sampled at a finite number of points for a finite 
 simulation size, with no contribution from the volume at its center. To 
 predict a bulk thermal conductivity, it is important to sample points 
 near the Brillouin zone center, where the modes can have large lifetimes 
-and group velocities.\cite{turney_predicting_2009,sellan_size_2010} 
+and group velocities \cite{turney_predicting_2009,sellan_size_2010}. 
+\nomenclature[V]{$k(N_0)$}{system size-dependent thermal conductivity} 
 
 The thermal conductivity 
 is predicted for varying system sizes and the bulk thermal conductivity 
@@ -934,11 +915,43 @@ the validity of Eq. \eqref{EQ:k0}
 requires that the low-frequency modes be dominated by 
 phonon-phonon scattering (i.e., $\tau\ \propto \omega^{-2}$) and  
 follow the Debye approximation 
-with respect to the group velocity and DOS.
-\cite{shiomi_thermal_2011,esfarjani_heat_2011} For the LJ 
-argon alloys, this requirement is satisfied for modest system sizes 
-(for $N_0 = 6$ to $12$).
+with respect to the group velocity and DOS 
+\cite{shiomi_thermal_2011,esfarjani_heat_2011}. 
 
+For the LJ argon alloys, the requirements for Eq. \eqref{EQ:k0} 
+are satisfied for modest system 
+sizes (for $N_0 = 6$ to $12$). 
+For bulk and alloyed SW silicon, the thermal conductivity is dominated by 
+low-frequency modes, so that large system-sizes are needed to satisfy 
+the extrapolation requirements and only GK and VC-ALD can be used to 
+predict a bulk value from Eq. \eqref{EQ:k0}. The thermal conductivities 
+of SW silicon and alloys for varying system sizes ($N_0$) predicted 
+by the VC-ALD, GK, and VC-NMD methods are plotted in 
+Fig. \ref{FIG:kN0_SW}. For the perfect crystal, there is no system size 
+dependence for VC-ALD, and no dependence for GK for $N_0 > 22$. The VC-NMD 
+method can only predict thermal conductivities for small systems 
+($N_0 = 8$), and the predictions are in reasonable agreement with the 
+VC-ALD and GK predictions. 
+
+For the SW silicon alloys, there is a strong system size dependence of the 
+thermal conductivity up to $N_0 = 38$ for both VC-ALD and GK predictions. 
+This dependence is due to the scaling of the 
+low-frequency lifetimes for the alloys, which are plotted in 
+Fig. \ref{FIG:SW_alloys}(a).  For system sizes with $N_0 < 38$, the low-frequency 
+lifetimes scale as $\tau \propto \omega^{-4}$, which leads to a diverging 
+thermal conductivity in the zero-frequency limit (Fig. \ref{FIG:SW_alloys}(b)). 
+The VC-NMD and VC-ALD predictions are in good agreement up to $N_0 = 8$. 
+For system sizes with $N_0 > 38$, the lifetimes scale as 
+$\tau \propto \omega^{-\alpha}$ with $\alpha \le 2$, which allows for the use 
+of Eq. \eqref{EQ:k0}. A lifetime scaling of $\tau \propto \omega^{-1}$ 
+is predicted at the lowest frequencies, which is results from three 
+phonon processes involving shear (transverse) acoustic phonons 
+\cite{landau_absorption_1937,price_acoustic_1971}. 
+The alloy thermal conductivities predicted 
+by VC-ALD are $20\%$ larger than those from GK. This overprediction 
+by VC-ALD compared to GK is close to the overprediction ($15\%$) of VC-ALD 
+using DFT calculations of SiGe alloys compared to experiment 
+without including disorder explicitly \cite{garg_role_2011}. 
 
 %--------------------------------------------------------------------------
 % \begin{figure}
@@ -959,282 +972,347 @@ argon alloys, this requirement is satisfied for modest system sizes
 %--------------------------------------------------------------------------
 %\clearpage
 
-
-% %--------------------------------------------------------------------------
-% \section{\label{Appendix:AF}AF Calculations (WORK)}
-% %--------------------------------------------------------------------------
-% 
-% 
-% % https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_compare_broadening.m
-% 
-% The AF theory suggests a broadening which is larger than the average 
-% frequency spacing, $\delta_{avg}$. 
-% 
-% The role of energy broadening in MD simulations could be helpful. The 
-% energy of a given mode is broadened for two reasons: 
-% 
-% 1) due to anharmonic interactions.
-% 
-% 2) due to disorder (i.e., phonon-defect scattering in alloys, 
-% diffuson theory). 
-% 
-% The NMD-predicted lifetimes are predicted from MD simulations where 
-% all scattering mechanisms are present. Based on the comparison 
-% of NMD- and AF-predicted diffusivities in Fig. , a frequency-dependent 
-% broadening may be necessary for the AF theory. The role of frequency 
-% broadening needs further investigation. 
-% 
-% %--------------------------------------------------------------------------
-% \subsection{\label{Appendix:AF:Physical}Physical Picture}
-% %--------------------------------------------------------------------------
-% 
-% The AF theory makes the harmonic approximation. Physically, modes 
-% couple by spatial and energetic (harmonic, elastic scattering) overlap.  
-% The strength of the overlap is determined by how close the mode 
-% energies (frequencies) are and how much the eigenvectors spatially overlap. 
-% The two highest frequency modes of the LJ alloy at a concentration of 
-% 0.5 (see Section , Fig. ) are shown in Fig. . The mode frequencies are 
-% and . These modes are both highly localized locons, which is indicated 
-% by the small amount of spatial overlap in the eigenvector components. Only 
-% the two spatial-dimensional components of the total three 
-% spatial-dimensional components of the eigenvectors are plotted. The 
-% three dimensional atomic coordinates are plotted in two dimensions. 
-% 
-% %--------------------------------------------------------------------------
-% \begin{figure}
-% \begin{center}
-% \includegraphics[angle=0,width=80.0mm]
-% {/home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000.eps}
-% \end{center}
-% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% locons. The spatial localization is evident from the small amount of 
-% spaital overlap of the mode eigenvectors.}
-% \end{figure}
-% %--------------------------------------------------------------------------
-% 
-% \clearpage
-% 
-% %--------------------------------------------------------------------------
-% \subsection{\label{Appendix:AF:Finite}Finite Size Effects}
-% %--------------------------------------------------------------------------
-% 
-% 
-% % Hi Julian,
-% % 
-% % No problem about the silence, I have been busy trying to wrap up my thesis and find a job!
-% % 
-% % So, here are the issues:
-% % 
-% % 1) On the journey back from the most recent trip I was reading though the draft
-% % manuscript that you sent me & puzzling over the issue of the size / Lorentzian sensitivity
-% % of the answers.
-% % 
-% % Yes, this is kind of a tricky part of the AF method.  It seems like this was never addressed in the 
-% % main paper, they simply suggest using a broadening equal to the average frequency spacing,\cite{feldman_thermal_1993} 
-% % which is continued in \cite{feldman_numerical_1999} and \cite{shenogin_thermal_2009}. 
-% % It turns out that the frequency spacing \delta_{freq} is strongly freq dependent, especially at low frequencies where the modes 
-% % are sparse. Here is a crude plot for an a-LJ sample:
-% % 
-% % https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_dw_amor.png
-% % 
-% % This has different effects depending on the system.  
-% % 
-% % For LJ alloys, the k_{AF} is strongly system-size dependent:
-% % 
-% % https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_k_kmax.png
-% % 
-% % This is due to the harmonic approximation used in the AF theory, which leads to a Rayleigh scaling of 
-% % the low-freq modes, \tau\propto\omega^{-4}. Here is another crude plot, showing the \omega^{-4} scaling 
-% % predicted
-% % 
-% % https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_all.png
-% % 
-% % While a-LJ shows a dependence on the broadening,  (\bra{\delta}=x*\delta_{avg} in this figure). Amorphous LJ is equivalent to a disordered lattice with a large disorder parameter.\cite{beltukov_ioffe-regel_2013}
-% % 
-% % 
-% % The effect on a-Si is more complicated. For broaden = \delta_{avg}, the diffusivities at low frequency 
-% % have large fluctuations. No definitive scaling can be seen, there seems to be a mix of \omega^{-4} and \omega^{-2} scalings. 
-% % 
-% % By increasing the broadening, the low frequency scaling can be tuned to match \omega^{-2} or \omega^{-4}:
-% % 
-% % https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_si_normand_N0_3.png
-% % 
-% % The low-frequecy fluctuations can be smoothed by increasing the broadening over a small range:
-% % 
-% % https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_si_normand_N0_5.png
-% % 
-% % This exaplins why Shenogin et al.'s prediction of k_{AF} = 1.0 W/m-K for a 512 atom system:
-% % 
-% % https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_feldman_shenogin_fabian.png
-% % 
-% % which is due to using a small broadening. 
-% % 
-% % 
-% % 
-% % 
-% % 
-% % 
-% % 1) I'm not quite clear on is what the final result is for the K_ph contribution that has to be
-% % added. I realise that this was an early draft since all the cross referencing etc wasn't 
-% % finished, and so perhaps you have an updated version that might help?
-% % 
-% % Ya sorry, that was a pretty early draft.  Here is the one which is just about to be submitted:
-% % 
-% % https://github.com/jasonlarkin/disorder/raw/master/paper/mfp/prb_mfp_jl_081613.pdf
-% 
-% %--------------------------------------------------------------------------
-% % \begin{figure}
-% % \begin{center}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/af_di_all.png}
-% % \end{center}
-% % \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% % locons. The spatial localization is evident from the small amount of 
-% % spaital overlap of the mode eigenvectors.}
-% % \end{figure}
-% % %--------------------------------------------------------------------------
-% % 
-% % 
-% % %--------------------------------------------------------------------------
-% % \begin{figure}
-% % \begin{center}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/af_di_dw_0.05.png}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/af_di_dw_amor.png}
-% % \end{center}
-% % \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% % locons. The spatial localization is evident from the small amount of 
-% % spaital overlap of the mode eigenvectors.}
-% % \end{figure}
-% % %--------------------------------------------------------------------------
-% % 
-% % %--------------------------------------------------------------------------
-% % \begin{figure}
-% % \begin{center}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/af_di_kappa(broaden).png}
-% % \end{center}
-% % \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% % locons. The spatial localization is evident from the small amount of 
-% % spaital overlap of the mode eigenvectors.}
-% % \end{figure}
-% % %--------------------------------------------------------------------------
-% % 
-% % %--------------------------------------------------------------------------
-% % \begin{figure}
-% % \begin{center}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/af_k_kmax.png}
-% % \end{center}
-% % \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% % locons. The spatial localization is evident from the small amount of 
-% % spaital overlap of the mode eigenvectors.}
-% % \end{figure}
-% %--------------------------------------------------------------------------
-
-
-
-% %--------------------------------------------------------------------------
-% \section{\label{Appendix:SF}Spectral Density of Disordered Modes (WORK)}
-% %--------------------------------------------------------------------------
-% 
-% %--------------------------------------------------------------------------
-% % \begin{figure}
-% % \begin{center}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/dsf_alloy_0.5_mode100.png}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/dsf_alloy_0.5_mode3000.png}
-% % \includegraphics[bb=0 0 3cm 3cm]
-% % {/home/jason/disorder/lj/alloy/dsf_alloy_0.5_mode4000.png}
-% % \end{center}
-% % \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% % locons. The spatial localization is evident from the small amount of 
-% % spaital overlap of the mode eigenvectors.}
-% % \end{figure}
-% %--------------------------------------------------------------------------
-% 
-% 
 % %--------------------------------------------------------------------------
 % \section{\label{Appendix:Accum}Size-effects for Low-frequency Dominated 
 % Materials (WORK)}
 % %--------------------------------------------------------------------------
-% 
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps}
+\end{center}
+\caption{\label{FIG:kN0_SW} Thermal conductivities for varying system 
+sizes ($N_0$) predicted by the VC-NMD, VC-ALD, and GK methods. There 
+is a strong system-size dependence up to $N_0 = 38$ for the 
+VC-ALD and GK methods. }
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/si/alloy/a_ald_taud_si_tau_kw.eps}
+\end{center}
+\caption{\label{FIG:SW_alloys} (a) Lifetimes predicted by the VC-ALD 
+method for a system size $N_0 = 38$. The mid-range lifetimes scale as 
+$\tau \propto \omega^{-4}$, which leads to a diverging thermal 
+conductivity. (b) Predicted thermal conductivity as a function of 
+frequency, which demonstrates the saturation at low frequency when 
+the lifetimes transition to a scaling 
+$\tau \propto \omega^{-\alpha}$ with $\alpha \le 2$. }
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+
+%--------------------------------------------------------------------------
+\section{\label{Appendix:AF}Allen-Feldman Theory Calculations}
+%--------------------------------------------------------------------------
+
 % %--------------------------------------------------------------------------
+% \subsection{\label{Appendix:AF:Physical}Physical Picture}
+% %--------------------------------------------------------------------------
+
+For the AF theory, modes couple by spatial and energetic overlap under 
+the harmonic approximation. The strength of the overlap is determined 
+by how close the mode energies (frequencies) are and how much the 
+eigenvectors spatially overlap [Eq. \eqref{EQ:DAF}]. 
+The eigenvectors of the two highest frequency modes of the LJ alloy 
+at a concentration of 0.5 (Section \ref{S:Calculation}) 
+are shown in Fig. \ref{FIG:eigvec}. Only the two dimensional (x and y 
+components) of the eigenvectors are plotted and the mode frequencies are 
+$\omega_{max-1} = 24.0$ and $\omega_{max} = 24.1$ in LJ units. 
+These modes are both locons, which is indicated 
+by the spatial localization of their eigenvector components. 
+While the modes have similar frequencies, the lack spatial overlap 
+prevents them from coupling thermally according to the AF theory.
+\cite{allen_thermal_1993,feldman_thermal_1993}
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[angle=0,width=80.0mm]
+{/home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000.eps}
+\end{center}
+\caption{\label{FIG:eigvec} Two-dimensional spatial components of 
+the eigenvectors of the two highest frequency modes in a LJ alloy 
+with $c=0.5$. Both modes are locons as evidenced by their spatial 
+localization. }
+\end{figure}
+%--------------------------------------------------------------------------
+
+
+To calculate the diffusivities using the AF theory (Eq. \eqref{EQ:DAF}), 
+Allen and Feldman suggest using a broadening which is larger than the average 
+frequency spacing, $\delta\omega_{avg}$.
+\cite{allen_thermal_1993,feldman_thermal_1993} The frequency spacing as 
+a function of frequency is plotted in Figs. \ref{FIG:deltaomega}(a) and 
+\ref{FIG:deltaomega}(b) for the LJ alloy with a  concentration of 0.5 and 
+the amorphous phase. For both systems there is a large variation of the 
+frequency spacing, particularly at low and high frequencies, which 
+are up to two order of magnitude larger than the average 
+frequency spacing $\delta\omega_{avg}$. The role of frequency-dependent 
+broadening deserves further investigation, which could help to explain the 
+difference in the AF- and NMD-predicted diffusivities for a-Si 
+(Fig. \ref{FIG:diffusivities}).  
+
+For the LJ amorphous phase, a frequency dependent broadening does not 
+seem necessary for accurately predicting the thermal conductivity from 
+the AF theory when compared to the GK prediction (Section ).  
+However, the value of the AF-predicted total thermal conductivity is 
+dependent on the average broadening value used. The predictions for 
+LJ alloys and 
+the amorphous phase are plotted in Fig. \ref{FIG:AF_cond}. There is 
+a near-linear relation between the predicted thermal conductivity and 
+the average broadening used, given in increments of the 
+average frequency spacing $\beta\delta\omega_{avg}$. 
+MD simulations could be helpful in 
+determining these issues concerning the broadening required by the AF 
+theory calculations. 
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1.0]
+{/home/jason/disorder/lj/alloy/af_di_delta_omega.eps}
+\end{center}
+\caption{\label{FIG:deltaomega} The frequency spacing as a function of 
+frequency for (a) the LJ alloy with a concentration of 0.5 and (b) the 
+amorphous phase. For both systems there is a large variation of the 
+frequency spacing, particularly at low and high frequencies which 
+have are up to two order of magnitude larger than the average 
+frequency spacing $\delta\omega_{avg}$. }
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1.0]
+{/home/jason/disorder/lj/alloy/af_di_kappa_broaden.eps}
+\end{center}
+\caption{\label{FIG:AF_cond} The AF-predicted total thermal conductivity 
+of LJ alloys and the amorphous phase as a function of the average 
+broadening factor, given in increments of the average frequency spacing.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+
+% Hi Julian,
+% 
+% No problem about the silence, I have been busy trying to wrap up my thesis and find a job!
+% 
+% So, here are the issues:
+% 
+% 1) On the journey back from the most recent trip I was reading though the draft
+% manuscript that you sent me & puzzling over the issue of the size / Lorentzian sensitivity
+% of the answers.
+% 
+% Yes, this is kind of a tricky part of the AF method.  It seems like this was never addressed in the 
+% main paper, they simply suggest using a broadening equal to the average frequency spacing,\cite{feldman_thermal_1993} 
+% which is continued in \cite{feldman_numerical_1999} and \cite{shenogin_thermal_2009}. 
+% It turns out that the frequency spacing \delta_{freq} is strongly freq dependent, especially at low frequencies where the modes 
+% are sparse. Here is a crude plot for an a-LJ sample:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_dw_amor.png
+% 
+% This has different effects depending on the system.  
+% 
+% For LJ alloys, the k_{AF} is strongly system-size dependent:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_k_kmax.png
+% 
+% This is due to the harmonic approximation used in the AF theory, which leads to a Rayleigh scaling of 
+% the low-freq modes, \tau\propto\omega^{-4}. Here is another crude plot, showing the \omega^{-4} scaling 
+% predicted
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/lj/alloy/af_di_all.png
+% 
+% While a-LJ shows a dependence on the broadening,  (\bra{\delta}=x*\delta_{avg} in this figure). Amorphous LJ is equivalent to a disordered lattice with a large disorder parameter.\cite{beltukov_ioffe-regel_2013}
+% 
+% 
+% The effect on a-Si is more complicated. For broaden = \delta_{avg}, the diffusivities at low frequency 
+% have large fluctuations. No definitive scaling can be seen, there seems to be a mix of \omega^{-4} and \omega^{-2} scalings. 
+% 
+% By increasing the broadening, the low frequency scaling can be tuned to match \omega^{-2} or \omega^{-4}:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_si_normand_N0_3.png
+% 
+% The low-frequecy fluctuations can be smoothed by increasing the broadening over a small range:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_si_normand_N0_5.png
+% 
+% This exaplins why Shenogin et al.'s prediction of k_{AF} = 1.0 W/m-K for a 512 atom system:
+% 
+% https://github.com/jasonlarkin/disorder/blob/master/si/amor/m_af_feldman_shenogin_fabian.png
+% 
+% which is due to using a small broadening. 
+% 
+% 
+% 1) I'm not quite clear on is what the final result is for the K_ph contribution that has to be
+% added. I realise that this was an early draft since all the cross referencing etc wasn't 
+% finished, and so perhaps you have an updated version that might help?
+% 
+% Ya sorry, that was a pretty early draft.  Here is the one which is just about to be submitted:
+% 
+% https://github.com/jasonlarkin/disorder/raw/master/paper/mfp/prb_mfp_jl_081613.pdf
+
+
+
+
+
+%--------------------------------------------------------------------------
 % \begin{figure}
 % \begin{center}
-% \includegraphics[angle=0,width=80.0mm]
-% {/home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/af_di_kappa(broaden).png}
 % \end{center}
 % \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
 % locons. The spatial localization is evident from the small amount of 
 % spaital overlap of the mode eigenvectors.}
 % \end{figure}
-% %--------------------------------------------------------------------------
-% 
-% \clearpage
-% 
-% %--------------------------------------------------------------------------
-% \section{\label{Appendix:Accum}Accumulation Functions in Alloys 
-% (WORK)}
-% %--------------------------------------------------------------------------
-% 
-% 
-% %--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
 % \begin{figure}
 % \begin{center}
-% \includegraphics[angle=0,width=80.0mm]
-% {/home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum.eps}
+% \includegraphics[bb=0 0 3cm 3cm]
+% {/home/jason/disorder/lj/alloy/af_k_kmax.png}
 % \end{center}
 % \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
 % locons. The spatial localization is evident from the small amount of 
 % spaital overlap of the mode eigenvectors.}
 % \end{figure}
-% %--------------------------------------------------------------------------
-% 
-% \clearpage
-% 
-% %--------------------------------------------------------------------------
-% \begin{figure}
-% \begin{center}
-% \includegraphics[angle=0,width=80.0mm]
-% {/home/jason/disorder/lj/alloy/xcorr_alloy_cum_cond.eps}
-% \end{center}
-% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% locons. The spatial localization is evident from the small amount of 
-% spaital overlap of the mode eigenvectors.}
-% \end{figure}
-% %--------------------------------------------------------------------------
-% 
-% \clearpage
-% 
-% %--------------------------------------------------------------------------
-% \begin{figure}
-% \begin{center}
-% \includegraphics[angle=0,width=80.0mm]
-% {/home/jason/disorder/si/alloy/m_ald_taud_si_klambda.eps}
-% \end{center}
-% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% locons. The spatial localization is evident from the small amount of 
-% spaital overlap of the mode eigenvectors.}
-% \end{figure}
-% %--------------------------------------------------------------------------
-% 
-% \clearpage
-% 
-% %--------------------------------------------------------------------------
-% \begin{figure}
-% \begin{center}
-% \includegraphics[angle=0,width=80.0mm]
-% {/home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps}
-% \end{center}
-% \caption{\label{F:LJ_COND} Spatial components of the eigenvectors of two 
-% locons. The spatial localization is evident from the small amount of 
-% spaital overlap of the mode eigenvectors.}
-% \end{figure}
-% %--------------------------------------------------------------------------
-% 
-% \clearpage
+%--------------------------------------------------------------------------
+
+
+
+%--------------------------------------------------------------------------
+\section{\label{Appendix:SF}Spectral Density of Disordered Modes}
+%--------------------------------------------------------------------------
+
+There is not an 
+accepted method to predict the group velocity of a 
+vibrational mode in a disordered system, although there have been 
+attempts.
+\cite{cahill_lattice_1988,duda_reducing_2011,
+donadio_atomistic_2009,he_heat_2011,he_thermal_2011,hori_phonon_2013} 
+The 
+Calculating the structure factors of the supercell Gamma   
+modes is a method to test for their propagating (i.e., plane-wave)  
+character at a particular wavevector and 
+polarization. This approach has been previously used to predict 
+effective dispersion curves of disordered and amorphous materials 
+experimentally
+\cite{benassi_evidence_1996,sette_dynamics_1998,
+ruocco_relaxation_2000,ruocco_high-frequency_2001,
+ruzicka_evidence_2004,
+baldi_thermal_2008,baldi_sound_2010,kaya_normal_2010,
+green_density_2011,baldi_emergence_2013}  
+and 
+numerically.
+\cite{biswas_vibrational_1988,feldman_thermal_1993,
+allen_diffusons_1999,feldman_numerical_1999,
+taraskin_determination_1999,taraskin_propagation_2000,
+volz_molecular-dynamics_2000,
+gotze_evolution_2000,horbach_high_2001,
+martin-mayor_dynamical_2001,feldman_calculations_2002,
+ciliberti_brillouin_2003,christie_vibrational_2007,
+shintani_universal_2008,wyart_scaling_2010,
+beltukov_ioffe-regel_2013,larkin_predicting_2013,
+marruzzo_heterogeneous_2013} 
+
+While the structure factor gives the frequency spectrum needed to
+construct a propagating state with pure wavevector $\pmb{\kappa}$,
+the individual mode spectra $E^{T}\kv$ and $E^{L}\kv$ 
+[Eqs.\eqref{EQ:EL} and \eqref{EQ:ET}] predict the
+plane-wave character of each mode.
+\cite{biswas_vibrational_1988,allen_diffusons_1999}
+It is not generally possible to assign a unique wavevector to 
+individual modes, even at low frequency,
+\cite{biswas_vibrational_1988,allen_diffusons_1999}
+which makes predicting their group velocities challenging. The mode 
+spectra $E^{L}$ for three modes of the LJ alloy for a concentration of 
+0.5 are plotted in Fig. \ref{FIG:EL}, which demonstrates that 
+it is not generally possible to assign a unique wavevector to 
+individual modes in disordered systems. However, the mode 
+spectra can be a useful tool for studying the plane-wave character 
+of modes in ordered and disordered systems.  
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1.0]
+{/home/jason/disorder/lj/alloy/dsf_alloy_05_mode100-4000.eps}
+\end{center}
+\caption{\label{FIG:EL} Mode spectral densities $E^{L}$ 
+[Eq. \eqref{EQ:EL}] for the LJ alloy 
+with a concentration of $c=0.5$. The wavevector is in the [100] 
+direction (Fig. \ref{F:SF}). The frequencies are in LJ units.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\section{\label{Appendix:Accum}Accumulation Functions in Alloys}
+%--------------------------------------------------------------------------
+
+The thermal conductivity accumulation functions for the LJ argon and SW 
+silicon and alloys (Chapter \ref{chapter:vc}) are predicted using 
+Eq. \eqref{EQ:kLambda} with $k_{AF}$ = 0 
+and are plotted in Figs. \ref{FIG:LJ_accum} and \ref{FIG:SW_accum}.
+\cite{yang_mean_2013} For 
+both LJ and SW alloys, the thermal conductivity accumulations occur over 
+a broader range of MFPs than the perfect crystals. 
+This is due to the strong scaling of the 
+phonon lifetimes with frequency of $\tau \propto \omega^{-4}$ [and even 
+faster, Figs. \ref{F:VC Gamma life} and \ref{F:Dph_lj}] at low 
+frequencies. This suggests 
+that nanostructuring may decrease the thermal conductivity of 
+alloyed materials due to boundary scattering more significantly than 
+perfect crystals, which has been investigated in other modeling work.
+\cite{tian_phonon_2012,hori_phonon_2013} The thermal conductivity 
+accumulation for low-frequency dominated materials, such as SW silicon 
+and alloys, will be more sensitive to nanostructuring than full-spectrum 
+materials, such as LJ argon and alloys.  
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1.0]
+{/home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum.eps}
+\end{center}
+\caption{\label{FIG:LJ_accum} Thermal conductivity accumulation functions 
+for LJ argon and alloys.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
+
+%--------------------------------------------------------------------------
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1.0]
+{/home/jason/disorder/si/alloy/m_ald_taud_si_klambda.eps}
+\end{center}
+\caption{\label{FIG:SW_accum} Thermal conductivity accumulation functions
+for SW silicon and alloys.}
+\end{figure}
+%--------------------------------------------------------------------------
+
+\clearpage
 
 

@@ -11,7 +11,7 @@ lattice dynamics calculations, and theoretical models. For a-SiO$_2$,
 the propagating modes contribute negligibly to thermal conductivity 
 (6$\%$), in 
 agreement with the thermal conductivity accumulation measured by 
-Regner et al. [$\emph{Nat. Commun.}$ $\bf{4}$, 1640 (2013)]. 
+Regner et al.\cite{regner_broadband_2013}  
 For a-Si, propagating modes 
 with mean free paths up to 1 $\mu$m contribute 40$\%$ of the total 
 thermal 
@@ -23,7 +23,7 @@ mean free paths (100 nm - 1 $\mu$m) than that predicted
 (10 nm - 1 $\mu$m).
 
 %--------------------------------------------------------------------------
-%\clearpage
+% %\clearpage
 \section{\label{S:Introduction}Introduction}
 %--------------------------------------------------------------------------
 
@@ -94,6 +94,7 @@ thermal conductivities of films with thicknesses of 500 and 2000 nm
 vary by 40$\%$ between thermal penetration depths of 
 100 and 1000 nm. This result suggests that propagating modes with 
 MFPs in this range contribute significantly to thermal conductivity.  
+%\nomenclature[C]{$e$}{the number $e$}
 
 To interpret the results of Regner et al. requires knowledge of 
 the MFPs of the 
@@ -114,6 +115,7 @@ to estimate MFPs in amorphous materials,
 freeman_thermal_1986,cahill_lattice_1988,cahill_heat_1989} 
 while the Allen-Feldman (AF) theory can be used to model the 
 non-propagating modes.\cite{allen_thermal_1993,feldman_thermal_1993}
+\nomenclature[A]{MFP}{mean free path}
 
 Predicting the vibrational MFPs in an amorphous solid 
 requires the group velocities and lifetimes 
@@ -246,6 +248,8 @@ for a-Si ($20-80\%$).
 \cite{feldman_thermal_1993,cahill_thermal_1994,
 feldman_numerical_1999,liu_high_2009,yang_anomalously_2010,
 he_heat_2011}
+\nomenclature[V]{$k_{vib}$}{total vibrational thermal conductivity}
+\nomenclature[V]{$k_{pr}$}{propagating component of total vibrational thermal conductivity}
 
 The propagating contribution is modeled as
 \cite{feldman_thermal_1993,feldman_numerical_1999} 
@@ -293,6 +297,9 @@ which assumes isotropic and linear dispersion such that the DOS is
 DOS(\omega) = \frac{3V\omega^2}{2\pi^2v_{s}^3},
 \end{equation}
 where $v_s$ is an appropriate sound speed.\cite{ashcroft_solid_1976} 
+\nomenclature[G]{$\omega_{cut}$}{propagating to non-propagating cut-off frequency}
+\nomenclature[V]{$C(\omega)$}{vibrational mode specific heat}
+\nomenclature[V]{$D_{pr}$}{propagating mode diffusivity}
 
 The specific heat in the classical, harmonic limit is 
 $k_{\text{B}}$, where $k_{\text{B}}$ is the Boltzmann constant.
@@ -378,6 +385,7 @@ which can be fixed using additional anharmonic
 \cite{feldman_thermal_1993,feldman_numerical_1999} 
 or boundary scattering terms.
 \cite{cahill_thermal_1994,liu_high_2009,yang_anomalously_2010}
+\nomenclature[G]{$\Lambda$}{propagating mode mean free path}
 
 The AF diffuson contribution to thermal conductivity is
 \cite{feldman_thermal_1993,feldman_numerical_1999}
@@ -417,6 +425,8 @@ can be calculated from harmonic lattice dynamics theory.
 \cite{allen_thermal_1993,feldman_thermal_1993,feldman_numerical_1999} 
 For Eq. \eqref{EQ:DAF}, $S_{ij}$ is directionally averaged because 
 amorphous materials are isotropic. 
+\nomenclature[V]{$S_{ij}$}{heat current operator}
+\nomenclature[G]{$\delta$}{dirac delta function}
 
 %--------------------------------------------------------------------------
 \section{\label{S:Calculation}Calculation Details}
@@ -456,12 +466,14 @@ bonded via shared oxygen atoms,
 as shown in Fig. \ref{FIG:supercell} (a). 
 The 34562 atom sample 
 has a supercell side length of 8.05 nm. 
+\nomenclature[A]{BKS}{Beest-Kramer-van Santen}
 
 For a-Si, we use samples 
 with 216, 1000, 4096, and 100000 atoms, 
 which is the largest to our knowledge, generated from the 
 modified Wooten-Winer-Weaire (WWW) algorithm 
 from Ref. \citenum{barkema_high-quality_2000}. 
+\nomenclature[A]{WWW}{Wooten-Winer-Weaire}
 The resulting a-Si structure is a rigid, predominantly 
 tetrahedrally-bonded network\cite{barkema_high-quality_2000} 
 and is shown in Fig. \ref{FIG:supercell} (b).  
@@ -489,13 +501,14 @@ were annealed at a temperature of
 The removal of meta-stability is demonstrated 
 by a decrease and plateau of the sample's potential energy 
 during the annealing.  
+%\nomenclature[C]{ns}{nanosecond}
 
 %--------------------------------------------------------------------------
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.22]
 {/home/jason/disorder/si/amor/a288_init216_20s_3.eps}
-\vspace*{-5mm}
+% \vspace*{-5mm}
 \end{center}
 \caption{\label{FIG:supercell} 
 (a) Small sample of an a-SiO$_2$ structure created from a melt-quench 
@@ -509,7 +522,8 @@ red oxygen atoms.\cite{momma_vesta:_2008}
 \end{figure}
 %--------------------------------------------------------------------------
 %\clearpage
-\vspace{50mm}
+\nomenclature[A]{VESTA}{Visualization for Electronic and Structural Analysis}
+%\vspace{50mm}
 %--------------------------------------------------------------------------
 \subsection{\label{S:Simulation}Simulation Details}
 %--------------------------------------------------------------------------
@@ -602,7 +616,7 @@ propagating (i.e., phonon-like).
 \begin{center}
 \includegraphics[scale=1.0]
 {/home/jason/disorder/si/amor/m_af_si_normand_4096_DOS_3.eps}
-\vspace*{-5mm}
+% \vspace*{-5mm}
 \end{center}
 \caption{\label{FIG:DOS} Vibrational DOS of a-SiO$_2$ and a-Si 
 plotted on a log-log scale. Both models 
@@ -615,7 +629,7 @@ the Si-O interactions.\cite{mcgaughey_thermal_2004} }
 \end{figure}
 %--------------------------------------------------------------------------
 %\clearpage
-\vspace{100mm}
+% \vspace{100mm}
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Structure}Structure Factor}
@@ -717,6 +731,10 @@ than an order of magnitude larger than the background.
 To evaluate $\kappa_{max}$ for a-SiO$_2$, we use a lattice 
 constant of 4.8 $\AA$, which corresponds to the $a$-direction 
 of quartz.\cite{wyckoff_crystal_1963} 
+%\nomenclature[G]{$\omega_0(\pmb{\kappa})$}{structure factor peak frequency locations}
+%\nomenclature[G]{$\Gamma(\pmb{\kappa})$}{structure factor peak linewidths}
+\nomenclature[G]{$\kappa_{max}$}{maximum wavevector for structure factor analysis}
+\nomenclature[V]{$C_0(\pmb{\kappa})$}{structure factor peak constant}
 
 For a-Si, the extracted dispersion is 
 nearly linear at small wavevectors with a slight 
@@ -778,7 +796,7 @@ on the lattice constants of the crystalline phases.
 \end{figure}
 %--------------------------------------------------------------------------
 %\clearpage
-\vspace{130mm}
+% \vspace{130mm}
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Vg}Sound Speed}
@@ -833,6 +851,8 @@ v_{s,L} = \left(\frac{4G + 3K}{3\rho}\right)^{1/2}.
 Using the bulk and shear moduli defined in terms of the elastic
 constants according to the Voight convention,\cite{gale_general_2003} 
 the corresponding sound speeds are reported in Table \ref{T:vs}.
+\nomenclature[V]{$G$}{bulk modulus}
+\nomenclature[V]{$K$}{shear modulus}
  
 The longitudinal and transverse sound speeds for 
 a-SiO$_2$ predicted using the moduli are 10-20\%  
@@ -907,6 +927,7 @@ Holding all other input parameters in Eq. \eqref{EQ:kvib} constant,
 a smaller sound speed leads to a larger $k_{pr}$ 
 because the DOS scales as $1/v^3_{s}$. We can thus regard
 our $k­_{pr}$ prediction as an upper bound.
+\nomenclature[V]{$v_{s,DOS}$}{sound speed extracted from the DOS}
 
 %--------------------------------------------------------------------------
 \begin{center}
@@ -940,7 +961,7 @@ Longitudinal & 7,840 & 8,271 & 8,047 & \\
 \endgroup
 \end{center}
 %--------------------------------------------------------------------------
-\vspace{10mm}
+% \vspace{10mm}
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Life}Lifetimes}
@@ -1069,7 +1090,7 @@ lifetimes to those from the SW potential.
 \begin{center}
 \includegraphics[scale=1.0]
 {/home/jason/disorder/si/amor/m_af_si_normand_4096_tau_2.eps}
-\vspace*{-5mm}
+% \vspace*{-5mm}
 \end{center}
 \caption{\label{FIG:Lifetimes} Vibrational mode lifetimes predicted by 
 NMD [Eq. \eqref{EQ:NMD_life}] and the structure factors 
@@ -1088,7 +1109,7 @@ $10^{13}$ rads$/$s, which corresponds to where the DOS first peaks
 in Fig. \ref{FIG:DOS}.}
 \end{figure}
 %--------------------------------------------------------------------------
-\vspace{10mm}
+% \vspace{10mm}
 %\clearpage
 %--------------------------------------------------------------------
 %\begin{figure}
@@ -1233,6 +1254,8 @@ up to 500 nm. We believe that the origin of the large MFPs
 in Ref. \citenum{he_heat_2011} is 
 a combination of the predicted lifetimes (see Section \ref{S:Life}) 
 and the method used to estimate the mode group velocities.
+\nomenclature[G]{$\Lambda_{AF}$}{diffuson mean free path}
+\nomenclature[V]{$v_{AF}$}{diffuson velocity scale}
 
 A diffuson velocity scale can be calculated from 
 \begin{equation}\label{EQ:vAF}
@@ -1267,7 +1290,7 @@ to thermal transport.\cite{allen_diffusons_1999}
 \begin{center}
 \includegraphics[scale=1.0]
 {/home/jason/disorder/si/amor/m_af_si_normand_4096_D_4.eps}
-\vspace*{-5mm}
+% \vspace*{-5mm}
 \end{center}
 \caption{\label{FIG:diffusivities} Vibrational mode diffusivities 
 predicted from NMD [using Eqs. \eqref{EQ:Dtau} and 
@@ -1284,7 +1307,7 @@ are localized.
 \end{figure}
 %--------------------------------------------------------------------------
 %\vspace{20mm}
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \begin{figure}
@@ -1305,8 +1328,9 @@ velocities approach zero only at the highest frequencies, which is
 an indication that the modes are localized.
 }
 \end{figure}
+\nomenclature[G]{$\Lambda_{HS}$}{high scatter mean free path}
 %--------------------------------------------------------------------------
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 % \begin{figure}
@@ -1476,6 +1500,7 @@ of the total thermal conductivity.
 feldman_numerical_1999,liu_high_2009,
 yang_anomalously_2010,
 he_heat_2011,regner_broadband_2013}
+\nomenclature[G]{$\tau_{eff}$}{effective vibrational lifetime}
 
 In Section \ref{S:Theory:Thermal}, we approximated the specific heat 
 of the propagating 
@@ -1505,7 +1530,7 @@ classical-limit value.
 \begin{center}
 \includegraphics[scale=1.0]
 {/home/jason/disorder/si/amor/m_af_si_normand_4096_gk_cond_4.eps}
-\vspace*{-5mm}
+% \vspace*{-5mm}
 \end{center}
 \caption{\label{FIG:cond} Thermal conductivities of a-SiO$_2$ and 
 a-Si predicted using the GK method and Eq. \eqref{EQ:kvib}. 
@@ -1516,7 +1541,7 @@ dependance, indicating the importance of propagating modes. }
 \end{figure}
 %--------------------------------------------------------------------------
 %\clearpage
-\vspace{100mm}
+% \vspace{100mm}
 %--------------------------------------------------------------------------
 \begin{center}
 \begingroup
@@ -1549,7 +1574,7 @@ $k_{vib}$ (quantum) & 1.5 $\pm$ 0.1 & 1.6 $\pm$ 0.2 & \\
 \end{center}
 %--------------------------------------------------------------------------
 %\clearpage
-\vspace{200mm}
+% \vspace{200mm}
 
 
 % \begin{center}
@@ -1628,6 +1653,10 @@ Since we consider inifite (a-SiO$_2$) and
 Eq. \eqref{EQ:LambdaMatth}, these effects are not important for the 
 range of film thickness and MFPs shown in 
 Figs. \ref{FIG:sio2_accum}(a) and \ref{FIG:sio2_accum}(b).}  
+\nomenclature[G]{$\Lambda_{cut}$}{mean free path at the cut-off frequency}
+\nomenclature[V]{$k(\Lambda^{*})$}{thermal conductivity accumulation function}
+\nomenclature[G]{$\Lambda^*$}{maximum mean free path considered in the thermal conductivity accumulation}
+\nomenclature[V]{$k(\Lambda)$}{thermal conductivity as a function of mean free path}
 
 The predicted thermal conductivity accumulation function for a-SiO$_2$ 
 saturates at a MFP of 10 nm, which is on the order of the finite size 
@@ -1688,7 +1717,7 @@ film accumulation shows no sign of saturation.
 {/home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_sio2_2.eps}
 \includegraphics[scale=1.0]
 {/home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_si.eps}
-\vspace*{-5mm}
+% \vspace*{-5mm}
 \end{center}
 \caption{\label{FIG:sio2_accum} 
 (a) Predicted thermal conductivity 
@@ -1722,7 +1751,7 @@ hot-wire chemical vapor deposition.
 %       \end{verbatim}
 
 %--------------------------------------------------------------------------
-\clearpage
+% \clearpage
 %\vspace{130mm}
 
 %--------------------------------------------------------------------------

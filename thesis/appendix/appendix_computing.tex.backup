@@ -1,9 +1,10 @@
 %--------------------------------------------------------------------------
-\chapter{Research using High Performance Computing}
+\chapter{\label{Appendix_HPC}
+Research using High Performance Computing (WORK)}
 %--------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------
-\section{Setting Up Computing Environment}
+\section{\label{A:Comp_Env}Setting Up Computing Environment}
 %--------------------------------------------------------------------------
 
 
@@ -54,35 +55,44 @@
 %{verlet integration method}. 
 
 %--------------------------------------------------------------------------
-\subsection{Hardware and Operating System Choice}
+\subsection{\label{A:Comp_Env:OS}Hardware and Operating System Choice}
 %--------------------------------------------------------------------------
 
-The choice of hardware determines the operating system. The three 
-main choices for operating system are Windows, Apple OS, and Linux. Each 
+The choice of computing hardware determines which operating system(s) 
+can be used. The three 
+main choices for operating system are 
+\href{http://en.wikipedia.org/wiki/Microsoft_Windows}{Windows}, 
+\href{http://en.wikipedia.org/wiki/Mac_OS}{Apple OS}, and 
+\href{http://en.wikipedia.org/wiki/Linux}{Linux}. Each 
 operating system has limitations depending on the hardware it 
 operates on.   
-For example, Apple OS is primarily used on Apple hardware.
+For example, Apple OS is primarily used on 
+\href{http://en.wikipedia.org/wiki/Macintosh}{Apple hardware}.
 
+The linux operating system is based on unix, making it the 
 \href{http://www.youtube.com/watch?v=7XTHdcmjenI}
-{Linux: world's most widely used software}
-Linux runs on cell phones to the world's largest supercomputers. 
-Reccomend the most widely used linux version 
-\href{http://www.ubuntu.com/}{ubuntu}.
-well-documented, large-community discussion
-Apple OS is an adequate substitute as it is 
+{world's most widely used software}. 
+Linux runs on systems ranging from 
+\href{http://www.pcworld.com/article/250899/mobile_linux_its_not_just_android_anymore.html}
+{cell phones} to the world's 
+\href{http://www.zdnet.com/20-great-years-of-linux-and-supercomputers-7000018681/}
+{largest supercomputers}. For personal computing use, the most widely 
+used linux version is \href{http://www.ubuntu.com/}{Ubuntu}.
+It is well-documented with a large community-based discussion 
+system. Apple OS is an adequate substitute as it is 
 \href{https://en.wikipedia.org/wiki/Unix-like}{unix-like}.
 
 There are many options for installing Ubuntu and the instructions 
 can be found on \href{http://www.ubuntu.com/}{http://www.ubuntu.com/}.
 Ubuntu is certified on 
 \href{http://www.ubuntu.com/certification/}
-{many top PC's from many computer companies}
-and a company, \href{https://www.system76.com/}{system 76}, 
+{many top PC's from many computer companies}. 
+One company, \href{https://www.system76.com/}{system 76}, 
 builds computers with Ubuntu pre-installed. I used the 
 \href{https://www.system76.com/laptops/model/panp9}
 {Pangolin Performance} for over a year of my PhD.  However, 
-I reccomend using the lightest, most-portable, and longest-battery 
-life notebook available such as the 
+I recommend using the most-portable (i.e., lightest) and 
+longest-battery life notebook available such as the 
 \href{https://help.ubuntu.com/community/SamsungSeries9}
 {Samsung Series 9}  
 or \href{https://help.ubuntu.com/community/MacBookAir}{Macbook Air}. 
@@ -92,105 +102,85 @@ so there is a benefit of having portability and long
 battery life over large computational power.  
 
 %--------------------------------------------------------------------------
-\subsection{System Terminal and Commands}
+\subsection{\label{A:Comp_Env:Term}
+Terminal, Commands, and Environment Variables}
 %--------------------------------------------------------------------------
 
-These instructions work best for Ubuntu operating system, and will work 
+These instructions work best for the Ubuntu operating system, and will work 
 well for other versions of Linux. Systems commands are executed by the 
 system 
 \href{https://help.ubuntu.com/community/UsingTheTerminal}{terminal}. 
-
-
-Useful Linux Commands:
-
-sed, grep, ls, cd, pwd, export, setenv, scp -r, ssh, sudo, nohup, 
-vi, cat, which, echo
-
+The following Linux system commands have been used extensively throughout 
+this work: sudo, cd, pwd, ls, export, echo, grep, sed, vi, cat, 
+scp, ssh, which, nohup. 
+There are many more Linux commands which are useful. More information can 
+be obtained simply by google searching, i.e. 
 \href{https://www.google.com/search?q=linux+sed}
 {google: linux sed} 
 
-%--------------------------------------------------------------------------
-\subsection{Environment Variables}
-%--------------------------------------------------------------------------
-
-\href{http://en.wikipedia.org/wiki/Environment_variable}
-{environment variable} such as $\$$PATH.  Here is how we determine what 
-PATH is set to:
-
-
-Set PATH for lammps (see Section ).
-
-
+\href{http://en.wikipedia.org/wiki/Environment_variable}{Environment variables}, 
+such as 
+\href{http://en.wikipedia.org/wiki/PATH_(variable)}{PATH}, 
+can store the paths to installed programs and files. 
+Here is how to determine what PATH is set to:
+\begin{lstlisting}
+$ echo $PATH
+/opt/Datathief:/opt/VESTA-x86_64:/home/jason/phonopy/phonopy-1.1/bin:...
+\end{lstlisting}
 Permanent changes to environment variables can be made in the user's 
-.bashrc file, which is typically located in the /home/user/ directory. 
-The .bashrc file is a hidden file noted by its name starting with ".". 
-Other
-
-Here is an example .bashrc which demonstrates how to add permanent paths 
-and how to define new functions within the operating system. 
-For example, to copy the output of the pwd command to the system's 
-clipboard, use cpyc then "ctrl-v" elsewhere. 
-
+\href{https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html}
+{.bashrc file}, which is typically located in the /home/user/ directory. 
+The .bashrc file is a 
+\href{http://www.ghacks.net/2009/04/16/linux-tips-view-hidden-files/}{hidden file} 
+noted by its name starting with ".". 
+Here is an example 
+\href{https://gist.github.com/kparrish/6064111}{.bashrc} from 
+\href{https://github.com/kparrish}{Kevin Parrish}. 
 This file modifies environment variables such as 
 \href{https://help.ubuntu.com/community/EnvironmentVariables}{PATH}  
 when a bash terminal session is launched. Changes to environment 
-variables are made when a new terminal session is started. The 
-location of this file is typically: /home/user/.bashrc.  The 
+variables are made when a new terminal session is started. 
 
-\href{https://gist.github.com/kparrish/6064111}{.bashrc} from 
-Kevin Parrish.
-
-%--------------------------------------------------------------------------
-\subsection{Shell Scripts and System Commands in Python}
-%--------------------------------------------------------------------------
-
-Shell scripts are relatively low-level scripts which execute system 
-commands (Section ) and 
-manipulate environment variables (Section )   
-of the Linux operating system. 
-
+Shell scripts are relatively low-level sets of system commands 
+which can manipulate environment variables 
+and the Linux operating system. 
 Here is a simple tutorial on writing shell scripts 
 \href{http://linuxcommand.org/wss0010.php}
-{http://linuxcommand.org/wss0010.php}
-
-Running Linux system commands in Python can be an effective way of 
+{http://linuxcommand.org/wss0010.php} 
+\href{http://docs.python.org/2/library/os.html}
+{Running Linux system commands in Python} can be an effective way of 
 generating and manipulating many files with one script. Python 
 is a more robust language than lower-level shell scripting. 
-Here is an example:
-
-lmp.in.iseed
+\href{https://github.com/ntpl/ntpy/blob/master/examples/thesis/run.lammps.py}
+{Here is an example} which generates a series of shell scripts used to 
+submit jobs on cluster resources (see next section). The Python script 
+finds dummy variable names (SHELL$\_$NAME and PROC$\_$NAME) and replaces them 
+with a different string. 
 
 %--------------------------------------------------------------------------
-\subsection{Remote Resources Commands}
+\subsection{\label{A:Comp_Env:Remote}Working on Remote Resources}
 %--------------------------------------------------------------------------
 
-At some point during research you will need to excecute code on remote 
-resources which are typically large ($> 100$ cpu) computing clusters. 
+At some point during research you will need to execute code on remote 
+resources which are typically large computing clusters ($> 100$ central 
+processing units). 
 You will be provided with a terminal session similar to the session 
 provided by Ubuntu with most of the same system commands. 
-
 While I recommend 
 \href{https://filezilla-project.org/}{Filezilla} 
 for handling the transfer of data and files, 
 the functionality of Filezilla is contained in several shell 
-commands:
-
-ssh user@gilgamesh.cheme.cmu.edu
-
-or equivalently by the machine's ip address:
-
-ssh user@xxx.xxx.xxx.xxx
-
-Files can be transferred using the following command:
-
-scp -r user@gilgamesh.cheme.cmu.edu:/home/user/directory/ ./
-
-which will place the "directory" and its contents into the pwd (./) 
-of the local terminal session. 
+commands: ssh and scp. 
+Files can be transferred using the following command
+\begin{lstlisting}
+$ scp -r user@gilgamesh.cheme.cmu.edu:/home/user/directory/ ./
+\end{lstlisting}
+which will place the "directory" and its contents into the pwd 
+(./) of the local terminal session. 
 
 There are many variants of the operating systems used for remote 
-computing clusters, but the differences are usually superficial. 
-During my work I used the 
+computing clusters, but the differences are usually small. 
+During my work I regularly used the 
 \href{http://gilgamesh.cheme.cmu.edu/doc/gilgamesh.html}
 {gilgamesh} computing cluster maintained by 
 \href{https://github.com/jkitchin}{John Kitchin}. 
@@ -199,92 +189,105 @@ During my work I used the
 calculations on a computing cluster.
 
 %--------------------------------------------------------------------------
-\subsection{Installing Programs}
+\section{\label{A:Comp_Env:Programs}
+Installing, Writing and Executing Programs}
 %--------------------------------------------------------------------------
 
-Ubuntu and similar linux OS have automatic software installation and 
-management using the apt-get system command:
+%--------------------------------------------------------------------------
+\subsection{\label{A:Comp_Env:Install}Installing Available Packages}
+%--------------------------------------------------------------------------
 
-jason@jason-900X3C ~/ (master) $\$$ sudo apt-get install gfortran
+Before writing any of your own code, it is best to utilize any useful 
+code which may already exist. 
+Most linux OS have automatic software installation. For Ubuntu, program  
+management is achieved using the 
+\href{https://help.ubuntu.com/community/AptGet/Howto}{apt-get} 
+system command:
+
+\begin{lstlisting}
+$ sudo apt-get install gfortran
 [sudo] password for jason: 
 Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-gfortran is already the newest version.
-The following package was automatically installed and is no longer required:
-  kde-l10n-engb
-Use 'apt-get autoremove' to remove it.
-0 upgraded, 0 newly installed, 0 to remove and 129 not upgraded.
-
+...
+\end{lstlisting}
 To check that the package has been installed, use:
-
-jason@jason-900X3C-900X3D-900X3E-900X4C-900X4D ~/ (master) $\$$ which gfortran
+\begin{lstlisting}
+$ which gfortran
 /usr/bin/gfortran
-
+\end{lstlisting}
 This shows that gfortran program is installed in the /usr/bin/ folder, 
 a common location where automatically installed programs are located. 
 Because the 
-folder /usr/bin is in the PATH environment variable:
-
-
+folder /usr/bin is in the PATH environment variable, 
 the program gfortran is always available no matter where you are in 
 the system terminal. 
 
 To get more information about the gfortran, use:
-
-jason@jason-900X3C ~/ (master) $\$$ ls -l /usr/bin/gfortran
+\begin{lstlisting}
+$ ls -l /usr/bin/gfortran
 lrwxrwxrwx 1 root root 12 Apr 22 03:44 /usr/bin/gfortran -> gfortran-4.7
-
+\end{lstlisting}
 where we see that /usr/bin/gfrotran "points" to gfortran-4.7. 
-This is called a symbolic link, which can be created using:
-
-jason@jason-900X3C ~/disorder/pcbm/topotools-tutorial-part2 (master) $\$$ ls -l /usr/bin/gfortran
-lrwxrwxrwx 1 root root 12 Apr 22 03:44 /usr/bin/gfortran -> gfortran-4.7
+This is called a 
+\href{http://en.wikipedia.org/wiki/Symbolic_link}{symbolic link}.
 
 %--------------------------------------------------------------------------
-\subsection{Available Programs}
+\subsection{\label{A:Comp_Env:Avail}Available Programs and Packages for 
+Thermal Transport Modeling}
 %--------------------------------------------------------------------------
 
-Available progams represent oppurtunities to perform research quickly and 
-easily. I suggest you read their documentation carefully and try the 
-tutorials which are typically computationally inexpensive. 
+Available programs represent opportunities to perform research quickly 
+and easily. I suggest you read their documentation carefully and try the 
+tutorials, which are typically computationally inexpensive. 
 
-Install lammps:
+Most of the packages listed below cannot be installed using Ubuntu's 
+apt-get command, although 
+\href{http://lammps.sandia.gov/download.html#ubuntu}
+{this feature does exist for LAMMPS} and more packages are likely 
+to be added in the future. It is important to read the installation 
+documentation carefully. It is also helpful to contact any system 
+linux/unix system administration staff or other researchers who are 
+experienced with installing packages. These people can usually be 
+found at campus or local computing centers, or in your own 
+research group! 
 
-Set PATH for lammps
+For a first-time user, I recommend trying to install the LAMMPS 
+package as it is one of the easiest and most versatile. It has 
+standard installation files for systems ranging from your 
+personal computer up to a massively-parallel supercomputer. 
+Installtion instructions can be 
+\href{http://lammps.sandia.gov/doc/Section_start.html#start_2}{found here}. 
 
-gnu compilers vs intel: gnu freely available
-tar -zxvf lammps.tar, make serial, sudo apt-get install openmpi, make openmpi
+Here is a partial list of the packages I have found useful 
+in this work:
 
-open-source: 
-
-\href{http://lammps.sandia.gov/}{LAMMPS}, including the particularly 
+\begin{itemize}
+\item \href{http://lammps.sandia.gov/}{LAMMPS}, including the particularly 
 useful 
 \href{http://lammps.sandia.gov/threads/threads.html}{mailing list} 
 (use ctrl-f to search on any topic)  
 and
 \href{http://lammps.sandia.gov/doc/Section_python.html}
 {python interface} which is used with the package 
-\href{http://github.com/ntpl/ntpy}{ntpy}. 
-\href{http://projects.ivec.org/gulp/}{GULP}, 
-\href{http://www.abinit.org/}{ABINIT}, 
-\href{http://www.quantum-espresso.org/}{Quantum Espresso}, 
-\href{http://jp-minerals.org/vesta/en/}{VESTA}, 
-\href{http://phonopy.sourceforge.net/}{phonopy}, 
-\href{http://www.ks.uiuc.edu/Research/vmd/}{VMD} 
+\item \href{http://projects.ivec.org/gulp/}{GULP}, 
+\item \href{http://www.abinit.org/}{ABINIT}, 
+\item \href{http://www.quantum-espresso.org/}{Quantum Espresso}, 
+\item \href{http://jp-minerals.org/vesta/en/}{VESTA}, 
+\item \href{http://phonopy.sourceforge.net/}{phonopy}, 
+\item \href{http://www.ks.uiuc.edu/Research/vmd/}{VMD} 
 (with 
 \href{https://sites.google.com/site/akohlmey/software/topotools}
 {topotools})
-\href{http://github.com/ntpl/ntpy}{ntpy},
-\href{https://www.vasp.at/}{VASP}
-\href{http://www.stfc.ac.uk/CSE/randd/ccg/software/DL_POLY/25526.aspx}
+\item \href{https://www.vasp.at/}{VASP}
+\item \href{http://www.stfc.ac.uk/CSE/randd/ccg/software/DL_POLY/25526.aspx}
 {DL$\_$POLY}, 
-\href{http://icmab.cat/leem/siesta/}
+\item \href{http://icmab.cat/leem/siesta/}
 {siesta}, 
-\href{http://www.msg.ameslab.gov/gamess/}{GAMESS}, 
-\href{http://www.cp2k.org/}{CP2K}, 
-\href{http://www.icams.de/content/departments/ams/madsen/boltztrap.html}{BOLTZTRAP}, 
-\href{http://www.homepages.ucl.ac.uk/~ucfbdxa/phon/}{PHON}, 
+\item \href{http://www.msg.ameslab.gov/gamess/}{GAMESS}, 
+\item \href{http://www.cp2k.org/}{CP2K}, 
+\item \href{http://www.icams.de/content/departments/ams/madsen/boltztrap.html}{BOLTZTRAP}, 
+\item \href{http://www.homepages.ucl.ac.uk/~ucfbdxa/phon/}{PHON}, 
+\end{itemize}
 
 I reccomend trying this 
 \href{https://gist.github.com/kparrish/6064159}{install.sh} created by 
@@ -293,56 +296,85 @@ many programs and packages, including lammps for parallel computing
 with openmpi.
 
 %--------------------------------------------------------------------------
-\section{Coding Languages: Compiled versus Interpreted}
+\subsection{\label{A:Comp_Env:Writing}Writing Programs}
 %--------------------------------------------------------------------------
 
-There are many languages 
-used for the open-source and lisenced packages(REF) that can be used 
-to study nanoscale transport. These packages use 
+If no pacakge exists to perform the calculation you are interested in, 
+there is a good chance you are doing something interesting! The next 
+step is to implement the algorithm for the calculation you want 
+to perform. There are two choices for doing this: 1) write your own 
+code, or 2) build off an existing package. As outlined in the previous 
+section, there are many pre-existing packages with many functionalities. 
+
+%--------------------------------------------------------------------------
+\subsubsection{\label{A:coding_lang}
+Coding Languages: Compiled versus Interpreted}
+%--------------------------------------------------------------------------
+
+The many packages that can perform nanoscale transport calculations use 
 \href{http://en.wikipedia.org/wiki/Compiled_language}{compiled} and 
 \href{http://en.wikipedia.org/wiki/Interpreted_language}{interpreted}  
-languages and often a miture of the two.
+languages, and often a mixture of the two.
 
 The most commonly used compiled languages are 
 \href{https://en.wikipedia.org/wiki/C\%2B\%2B}{C/C++} 
-(linux, LAMMPS) 
+(e.g., linux, LAMMPS) 
 and 
 \href{http://en.wikipedia.org/wiki/Fortran}{Fortran}
-(GULP, quantum espresso, VASP).
-
+(e.g., GULP, quantum espresso, VASP). 
 A good discussion on 
 \href{http://stackoverflow.com/questions/13078736/fortran-vs-c-does-fortran-still-hold-any-advantage-in-numerical-analysis-thes}
-{the strengths of C++ versus Fortran}.
-
+{the strengths of C++ versus Fortran}. Here also are excellent tutorials 
+in 
 \href{http://www.youtube.com/watch?v=XFQ9dw3CyDo&list=PL1D10C030FDCE7CE0}
-{excellent c++ tutorial}
-
-\href{http://www.youtube.com/watch?v=YRTEOFMUTzw&list=PL6A8E21D2E86A0155}
-{excellent fortran tutorial}
-
-
-The two interpreted languages you are likely to use are 
-\href{http://en.wikipedia.org/wiki/MATLAB}{matlab}  
+{C++}
 and 
-\href{http://en.wikipedia.org/wiki/Python_(programming_language)}{python}.
+\href{http://www.youtube.com/watch?v=YRTEOFMUTzw&list=PL6A8E21D2E86A0155}
+{Fortran}. 
+The two interpreted languages you are likely to use are 
+\href{http://en.wikipedia.org/wiki/MATLAB}{Matlab}  
+and 
+\href{http://en.wikipedia.org/wiki/Python_(programming_language)}{Python}.
 
 The key to maximizing the potential of interpreted languages is by 
 using the built-in ``vector'' functions and operations provided by the 
 \href{http://www.mathworks.com/help/matlab/matlab_prog/vectorization.html}
-{matlab}  
+{Matlab}  
 and 
 \href{http://faculty.washington.edu/rjl/uwamath583s11/sphinx/notes/html/python_vect.html}
-{python}  
-programming libraries.
-
-matlab has an excellent built-in guide, google search will typically 
-yield useful results. A good open-source substitute for matlab is 
+{Python}  
+programming libraries. 
+Matlab has an excellent built-in guide and google searches will typically 
+yield useful results. An open-source substitute for Matlab is 
 \href{http://www.gnu.org/software/octave/}
-{octave} which is capable to running most matlab scripts.
+{octave} which is capable to running most Matlab scripts.
+
+The case studies are performed on my local 
+\href{http://www.samsung.com/us/computer/series-9-notebooks}
+{Samsung series 9 notebook}. The 
+specifications of the computer can be accessed by using:
+\begin{lstlisting}
+$ cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
+stepping	: 9
+microcode	: 0x17
+cpu MHz		: 782.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+\end{lstlisting}
 
 %--------------------------------------------------------------------------
-\subsection{Case-study: Compiled Language, 
-Lennard-Jones Argon Molecular Dynamics}
+\subsubsection{\label{A:coding_lang:case1}Case-study(a): Compiled 
+Language, Lennard-Jones Argon Molecular Dynamics}
 %--------------------------------------------------------------------------
 
 The first case study is a 
@@ -364,23 +396,20 @@ The code is compiled using the
 \href{http://www.gnu.org/}{GNU project's} 
 C++ compiler, \href{http://www.cprogramming.com/g++.html}{g++}:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-g++ ArgonMD.cpp -o ArgonMD_O_g++
+$ g++ ArgonMD.cpp -o ArgonMD_O_g++
 \end{lstlisting}
 The code can be run and the output can be directed using a useful 
 shell operation called 
 \href{http://www.linfo.org/pipes.html}{piping}, 
 which is demonstrated below:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-ArgonMD_O_g++ > ./ArgonMD_O/output.txt
+$ ArgonMD_O_g++ > ./ArgonMD_O/output.txt
 \end{lstlisting}
 The code can be compiled using 
 \href{http://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#Optimize-Options}
 {optimization flags, such as -O and -O3}:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-g++ -O3 ArgonMD.cpp -o ArgonMD_O3_g++
+$ g++ -O3 ArgonMD.cpp -o ArgonMD_O3_g++
 \end{lstlisting}
 which greatly decreases the run time of this particular code. 
 The total run time 
@@ -388,20 +417,17 @@ can dispalyed by using the shell command
 \href{http://linux.about.com/od/commands/l/blcmdl1_grep.htm}{grep},  
 which shows for no optimization:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-grep -A 1 "Total Time" ./ArgonMD/output.txt
+$ grep -A 1 "Total Time" ./ArgonMD/output.txt
 Total Time: 38.42 (s)
 \end{lstlisting}
 for -O optimization:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-grep -A 1 "Total Time" ./ArgonMD_O/output.txt
+$ grep -A 1 "Total Time" ./ArgonMD_O/output.txt
 Total Time: 18.06 (s)
 \end{lstlisting}
 and for -O3 optimization:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-grep -A 1 "Total Time" ./ArgonMD_O3/output.txt
+$ grep -A 1 "Total Time" ./ArgonMD_O3/output.txt
 Total Time: 11.74 (s)
 \end{lstlisting}
 A useful shell command is 
@@ -409,14 +435,13 @@ A useful shell command is
 shell-based text editor, which can display the output within 
 a shell terminal:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) 
 $ vi ./ArgonMD/output.txt
 0       1       5.61358 2.01864 5.26596
 ...
 \end{lstlisting}
 
-To compare with the above results, the lammps code is compiled in serial 
-using no optimization, -O, and -O3.  
+To compare with the above results, the LAMMPS code is compiled in serial 
+using no , -O, and -O3 optimizations.  
 The results are contained in folders beginning with ``lmp''.  A useful 
 shell function is 
 \href{http://www.tuxfiles.org/linuxhelp/tabtrick.html}{tab-twice}, 
@@ -424,8 +449,7 @@ where tapping the tab key twice
 will display files and folders which begin with the same 
 characters:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-grep -A 1 "Loop time" ./lmp
+$ grep -A 1 "Loop time" ./lmp
 lmp.in.lj~     lmp_serial/    lmp_serial_O/  lmp_serial_O3/
 \end{lstlisting}
 The tab key can also be used for  
@@ -433,119 +457,174 @@ The tab key can also be used for
 {command-line completion} to complete directory and file names. The run 
 time for no optimization is:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-grep -A 1 "Loop time" ./lmp_serial/log.lammps
+$ grep -A 1 "Loop time" ./lmp_serial/log.lammps
 Loop time of 0.718188 on 1 procs for 1000 steps with 256 atoms
-
 --
 Loop time of 3.4892 on 1 procs for 5000 steps with 256 atoms
 \end{lstlisting}
 for -O optimization:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-grep -A 1 "Loop time" ./lmp_serial_O/log.lammps
+$ grep -A 1 "Loop time" ./lmp_serial_O/log.lammps
 Loop time of 0.19842 on 1 procs for 1000 steps with 256 atoms
-
 --
 Loop time of 0.917175 on 1 procs for 5000 steps with 256 atoms
 \end{lstlisting}
 and for -O3 optimization:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder/md_serial (master) $ 
-grep -A 1 "Loop time" ./lmp_serial_O3/log.lammps
+$ grep -A 1 "Loop time" ./lmp_serial_O3/log.lammps
 Loop time of 0.164066 on 1 procs for 1000 steps with 256 atoms
-
 --
 Loop time of 0.786311 on 1 procs for 5000 steps with 256 atoms
 \end{lstlisting}
 
 The decrease in run time with increasing optimization 
-for lammps is roughly the same as for my code. However, for every 
-optimization the lammps code is approximately an order of 
+for LAMMPS is roughly the same as for my code. However, for every 
+optimization the LAMMPS code is approximately an order of 
 magnitude faster.  This is 
 due to a several factors, the most important being 
 the implementation of 
 \href{http://en.wikipedia.org/wiki/Neighbor_list}{neighbor lists} 
 as discussed in the 
 \href{http://lammps.sandia.gov/doc/neighbor.html}
-{lammps documentation}. The interested reader is encouraged to 
-investigate the lammps code further for useful C++ coding 
+{LAMMPS documentation}. The interested reader is encouraged to 
+investigate the LAMMPS code further for useful C++ coding 
 practices. 
 
 %--------------------------------------------------------------------------
-\subsection{Compiled versus Interpreted Case-study(a): Lennard-Jones Dispersion}
+\subsubsection{\label{A:coding_lang:case2}Compiled versus Interpreted 
+Case-study(b): Lennard-Jones Dispersion}
 %--------------------------------------------------------------------------
 
-With interpreted languages traditional programming practice of using 
-loops (for/do/while, etc) will slow the code down.  
+With interpreted languages, the traditional programming practice of using 
+loops (for/do/while, etc) will slow the code execution.  To illustrate 
+this, the case study compares codes to perform harmonic lattice dynamics 
+calculations. 
+\href{}
+{One code is written in Matlab} using mixture of loops 
+and vectorized functions, which slows the code execution. The other 
+code is written in Fortran (i.e., the GULP package). 
 
-Matlab version using mixture of loops and vectorized functions.
-
-Fortran version (GULP) 
-
-%--------------------------------------------------------------------------
-\subsection{Compiled versus Interpreted Case-study(b): Allen-Feldman Diffusivity Calculation}
-%--------------------------------------------------------------------------
-
-Two systems, my local laptop:
-
-http://www.samsung.com/us/computer/series-9-notebooks
-
-
+From within a Matlab session in a terminal, the Matlab version can be 
+executed as follows:
 \begin{lstlisting}
-jason@jason-900X3C ~/disorder (master) $\$$ cat /proc/cpuinfo 
-processor	: 0
-vendor_id	: GenuineIntel
-cpu family	: 6
-model		: 58
-model name	: Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
-stepping	: 9
-microcode	: 0x17
-cpu MHz		: 782.000
-cache size	: 3072 KB
-physical id	: 0
-siblings	: 4
-core id		: 0
-cpu cores	: 2
-apicid		: 0
-initial apicid	: 0
+tic
+[freq,eigVsorted,velocity] = m_lj_ld_prim(1.5636*[1 1 1],[0.5 0.0 0.0])
+toc
+Elapsed time is 0.047081 seconds.
+\end{lstlisting}
+for the primitive cell, and
+\begin{lstlisting}
+tic
+[freq,eigVsorted,velocity] = m_lj_ld_conv(1.5636*[1 1 1],[0.5 0.0 0.0])
+toc
+Elapsed time is 0.260508 seconds.
+\end{lstlisting}
+for the conventional cell. Note that the increased run time is not 
+proportional to the increased number of atoms in the unit cell (i.e., 
+the calculation does not scale linearly). 
+Note that the two codes both use for loops. This slows down code 
+execution because Matlab is an interpreted language. 
+
+Now we run the same calculation using the Fortran-based GULP package, for 
+the primitive:
+\begin{lstlisting}
+$ grep -A 6 "Timing analysis " gulp_disp_lj_prim.gout
+  Timing analysis for GULP :
+
+---------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+  Total CPU time                                                  0.0040
+\end{lstlisting}
+and conventional unit cells:
+\begin{lstlisting}
+$ grep -A 6 "Timing analysis " gulp_disp_lj_conv.gout
+  Timing analysis for GULP :
+---------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+  Total CPU time                                                  0.0160
 \end{lstlisting}
 
-
-\href{http://gilgamesh.cheme.cmu.edu/doc/gilgamesh.html}{gilgamesh}
-
-
-
-\begin{lstlisting}
-jason@gilgamesh > cat /proc/cpuinfo
-processor	: 0
-vendor_id	: AuthenticAMD
-cpu family	: 16
-model		: 9
-model name	: AMD Opteron(tm) Processor 6128 HE
-stepping	: 1
-cpu MHz		: 2000.003
-cache size	: 512 KB
-physical id	: 1
-siblings	: 8
-core id		: 0
-cpu cores	: 8
-apicid		: 16
-\end{lstlisting}
+First, the scaling of the calculation is linear, which is likely due to 
+the small number of atoms in the unit cells. Second, the timing for both 
+calculations is over an order of magnitude less than the Matlab versions. 
+Matlab code can be optimized by using the built in vector operations and 
+functions, which is demonstrated in the next section.
 
 %--------------------------------------------------------------------------
-\subsection{Scaling Calculations}
+\subsubsection{\label{A:coding_lang:case3}Compiled versus Interpreted 
+Case-study(c): Allen-Feldman Diffusivity Calculation}
+%--------------------------------------------------------------------------
+
+This case study demonstrates that Matlab (or other interpreted languages) 
+can be performance optimized using the built-in vector functions 
+and operations. 
+\href{https://github.com/jasonlarkin/disorder/blob/master/matlab/m_af_template.m}
+{This Matlab code} performs the AF theory calculations 
+on a LJ amorphous phase of 256 atoms. The code can be run from within 
+a Matlab terminal using:
+\begin{lstlisting}
+>> m_af_template
+ans =
+    1.5075 (s)
+\end{lstlisting}
+which calls several subroutines, most notably 
+\href{https://github.com/jasonlarkin/disorder/blob/master/matlab/m_af_lj.m}{m$\_$af$\_$lj.m}, 
+which uses all vectorized functions. 
+
+Comparing this result with 
+\href{}{the same calculation in GULP}:
+\begin{lstlisting}
+$ gulp x0_256
+$ grep -A 10 "Timing analysis " x0_256.gout
+  Timing analysis for GULP :
+---------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+---------------------------------------------------------------------------
+  Calculation of real space energy and derivatives                0.0520
+  Calculation of phonons                                         18.5720
+  Calculation of scattering                                       0.0000
+---------------------------------------------------------------------------
+  Total CPU time                                                 19.3920
+---------------------------------------------------------------------------
+\end{lstlisting}
+The relevant subroutine in GULP to compare with the Matlab version is 
+~/gulp-4.1.0/Src/thermalconductivity.f90. 
+The GULP timing is considerably larger than the Matlab code.  This is 
+due to the use of the default unoptimized BLAS and LAPACK libraries 
+for linear algebra that were used to compile GULP. During the installation, 
+Matlab optimizes its linear algebra library, resulting 
+in improved performance. 
+
+% %--------------------------------------------------------------------------
+% \subsection{\label{A:coding_lang:Execute}Executing Programs}
+% %--------------------------------------------------------------------------
+% 
+% %--------------------------------------------------------------------------
+% \subsubsection{\label{A:coding_lang:Execute:Local}
+% Executing Locally: Rapid Development}
+% %--------------------------------------------------------------------------
+% 
+% %--------------------------------------------------------------------------
+% \subsubsection{\label{A:coding_lang:Execute:Remote}
+% Executing Remotely: Portable Batch Systems}
+% %--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\subsection{\label{A:coding_lang:Execute:Scaling}
+Scaling Calculations}
 %--------------------------------------------------------------------------
 
 The majority of the methods 
 used in this work scale poorly with the number of atoms, $N_a^\alpha$ 
 with $\alpha >1$. 
-
-Let's take the scaling cost $N_a^3$, which is the scaling for 
-eigenvalue solution used in Sections . 
+The scaling cost for eigenvalue solution is $N_a^3$. 
 The cost of performing this calculation for a large system size 
 $N_{a,large}$  
-and every succesive system which is half the size of the former 
+and every successive system which is half the size of the largest 
 is given by the 
 \href{http://en.wikipedia.org/wiki/Geometric_series}{geometric series} 
 with common ratio $r=1/8$
@@ -558,16 +637,23 @@ It costs a minimal amount ($ \approx 14\%$) to study systems smaller
 than the largest system considered. Even a linear scaling 
 $N_a$ has $cost_{total} = 2N_{a,large}$. 
 Because of this I recommend 
-picking the system of maximum size and then start calcualtions with 
+picking the system of maximum size and then start calculations with 
 the smallest system of interest. 
 Publication drafts can be 
-developed mush faster by performing computationally cheap calculations 
-first, documenting the results, and then iterating to more 
+developed mush faster by performing computationally inexpensive 
+calculations first, documenting the results, and then iterating to more 
 computationally expensive calculations. 
 This scheme for performing calculations can follow these time-scales 
-for calculation costs:  
-one second, minute, hour, day, and week. I have performed 
-countless calculations costing around one second and very few which cost 
+for calculation costs:
+\begin{itemize}
+\item 1 second: exploratory work, debugging.  
+\item 1 minute/1 hour: testing the scaling of algorithms, precision  
+\item 1 day: publication-quality calculations
+\item 1 week: publication-quality calculations, but should be limited 
+to when necessary. 
+\end{itemize}
+I have performed 
+countless calculations costing around one second, and very few which cost 
 more than one week. Publication quality results will typically 
 cost between one hour and one week.
 
@@ -667,22 +753,14 @@ cost between one hour and one week.
 \section{Preparing Journal Articles and Thesis}
 %--------------------------------------------------------------------------
 
-reccomendation: student advisor should try and exchange editing a written 
-research documen at least every week. The exchange of such a document 
-
-Such a research document could be the running 
-collection of journal articles which turn into the thesis. Maintenance 
-of this document can be achieved with 
+I recommend editing a written research document at least once every week. 
+The exchange of such a document with the advisor can be facilitated using 
 \href{https://www.dropbox.com/}{Dropbox} or 
-Github. 
-Github offers to advantage of smart version control and a built-in 
-wiki. 
-
-
-
-%--------------------------------------------------------------------------
-\subsection{Journal Articles}
-%--------------------------------------------------------------------------
+\href{https://github.com/}{Github}. 
+Github offers advantages over Dropbox, such as version control and a 
+\href{https://github.com/ntpl/ntpy/wiki}{built-in online wiki}. 
+Such a research document can turn into journal articles, 
+which then turn into the thesis.  
 
 The job of the student is to prepare, submit, and publish 
 peer-reviewed journal articles. There are many journals suitable for 
@@ -700,140 +778,87 @@ pre-installed with Ubuntu. Here is a
 To maintain the reference library I 
 recommend 
 \href{http://www.zotero.org/}{zotero}.  Here is an example 
-\href{}{reference.bib} 
+\href{https://github.com/jasonlarkin/disorder/blob/master/paper/vc/jap/ntpl-032013.bib}
+{reference.bib} 
 file which is exported automatically by zotero. 
 The references are generated from the latex document using 
 \href{http://www.bibtex.org/Using/}{bibtex} which compiles the contents of 
 the reference.bib.
 
-Here is an example of the latex files 
-used to create an article published from this work:
-
-\href{https://github.com/jasonlarkin/thesis/tree/master/thesis}
-{Predicting alloy properties}.
-
+\href{https://github.com/jasonlarkin/disorder/blob/master/paper/vc/jap/jap_vc_jl_060413.tex}
+{Here is an example} of the latex file 
+used to create an article published from this work. 
 This file uses 
 \href{http://publish.aps.org/revtex}{revtex}, 
 which is an article class used by Physical Review, 
 Journal of Applied Physics, and others.
-
-%--------------------------------------------------------------------------
-\subsection{Thesis}
-%--------------------------------------------------------------------------
-
-These can be used as templates
-
-Here is a Carnegie Mellon thesis template:
-
 \href{https://github.com/robsimmons/cmu-thesis}
-{https://github.com/robsimmons/cmu-thesis}
-
+{Here is a Carnegie Mellon thesis template}, 
+which was used to create 
 \href{https://github.com/jasonlarkin/thesis/tree/master/thesis}
-{J. Larkin thesis files}.
+{this thesis document}.
 
-\href{http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html}
-{Article on structuring large documents.}
-
-%2) Computational cost of each paper
-%CPU, memory
-%parallel cpu, parallel memory
-%Trends: 
-%small single cpu jobs -> large parallel cpu jobs
-%single predictive method -> several predictive methods
-%reccomendation: explore all predictive methods and models possible
-
-%--------------------------------------------------------------------------
-\subsection{Producing Figures}
-%--------------------------------------------------------------------------
-
-Python has a plotting module, \href{http://matplotlib.org/}{matplotlib}, 
-which has \href{http://matplotlib.org/examples/index.html}{many examples}. 
-Here is a \href{https://gist.github.com/kparrish/6101681}{simple example 
-demonstrating how to generate and save data, load that data, and plot.} 
-
-
-\href{https://github.com/ntpl/ntpy/tree/master/examples/thesis}
-{Here is a simple example demonstrating how to }
+% \href{http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html}
+% {Article on structuring large documents.}
+% %--------------------------------------------------------------------------
+% \subsection{Producing Figures}
+% %--------------------------------------------------------------------------
+% 
+% Python has a plotting module, \href{http://matplotlib.org/}{matplotlib}, 
+% which has \href{http://matplotlib.org/examples/index.html}{many examples}. 
+% Here is a \href{https://gist.github.com/kparrish/6101681}{simple example 
+% demonstrating how to generate and save data, load that data, and plot.} 
+% 
+% 
+% \href{https://github.com/ntpl/ntpy/tree/master/examples/thesis}
+% {Here is a simple example demonstrating how to }
 
 %--------------------------------------------------------------------------
 \section{Technical Advice}
 %--------------------------------------------------------------------------
 
 In addition to your advisor and close mentors, 
-I reccomend communicating with experts in the field as much as 
+I recommend communicating with experts in the field as much as 
 possible without being an annoying.  How often to 
 communicate depends on the situation. 
 It is best to let the expert dictate the pace of the conversation. 
-
-%--------------------------------------------------------------------------
-\subsection{Expert Advice}
-%--------------------------------------------------------------------------
-
 Here is a list of experts I used as resources for this work. They 
 will typically answer emails within 24-48 hours:
 
-
-\href{http://ntpl.me.cmu.edu/people.html}
-{Alan McGaughey},
-\href{http://www.cmu.edu/me/malen/Lab_Website/People.html}
-{Jon Malen},
-\href{http://chemistry.curtin.edu.au/people/academic.cfm/J.Gale}
-{Julian Gale} 
-\href{http://projects.ivec.org/gulp/news.html}
-{(GULP author)},
-\href{http://mech.rutgers.edu/content/keivan-esfarjani}
-{Keivan Esfarjani},
-normand.mousseau@umontreal.ca,
-guido.raos@polimi.it,
-\href{mailto:joseph.feldman.ctr@nrl.navy.mil}
-{Joseph Feldman},
-\href{http://www.phonon.t.u-tokyo.ac.jp/}
-{Junchiro Shiomi},
-\href{http://www2.mpip-mainz.mpg.de/~donadio/tnt/People.html}
-{Davide Donadio},
-\href{http://www.ce.cmu.edu/people/faculty/maloney.html}
-{Craig Maloney},
-\href{http://quasiamore.mit.edu/pmwiki.php?n=Main.JivteshGarg}
-{Jivtesh Garg},
-\href{John Duda}
-{John Duda},
-\href{Wissam Al-Saidi}
-{Wissam Al-Saidi},
-\href{Dan Sellan}
-{Dan Sellan},
-\href{Ankit Jain}
-{Ankit Jain},
-\href{wong@andrew.cmu.edu}
-{Wee-Liat Ong},
-\href{John Kitchin}
-{John Kitchin},
-Steve Plimpton via the 
+\begin{itemize}
+\item \href{http://ntpl.me.cmu.edu/people.html}
+{Alan McGaughey}
+\item \href{http://www.cmu.edu/me/malen/Lab_Website/People.html}
+{Jon Malen}
+\item \href{http://chemistry.curtin.edu.au/people/academic.cfm/J.Gale}
+{Julian Gale}, \href{http://projects.ivec.org/gulp/news.html}
+{(GULP author)}
+\item \href{http://mech.rutgers.edu/content/keivan-esfarjani}
+{Keivan Esfarjani}
+\item \href{mailto:normand.mousseau@umontreal.ca}{Normand Moussea}
+\item \href{mailto:guido.raos@polimi.it}{Guido Raos}
+\item \href{mailto:joseph.feldman.ctr@nrl.navy.mil}
+{Joseph Feldman}
+\item \href{http://www.phonon.t.u-tokyo.ac.jp/}
+{Junchiro Shiomi}
+\item \href{http://www2.mpip-mainz.mpg.de/~donadio/tnt/People.html}
+{Davide Donadio}
+\item \href{http://www.ce.cmu.edu/people/faculty/maloney.html}
+{Craig Maloney}
+\item \href{http://quasiamore.mit.edu/pmwiki.php?n=Main.JivteshGarg}
+{Jivtesh Garg}
+\item \href{http://johncduda.com/}{John Duda}
+\item \href{http://www.engineering.pitt.edu/WissamAlSaidi/}{Wissam Al-Saidi}
+\item \href{http://utexas.academia.edu/DanSellan}{Dan Sellan}
+\item \href{https://github.com/ankitjainmeiitk}{Ankit Jain}
+\item \href{wong@andrew.cmu.edu}{Wee-Liat Ong}
+\item \href{https://github.com/jkitchin}{John Kitchin}
+\item Steve Plimpton via the 
 \href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
-Axel Kolhmeyer via the 
+\item Axel Kolhmeyer via the 
 \href{http://lammps.sandia.gov/threads/threads.html}{LAMMPS mailing list} 
 and \href{akohlmey@gmail.com}{email}
-
-\href{http://atztogo.users.sourceforge.net/}{Atz Togo}, creator of 
+\item \href{http://atztogo.users.sourceforge.net/}{Atz Togo}, creator of 
 \href{http://phonopy.sourceforge.net/}{phonopy}
-
-\href{http://jasonlarkin.github.io}{me}
-
-%--------------------------------------------------------------------------
-\subsection{Online Resources}
-%--------------------------------------------------------------------------
-
-\href{https://en.wikipedia.org/wiki/Lennard-Jones_potential}
-{wikipedia}
-
-\href{http://www.sklogwiki.org/}
-{sklogwiki}
-
-we can do better, needs to be organization. 
-
-\href{http://nanohub.org/}{http://nanohub.org/}
-
-does not provide good HPC resources. 
-
-
-
-
+\item \href{http://jasonlarkin.github.io}{me}
+\end{itemize}

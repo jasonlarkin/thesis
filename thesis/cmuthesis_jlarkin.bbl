@@ -1369,12 +1369,6 @@ J.~E. Turney, A.~J.~H. {McGaughey}, and C.~H. Amon.
 \newblock In-plane phonon transport in thin films.
 \newblock {\em Journal of Applied Physics}, 107(2):024317, 2010.
 
-\bibitem{mcgaughey_predicting_2013}
-A.~J.~H. {McGaughey} and J.~M. Larkin.
-\newblock Predicting phonon properties from equilibrium molecular dynamics
-  simulations.
-\newblock {\em to appear in Annual Review of Heat Transfer}, 17, 2013.
-
 \bibitem{landau_statistical_1980}
 {L.D.} Landau, {E.M.} Lifshitz, and {L.P.} Pitaevskii.
 \newblock {\em Statistical Physics, Part 2 : Volume 9}.
@@ -1385,5 +1379,15 @@ A.~Rajabpour and S.~Volz.
 \newblock Thermal boundary resistance from mode energy relaxation times: Case
   study of argon-like crystals by molecular dynamics.
 \newblock {\em Journal of Applied Physics}, 108:094324, 2010.
+
+\bibitem{landau_absorption_1937}
+{L.D.} Landau and G.~Rumer.
+\newblock Absorption of sound in solids.
+\newblock {\em Phys. Z. Sowjetunion}, 11(18), 1937.
+
+\bibitem{price_acoustic_1971}
+D.~H.~R. Price.
+\newblock Acoustic attenuation in {II-VI} compounds at microwave frequencies.
+\newblock {\em Journal of Physics C: Solid State Physics}, 4(9):966, 1971.
 
 \end{thebibliography}

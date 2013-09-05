@@ -1,0 +1,131 @@
+\glossaryentry{ABTE@[{BTE}]\begingroup Boltzmann transport equation\nomeqref {1.0}|nompageref}{2}
+\glossaryentry{ADFT@[{DFT}]\begingroup Density Functional Theory\nomeqref {1.0}|nompageref}{2}
+\glossaryentry{AIR@[{IR}]\begingroup Ioffe-Regel\nomeqref {1.0}|nompageref}{4}
+\glossaryentry{AGK@[{GK}]\begingroup Green-Kubo\nomeqref {1.0}|nompageref}{5}
+\glossaryentry{ACH@[{CH}]\begingroup Callaway-Holland\nomeqref {1.0}|nompageref}{6}
+\glossaryentry{AALD@[{ALD}]\begingroup anharmonic lattice dynamics\nomeqref {1.0}|nompageref}{6}
+\glossaryentry{AAF@[{AF}]\begingroup Allen-Feldman\nomeqref {1.0}|nompageref}{7}
+\glossaryentry{ANMD@[{NMD}]\begingroup normal mode decomposition\nomeqref {1.0}|nompageref}{7}
+\glossaryentry{V$N_a$@[{$N_a$}]\begingroup total number of atoms\nomeqref {1.0}|nompageref}{9}
+\glossaryentry{V$n$@[{$n$}]\begingroup number of atoms in the unit cell\nomeqref {1.0}|nompageref}{9}
+\glossaryentry{V$N$@[{$N$}]\begingroup number of unit cells\nomeqref {1.0}|nompageref}{9}
+\glossaryentry{ABZ@[{BZ}]\begingroup Brillouin zone\nomeqref {1.0}|nompageref}{9}
+\glossaryentry{ALAMMPS@[{LAMMPS}]\begingroup Large-scale Atomic/Molecular Massively Parallel Simulator\nomeqref {1.0}|nompageref}{9}
+\glossaryentry{ACPU@[{CPU}]\begingroup central processing unit\nomeqref {1.0}|nompageref}{10}
+\glossaryentry{ASED@[{SED}]\begingroup spectral energy density\nomeqref {2.0}|nompageref}{15}
+\glossaryentry{G$\Phi$@[{$\Phi$}]\begingroup normal mode spectral energy density\nomeqref {2.0}|nompageref}{15}
+\glossaryentry{G$\Phi'$@[{$\Phi'$}]\begingroup proposed alternative spectral energy density\nomeqref {2.0}|nompageref}{15}
+\glossaryentry{ACNT@[{CNT}]\begingroup carbon nanotube\nomeqref {2.0}|nompageref}{15}
+\glossaryentry{ALJ@[{LJ}]\begingroup Lennard-Jones\nomeqref {2.0}|nompageref}{15}
+\glossaryentry{ASW@[{SW}]\begingroup Stillinger-Weber\nomeqref {2.0}|nompageref}{15}
+\glossaryentry{AREBO@[{REBO}]\begingroup reactive empirical bond order\nomeqref {2.0}|nompageref}{15}
+\glossaryentry{G$\pmb{\kappa}$@[{$\pmb{\kappa}$}]\begingroup wavevector\nomeqref {2.0}|nompageref}{16}
+\glossaryentry{G$\omega$@[{$\omega$}]\begingroup frequency\nomeqref {2.0}|nompageref}{16}
+\glossaryentry{G$\omega_0\kv$@[{$\omega_0\kv$}]\begingroup anharmonic phonon frequency\nomeqref {2.1}|nompageref}{16}
+\glossaryentry{G$\Gamma \kv$@[{$\Gamma \kv$}]\begingroup phonon linewidth\nomeqref {2.1}|nompageref}{16}
+\glossaryentry{G$\nu$@[{$\nu$}]\begingroup polarization\nomeqref {2.1}|nompageref}{16}
+\glossaryentry{V$C_0 \kv$@[{$C_0 \kv$}]\begingroup mode-dependent Lorentzian constants\nomeqref {2.1}|nompageref}{16}
+\glossaryentry{V$\dot{q}\kvt$@[{$\dot{q}\kvt$}]\begingroup normal mode coordinate time derivative\nomeqref {2.1}|nompageref}{16}
+\glossaryentry{V$e\kvba$@[{$e\kvba$}]\begingroup normal mode eigenvector\nomeqref {2.2}|nompageref}{16}
+\glossaryentry{V$m_b$@[{$m_b$}]\begingroup mass of the $b^{\textrm{th}}$ atom in the unit cell\nomeqref {2.2}|nompageref}{16}
+\glossaryentry{V$\mathbf{r}_0\ab{l}{0}$@[{$\mathbf{r}_0\ab{l}{0}$}]\begingroup equilibrium position vector of the $l^{\textrm{th}}$ unit cell\nomeqref {2.2}|nompageref}{16}
+\glossaryentry{V$l$@[{$l$}]\begingroup unit cell label\nomeqref {2.2}|nompageref}{16}
+\glossaryentry{V$b$@[{$b$}]\begingroup atom in the unit cell label\nomeqref {2.2}|nompageref}{16}
+\glossaryentry{V$t$@[{$t$}]\begingroup time\nomeqref {2.2}|nompageref}{16}
+\glossaryentry{G$\alpha$@[{$\alpha$}]\begingroup cartesian component label\nomeqref {2.2}|nompageref}{16}
+\glossaryentry{G$\tau \kv$@[{$\tau \kv$}]\begingroup phonon lifetime\nomeqref {2.3}|nompageref}{16}
+\glossaryentry{G$\tau_0$@[{$\tau_0$}]\begingroup time integration limit\nomeqref {2.3}|nompageref}{16}
+\glossaryentry{V$q\kvt$@[{$q\kvt$}]\begingroup normal mode coordiante\nomeqref {2.4}|nompageref}{17}
+\glossaryentry{V$E\kvt$@[{$E\kvt$}]\begingroup normal mode total energy\nomeqref {2.5}|nompageref}{17}
+\glossaryentry{G$\Theta$@[{$\Theta$}]\begingroup spatial and temporal phase factor\nomeqref {2.8}|nompageref}{18}
+\glossaryentry{V$D$@[{$D$}]\begingroup number of spatial dimensions\nomeqref {2.8}|nompageref}{19}
+\glossaryentry{V$\mathbf{a}_{\alpha}$@[{$\mathbf{a}_{\alpha}$}]\begingroup lattice vector\nomeqref {2.9}|nompageref}{19}
+\glossaryentry{V$N_{\alpha}$@[{$N_{\alpha}$}]\begingroup lattice vector integer\nomeqref {2.9}|nompageref}{19}
+\glossaryentry{V$\mathbf{r}_0\ab{0}{b}$@[{$\mathbf{r}_0\ab{0}{b}$}]\begingroup equilibrium position of the $b^{\textrm{th}}$ atom in the unit cell relative to $\mathbf{r}_0\ab{l}{0}$\nomeqref {2.10}|nompageref}{19}
+\glossaryentry{V$\mathbf{b}_{\alpha}$@[{$\mathbf{b}_{\alpha}$}]\begingroup reciprocal lattice vector\nomeqref {2.11}|nompageref}{19}
+\glossaryentry{V$n_{\alpha}$@[{$n_{\alpha}$}]\begingroup reciprocal lattice vector integer\nomeqref {2.11}|nompageref}{19}
+\glossaryentry{V$T$@[{$T$}]\begingroup temperature\nomeqref {2.11}|nompageref}{21}
+\glossaryentry{V$k_{\mathbf{n}}$@[{$k_{\mathbf{n}}$}]\begingroup thermal conductivity in direction $\mathbf{n}$\nomeqref {2.11}|nompageref}{21}
+\glossaryentry{V$c_{ph}$@[{$c_{ph}$}]\begingroup phonon volumetric specific heat\nomeqref {2.12}|nompageref}{21}
+\glossaryentry{V${v}_{g,\mathbf{n}}$@[{${v}_{g,\mathbf{n}}$}]\begingroup component of the group velocity vector in direction $\mathbf{n}$\nomeqref {2.12}|nompageref}{21}
+\glossaryentry{V$k_{\mathrm{B}}$@[{$k_{\mathrm{B}}$}]\begingroup Boltzmann's constant\nomeqref {2.12}|nompageref}{22}
+\glossaryentry{AGULP@[{GULP}]\begingroup General Utility Lattice Program\nomeqref {2.12}|nompageref}{23}
+\glossaryentry{V$T_{\mathrm{melt}}$@[{$T_{\mathrm{melt}}$}]\begingroup melting temperature\nomeqref {2.12}|nompageref}{25}
+\glossaryentry{V$a$@[{$a$}]\begingroup lattice constant\nomeqref {2.12}|nompageref}{25}
+\glossaryentry{A$NVE$@[{$NVE$}]\begingroup constant number of atoms, system volume, and total system energy ensemble\nomeqref {2.12}|nompageref}{25}
+\glossaryentry{AVC@[{VC}]\begingroup virtual crystal\nomeqref {3.0}|nompageref}{35}
+\glossaryentry{AVC-ALD@[{VC-ALD}]\begingroup anharmonic lattice dynamics performed using the virtual crystal approximation\nomeqref {3.0}|nompageref}{37}
+\glossaryentry{V$k_{ph,\mathbf{n}}$@[{$k_{ph,\mathbf{n}}$}]\begingroup phonon thermal conductivity in the direction $\mathbf{n}$\nomeqref {3.1}|nompageref}{38}
+\glossaryentry{V$V$@[{$V$}]\begingroup system volume\nomeqref {3.1}|nompageref}{39}
+\glossaryentry{V$k_{AF}$@[{$k_{AF}$}]\begingroup diffuson thermal conductivity\nomeqref {3.2}|nompageref}{39}
+\glossaryentry{V$D_{AF,i}$@[{$D_{AF,i}$}]\begingroup mode diffusivity of the $i$th diffuson\nomeqref {3.2}|nompageref}{39}
+\glossaryentry{G$\omega_i$@[{$\omega_i$}]\begingroup frequency of the $i$th diffuson\nomeqref {3.2}|nompageref}{39}
+\glossaryentry{V$v_s$@[{$v_s$}]\begingroup sound speed\nomeqref {3.3}|nompageref}{39}
+\glossaryentry{V$V_b$@[{$V_b$}]\begingroup volume of the unit cell\nomeqref {3.3}|nompageref}{39}
+\glossaryentry{AHS@[{HS}]\begingroup high scatter\nomeqref {3.3}|nompageref}{39}
+\glossaryentry{V$k_{HS}$@[{$k_{HS}$}]\begingroup high scatter thermal conductivity\nomeqref {3.3}|nompageref}{39}
+\glossaryentry{V$m^i$@[{$m^i$}]\begingroup mass of the $i^{th}$ species\nomeqref {3.3}|nompageref}{43}
+\glossaryentry{V$c$@[{$c$}]\begingroup alloy concentration\nomeqref {3.3}|nompageref}{43}
+\glossaryentry{A$NPT$@[{$NPT$}]\begingroup constant number of atoms, pressure, and temperature ensemble\nomeqref {3.3}|nompageref}{43}
+\glossaryentry{V$P$@[{$P$}]\begingroup pressure\nomeqref {3.3}|nompageref}{43}
+\glossaryentry{A$NVT$@[{$NVT$}]\begingroup constant number of atoms, system volume, and temperature ensemble\nomeqref {3.3}|nompageref}{43}
+\glossaryentry{AGamma@[{Gamma}]\begingroup analysis at the Gamma point (i.e., $\pmb{\kappa}=0$)\nomeqref {3.3}|nompageref}{44}
+\glossaryentry{AGamma-NMD@[{Gamma-NMD}]\begingroup normal mode decomposition performed at the Gamma point (i.e., $\pmb{\kappa}=0$)\nomeqref {3.3}|nompageref}{44}
+\glossaryentry{ADOS@[{DOS}]\begingroup density of states\nomeqref {3.3}|nompageref}{44}
+\glossaryentry{G$\pmb{\kappa}_{VC}$@[{$\pmb{\kappa}_{VC}$}]\begingroup allowed wavevector of the virtual crystal\nomeqref {3.7}|nompageref}{47}
+\glossaryentry{G$\hat{\pmb{\kappa}}_{VC}$@[{$\hat{\pmb{\kappa}}_{VC}$}]\begingroup unit vector of the allowed wavevector of the virtual crystal\nomeqref {3.7}|nompageref}{47}
+\glossaryentry{V$S^{L,T}\kvcw$@[{$S^{L,T}\kvcw$}]\begingroup longitudinal and transverse structure factor\nomeqref {3.7}|nompageref}{47}
+\glossaryentry{V$E^L\kvcv$@[{$E^L\kvcv$}]\begingroup longitudinal and transverse mode spectra\nomeqref {3.7}|nompageref}{47}
+\glossaryentry{G$\delta_{\omega,avg}$@[{$\delta_{\omega,avg}$}]\begingroup average frequency spacing\nomeqref {3.7}|nompageref}{48}
+\glossaryentry{V$u_{\alpha}$@[{$u_{\alpha}$}]\begingroup $\alpha$-component of the atomic displacement from equilibrium\nomeqref {3.9}|nompageref}{50}
+\glossaryentry{V$\dot{u}_{\alpha}$@[{$\dot{u}_{\alpha}$}]\begingroup $\alpha$-component of the atomic velocity\nomeqref {3.9}|nompageref}{50}
+\glossaryentry{V$t^*$@[{$t^*$}]\begingroup upper limit of time integration\nomeqref {3.11}|nompageref}{50}
+\glossaryentry{AVC-NMD@[{VC-NMD}]\begingroup normal mode decomposition performed using the virtual crystal approximation\nomeqref {3.11}|nompageref}{50}
+\glossaryentry{G$\tau_{p-p}\kv$@[{$\tau_{p-p}\kv$}]\begingroup phonon-phonon scattering lifetime\nomeqref {3.13}|nompageref}{52}
+\glossaryentry{G$\tau_{p-d}\kv$@[{$\tau_{p-d}\kv$}]\begingroup phonon-defect scattering lifetime\nomeqref {3.13}|nompageref}{52}
+\glossaryentry{V$m^\mu$@[{$m^\mu$}]\begingroup mass of the $\mu$-th species\nomeqref {3.15}|nompageref}{54}
+\glossaryentry{V$c^\mu$@[{$c^\mu$}]\begingroup concentration of the $\mu$-th species\nomeqref {3.15}|nompageref}{54}
+\glossaryentry{V$\bar{m}^{\mu}$@[{$\bar{m}^{\mu}$}]\begingroup average mass of the $\mu$-th species\nomeqref {3.15}|nompageref}{54}
+\glossaryentry{V$g_n$@[{$g_n$}]\begingroup disorder strength of the $n^{th}$ order process of the Tamura theory\nomeqref {3.15}|nompageref}{55}
+\glossaryentry{V$D_{ph,\mathbf{n}}\kv$@[{$D_{ph,\mathbf{n}}\kv$}]\begingroup phonon diffusivity in the direction $\mathbf{n}$\nomeqref {3.17}|nompageref}{57}
+\glossaryentry{V$D_{HS}$@[{$D_{HS}$}]\begingroup high scatter diffusivity\nomeqref {3.20}|nompageref}{57}
+\glossaryentry{V$D_{IR}$@[{$D_{IR}$}]\begingroup Ioffe-Regel diffusivity\nomeqref {3.20}|nompageref}{57}
+\glossaryentry{V$k_{GK}$@[{$k_{GK}$}]\begingroup Green-Kubo predicted thermal conductivity\nomeqref {3.20}|nompageref}{58}
+\glossaryentry{V$k_{bulk}$@[{$k_{bulk}$}]\begingroup bulk thermal conductivity\nomeqref {3.20}|nompageref}{60}
+\glossaryentry{V$c_0$@[{$c_0$}]\begingroup bulk thermal conductivity constant\nomeqref {3.21}|nompageref}{60}
+\glossaryentry{AMFP@[{MFP}]\begingroup mean free path\nomeqref {4.0}|nompageref}{73}
+\glossaryentry{V$k_{vib}$@[{$k_{vib}$}]\begingroup total vibrational thermal conductivity\nomeqref {4.1}|nompageref}{74}
+\glossaryentry{V$k_{pr}$@[{$k_{pr}$}]\begingroup propagating component of total vibrational thermal conductivity\nomeqref {4.1}|nompageref}{74}
+\glossaryentry{G$\omega_{cut}$@[{$\omega_{cut}$}]\begingroup propagating to non-propagating cut-off frequency\nomeqref {4.3}|nompageref}{75}
+\glossaryentry{V$C(\omega)$@[{$C(\omega)$}]\begingroup vibrational mode specific heat\nomeqref {4.3}|nompageref}{75}
+\glossaryentry{V$D_{pr}$@[{$D_{pr}$}]\begingroup propagating mode diffusivity\nomeqref {4.3}|nompageref}{75}
+\glossaryentry{G$\Lambda$@[{$\Lambda$}]\begingroup propagating mode mean free path\nomeqref {4.8}|nompageref}{76}
+\glossaryentry{V$S_{ij}$@[{$S_{ij}$}]\begingroup heat current operator\nomeqref {4.10}|nompageref}{77}
+\glossaryentry{G$\delta$@[{$\delta$}]\begingroup dirac delta function\nomeqref {4.10}|nompageref}{77}
+\glossaryentry{ABKS@[{BKS}]\begingroup Beest-Kramer-van Santen\nomeqref {4.10}|nompageref}{78}
+\glossaryentry{AWWW@[{WWW}]\begingroup Wooten-Winer-Weaire\nomeqref {4.10}|nompageref}{78}
+\glossaryentry{AVESTA@[{VESTA}]\begingroup Visualization for Electronic and Structural Analysis\nomeqref {4.10}|nompageref}{78}
+\glossaryentry{G$\kappa_{max}$@[{$\kappa_{max}$}]\begingroup maximum wavevector for structure factor analysis\nomeqref {4.15}|nompageref}{83}
+\glossaryentry{V$C_0(\pmb{\kappa})$@[{$C_0(\pmb{\kappa})$}]\begingroup structure factor peak constant\nomeqref {4.15}|nompageref}{83}
+\glossaryentry{V$G$@[{$G$}]\begingroup bulk modulus\nomeqref {4.18}|nompageref}{86}
+\glossaryentry{V$K$@[{$K$}]\begingroup shear modulus\nomeqref {4.18}|nompageref}{86}
+\glossaryentry{V$v_{s,DOS}$@[{$v_{s,DOS}$}]\begingroup sound speed extracted from the DOS\nomeqref {4.18}|nompageref}{87}
+\glossaryentry{G$\Lambda_{AF}$@[{$\Lambda_{AF}$}]\begingroup diffuson mean free path\nomeqref {4.24}|nompageref}{93}
+\glossaryentry{V$v_{AF}$@[{$v_{AF}$}]\begingroup diffuson velocity scale\nomeqref {4.24}|nompageref}{93}
+\glossaryentry{G$\Lambda_{HS}$@[{$\Lambda_{HS}$}]\begingroup high scatter mean free path\nomeqref {4.25}|nompageref}{94}
+\glossaryentry{G$\tau_{eff}$@[{$\tau_{eff}$}]\begingroup effective vibrational lifetime\nomeqref {4.26}|nompageref}{98}
+\glossaryentry{G$\Lambda_{cut}$@[{$\Lambda_{cut}$}]\begingroup mean free path at the cut-off frequency\nomeqref {4.27}|nompageref}{100}
+\glossaryentry{V$k(\Lambda^{*})$@[{$k(\Lambda^{*})$}]\begingroup thermal conductivity accumulation function\nomeqref {4.27}|nompageref}{100}
+\glossaryentry{G$\Lambda^*$@[{$\Lambda^*$}]\begingroup maximum mean free path considered in the thermal conductivity accumulation\nomeqref {4.27}|nompageref}{100}
+\glossaryentry{V$k(\Lambda)$@[{$k(\Lambda)$}]\begingroup thermal conductivity as a function of mean free path\nomeqref {4.27}|nompageref}{100}
+\glossaryentry{ALUC@[{LUC}]\begingroup large unit cell\nomeqref {5.0}|nompageref}{111}
+\glossaryentry{APCBM@[{PCBM}]\begingroup Phenyl-C61-butyric acid methyl ester\nomeqref {5.0}|nompageref}{111}
+\glossaryentry{ASUC@[{SUC}]\begingroup small unit cell\nomeqref {5.0}|nompageref}{111}
+\glossaryentry{A$H$@[{$H$}]\begingroup system Hamiltonian\nomeqref {A.1}|nompageref}{115}
+\glossaryentry{V$T\kvt$@[{$T\kvt$}]\begingroup normal mode kinetic energy\nomeqref {A.1}|nompageref}{115}
+\glossaryentry{V$V\kvt$@[{$V\kvt$}]\begingroup normal mode potential energy\nomeqref {A.1}|nompageref}{115}
+\glossaryentry{V$S_{D}(\pmb{\kappa},\omega)$@[{$S_{D}(\pmb{\kappa},\omega)$}]\begingroup displacement structure factor\nomeqref {A.26}|nompageref}{121}
+\glossaryentry{V$k(N_0)$@[{$k(N_0)$}]\begingroup system size-dependent thermal conductivity\nomeqref {A.28}|nompageref}{134}
+\glossaryentry{ABLAS@[{BLAS}]\begingroup Basic Linear Algebra Subprograms\nomeqref {B.0}|nompageref}{159}
+\glossaryentry{ALAPACK@[{LAPACK}]\begingroup Linear Algebra PACkage\nomeqref {B.0}|nompageref}{159}
+\glossaryentry{V$cost_{total}$@[{$cost_{total}$}]\begingroup total computational cost\nomeqref {B.1}|nompageref}{159}

@@ -68,6 +68,11 @@
 \vskip 3em
 
 \begin{center}
+    \em
+    Submitted in partial fulfillment of the requirements \\
+    for the degree of Doctor of Philosophy in Mechanical Engineering.
+\end{center}
+\begin{center}
     Carnegie Institute of Technology \\
     Carnegie Mellon University \\
     Pittsburgh, PA 15213
@@ -78,45 +83,60 @@
     \@committee
 \end{center}
 \vspace{1em}
-\begin{center}
-    \em
-    Submitted in partial fulfillment of the requirements \\
-    for the degree of Doctor of Philosophy in Mechanical Engineering.
-\end{center}
+
 
 
 \vfill
 
-\@ifundefined{@permission}{\@copyrightnotice{Copyright \copyright\ \@Year\ \@author}}{\@copyrightnotice{Copyright \copyright\ \@Year\ \@author. \@permission}}
+%\@ifundefined{@permission}{\@copyrightnotice{Copyright \copyright\ \@Year\ \@author}}{\@copyrightnotice{Copyright \copyright\ \@Year\ \@author. \@permission}}
 
-\@ifundefined{@support}{}{{\medskip\footnotesize\noindent\@support\par}}
+%\@ifundefined{@support}{}{{\medskip\footnotesize\noindent\@support\par}}
 
-\@ifundefined{@disclaimer}{}{{\medskip\footnotesize\noindent\@disclaimer\par}}
+%\@ifundefined{@disclaimer}{}{{\medskip\footnotesize\noindent\@disclaimer\par}}
 
 % keywords go at bottom of page ii (the rear of the titlepage)
 % if keywords are omitted, this page is blank
 
+
+%\thispagestyle{empty}
+%\@ifundefined{@keywords}{}{\vspace*{\fill} {\bf Keywords:} \@keywords}
+
 \clearpage
-\thispagestyle{empty}
-\@ifundefined{@keywords}{}{\vspace*{\fill} {\bf Keywords:} \@keywords}
-\cleardoublepage
+
+\topskip20pt
+\vspace*{\fill}
+\@ifundefined{@permission}{\@copyrightnotice{Copyright \copyright\ \@Year\ \@author}}{\@copyrightnotice{Copyright \copyright\ \@Year\ \@author. \@permission}}
+\vspace*{\fill}
+
+
+
+%\@ifundefined{@support}{}{{\medskip\footnotesize\noindent\@support\par}}
+
+%\@ifundefined{@disclaimer}{}{{\medskip\footnotesize\noindent\@disclaimer\par}}
+
+
+%\cleardoublepage
 }
+
+
 
 \newenvironment{dedication}
   {\cleardoublepage \thispagestyle{empty} \vspace*{\stretch{1}} \begin{center} \em}
   {\end{center} \vspace*{\stretch{3}} \clearpage}
 
 
-\newenvironment{psuedochapter}[1]
-  {\cleardoublepage
+\newenvironment{psuedochapter}[2]
+  {\clearpage
+   \addcontentsline{toc}{chapter}{\numberline{}#1} %--not yet mjz 
+   \clearpage
    \thispagestyle{empty}
-   \vspace*{\stretch{1}} 
-   \begin{center} \large {\bf #1} \end{center}
-%   \addcontentsline{toc}{chapter}{\numberline{}#1} --not yet mjz 
+   %\vspace*{\stretch{1}} 
+   \begin{center}\large {\bf #1} \end{center}
    \begin{quotation}}
   {\end{quotation} 
    \vspace*{\stretch{3}}
-   \clearpage}
+   %\clearpage
+  }
 
 \newenvironment{abstract}
 	{\begin{psuedochapter}{Abstract}}{\end{psuedochapter}}

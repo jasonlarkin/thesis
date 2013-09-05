@@ -1,0 +1,14 @@
+This is makeindex, version 2.15 [TeX Live 2012] (kpathsea + Thai support).
+Scanning style file ./nomencl.ist.......
+** Input style error (file = ./nomencl.ist, line = 65):
+   -- Unknown specifier lethead_prefix.
+** Input style error (file = ./nomencl.ist, line = 66):
+   -- Unknown specifier lethead_suffix.
+** Input style error (file = ./nomencl.ist, line = 67):
+   -- Unknown specifier lethead_flag.
+...done (10 attributes redefined, 3 ignored).
+Scanning input file cmuthesis_jlarkin.glo....done (131 entries accepted, 0 rejected).
+Sorting entries....done (979 comparisons).
+Generating output file cmuthesis_jlarkin.gls....done (256 lines written, 0 warnings).
+Output written in cmuthesis_jlarkin.gls.
+Transcript written in cmuthesis_jlarkin.ilg.

@@ -104,15 +104,19 @@ turney_predicting_2009,goicochea_thermal_2010,he_thermal_2011}.
 In Section 
 \ref{S:Subsection_NMD}, we will describe how this approach can be 
 performed in the frequency-domain 
-using the phonon spectral energy density (SED, referred to as $\Phi$). An 
-alternative expression for 
+using the phonon spectral energy density (SED, referred to as $\Phi$). 
+\nomenclature[A]{SED}{spectral energy density}
+\nomenclature[G]{$\Phi$}{normal mode spectral energy density}
+An alternative expression for 
 the phonon SED (referred to as $\Phi'$), was recently proposed but has not 
+\nomenclature[G]{$\Phi'$}{proposed alternative spectral energy density}
 been rigorously tested 
 \cite{maruyama_molecular_2003,shiomi_non-fourier_2006,
 thomas_predicting_2010}. $\Phi^{'}$ was first used to 
 predict the phonon 
 dispersion curves of carbon nanotubes (CNTs) 
 \cite{maruyama_molecular_2003}. 
+\nomenclature[A]{CNT}{carbon nanotube}
 Thomas et al. used $\Phi'$ to 
 predict the phonon lifetimes and thermal conductivity of isolated and 
 water-filled CNTs, obtaining 
@@ -151,11 +155,14 @@ the phonon mode eigenvector
 conductivities are then predicted and 
 compared using $\Phi$ and $\Phi'$ for three test systems: Lennard-Jones 
 (LJ) argon \cite{ashcroft_solid_1976} 
+\nomenclature[A]{LJ}{Lennard-Jones}
 in Section \ref{S:Subsection_prop_LJ}, Stillinger-Weber (SW) silicon 
+\nomenclature[A]{SW}{Stillinger-Weber}
 \cite{stillinger_computer_1985} in Section 
 \ref{S:Subsection_prop_SW}, and an (8,8) CNT modeled with the reactive 
 empirical bond order (REBO) potential 
 \cite{brenner_second-generation_2002} in 
+\nomenclature[A]{REBO}{reactive empirical bond order}
 Section \ref{S:Subsection_prop_CNT}. While $\Phi'$ 
 is found to accurately predict the 
 phonon frequencies, we find that it does not correctly predict the phonon 
@@ -176,7 +183,9 @@ lattice dynamics theory
 dove_introduction_1993,srivastava_physics_1990}. 
 As shown in Appendix \ref{Appendix_A:Derivation}, 
 the phonon SED at wavevector $\pmb{\kappa}$ 
-is a function of frequency, $\omega$, 
+\nomenclature[G]{$\pmb{\kappa}$}{wavevector} 
+is a function of frequency, $\omega$,
+\nomenclature[G]{$\omega$}{frequency}
 and is given by
 \begin{equation}\label{E:Lorentzian_NMD}
 \begin{split}
@@ -185,11 +194,19 @@ and is given by
 \end{split}
 \end{equation}
 which is a superposition of $3n$ Lorentzian functions with centers at 
-$\omega_0\kv$ and linewidths 
-$\Gamma \kv$ (one for each polarization, $\nu$). The $C_0 \kv$ terms 
+$\omega_0\kv$ 
+\nomenclature[G]{$\omega_0\kv$}{anharmonic phonon frequency}
+and linewidths 
+$\Gamma \kv$ 
+\nomenclature[G]{$\Gamma \kv$}{phonon linewidth}
+(one for each polarization, $\nu$). 
+\nomenclature[G]{$\nu$}{polarization}
+The $C_0 \kv$ terms 
 are mode-dependent constants. 
+\nomenclature[V]{$C_0 \kv$}{mode-dependent Lorentzian constants}
 For simplicity, we refer to $\Phi(\pmb{\kappa},\omega)$ as $\Phi$. 
 The kinetic energy normal mode coordinate, $\dot{q}\kvt$, is 
+\nomenclature[V]{$\dot{q}\kvt$}{normal mode coordinate time derivative}
 \cite{dove_introduction_1993}
 \begin{equation}\label{E:qdot_HLD}
 \begin{split}
@@ -198,14 +215,24 @@ e^*\kvba\EXP{i\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}},
 \end{split}
 \end{equation}
 where $e\kvba$ are the components of the time-independent phonon mode 
+\nomenclature[V]{$e\kvba$}{normal mode eigenvector}
 eigenvector (see Section \ref{Subsection_Comp_Details_2}), 
 $n$ is the number of atoms in the unit cell, 
-$m_b$ is the mass of the $b^{\textrm{th}}$ atom in the unit cell and
-$\mathbf{r}_0\ab{l}{0}$ is the equilibrium position vector of the
+$m_b$ is the mass of the $b^{\textrm{th}}$ atom in the unit cell and 
+\nomenclature[V]{$m_b$}{mass of the $b^{\textrm{th}}$ atom in the unit cell}
+$\mathbf{r}_0\ab{l}{0}$ is the equilibrium position vector of the 
+\nomenclature[V]{$\mathbf{r}_0\ab{l}{0}$}{equilibrium position vector of the $l^{\textrm{th}}$ unit cell}
+\nomenclature[V]{$l$}{unit cell label}
+\nomenclature[V]{$b$}{atom in the unit cell label}
+\nomenclature[V]{$t$}{time}
+\nomenclature[G]{$\alpha$}{cartesian component label}
 $l^{\textrm{th}}$ unit cell. There are $N$ total unit cells and 
 $\dot{u}_{\alpha}\lbt$ 
 is the $\alpha$-component of the velocity of the
 $b^{\textrm{th}}$ atom in the $l^{\textrm{th}}$ unit cell at time $t$.
+%\nomenclature[V]{$\dot{u}_{\alpha}\lbt$}{$\alpha$-component of the velocity of the
+%$b^{\textrm{th}}$ atom in the $l^{\textrm{th}}$ unit cell at time $t$}
+
 
 Given a set of atomic velocities 
 from MD simulation and the phonon mode eigenvector, $\Phi$ can be 
@@ -222,7 +249,9 @@ and then fit using
 Equation \eqref{E:Lorentzian_NMD} to extract the phonon properties 
 $\omega_0\kv$ and $\Gamma\kv$. 
 The phonon lifetime, $\tau \kv$, is defined as $1/[2 \Gamma \kv]$. 
+\nomenclature[G]{$\tau \kv$}{phonon lifetime}
 In practice, $\tau_0$ should 
+\nomenclature[G]{$\tau_0$}{time integration limit}
 be much larger than the longest phonon lifetime and the continuous 
 fourier transform in 
 Equation \eqref{E:Lorentzian_NMD_fft}  
@@ -243,8 +272,7 @@ goicochea_thermal_2010,he_thermal_2011}, while $\Phi$ is a
 representation of the phonon energy in the frequency domain. The 
 time- and frequency-domain 
 approaches are mathematically equivalent by use of the 
-\href{http://en.wikipedia.org/wiki/Wiener\%E2\%80\%93Khinchin_theorem}
-{Wiener-Khinchin theorem} 
+Wiener-Khinchin theorem 
 \cite{rudin_real_1987,shiomi_thermal_2011}, which applied to Eq. 
 \eqref{E:Lorentzian_NMD} gives 
 \begin{equation}\label{E:xcorr_NMD}
@@ -260,6 +288,7 @@ time-domain approach.
 
 The time-domain approach can be simplified by calculating the 
 normal mode coordinate, $q\kvt$, 
+\nomenclature[V]{$q\kvt$}{normal mode coordiante}
 \begin{equation}\label{E:q_HLD}
 \begin{split}
 q\kvt=& \sum_{b,l} \left(\frac{m_b}{N}\right)^{1/2} \EXP{i\pmb{\kappa}
@@ -268,14 +297,13 @@ q\kvt=& \sum_{b,l} \left(\frac{m_b}{N}\right)^{1/2} \EXP{i\pmb{\kappa}
 \end{equation}
 and using it along with Eq. \eqref{E:qdot_HLD} to calculate the 
 total normal mode energy, $E\kvt$ [Eq. \eqref{A:E:q_E}]. 
+\nomenclature[V]{$E\kvt$}{normal mode total energy}
 The autocorrelation of the total normal mode energy is 
 \begin{equation}\label{E:E_xcorr}
 \begin{split}
 \frac{E\kvt E\kvzero}{E \kvzero E\kvzero} = \exp[-2 \Gamma \kv t],
 \end{split}
 \end{equation}
-where $\omega_0$ is the anharmonic frequency (as opposed to that predicted 
-from harmonic lattice dynamics). 
 Thus, one can find the lifetime by fitting the normalized autocorrelation 
 of the mode total energy to an exponential decay. Instead of fitting an 
 exponential function, the lifetime can be approximated as
@@ -308,6 +336,7 @@ thomas_predicting_2010}. Thomas et al.
 \end{split}
 \end{equation}
 where $\Theta \equiv i[\pmb{\kappa}\cdot\mathbf{r}_0\ab{l}{0}-\omega t]$. 
+\nomenclature[G]{$\Theta$}{spatial and temporal phase factor}
 Thomas et al. \cite{thomas_predicting_2010} claim that $\Phi'$ 
 represents the phonon SED. As seen in 
 Eqs. \eqref{E:q_HLD} and \eqref{E:qdot_HLD}, the phonon mode 
@@ -412,6 +441,7 @@ crystal, which can
 be specified from the crystal structure's Bravais lattice, its basis (i.e., 
 unit cell), and 
 the size of the computational domain. A $D$-dimensional Bravais lattice 
+\nomenclature[V]{$D$}{number of spatial dimensions}
 is a collection of 
 points with
 positions
@@ -421,8 +451,11 @@ positions
 \end{split}
 \end{equation}
 where $\mathbf{a}_{\alpha}$ are the lattice vectors and $N_{\alpha}$ is 
+\nomenclature[V]{$\mathbf{a}_{\alpha}$}{lattice vector}
 an integer 
-\cite{dove_introduction_1993}. The unit cell is the building block of 
+\cite{dove_introduction_1993}.
+\nomenclature[V]{$N_{\alpha}$}{lattice vector integer} 
+The unit cell is the building block of 
 the crystal and is placed on the 
 points defined by the Bravais lattice. The equilibrium position of any 
 atom in the crystal 
@@ -434,7 +467,11 @@ can be described by
 \end{equation}
 where $\mathbf{r}_0\ab{0}{b}$ is the equilibrium position of the 
 $b^{\textrm{th}}$ atom in 
-the unit cell relative to $\mathbf{r}_0\ab{l}{0}$. The allowed wavevectors 
+the unit cell relative to $\mathbf{r}_0\ab{l}{0}$. 
+\nomenclature[V]{$\mathbf{r}_0\ab{0}{b}$}{equilibrium position of the 
+$b^{\textrm{th}}$ atom in 
+the unit cell relative to $\mathbf{r}_0\ab{l}{0}$} 
+The allowed wavevectors 
 for any crystal 
 structure are defined by
 \begin{equation}\label{crys_pos3}
@@ -450,6 +487,8 @@ $N_{\alpha}$ are now
 constant even integers. The wavevectors are taken to be in the first 
 Brillouin zone 
 \cite{ashcroft_solid_1976}.
+\nomenclature[V]{$\mathbf{b}_{\alpha}$}{reciprocal lattice vector}
+\nomenclature[V]{$n_{\alpha}$}{reciprocal lattice vector integer}
 
 For the LJ argon and SW silicon systems studied here, the cubic 
 conventional cells are 
@@ -523,15 +562,18 @@ used to fit the Lorentzian function.}
 
 To illustrate the procedure, $\Phi$ was calculated for LJ argon (Section 
 \ref{S:Subsection_prop_LJ}) with $N_0=10$ and $T=20$ K, where $T$ is 
-temperature. $\Phi$ for the two modes denoted by A and B 
+temperature.
+\nomenclature[V]{$T$}{temperature}
+$\Phi$ for the two modes denoted by A and B 
 [see Fig. \ref{F-dispersion}(b)] 
 and wavevector $[\pi/5a,\pi/5a,\pi/5a]$ 
-is shown in Fig$.$ \ref{F-bulkfitting}(b). The lower-frequency peak 
+is shown in Fig$.$ \ref{F-bulkfitting}(b). 
+% \nomenclature[G]{$\pi$}{the number pi}
+The lower-frequency peak 
 corresponds to the longitudinal acoustic mode,
 \cite{dove_introduction_1993} while the higher 
 frequency peak corresponds to an acoustic mode which has been 
-zone-folded. 
-%(ADD APPENDIX) (see Section \ref{A:unitcell}). 
+zone-folded (see Section \ref{A:unitcell}). 
 As discussed in Section \ref{S:Subsection_SED_time-domain}, the frequency 
 and lifetime extraction in normal mode decomposition can als be performed 
 in the time domain. The autocorrelation of the normal 
@@ -569,7 +611,7 @@ calculations.}
 \end{center}
 \end{figure}
 % %--------------------------------------------------------------------------
-\clearpage
+%\clearpage
 
 
 % The anharmonic frequencies (3.68 and 17.8) are close to the frequencies 
@@ -633,6 +675,7 @@ calculations.}
 Once the frequencies and lifetimes of all phonon modes in the first
 Brillouin zone are obtained, the bulk thermal conductivity in direction
 $\mathbf{n}$, $k_{\mathbf{n}}$, can be calculated from 
+\nomenclature[V]{$k_{\mathbf{n}}$}{thermal conductivity in direction $\mathbf{n}$}
 \cite{ziman_electrons_2001}
 \begin{equation}\label{E-size:k_bulk}\
 \begin{split}
@@ -643,12 +686,17 @@ v^{2}_{g,\mathbf{n}} \kv \tau \kv.
 Here, $c_{ph}$ is the phonon volumetric specific heat and 
 ${v}_{g,\mathbf{n}}$ is
 the component of the group velocity vector in direction $\mathbf{n}$. 
+\nomenclature[V]{$c_{ph}$}{phonon volumetric specific heat}
+\nomenclature[V]{${v}_{g,\mathbf{n}}$}{component of the group velocity 
+vector in direction $\mathbf{n}$} 
 Since the systems 
 we consider are classical and obey Maxwell-Boltzmann statistics 
 \cite{mcquarrie_statistical_2000}, the
 specific heat is $k_{\mathrm{B}}$ per mode in the harmonic limit, where 
 $k_{\mathrm{B}}$ 
-is the Boltzmann constant. As temperature increases, anharmonicity causes 
+is the Boltzmann constant. 
+\nomenclature[V]{$k_{\mathrm{B}}$}{Boltzmann's constant} 
+As temperature increases, anharmonicity causes 
 the mode specific 
 heats to deviate from $k_{\mathrm{B}}$ \cite{mcgaughey_quantitative_2004}. 
 The effect is small for the 
@@ -709,6 +757,7 @@ using the open-source GULP package \cite{gale_general_2003}. For
 efficiently parallel MD algorithms (e.g., the open-source LAMMPS package 
 \cite{plimpton_fast_1995}), the simulation time and required memory 
 scale as $N_a$.
+\nomenclature[A]{GULP}{General Utility Lattice Program}
 
 The 
 computational time and memory required to project the atomic velocities 
@@ -744,8 +793,8 @@ that the fitting parameters can be tuned). Once appropriate fitting
 parameters are chosen, the fitting can usually be fully automated for large 
 data sets. For crystalline systems, only the properties of the modes of the 
 irreducible wave vectors are needed, such that the autocorrelations or 
-Fourier transforms for symmetric modes can be averaged before fitting. 
-%(ADD APPENDIX) See Appendix \ref{A:symmetry} for a discussion of symmetries.
+Fourier transforms for symmetric modes can be averaged before fitting 
+(see Appendix \ref{A:symmetry} for a discussion of symmetries).
 
 For the $\Phi$ and $\Phi'$ methods, the computational cost of 
 evaluating Equation \eqref{Lorentzian_SED} is less than that for 
@@ -834,7 +883,9 @@ thermal conductivity
 calculated for LJ argon using $\Phi$ and $\Phi'$. The MD simulations are 
 performed using 
 LAMMPS.\cite{plimpton_fast_1995} A truncated and shifted
-potential cutoff scheme is used with a cutoff radius of 8.5 $\AA$. The 
+potential cutoff scheme is used with a cutoff radius of 8.5 $\AA$. 
+% \nomenclature[C]{$\AA$}{angstrom}
+The 
 quasi-harmonic 
 phonon frequencies, eigenvectors, and group velocities are generated 
 using GULP \cite{gale_general_2003}.
@@ -847,10 +898,13 @@ or $\Phi$) start to
 diverge from MD-based predictions (e.g., from the direct or Green-Kubo 
 methods) above half the 
 melting temperature ($T_{\mathrm{melt}} \approx 80$ K) 
-\cite{turney_predicting_2009}. Here, we limit the 
+\cite{turney_predicting_2009}.
+\nomenclature[V]{$T_{\mathrm{melt}}$}{melting temperature}
+Here, we limit the 
 temperature to below half the melting temperature for the three systems 
 studied (argon, 
 silicon, and CNT).
+\nomenclature[V]{$a$}{lattice constant}
 
 The MD system consists of $N_1 \times N_2 \times N_3 = 8^3 = 512$ 
 conventional cubic unit 
@@ -861,6 +915,8 @@ time steps for an
 additional $2^{20}$ time steps in the $NVE$ ensemble (constant number of 
 atoms, system volume, 
 and total system energy) \cite{mcquarrie_statistical_2000}. 
+\nomenclature[A]{$NVE$}{constant number of atoms, system volume, and 
+total system energy ensemble}
 The sampling rate must be high enough to capture 
 the highest phonon frequency in the system. The sampling rate and total 
 run time are chosen in 
@@ -911,7 +967,7 @@ $\Phi$ does not suffer
 from this issue since the broadened peaks can be fit individually.}
 \end{figure}
 %--------------------------------------------------------------------------
-\clearpage
+%\clearpage
 
 The phonon frequencies and lifetimes extracted for all allowed wavevectors 
 in the first Brillouin 
@@ -973,7 +1029,7 @@ all three temperatures,
 while the phonon lifetimes show large scatter.}
 \end{figure}
 %--------------------------------------------------------------------------
-\clearpage
+%\clearpage
 
 The phonon properties are then used to predict thermal conductivity using 
 Equation 
@@ -1051,7 +1107,7 @@ CNT ($N_1=N_2=1, N_3=50$) \\
 \end{table}
 \end{center}
 %--------------------------------------------------------------------------
-\clearpage
+%\clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Subsection_prop_SW}Stillinger-Weber Silicon}
@@ -1072,6 +1128,7 @@ total of 1728 atoms
 ($b=8$ atoms). The phonon frequencies, eigenvectors, and group velocities 
 are generated using 
 GULP \cite{gale_general_2003}.
+%\nomenclature[C]{fs}{femtosecond}
 
 Using a 0.5 fs timestep, the system is equilibrated for $2^{20}$ time 
 steps before collecting 
@@ -1113,7 +1170,7 @@ phonon frequencies agree well, while the phonon lifetimes show large
 scatter.}
 \end{figure}
 %--------------------------------------------------------------------------
-\clearpage
+%\clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Subsection_prop_CNT}Carbon Nanotube}
@@ -1123,6 +1180,8 @@ predicted by $\Phi$ and
 $\Phi'$ for an (8,8) CNT (diameter of 1.10-nm and length of 12.3 nm) at 
 a temperature of $300$ K 
 and zero pressure \cite{thomas_predicting_2010}. 
+%\nomenclature[C]{nm}{nanometer}
+
 The interactions in the CNT system 
 are modeled using the 
 REBO potential without the four-body interaction term 
@@ -1179,7 +1238,7 @@ potential. The phonon frequencies agree well, while the phonon lifetimes
 show large scatter.}
 \end{figure}
 %--------------------------------------------------------------------------
-\clearpage
+%\clearpage
 
 %--------------------------------------------------------------------------
 \section{\label{Section_Conclusions}Summary}

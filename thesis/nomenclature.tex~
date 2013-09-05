@@ -1,10 +1,15 @@
-\section*{Nomenclature}
+%\addcontentsline{toc}{chapter}{}
+%\section{Nomenclature}
+
+\makenomenclature
+
+\nomenclature{
 
 \begin{tabbing}
  \hspace*{1.5cm}\= \kill
 { $a$}\>{ lattice constant}\\
 { $c$}\>{ alloy concentration}\\
-{ $c_v$}\>{ volumetric specific heat}\\
+{ $c_{ph}$}\>{ volumetric specific heat}\\
 { $C$}\>{ constant}\\
 { $\mathbf{D}$}\>{ dynamical matrix}\\
 { $\mathbf{e}$}\>{ normal mode polarization vector}\\

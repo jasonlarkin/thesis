@@ -10,6 +10,7 @@ and the Virtual Crystal Approximation}
 The virtual crystal (VC) approximation for mass disorder is evaluated by
 examining two model alloy systems: Lennard-Jones argon and Stillinger-Weber
 silicon. 
+\nomenclature[A]{VC}{virtual crystal}
 In both material systems, the perfect crystal is alloyed with a heavier mass
 species up to equal concentration.
 The analysis is performed using molecular dynamics simulations and lattice
@@ -94,6 +95,8 @@ tian_phonon_2012,lindsay_thermal_2012}
 Except for low-frequency (long-wavelength) acoustic modes,
 the general validity of this assumption is unclear. 
 We will refer to this approach as VC-ALD. 
+\nomenclature[A]{VC-ALD}{anharmonic lattice dynamics performed using 
+the virtual crystal approximation}
 Recent work using DFT calculations and the VC-ALD approach has 
 modeled disordered lattices with relatively large 
 ($\sim$ 10-100 W/m-K)
@@ -195,6 +198,7 @@ volumetric specific heat $c_{ph}\kv$,
 $\mathbf{n}$-component of the 
 group velocity vector ${v}_{g,\mathbf{n}}\kv$, 
 and lifetime $\tau\kv$. 
+\nomenclature[V]{$k_{ph,\mathbf{n}}$}{phonon thermal conductivity in the direction $\mathbf{n}$}
 
 The relaxation time approximation has been found to be valid  
 for lower thermal conductivity materials 
@@ -222,6 +226,7 @@ for LJ argon and SW silicon at the temperatures of interest here
 \cite{mcgaughey_quantitative_2004,goicochea_thermal_2010} 
 and is used so that direct comparisons can be made between 
 the MD- and lattice dynamics-based methods.
+\nomenclature[V]{$V$}{system volume}
 
 For disordered systems, the vibrational modes are no 
 longer pure plane-waves (i.e., phonon modes), except in the low-frequency 
@@ -236,6 +241,9 @@ where $D_{AF,i}$ is the mode diffusivity and $\omega_i$ is the
 frequency of the $i$th diffuson. The diffusivity of diffusons 
 can be calculated from harmonic lattice dynamics theory.
 \cite{allen_thermal_1993,feldman_thermal_1993,feldman_numerical_1999} 
+\nomenclature[V]{$k_{AF}$}{diffuson thermal conductivity}
+\nomenclature[V]{$D_{AF,i}$}{mode diffusivity of the $i$th diffuson}
+\nomenclature[G]{$\omega_i$}{frequency of the $i$th diffuson}
 
 Assuming that all vibrational modes travel with the sound speed, $v_s$, and 
 scatter over a distance of the lattice constant, $a$, 
@@ -247,6 +255,11 @@ k_{HS} = \frac{k_{\text{B}}}{V_b}b v_s a,
 where $V_b$ is the volume of the unit cell and $b$ is the number of atoms 
 in the unit cell. The HS limit will be used to 
 discuss the differences between the LJ argon and SW silicon alloys. 
+\nomenclature[V]{$v_s$}{sound speed}
+\nomenclature[V]{$V_b$}{volume of the unit cell}
+\nomenclature[A]{HS}{high scatter}
+\nomenclature[V]{$k_{HS}$}{high scatter thermal conductivity}
+
 
 % The relative contribution of both
 % phonons and diffusons to the total vibrational 
@@ -430,7 +443,7 @@ in (b).
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Calculation}Calculation and Simulation Details}
@@ -458,6 +471,9 @@ LJ units for argon, and (ii) $m^i=m_{Si}$ and $m^j=2.6m_{Si}$
 for SW silicon and ``heavy silicon'', which has the mass of germanium. 
 Concentrations, $c$, of $0,0.05,0.15$ and $0.5$ are considered. 
 % Based on the previous works of others, we only consider mass disorder.
+\nomenclature[V]{$m^i$}{mass of the $i^{th}$ species}
+%\nomenclature[P]{$i$}{$i^{th}$ species}
+\nomenclature[V]{$c$}{alloy concentration}
 
 For LJ argon, the lattice constant 
 at a temperature of 10 K is 5.290 $\AA$.\cite{mcgaughey_phonon_2004} 
@@ -472,6 +488,8 @@ was created by liquefying the crystal
 and instantly quenching by removing all kinetic energy.  The energy 
 of the resulting structure was minimized and then annealed in an 
 $NPT$ (constant number of atoms $N$, pressure $P$, and temperature $T$) 
+\nomenclature[A]{$NPT$}{constant number of atoms, pressure, and temperature ensemble}
+\nomenclature[V]{$P$}{pressure} 
 ensemble at zero pressure and a temperature of 10 K.  
 The effective zero-pressure lattice constant  
 of the amorphous phase at this temperature, based on the atomic 
@@ -492,6 +510,7 @@ energy is cutoff and shifted at 8.5 $\AA$ (the force is not adjusted).
 Time steps of 4.285 and 0.5 fs were used for the LJ argon and 
 SW silicon simulations. The same atomic trajectories are used for the 
 NMD and GK methods. 
+\nomenclature[A]{$NVT$}{constant number of atoms, system volume, and temperature ensemble}
 
 %--------------------------------------------------------------------------
 \section{\label{S:Vibrational}
@@ -519,6 +538,9 @@ $(3N_a)^2$ that scales as $[(3N_a)^2]^3$, limiting the system
 sizes that can be considered. This eigenvalue solution is also 
 required to perform the Gamma-NMD (see Section \ref{S:From VC Gamma})  
 and AF calculations (see Section \ref{S:Diffusivities_vc}). 
+\nomenclature[A]{Gamma}{analysis at the Gamma point (i.e., $\pmb{\kappa}=0$)}
+\nomenclature[A]{Gamma-NMD}{normal mode decomposition performed at the Gamma point (i.e., $\pmb{\kappa}=0$)}
+\nomenclature[A]{DOS}{density of states}
 
 The DOS for the VC and Gamma modes are plotted in Figs. \ref{F:DOS}(a), 
 \ref{F:DOS}(b), and \ref{F:DOS}(c) 
@@ -576,7 +598,7 @@ The supercells are of size $N_0 = 12$ (6,912 atoms).
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Dispersion}Dispersion and Group Velocity}
@@ -662,6 +684,10 @@ $\alpha$ labels the Cartesian coordinates, and
 $\hat{\pmb{\kappa}}_{VC}$ is a unit vector.  
 Explicit disorder is included in the Gamma frequencies 
 $\omega\kgv$ and the $3N_a$ components of the eigenvectors, $e\kgvba$.
+\nomenclature[G]{$\pmb{\kappa}_{VC}$}{allowed wavevector of the virtual crystal}
+\nomenclature[G]{$\hat{\pmb{\kappa}}_{VC}$}{unit vector of the allowed wavevector of the virtual crystal}
+\nomenclature[V]{$S^{L,T}\kvcw$}{longitudinal and transverse structure factor}
+\nomenclature[V]{$E^L\kvcv$}{longitudinal and transverse mode spectra}
 
 Physically, $S^{L,T}\kw$ represents  
 the frequency spectrum required to create a wavepacket with a 
@@ -686,6 +712,7 @@ small wave vector.\cite{allen_diffusons_1999,feldman_numerical_1999}
 With increasing disorder, the structure factor spreads in width,  
 particularly at high frequencies, which is an indication that the 
 modes are not pure plane waves. 
+\nomenclature[G]{$\delta_{\omega,avg}$}{average frequency spacing}
 
 From Fig. \ref{F:SF}, 
 an effective dispersion curve (middle panels) can be extracted by 
@@ -728,7 +755,7 @@ in the given direction.
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Phonon Lifetimes}Lifetimes}
@@ -766,6 +793,9 @@ Here, $m_b$ is the mass of the $b_{th}$ atom in the unit cell,
 $u_{\alpha}$ is the $\alpha$-component of the atomic displacement 
 from equilibrium, $\dot{u}_{\alpha}$ is the $\alpha$-component 
 of the atomic velocity, and $t$ is time.    
+\nomenclature[V]{$u_{\alpha}$}{$\alpha$-component of the atomic displacement 
+from equilibrium}
+\nomenclature[V]{$\dot{u}_{\alpha}$}{$\alpha$-component of the atomic velocity} 
 The total energy of each vibrational mode, $E\kvt$, is calculated 
 from 
 \begin{equation}\label{A:E}
@@ -784,6 +814,7 @@ than the mode lifetime and the brackets indicate
 an ensemble average.\cite{larkin_comparison_2012} 
 The NMD calculations scale 
 as $(N_a)^2$.\cite{turney_predicting_2009}  
+\nomenclature[V]{$t^*$}{upper limit of time integration} 
 
 We perform the MD simulations using the fully disordered supercells  
 and project onto the frequencies and eigenvectors 
@@ -804,11 +835,12 @@ $2^{22}$ time steps and the atomic trajectories were sampled
 every $2^8$ and $2^4$ time steps. 
 Ensemble averaging of the energy autocorrelations was performed 
 using ten independent, initially-randomized velocity distributions. 
+\nomenclature[A]{VC-NMD}{normal mode decomposition performed using the virtual crystal approximation} 
 
 For the normal modes of the lattice supercell, where the energy 
 autocorrelation follows an 
 exponential decay,\cite{ladd_lattice_1986,turney_predicting_2009-1} 
-Eq.~\eqref{EQ:tau_nmd} is exact, but this expression becomes an 
+Eq. \eqref{EQ:tau_nmd} is exact, but this expression becomes an 
 approximation when 
 using the VC normal modes to perform the mappings in Eqs.  
 \eqref{EQ:q} and \eqref{EQ:qdot}. 
@@ -897,7 +929,7 @@ VC-NMD and VC-ALD lifetimes in Fig. \ref{F:Dph_lj}(a).
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+%\clearpage
 
 %--------------------------------------------------------------------------
 \subsubsection{\label{S:From VC-ALD}From VC-ALD}
@@ -918,6 +950,8 @@ effective phonon lifetime can be found using the Matthiessen rule,
 \end{equation}
 where $\tau_{p-p}\kv$ accounts for intrinsic phonon-phonon scattering 
 and $\tau_{p-d}\kv$ accounts for phonon-defect scattering.
+\nomenclature[G]{$\tau_{p-p}\kv$}{phonon-phonon scattering lifetime} 
+\nomenclature[G]{$\tau_{p-d}\kv$}{phonon-defect scattering lifetime} 
 
 Phonon-phonon scattering in ALD is modeled by including three-phonon 
 processes.\cite{turney_predicting_2009-1,garg_role_2011,tian_phonon_2012} 
@@ -960,6 +994,9 @@ there is one atom type in the unit cell
 with $\mu=i,j$, so that the alloying atom labeled by $m^j_{c}$ 
 can be considered to be an ``isotope'' of the atom labeled 
 $m^i_{1-c}$.
+\nomenclature[V]{$m^\mu$}{mass of the $\mu$-th species}
+\nomenclature[V]{$c^\mu$}{concentration of the $\mu$-th species}
+\nomenclature[V]{$\bar{m}^{\mu}$}{average mass of the $\mu$-th species}
 
 The lifetimes predicted by VC-ALD for LJ argon at a concentration 
 of 0.05 are plotted in Fig. \ref{F:Dph_lj}(a).
@@ -1019,6 +1056,7 @@ higher-order interactions in the Tamura theory is of similar
 complexity to anharmonic phonon interaction,
 \cite{maradudin_scattering_1962,ecsedy_thermal_1977,
 turney_predicting_2009-1} and is beyond the scope of this work.
+\nomenclature[V]{$g_n$}{disorder strength of the $n^{th}$ order process of the Tamura theory}
 
 %--------------------------------------------------------------------------
 \begin{figure}
@@ -1040,7 +1078,7 @@ which peaks at high frequency, in contrast to SW silicon
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+%\clearpage
 
 % NOT USED:
 % $c=0.001$ $g_3 = -0.0079$, $g_4 = 0.0158$,
@@ -1077,6 +1115,7 @@ Brillouin zone center).
 % (see Fig. \ref{F:SF}) and 
 % lifetimes predicted by VC-NMD, Gamma-NMD, and VC-ALD 
 % [see Figs. \ref{F:VC Gamma life}, \ref{F:Dph_lj}(a)].  
+\nomenclature[V]{$D_{ph,\mathbf{n}}\kv$}{phonon diffusivity in the direction $\mathbf{n}$}
 
 In the high-scatter limit,\cite{cahill_lattice_1988} 
 the diffusivity of each mode is
@@ -1114,6 +1153,8 @@ high frequencies. For both VC-NMD and VC-ALD, we
 approximate $\pmb{\text{v}}_{g,\mathbf{n}}\kv$ from the VC dispersion 
 (Section \ref{S:Dispersion}) so that any differences in 
 diffusivity $D_{ph}$ will come from the predicted lifetimes.  
+\nomenclature[V]{$D_{HS}$}{high scatter diffusivity}
+\nomenclature[V]{$D_{IR}$}{Ioffe-Regel diffusivity}
 
 In a disordered system,  
 modes can transport heat by harmonic coupling in the AF theory of 
@@ -1155,6 +1196,7 @@ VC predicted phonon diffusivity should be $D_{HS}$
 (and not zero as for a crystal), 
 which is further explored in Sections \ref{S:Thermal Conductivity} and 
 \ref{S:SW}.
+\nomenclature[V]{$k_{GK}$}{Green-Kubo predicted thermal conductivity}
 
 % NOT USED:
 % energy transport in jammed sphere packings\cite{xu_energy_2009}
@@ -1177,7 +1219,7 @@ phase has 6,912 atoms.
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \subsection{\label{S:Discussion}Discussion}
@@ -1263,13 +1305,16 @@ The thermal conductivities predicted by VC-NMD, VC-ALD, and GK are system
 size-dependent [i.e., $k = k(N_0)$] for all lattices and methods except 
 perfect LJ argon from GK.\cite{mcgaughey_quantitative_2004} 
 To predict a bulk thermal conductivity, $k_{bulk}$,  
+\nomenclature[V]{$k_{bulk}$}{bulk thermal conductivity}
 a linear extrapolation procedure is 
 used, whereby 
 \begin{equation}\label{EQ:k0}
 \frac{k(N_0)}{k_{bulk}} = 1 - \frac{c_0}{N_0},
 \end{equation}
 where $c_0$ is a constant.\cite{turney_predicting_2009,
-esfarjani_heat_2011,shiomi_thermal_2011} The thermal conductivity 
+esfarjani_heat_2011,shiomi_thermal_2011} 
+\nomenclature[V]{$c_0$}{bulk thermal conductivity constant} 
+The thermal conductivity 
 is predicted for varying system sizes and the bulk thermal conductivity 
 is obtained by fitting Eq. \eqref{EQ:k0} to the data. 
 For VC-NMD and VC-ALD, the validity of Eq. \eqref{EQ:k0}  
@@ -1301,6 +1346,8 @@ $80\%$ of $k_{GK}$ or greater for all concentrations. The VC-ALD method
 significantly underpredicts the thermal conductivity of the LJ argon alloys. 
 The largest deviation is at a concentration of 0.05, where 
 $k_{VC-ALD}$ is $56\%$ of $k_{GK}$.
+% \nomenclature[A]{$k_{VC-ALD}$}{VC-ALD predicted thermal conductivity}
+% \nomenclature[A]{$k_{VC-NMD}$}{VC-NMD predicted thermal conductivity}
 
 In Section \ref{S:Diffusivities_vc}, 
 we argued for the existence of a minimum mode 
@@ -1402,7 +1449,7 @@ and the high-scatter adjusted VC-NMD$^*$ and VC-ALD$^*$ are also plotted.
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \begin{center}
@@ -1445,7 +1492,7 @@ SW \\
 \end{center}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 % %--------------------------------------------------------------------------
 % \begin{figure}
@@ -1458,7 +1505,7 @@ SW \\
 % \end{figure}
 % %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \section{\label{S:SW}SW silicon}
@@ -1553,7 +1600,7 @@ which peak at low frequency, in contrast to LJ argon
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 %--------------------------------------------------------------------------
 \begin{figure}
@@ -1572,7 +1619,7 @@ percent compared to VC-ALD.}
 \end{figure}
 %--------------------------------------------------------------------------
 
-\clearpage
+% \clearpage
 
 % %--------------------------------------------------------------------------
 % \section{\label{S:Discussion}Thermal Properties Discussion}

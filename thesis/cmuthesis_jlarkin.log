@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.23)  26 AUG 2013 11:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.23)  5 SEP 2013 16:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -89,14 +89,29 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (./nomencl.sty
+Package: nomencl 1999/05/14 v2.7 Nomenclature package (BS)
+\nomlabelwidth=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+\@glossaryfile=\write3
+\openout3 = `cmuthesis_jlarkin.glo'.
+
+Writing glossary file cmuthesis_jlarkin.glo
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (./placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(./lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) (./fullpage.sty
+)
+(./fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
-)
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -156,7 +171,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen105
+\@linkdim=\dimen106
 \Hy@linkcounter=\count90
 \Hy@pagecounter=\count91
 
@@ -205,8 +220,8 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count94
-\Field@Width=\dimen106
-\Fld@charsize=\dimen107
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
 Package hyperref Info: Hyper figures OFF on input line 5773.
 Package hyperref Info: Link nesting OFF on input line 5778.
 Package hyperref Info: Hyper index ON on input line 5781.
@@ -256,14 +271,14 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 \lst@gtempboxa=\box28
 \lst@token=\toks18
 \lst@length=\count103
-\lst@currlwidth=\dimen108
+\lst@currlwidth=\dimen109
 \lst@column=\count104
 \lst@pos=\count105
-\lst@lostspace=\dimen109
-\lst@width=\dimen110
+\lst@lostspace=\dimen110
+\lst@width=\dimen111
 \lst@newlines=\count106
 \lst@lineno=\count107
-\lst@maxwidth=\dimen111
+\lst@maxwidth=\dimen112
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
@@ -287,38 +302,38 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count110
 \Gm@cntv=\count111
 \c@Gm@tempcnt=\count112
-\Gm@bindingoffset=\dimen112
-\Gm@wd@mp=\dimen113
-\Gm@odd@mp=\dimen114
-\Gm@even@mp=\dimen115
-\Gm@layoutwidth=\dimen116
-\Gm@layoutheight=\dimen117
-\Gm@layouthoffset=\dimen118
-\Gm@layoutvoffset=\dimen119
+\Gm@bindingoffset=\dimen113
+\Gm@wd@mp=\dimen114
+\Gm@odd@mp=\dimen115
+\Gm@even@mp=\dimen116
+\Gm@layoutwidth=\dimen117
+\Gm@layoutheight=\dimen118
+\Gm@layouthoffset=\dimen119
+\Gm@layoutvoffset=\dimen120
 \Gm@dimlist=\toks19
 )
 (/usr/share/texmf/tex/latex/iop/multirow.sty
-\bigstrutjot=\dimen120
+\bigstrutjot=\dimen121
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen121
-\lightrulewidth=\dimen122
-\cmidrulewidth=\dimen123
-\belowrulesep=\dimen124
-\belowbottomsep=\dimen125
-\aboverulesep=\dimen126
-\abovetopsep=\dimen127
-\cmidrulesep=\dimen128
-\cmidrulekern=\dimen129
-\defaultaddspace=\dimen130
+\heavyrulewidth=\dimen122
+\lightrulewidth=\dimen123
+\cmidrulewidth=\dimen124
+\belowrulesep=\dimen125
+\belowbottomsep=\dimen126
+\aboverulesep=\dimen127
+\abovetopsep=\dimen128
+\cmidrulesep=\dimen129
+\cmidrulekern=\dimen130
+\defaultaddspace=\dimen131
 \@cmidla=\count113
 \@cmidlb=\count114
-\@aboverulesep=\dimen131
-\@belowrulesep=\dimen132
+\@aboverulesep=\dimen132
+\@belowrulesep=\dimen133
 \@thisruleclass=\count115
 \@lastruleclass=\count116
-\@thisrulewidth=\dimen133
+\@thisrulewidth=\dimen134
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
@@ -334,10 +349,10 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
-\ex@=\dimen134
+\ex@=\dimen135
 )
 LaTeX Info: Redefining \boldsymbol on input line 54.
-\pmbraise@=\dimen135
+\pmbraise@=\dimen136
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
@@ -362,7 +377,7 @@ LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen136
+\big@size=\dimen137
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count122
@@ -375,12 +390,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count127
 \maxfields@=\count128
 \andhelp@=\toks22
-\eqnshift@=\dimen137
-\alignsep@=\dimen138
-\tagshift@=\dimen139
-\tagwidth@=\dimen140
-\totwidth@=\dimen141
-\lineht@=\dimen142
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
 \@envbody=\toks23
 \multlinegap=\skip48
 \multlinetaggap=\skip49
@@ -398,9 +413,6 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
 (./cmuthesis_jlarkin.aux
 
 LaTeX Warning: Label `S-CompCost' multiply defined.
@@ -435,51 +447,24 @@ LaTeX Warning: Label `A:E:equipartition' multiply defined.
 
 LaTeX Warning: Label `A:unitcell' multiply defined.
 
-
-LaTeX Warning: Label `A:unitcell' multiply defined.
-
-
-LaTeX Warning: Label `F-dispersion' multiply defined.
-
-
-LaTeX Warning: Label `EQ:k0' multiply defined.
-
-
-LaTeX Warning: Label `F:LJ_COND' multiply defined.
-
-
-LaTeX Warning: Label `F:LJ_COND' multiply defined.
-
-
-LaTeX Warning: Label `Appendix:Accum' multiply defined.
-
-
-LaTeX Warning: Label `F:LJ_COND' multiply defined.
-
-
-LaTeX Warning: Label `F:LJ_COND' multiply defined.
-
-
-LaTeX Warning: Label `F:LJ_COND' multiply defined.
-
 )
 \openout1 = `cmuthesis_jlarkin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 351.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 387.
+LaTeX Font Info:    ... okay on input line 387.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 387.
+LaTeX Font Info:    ... okay on input line 387.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 387.
+LaTeX Font Info:    ... okay on input line 387.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 387.
+LaTeX Font Info:    ... okay on input line 387.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 387.
+LaTeX Font Info:    ... okay on input line 387.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 387.
+LaTeX Font Info:    ... okay on input line 387.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 387.
+LaTeX Font Info:    ... okay on input line 387.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 387.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -487,13 +472,13 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count129
-\scratchdimen=\dimen143
+\scratchdimen=\dimen144
 \scratchbox=\box32
 \nofMPsegments=\count130
 \nofMParguments=\count131
 \everyMPshowfont=\toks25
 \MPscratchCnt=\count132
-\MPscratchDim=\dimen144
+\MPscratchDim=\dimen145
 \MPnumerator=\count133
 \makeMPintoPDFobject=\count134
 \everyMPtoPDFconversion=\toks26
@@ -513,8 +498,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box33
-Package backref Info: ** backref set up for natbib ** on input line 351.
-Package hyperref Info: Link coloring OFF on input line 351.
+Package backref Info: ** backref set up for natbib ** on input line 387.
+Package hyperref Info: Link coloring OFF on input line 387.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -524,13 +509,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count135
 )
-LaTeX Info: Redefining \ref on input line 351.
-LaTeX Info: Redefining \pageref on input line 351.
-LaTeX Info: Redefining \nameref on input line 351.
+LaTeX Info: Redefining \ref on input line 387.
+LaTeX Info: Redefining \pageref on input line 387.
+LaTeX Info: Redefining \nameref on input line 387.
 
 (./cmuthesis_jlarkin.out) (./cmuthesis_jlarkin.out)
-\@outlinefile=\write3
-\openout3 = `cmuthesis_jlarkin.out'.
+\@outlinefile=\write4
+\openout4 = `cmuthesis_jlarkin.out'.
 
 \c@lstlisting=\count136
 
@@ -571,91 +556,73 @@ LaTeX Info: Redefining \nameref on input line 351.
 
 \@cutoutvskip=\skip50
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 393.
-LaTeX Font Info:    Try loading font information for U+msa on input line 393.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 432.
+LaTeX Font Info:    Try loading font information for U+msa on input line 432.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 393.
+LaTeX Font Info:    Try loading font information for U+msb on input line 432.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Overfull \vbox (20.46425pt too high) detected at line 393
+Overfull \vbox (20.46425pt too high) detected at line 432
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 393.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 393.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 432.
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 432.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 393.
- [1
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-] [3
-
-
-] [4
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 432.
+ [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 404.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 463.
+ [3
 
-Overfull \hbox (6.81538pt too wide) in paragraph at lines 405--414
+
+] [4]
+Overfull \hbox (6.81538pt too wide) in paragraph at lines 516--525
 []\OT1/ptm/m/n/12 I would like to thank []ICES[] for fi-nan-cial as-sis-tance t
 hrough the []Northrop-Grumman
  []
 
-[5] [6
+[5
 
 
-] [7] [8] [9] [10
+] [6
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 468.
- (./cmuthesis_jlarkin.toc [11
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 551.
+ (./cmuthesis_jlarkin.toc [7] [8] [9] [10])
+\tf@toc=\write5
+\openout5 = `cmuthesis_jlarkin.toc'.
 
-] [12] [13] [14]
-Overfull \hbox (19.08424pt too wide) in paragraph at lines 96--96
- [][] []\OT1/ptm/m/n/12 Case-study(a): Com-piled Lan-guage, Lennard-Jones Ar-go
-n Molec- 
- []
+ [11] [12
 
+]
+(./cmuthesis_jlarkin.lof [13
 
-Overfull \hbox (7.98383pt too wide) in paragraph at lines 97--97
- [][] []\OT1/ptm/m/n/12 Compiled ver-sus In-ter-preted Case-study(b): Lennard-J
-ones Dis- 
- []
-
-)
-\tf@toc=\write4
-\openout4 = `cmuthesis_jlarkin.toc'.
-
- [15] [16
-
-] (./cmuthesis_jlarkin.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
+] [14]
 Overfull \hbox (10.11963pt too wide) in paragraph at lines 15--15
  \OT1/ptm/m/n/12 amor-phous phases. The amor-phous phase is well-described by a
  mode-independent 
  []
 
-[19]
+[15]
 
 LaTeX Warning: Command \r invalid in math mode on input line 20.
 
@@ -671,49 +638,31 @@ Overfull \hbox (1.74324pt too wide) in paragraph at lines 22--22
  struc-ture fac-tors [Eq. []] 
  []
 
-
-Underfull \vbox (badness 2495) has occurred while \output is active []
-
- [20]
+[16]
 Overfull \hbox (2.41339pt too wide) in paragraph at lines 26--26
  \OT1/ptm/m/n/12 Eq. []. For a-SiO$[]$, the GK-predicted ther-mal con-duc-tiv-i
 ty is size-independent, 
  []
 
+[17] [18] [19])
+\tf@lof=\write6
+\openout6 = `cmuthesis_jlarkin.lof'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [20] (./cmuthesis_jlarkin.lot [21
 
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22])
-\tf@lof=\write5
-\openout5 = `cmuthesis_jlarkin.lof'.
-
-
-Underfull \vbox (badness 1565) has occurred while \output is active []
-
- [23]
-[24] (./cmuthesis_jlarkin.lot
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25
 
 ])
-\tf@lot=\write6
-\openout6 = `cmuthesis_jlarkin.lot'.
+\tf@lot=\write7
+\openout7 = `cmuthesis_jlarkin.lot'.
+
+ (./nomenclature.tex
+[22] (./cmuthesis_jlarkin.gls [23
 
 
-[26] (./nomenclature.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27
+] [24] [25] [26] [27] [28])) [29] [30
 
 ]
-[28] [29]) [30
-
-
-] (/home/jason/thesis/thesis/introduction.tex
+(/home/jason/thesis/thesis/introduction.tex
 Chapter 1.
 [1
 
@@ -729,149 +678,142 @@ Package epstopdf Info: Source file: </home/jason/thesis/thesis/allen_diffuson_1
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/a
 llen_diffuson_1999_fig1-eps-converted-to.pdf /home/jason/thesis/thesis/allen_di
 ffuson_1999_fig1.eps>
-(epstopdf)             \includegraphics on input line 189.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/allen_diffuson_1999_fig1-eps-converted-to.pdf, id=11
-15, 718.685pt x 599.23875pt>
+</home/jason/thesis/thesis/allen_diffuson_1999_fig1-eps-converted-to.pdf, id=10
+79, 718.685pt x 599.23875pt>
 File: /home/jason/thesis/thesis/allen_diffuson_1999_fig1-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use /home/jason/thesis/thesis/allen_diffuson_1999_fig1-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/thesis/thesis/allen_diffuson_1999_fig1-eps
--converted-to.pdf used on input line 189.
+-converted-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 287.4689pt x 239.69125pt.
 
 [4 </home/jason/thesis/thesis/allen_diffuson_1999_fig1-eps-converted-to.pdf>]
 [5
 
 ] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
 []\OT1/ptm/m/n/10.95 Force con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
 \OT1/ptm/m/n/10.95 (empirical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
-\OT1/ptm/m/n/10.95 po-ten-tial or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-[]\OT1/ptm/m/n/10.95 Force con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-\OT1/ptm/m/n/10.95 (empirical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-\OT1/ptm/m/n/10.95 po-ten-tial or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
-[]\OT1/ptm/m/n/10.95 Forces and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
-\OT1/ptm/m/n/10.95 Force Con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
-\OT1/ptm/m/n/10.95 (empirical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
 \OT1/ptm/m/n/10.95 po-ten-tial or
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 469--470
-[]\OT1/ptm/m/n/10.95 Naturally
+[]\OT1/ptm/m/n/10.95 Force con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+\OT1/ptm/m/n/10.95 (empirical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+\OT1/ptm/m/n/10.95 po-ten-tial or
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 470--471
-[]\OT1/ptm/m/n/10.95 Naturally
+[]\OT1/ptm/m/n/10.95 Forces and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
-[]\OT1/ptm/m/n/10.95 Naturally
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+\OT1/ptm/m/n/10.95 Force Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
-[]\OT1/ptm/m/n/10.95 Bose-Einstein
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+\OT1/ptm/m/n/10.95 (empirical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
-[]\OT1/ptm/m/n/10.95 Bose-Einstein
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+\OT1/ptm/m/n/10.95 po-ten-tial or
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 476--477
+[]\OT1/ptm/m/n/10.95 Naturally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+[]\OT1/ptm/m/n/10.95 Naturally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+[]\OT1/ptm/m/n/10.95 Naturally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 []\OT1/ptm/m/n/10.95 Bose-Einstein
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+[]\OT1/ptm/m/n/10.95 Bose-Einstein
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
+[]\OT1/ptm/m/n/10.95 Bose-Einstein
+ []
+
+
+Underfull \hbox (badness 7722) in paragraph at lines 495--496
 []\OT1/ptm/m/n/10.95 Phonons (Vi-
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 489--490
+Underfull \hbox (badness 7722) in paragraph at lines 496--497
 []\OT1/ptm/m/n/10.95 Phonons (Vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 []\OT1/ptm/m/n/10.95 Phonons and
  []
 
 
-Overfull \hbox (1.5341pt too wide) in paragraph at lines 444--495
+Overfull \hbox (1.5341pt too wide) in paragraph at lines 451--502
 [][] 
  []
 
-[8]
-Underfull \vbox (badness 3088) has occurred while \output is active []
-
- [9
+[8] [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 []\OT1/ptm/m/n/10.95 Maximum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 \OT1/ptm/m/n/10.95 num-ber of
  []
 
 
-Overfull \hbox (1.5341pt too wide) in paragraph at lines 600--643
+Overfull \hbox (1.5341pt too wide) in paragraph at lines 614--657
 [][] 
  []
 
-[10]
-Underfull \vbox (badness 2302) has occurred while \output is active []
+[10] [11
 
- [11
-
-])
-(/home/jason/thesis/thesis/sed/sed.tex [12]
+]) (/home/jason/thesis/thesis/sed/sed.tex [12]
 Chapter 2.
 
 Overfull \hbox (3.6874pt too wide) in paragraph at lines 5--29
@@ -879,57 +821,35 @@ Overfull \hbox (3.6874pt too wide) in paragraph at lines 5--29
 cies and life-times us-ing the phonon
  []
 
+[13
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
-
-]
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [14]
+] [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Phi' on input line 170.
+(hyperref)                removing `\Phi' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 177.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Underfull \vbox (badness 1062) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 3989) has occurred while \output is active []
-
- [17]
+[15] [16] [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 293.
+(hyperref)                removing `math shift' on input line 321.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Phi' on input line 293.
+(hyperref)                removing `\Phi' on input line 321.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 293.
+(hyperref)                removing `math shift' on input line 321.
 
-
-Underfull \vbox (badness 2856) has occurred while \output is active []
-
- [18]
-Underfull \vbox (badness 1810) has occurred while \output is active []
-
- [19]
-[20]
+[18] [19] [20]
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_nmd_xco
 rr_compare_c0_xcorr-5.eps>
 (epstopdf)                    date: 2013-02-23 11:03:03
@@ -941,18 +861,18 @@ rr_compare_c0_xcorr-5-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 book_lj_nmd_xcorr_compare_c0_xcorr-5-eps-converted-to.pdf /home/jason/Dropbox/b
 ook/m_book_lj_nmd_xcorr_compare_c0_xcorr-5.eps>
-(epstopdf)             \includegraphics on input line 559.
+(epstopdf)             \includegraphics on input line 601.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_xcorr-5-eps-converted-
-to.pdf, id=1575, 241.90375pt x 242.9075pt>
+to.pdf, id=1534, 241.90375pt x 242.9075pt>
 File: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_xcorr-5-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_xcorr-5-eps-conver
 ted-to.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c
-0_xcorr-5-eps-converted-to.pdf used on input line 559.
+0_xcorr-5-eps-converted-to.pdf used on input line 601.
 (pdftex.def)             Requested size: 217.71135pt x 218.61472pt.
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_nmd_xco
 rr_compare_c0_sed.eps>
@@ -965,55 +885,41 @@ rr_compare_c0_sed-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 book_lj_nmd_xcorr_compare_c0_sed-eps-converted-to.pdf /home/jason/Dropbox/book/
 m_book_lj_nmd_xcorr_compare_c0_sed.eps>
-(epstopdf)             \includegraphics on input line 561.
+(epstopdf)             \includegraphics on input line 603.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_sed-eps-converted-to.p
-df, id=1576, 241.90375pt x 238.8925pt>
+df, id=1535, 241.90375pt x 238.8925pt>
 File: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_sed-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_sed-eps-converted-
 to.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c
-0_sed-eps-converted-to.pdf used on input line 561.
+0_sed-eps-converted-to.pdf used on input line 603.
 (pdftex.def)             Requested size: 217.71135pt x 215.00125pt.
- [21] [22 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_xcorr-5-eps-
-converted-to.pdf> </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_sed-
-eps-converted-to.pdf>]
-Overfull \hbox (2.28003pt too wide) detected at line 642
+
+Overfull \hbox (2.28003pt too wide) detected at line 685
  []
  []
 
+[21] [22 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_xcorr-5-eps-c
+onverted-to.pdf> </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_sed-e
+ps-converted-to.pdf>] [23] [24]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23
-
-]
-Underfull \vbox (badness 5954) has occurred while \output is active []
-
- [24]
-
-LaTeX Warning: Command \r invalid in math mode on input line 837.
+LaTeX Warning: Command \r invalid in math mode on input line 886.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 843.
+LaTeX Warning: Command \r invalid in math mode on input line 894.
 
 
-Overfull \hbox (3.89139pt too wide) in paragraph at lines 832--854
+Overfull \hbox (3.89139pt too wide) in paragraph at lines 881--908
 \OT1/ptm/m/n/12 cal-cu-lated for LJ ar-gon us-ing $\OT1/cmr/m/n/12 ^^H$ \OT1/pt
 m/m/n/12 and $\OT1/cmr/m/n/12 ^^H[]$\OT1/ptm/m/n/12 . The MD sim-u-la-tions are
  per-formed us-ing LAMMPS.[[]]
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-Underfull \vbox (badness 4378) has occurred while \output is active []
-
- [26]
+[25]
 Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure2
 .eps>
 (epstopdf)                    date: 2012-06-12 11:40:24
@@ -1025,19 +931,18 @@ Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure2
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/a
 ppendix/figure2-eps-converted-to.pdf /home/jason/thesis/thesis/appendix/figure2
 .eps>
-(epstopdf)             \includegraphics on input line 898.
+(epstopdf)             \includegraphics on input line 954.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/appendix/figure2-eps-converted-to.pdf, id=1666, 320.
+</home/jason/thesis/thesis/appendix/figure2-eps-converted-to.pdf, id=1621, 320.
 19624pt x 459.7175pt>
 File: /home/jason/thesis/thesis/appendix/figure2-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use /home/jason/thesis/thesis/appendix/figure2-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/thesis/thesis/appendix/figure2-eps-convert
-ed-to.pdf used on input line 898.
+ed-to.pdf used on input line 954.
 (pdftex.def)             Requested size: 320.19545pt x 459.71637pt.
- [27 </home/jason/thesis/thesis/appendix/figure2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure3
 _a.eps>
 (epstopdf)                    date: 2012-06-12 11:40:44
@@ -1049,17 +954,17 @@ _a-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/a
 ppendix/figure3_a-eps-converted-to.pdf /home/jason/thesis/thesis/appendix/figur
 e3_a.eps>
-(epstopdf)             \includegraphics on input line 957.
+(epstopdf)             \includegraphics on input line 1013.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/appendix/figure3_a-eps-converted-to.pdf, id=1697, 32
+</home/jason/thesis/thesis/appendix/figure3_a-eps-converted-to.pdf, id=1630, 32
 0.19624pt x 304.13625pt>
 File: /home/jason/thesis/thesis/appendix/figure3_a-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use /home/jason/thesis/thesis/appendix/figure3_a-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/thesis/thesis/appendix/figure3_a-eps-conve
-rted-to.pdf used on input line 957.
+rted-to.pdf used on input line 1013.
 (pdftex.def)             Requested size: 320.19545pt x 304.1355pt.
 Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure3
 _b.eps>
@@ -1072,17 +977,17 @@ _b-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/a
 ppendix/figure3_b-eps-converted-to.pdf /home/jason/thesis/thesis/appendix/figur
 e3_b.eps>
-(epstopdf)             \includegraphics on input line 961.
+(epstopdf)             \includegraphics on input line 1017.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/appendix/figure3_b-eps-converted-to.pdf, id=1698, 32
+</home/jason/thesis/thesis/appendix/figure3_b-eps-converted-to.pdf, id=1631, 32
 0.19624pt x 304.13625pt>
 File: /home/jason/thesis/thesis/appendix/figure3_b-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use /home/jason/thesis/thesis/appendix/figure3_b-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/thesis/thesis/appendix/figure3_b-eps-conve
-rted-to.pdf used on input line 961.
+rted-to.pdf used on input line 1017.
 (pdftex.def)             Requested size: 320.19545pt x 304.1355pt.
 Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure3
 _c.eps>
@@ -1095,29 +1000,27 @@ _c-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/a
 ppendix/figure3_c-eps-converted-to.pdf /home/jason/thesis/thesis/appendix/figur
 e3_c.eps>
-(epstopdf)             \includegraphics on input line 965.
+(epstopdf)             \includegraphics on input line 1021.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/appendix/figure3_c-eps-converted-to.pdf, id=1699, 32
+</home/jason/thesis/thesis/appendix/figure3_c-eps-converted-to.pdf, id=1632, 32
 0.19624pt x 304.13625pt>
 File: /home/jason/thesis/thesis/appendix/figure3_c-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use /home/jason/thesis/thesis/appendix/figure3_c-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/thesis/thesis/appendix/figure3_c-eps-conve
-rted-to.pdf used on input line 965.
+rted-to.pdf used on input line 1021.
 (pdftex.def)             Requested size: 320.19545pt x 304.1355pt.
 
-[28
+[26] [27 </home/jason/thesis/thesis/appendix/figure2-eps-converted-to.pdf>]
+[28 </home/jason/thesis/thesis/appendix/figure3_a-eps-converted-to.pdf> </home/
+jason/thesis/thesis/appendix/figure3_b-eps-converted-to.pdf> </home/jason/thesi
+s/thesis/appendix/figure3_c-eps-converted-to.pdf>]
 
-] [29 </home/jason/thesis/thesis/appendix/figure3_a-eps-converted-to.pdf> </hom
-e/jason/thesis/thesis/appendix/figure3_b-eps-converted-to.pdf> </home/jason/the
-sis/thesis/appendix/figure3_c-eps-converted-to.pdf>] [30
+LaTeX Warning: Command \r invalid in math mode on input line 1119.
 
-] [31]
-
-LaTeX Warning: Command \r invalid in math mode on input line 1063.
-
+[29]
 Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure4
 .eps>
 (epstopdf)                    date: 2012-06-12 11:36:50
@@ -1129,22 +1032,20 @@ Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure4
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/a
 ppendix/figure4-eps-converted-to.pdf /home/jason/thesis/thesis/appendix/figure4
 .eps>
-(epstopdf)             \includegraphics on input line 1105.
+(epstopdf)             \includegraphics on input line 1162.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/appendix/figure4-eps-converted-to.pdf, id=1795, 330.
+</home/jason/thesis/thesis/appendix/figure4-eps-converted-to.pdf, id=1745, 330.
 23375pt x 314.17375pt>
 File: /home/jason/thesis/thesis/appendix/figure4-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use /home/jason/thesis/thesis/appendix/figure4-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/thesis/thesis/appendix/figure4-eps-convert
-ed-to.pdf used on input line 1105.
+ed-to.pdf used on input line 1162.
 (pdftex.def)             Requested size: 330.23293pt x 314.17297pt.
- [32
-
-]
-[33 </home/jason/thesis/thesis/appendix/figure4-eps-converted-to.pdf>]
+ [30]
+[31 </home/jason/thesis/thesis/appendix/figure4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure5
 .eps>
 (epstopdf)                    date: 2012-06-12 11:40:00
@@ -1156,29 +1057,24 @@ Package epstopdf Info: Source file: </home/jason/thesis/thesis/appendix/figure5
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/a
 ppendix/figure5-eps-converted-to.pdf /home/jason/thesis/thesis/appendix/figure5
 .eps>
-(epstopdf)             \includegraphics on input line 1171.
+(epstopdf)             \includegraphics on input line 1230.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/appendix/figure5-eps-converted-to.pdf, id=1827, 328.
+</home/jason/thesis/thesis/appendix/figure5-eps-converted-to.pdf, id=1778, 328.
 22626pt x 320.19624pt>
 File: /home/jason/thesis/thesis/appendix/figure5-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use /home/jason/thesis/thesis/appendix/figure5-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/thesis/thesis/appendix/figure5-eps-convert
-ed-to.pdf used on input line 1171.
+ed-to.pdf used on input line 1230.
 (pdftex.def)             Requested size: 328.22545pt x 320.19545pt.
- [34
-
-]
-[35 </home/jason/thesis/thesis/appendix/figure5-eps-converted-to.pdf>])
-(/home/jason/thesis/thesis/vc/vc.tex [36
+ [32 </home/jason/thesis/thesis/appendix/figure5-eps-converted-to.pdf>])
+(/home/jason/thesis/thesis/vc/vc.tex [33] [34
 
 ]
 Chapter 3.
-[37
-
-] [38] [39] [40] [41] [42]
+[35] [36] [37] [38] [39] [40] [41]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig1.eps>
 (epstopdf)                    date: 2013-04-24 01:19:46
 (epstopdf)                    size: 783859 bytes
@@ -1188,38 +1084,32 @@ verted-to.pdf>
 (epstopdf)                    size: 207720 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig1-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig1.eps>
-(epstopdf)             \includegraphics on input line 419.
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig1-eps-converted-to.pdf, id=2014, 1396.21625pt
+</home/jason/disorder/paper/vc/fig1-eps-converted-to.pdf, id=1971, 1396.21625pt
  x 739.76375pt>
 File: /home/jason/disorder/paper/vc/fig1-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig1-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig1-eps-converted-to.pd
-f used on input line 419.
+f used on input line 432.
 (pdftex.def)             Requested size: 279.2383pt x 147.95012pt.
 
-[43] [44 </home/jason/disorder/paper/vc/fig1-eps-converted-to.pdf>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 463.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 478.
-
+[42 </home/jason/disorder/paper/vc/fig1-eps-converted-to.pdf>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 479.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 491.
+LaTeX Warning: Command \r invalid in math mode on input line 496.
 
 
-Underfull \vbox (badness 3088) has occurred while \output is active []
+LaTeX Warning: Command \r invalid in math mode on input line 497.
 
- [45
 
-]
-[46]
+LaTeX Warning: Command \r invalid in math mode on input line 509.
+
+[43] [44]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig2.eps>
 (epstopdf)                    date: 2013-04-24 01:19:46
 (epstopdf)                    size: 274686 bytes
@@ -1229,22 +1119,19 @@ verted-to.pdf>
 (epstopdf)                    size: 13741 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig2-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig2.eps>
-(epstopdf)             \includegraphics on input line 564.
+(epstopdf)             \includegraphics on input line 586.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig2-eps-converted-to.pdf, id=2060, 247.92625pt 
+</home/jason/disorder/paper/vc/fig2-eps-converted-to.pdf, id=2011, 247.92625pt 
 x 388.45125pt>
 File: /home/jason/disorder/paper/vc/fig2-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig2-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig2-eps-converted-to.pd
-f used on input line 564.
+f used on input line 586.
 (pdftex.def)             Requested size: 247.92564pt x 388.45029pt.
 
-[47] [48 </home/jason/disorder/paper/vc/fig2-eps-converted-to.pdf>] [49
-
-]
-[50]
+[45] [46 </home/jason/disorder/paper/vc/fig2-eps-converted-to.pdf>] [47]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig3.eps>
 (epstopdf)                    date: 2013-04-24 01:19:46
 (epstopdf)                    size: 1107495 bytes
@@ -1254,22 +1141,20 @@ verted-to.pdf>
 (epstopdf)                    size: 1647810 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig3-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig3.eps>
-(epstopdf)             \includegraphics on input line 713.
+(epstopdf)             \includegraphics on input line 740.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig3-eps-converted-to.pdf, id=2149, 251.94125pt 
+</home/jason/disorder/paper/vc/fig3-eps-converted-to.pdf, id=2091, 251.94125pt 
 x 441.65pt>
 File: /home/jason/disorder/paper/vc/fig3-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig3-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig3-eps-converted-to.pd
-f used on input line 713.
+f used on input line 740.
 (pdftex.def)             Requested size: 251.94063pt x 441.64891pt.
 
-[51] [52 </home/jason/disorder/paper/vc/fig3-eps-converted-to.pdf>] [53
-
-]
-[54]
+[48] [49 </home/jason/disorder/paper/vc/fig3-eps-converted-to.pdf>] [50]
+[51]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig4.eps>
 (epstopdf)                    date: 2013-04-24 01:19:47
 (epstopdf)                    size: 3114030 bytes
@@ -1279,24 +1164,19 @@ verted-to.pdf>
 (epstopdf)                    size: 1401862 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig4-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig4.eps>
-(epstopdf)             \includegraphics on input line 881.
+(epstopdf)             \includegraphics on input line 913.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig4-eps-converted-to.pdf, id=2223, 251.94125pt 
+</home/jason/disorder/paper/vc/fig4-eps-converted-to.pdf, id=2168, 251.94125pt 
 x 496.85625pt>
 File: /home/jason/disorder/paper/vc/fig4-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig4-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig4-eps-converted-to.pd
-f used on input line 881.
+f used on input line 913.
 (pdftex.def)             Requested size: 251.94063pt x 496.85503pt.
 
-[55] [56 </home/jason/disorder/paper/vc/fig4-eps-converted-to.pdf>] [57
-
-]
-Underfull \vbox (badness 1308) has occurred while \output is active []
-
- [58]
+[52] [53 </home/jason/disorder/paper/vc/fig4-eps-converted-to.pdf>] [54]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig5.eps>
 (epstopdf)                    date: 2013-04-24 01:19:47
 (epstopdf)                    size: 2726141 bytes
@@ -1306,24 +1186,19 @@ verted-to.pdf>
 (epstopdf)                    size: 799075 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig5-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig5.eps>
-(epstopdf)             \includegraphics on input line 1027.
+(epstopdf)             \includegraphics on input line 1065.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig5-eps-converted-to.pdf, id=2301, 251.94125pt 
+</home/jason/disorder/paper/vc/fig5-eps-converted-to.pdf, id=2241, 251.94125pt 
 x 453.695pt>
 File: /home/jason/disorder/paper/vc/fig5-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig5-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig5-eps-converted-to.pd
-f used on input line 1027.
+f used on input line 1065.
 (pdftex.def)             Requested size: 251.94063pt x 453.6939pt.
 
-[59] [60 </home/jason/disorder/paper/vc/fig5-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61
-
-]
+[55] [56 </home/jason/disorder/paper/vc/fig5-eps-converted-to.pdf>] [57]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig6.eps>
 (epstopdf)                    date: 2013-04-24 01:19:47
 (epstopdf)                    size: 778218 bytes
@@ -1333,39 +1208,31 @@ verted-to.pdf>
 (epstopdf)                    size: 997803 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig6-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig6.eps>
-(epstopdf)             \includegraphics on input line 1167.
+(epstopdf)             \includegraphics on input line 1209.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig6-eps-converted-to.pdf, id=2369, 247.92625pt 
+</home/jason/disorder/paper/vc/fig6-eps-converted-to.pdf, id=2309, 247.92625pt 
 x 246.9225pt>
 File: /home/jason/disorder/paper/vc/fig6-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig6-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig6-eps-converted-to.pd
-f used on input line 1167.
+f used on input line 1209.
 (pdftex.def)             Requested size: 247.92564pt x 246.92188pt.
 
-[62] [63 </home/jason/disorder/paper/vc/fig6-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64
-
-]
-Overfull \hbox (15.58669pt too wide) in paragraph at lines 1262--1268
+[58] [59 </home/jason/disorder/paper/vc/fig6-eps-converted-to.pdf>]
+Overfull \hbox (15.58669pt too wide) in paragraph at lines 1304--1311
 []\OT1/ptm/m/n/12 The ther-mal con-duc-tiv-i-ties pre-dicted by VC-NMD, VC-ALD,
  and GK are sys-tem size-dependent
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65]
-Overfull \hbox (8.2048pt too wide) in paragraph at lines 1331--1344
+[60]
+Overfull \hbox (8.2048pt too wide) in paragraph at lines 1378--1391
 []\OT1/ptm/m/n/12 By ap-ply-ing the high-scatter limit ad-just-ment VC-ALD$[]$,
  the ther-mal con-duc-tiv-i-ties are brought
  []
 
-[66]
+[61]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig7.eps>
 (epstopdf)                    date: 2013-04-24 01:19:47
 (epstopdf)                    size: 292680 bytes
@@ -1375,27 +1242,19 @@ verted-to.pdf>
 (epstopdf)                    size: 14200 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig7-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig7.eps>
-(epstopdf)             \includegraphics on input line 1393.
+(epstopdf)             \includegraphics on input line 1440.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig7-eps-converted-to.pdf, id=2454, 247.92625pt 
+</home/jason/disorder/paper/vc/fig7-eps-converted-to.pdf, id=2389, 247.92625pt 
 x 247.92625pt>
 File: /home/jason/disorder/paper/vc/fig7-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig7-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig7-eps-converted-to.pd
-f used on input line 1393.
+f used on input line 1440.
 (pdftex.def)             Requested size: 247.92564pt x 247.92564pt.
 
-[67 </home/jason/disorder/paper/vc/fig7-eps-converted-to.pdf>] [68
-
-]
-Underfull \vbox (badness 5359) has occurred while \output is active []
-
- [69
-
-
-]
+[62] [63 </home/jason/disorder/paper/vc/fig7-eps-converted-to.pdf>] [64]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig8.eps>
 (epstopdf)                    date: 2013-04-24 01:19:47
 (epstopdf)                    size: 2450223 bytes
@@ -1405,19 +1264,17 @@ verted-to.pdf>
 (epstopdf)                    size: 724598 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig8-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig8.eps>
-(epstopdf)             \includegraphics on input line 1538.
+(epstopdf)             \includegraphics on input line 1585.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig8-eps-converted-to.pdf, id=2515, 251.94125pt 
+</home/jason/disorder/paper/vc/fig8-eps-converted-to.pdf, id=2450, 251.94125pt 
 x 457.71pt>
 File: /home/jason/disorder/paper/vc/fig8-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig8-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig8-eps-converted-to.pd
-f used on input line 1538.
+f used on input line 1585.
 (pdftex.def)             Requested size: 251.94063pt x 457.7089pt.
-
-[70] [71 </home/jason/disorder/paper/vc/fig8-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: </home/jason/disorder/paper/vc/fig9.eps>
 (epstopdf)                    date: 2013-04-24 01:19:47
 (epstopdf)                    size: 290617 bytes
@@ -1427,70 +1284,51 @@ verted-to.pdf>
 (epstopdf)                    size: 13085 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/paper/
 vc/fig9-eps-converted-to.pdf /home/jason/disorder/paper/vc/fig9.eps>
-(epstopdf)             \includegraphics on input line 1562.
+(epstopdf)             \includegraphics on input line 1609.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/paper/vc/fig9-eps-converted-to.pdf, id=2551, 254.9525pt x
+</home/jason/disorder/paper/vc/fig9-eps-converted-to.pdf, id=2459, 254.9525pt x
  249.93375pt>
 File: /home/jason/disorder/paper/vc/fig9-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use /home/jason/disorder/paper/vc/fig9-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/paper/vc/fig9-eps-converted-to.pd
-f used on input line 1562.
+f used on input line 1609.
 (pdftex.def)             Requested size: 254.95186pt x 249.93314pt.
 
-[72 </home/jason/disorder/paper/vc/fig9-eps-converted-to.pdf>]
-Overfull \hbox (6.88658pt too wide) in paragraph at lines 1709--1733
+[65] [66 </home/jason/disorder/paper/vc/fig8-eps-converted-to.pdf>] [67 </home/
+jason/disorder/paper/vc/fig9-eps-converted-to.pdf>]
+Overfull \hbox (6.88658pt too wide) in paragraph at lines 1756--1780
 []\OT1/ptm/m/n/12 LJ ar-gon is a ma-te-rial whose ther-mal trans-port has sig-n
 if-i-cant con-tri-bu-tion from high-frequency
  []
 
-
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [73
-
-
-])
-(/home/jason/thesis/thesis/mfp/mfp.tex [74]
-Chapter 4.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [75
+) (/home/jason/thesis/thesis/mfp/mfp.tex [68] [69] [70
 
 ]
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [76]
-[77] [78]
-Overfull \hbox (10.81833pt too wide) in paragraph at lines 316--322
+Chapter 4.
+[71] [72] [73] [74]
+Overfull \hbox (10.81833pt too wide) in paragraph at lines 323--329
 \OT1/ptm/m/n/12 where $\U/msb/m/n/12 ~$ \OT1/ptm/m/n/12 is the Planck constant.
 [[]] The quan-tum spe-cific heat will be used for the non-propagating
  []
 
+[75] [76]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [79]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80]
-
-LaTeX Warning: Command \r invalid in math mode on input line 440.
+LaTeX Warning: Command \r invalid in math mode on input line 450.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 441.
+LaTeX Warning: Command \r invalid in math mode on input line 451.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 444.
+LaTeX Warning: Command \r invalid in math mode on input line 454.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 445.
+LaTeX Warning: Command \r invalid in math mode on input line 455.
 
-[81]
+[77]
 
-LaTeX Warning: Command \r invalid in math mode on input line 473.
+LaTeX Warning: Command \r invalid in math mode on input line 485.
 
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/a288_init216_
 20s_3.eps>
@@ -1503,38 +1341,33 @@ Package epstopdf Info: Source file: </home/jason/disorder/si/amor/a288_init216_
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/a288_init216_20s_3-eps-converted-to.pdf /home/jason/disorder/si/amor/a288_ini
 t216_20s_3.eps>
-(epstopdf)             \includegraphics on input line 497.
+(epstopdf)             \includegraphics on input line 510.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/si/amor/a288_init216_20s_3-eps-converted-to.pdf, id=2908,
+</home/jason/disorder/si/amor/a288_init216_20s_3-eps-converted-to.pdf, id=2846,
  1035.87pt x 567.11874pt>
 File: /home/jason/disorder/si/amor/a288_init216_20s_3-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use /home/jason/disorder/si/amor/a288_init216_20s_3-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/si/amor/a288_init216_20s_3-eps-co
-nverted-to.pdf used on input line 497.
+nverted-to.pdf used on input line 510.
 (pdftex.def)             Requested size: 227.8921pt x 124.76651pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 508.
+LaTeX Warning: Command \r invalid in math mode on input line 521.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 508.
+LaTeX Warning: Command \r invalid in math mode on input line 521.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 508.
+LaTeX Warning: Command \r invalid in math mode on input line 521.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 508.
+LaTeX Warning: Command \r invalid in math mode on input line 521.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82 </home/jason/disorder/si/amor/a288_init216_20s_3-eps-converted-to.pdf>]
-Underfull \vbox (badness 5954) has occurred while \output is active []
-
- [83]
+[78] [79 </home/jason/disorder/si/amor/a288_init216_20s_3-eps-converted-to.pdf>
+]
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_DOS_3.eps>
 (epstopdf)                    date: 2013-08-07 11:32:55
@@ -1546,34 +1379,28 @@ nd_4096_DOS_3-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_DOS_3-eps-converted-to.pdf /home/jason/disorder/si/amor/
 m_af_si_normand_4096_DOS_3.eps>
-(epstopdf)             \includegraphics on input line 604.
+(epstopdf)             \includegraphics on input line 618.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_DOS_3-eps-converted-to.pdf, 
-id=2946, 256.96pt x 252.945pt>
+id=2887, 256.96pt x 252.945pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_DOS_3-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_DOS_3-eps-converted-to.p
 df>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_DOS_
-3-eps-converted-to.pdf used on input line 604.
+3-eps-converted-to.pdf used on input line 618.
 (pdftex.def)             Requested size: 256.95937pt x 252.94438pt.
- [84]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [80] [81 </home/jason/disorder/si/amor/m_af_si_normand_4096_DOS_3-eps-converte
+d-to.pdf>]
 
- [85 </home/jason/disorder/si/amor/m_af_si_normand_4096_DOS_3-eps-converted-to.
-pdf>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 711.
+LaTeX Warning: Command \r invalid in math mode on input line 725.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 718.
+LaTeX Warning: Command \r invalid in math mode on input line 732.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86]
+[82]
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_disp_sio2_2.eps>
 (epstopdf)                    date: 2013-08-07 11:41:05
@@ -1585,18 +1412,18 @@ nd_4096_disp_sio2_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_disp_sio2_2-eps-converted-to.pdf /home/jason/disorder/si
 /amor/m_af_si_normand_4096_disp_sio2_2.eps>
-(epstopdf)             \includegraphics on input line 767.
+(epstopdf)             \includegraphics on input line 785.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_disp_sio2_2-eps-converted-to
-.pdf, id=3061, 243.91125pt x 198.7425pt>
+.pdf, id=3000, 243.91125pt x 198.7425pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_disp_sio2_2-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_disp_sio2_2-eps-converte
 d-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_disp
-_sio2_2-eps-converted-to.pdf used on input line 767.
+_sio2_2-eps-converted-to.pdf used on input line 785.
 (pdftex.def)             Requested size: 243.91064pt x 198.742pt.
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_disp_si.eps>
@@ -1609,43 +1436,32 @@ nd_4096_disp_si-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_disp_si-eps-converted-to.pdf /home/jason/disorder/si/amo
 r/m_af_si_normand_4096_disp_si.eps>
-(epstopdf)             \includegraphics on input line 769.
+(epstopdf)             \includegraphics on input line 787.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_disp_si-eps-converted-to.pdf
-, id=3062, 244.915pt x 205.76875pt>
+, id=3001, 244.915pt x 205.76875pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_disp_si-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_disp_si-eps-converted-to
 .pdf>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_disp
-_si-eps-converted-to.pdf used on input line 769.
+_si-eps-converted-to.pdf used on input line 787.
 (pdftex.def)             Requested size: 244.91438pt x 205.76823pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 777.
+LaTeX Warning: Command \r invalid in math mode on input line 795.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 777.
+LaTeX Warning: Command \r invalid in math mode on input line 795.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87]
-[88 </home/jason/disorder/si/amor/m_af_si_normand_4096_disp_sio2_2-eps-converte
-d-to.pdf> </home/jason/disorder/si/amor/m_af_si_normand_4096_disp_si-eps-conver
-ted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89]
+[83] [84] [85 </home/jason/disorder/si/amor/m_af_si_normand_4096_disp_sio2_2-ep
+s-converted-to.pdf> </home/jason/disorder/si/amor/m_af_si_normand_4096_disp_si-
+eps-converted-to.pdf>] [86]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
-
-[90] [91]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
+ [87] [88] [89]
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_tau_2.eps>
 (epstopdf)                    date: 2013-08-12 20:42:05
@@ -1657,25 +1473,21 @@ nd_4096_tau_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_tau_2-eps-converted-to.pdf /home/jason/disorder/si/amor/
 m_af_si_normand_4096_tau_2.eps>
-(epstopdf)             \includegraphics on input line 1071.
+(epstopdf)             \includegraphics on input line 1092.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_tau_2-eps-converted-to.pdf, 
-id=3257, 241.90375pt x 321.2pt>
+id=3203, 241.90375pt x 321.2pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_tau_2-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_tau_2-eps-converted-to.p
 df>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_tau_
-2-eps-converted-to.pdf used on input line 1071.
+2-eps-converted-to.pdf used on input line 1092.
 (pdftex.def)             Requested size: 241.90315pt x 321.19922pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [93]
-[94 </home/jason/disorder/si/amor/m_af_si_normand_4096_tau_2-eps-converted-to.p
-df>] [95] [96]
+ [90] [91 </home/jason/disorder/si/amor/m_af_si_normand_4096_tau_2-eps-converte
+d-to.pdf>] [92] [93]
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_D_4.eps>
 (epstopdf)                    date: 2013-08-12 20:46:39
@@ -1687,21 +1499,19 @@ nd_4096_D_4-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_D_4-eps-converted-to.pdf /home/jason/disorder/si/amor/m_
 af_si_normand_4096_D_4.eps>
-(epstopdf)             \includegraphics on input line 1269.
+(epstopdf)             \includegraphics on input line 1292.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_D_4-eps-converted-to.pdf, id
-=3368, 252.945pt x 345.29pt>
+=3313, 252.945pt x 345.29pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_D_4-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_D_4-eps-converted-to.pdf
 >
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_D_4-
-eps-converted-to.pdf used on input line 1269.
+eps-converted-to.pdf used on input line 1292.
 (pdftex.def)             Requested size: 252.94438pt x 345.28914pt.
- [97] [98 </home/jason/disorder/si/amor/m_af_si_normand_4096_D_4-eps-converted-
-to.pdf>]
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_Lambda_3.eps>
 (epstopdf)                    date: 2013-08-22 14:15:59
@@ -1713,27 +1523,22 @@ nd_4096_Lambda_3-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_Lambda_3-eps-converted-to.pdf /home/jason/disorder/si/am
 or/m_af_si_normand_4096_Lambda_3.eps>
-(epstopdf)             \includegraphics on input line 1294.
+(epstopdf)             \includegraphics on input line 1317.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_Lambda_3-eps-converted-to.pd
-f, id=3413, 256.96pt x 381.425pt>
+f, id=3328, 256.96pt x 381.425pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_Lambda_3-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_Lambda_3-eps-converted-t
 o.pdf>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_Lamb
-da_3-eps-converted-to.pdf used on input line 1294.
+da_3-eps-converted-to.pdf used on input line 1317.
 (pdftex.def)             Requested size: 256.95937pt x 381.42406pt.
- [99 </home/jason/disorder/si/amor/m_af_si_normand_4096_Lambda_3-eps-converted-
-to.pdf>] [100
-
-
-]
-Underfull \vbox (badness 1874) has occurred while \output is active []
-
- [101]
+ [94 </home/jason/disorder/si/amor/m_af_si_normand_4096_D_4-eps-converted-to.pd
+f>] [95 </home/jason/disorder/si/amor/m_af_si_normand_4096_Lambda_3-eps-convert
+ed-to.pdf>] [96] [97]
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_gk_cond_4.eps>
 (epstopdf)                    date: 2013-08-14 17:38:08
@@ -1745,28 +1550,21 @@ nd_4096_gk_cond_4-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_gk_cond_4-eps-converted-to.pdf /home/jason/disorder/si/a
 mor/m_af_si_normand_4096_gk_cond_4.eps>
-(epstopdf)             \includegraphics on input line 1507.
+(epstopdf)             \includegraphics on input line 1532.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_gk_cond_4-eps-converted-to.p
-df, id=3510, 240.9pt x 253.94875pt>
+df, id=3451, 240.9pt x 253.94875pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_gk_cond_4-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_gk_cond_4-eps-converted-
 to.pdf>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_gk_c
-ond_4-eps-converted-to.pdf used on input line 1507.
+ond_4-eps-converted-to.pdf used on input line 1532.
 (pdftex.def)             Requested size: 240.8994pt x 253.94812pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [102 </home/jason/disorder/si/amor/m_af_si_normand_4096_gk_cond_4-eps-converte
-d-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [103]
-[104]
+ [98 </home/jason/disorder/si/amor/m_af_si_normand_4096_gk_cond_4-eps-converted
+-to.pdf>] [99]
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_kLamba_7_sio2_2.eps>
 (epstopdf)                    date: 2013-08-16 17:39:45
@@ -1778,18 +1576,18 @@ nd_4096_kLamba_7_sio2_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_kLamba_7_sio2_2-eps-converted-to.pdf /home/jason/disorde
 r/si/amor/m_af_si_normand_4096_kLamba_7_sio2_2.eps>
-(epstopdf)             \includegraphics on input line 1688.
+(epstopdf)             \includegraphics on input line 1717.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_sio2_2-eps-converte
-d-to.pdf, id=3586, 240.9pt x 240.9pt>
+d-to.pdf, id=3520, 240.9pt x 240.9pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_sio2_2-eps-con
 verted-to.pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_sio2_2-eps-conv
 erted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_kLam
-ba_7_sio2_2-eps-converted-to.pdf used on input line 1688.
+ba_7_sio2_2-eps-converted-to.pdf used on input line 1717.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
 Package epstopdf Info: Source file: </home/jason/disorder/si/amor/m_af_si_norma
 nd_4096_kLamba_7_si.eps>
@@ -1802,56 +1600,40 @@ nd_4096_kLamba_7_si-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/amo
 r/m_af_si_normand_4096_kLamba_7_si-eps-converted-to.pdf /home/jason/disorder/si
 /amor/m_af_si_normand_4096_kLamba_7_si.eps>
-(epstopdf)             \includegraphics on input line 1690.
+(epstopdf)             \includegraphics on input line 1719.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_si-eps-converted-to
-.pdf, id=3587, 240.9pt x 240.9pt>
+.pdf, id=3521, 240.9pt x 240.9pt>
 File: /home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_si-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_si-eps-converte
 d-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/si/amor/m_af_si_normand_4096_kLam
-ba_7_si-eps-converted-to.pdf used on input line 1690.
+ba_7_si-eps-converted-to.pdf used on input line 1719.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
 
 
-LaTeX Warning: Float too large for page by 8.69193pt on input line 1719.
+LaTeX Warning: Float too large for page by 22.91829pt on input line 1748.
 
-[105] [106 </home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_sio2_2-e
+[100] [101 </home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_7_sio2_2-e
 ps-converted-to.pdf> </home/jason/disorder/si/amor/m_af_si_normand_4096_kLamba_
-7_si-eps-converted-to.pdf>]
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [107
-
-])
-(/home/jason/thesis/thesis/conclusion.tex [108]
-Chapter 5.
-[109
+7_si-eps-converted-to.pdf>] [102]) (/home/jason/thesis/thesis/conclusion.tex
+[103] [104
 
 ]
+Chapter 5.
+[105] [106]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [110]
-[111] [112]
-Underfull \vbox (badness 3724) has occurred while \output is active []
-
- [113]
-Overfull \hbox (1.5341pt too wide) in paragraph at lines 316--333
+ [107] [108] [109] [110]
+Overfull \hbox (1.5341pt too wide) in paragraph at lines 336--353
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [114]
-[115] [116] [117]) (/home/jason/thesis/thesis/appendix/appendix_sed.tex
-[118]
+[111] [112] [113]) (/home/jason/thesis/thesis/appendix/appendix_sed.tex
+[114]
 Appendix A.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1865,155 +1647,173 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
+[115
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [119
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [120]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [121]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [122]
+] [116] [117] [118] [119]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 241.
+(hyperref)                removing `math shift' on input line 246.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Phi' on input line 241.
+(hyperref)                removing `\Phi' on input line 246.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 241.
+(hyperref)                removing `math shift' on input line 246.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [123]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [124]
-[125]
-Package epstopdf Info: Source file: </home/jason/thesis/thesis/table3-unitcell1
-.eps>
-(epstopdf)                    date: 2013-08-14 14:52:31
-(epstopdf)                    size: 702971 bytes
-(epstopdf)             Output file: </home/jason/thesis/thesis/table3-unitcell1
--eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:05
-(epstopdf)                    size: 56374 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/t
-able3-unitcell1-eps-converted-to.pdf /home/jason/thesis/thesis/table3-unitcell1
-.eps>
-(epstopdf)             \includegraphics on input line 408.
+[120] [121]
+Package epstopdf Info: Source file: </home/jason/thesis/thesis/lj_ucell_prim.ep
+s>
+(epstopdf)                    date: 2013-08-27 18:58:40
+(epstopdf)                    size: 1558177 bytes
+(epstopdf)             Output file: </home/jason/thesis/thesis/lj_ucell_prim-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-08-27 18:58:45
+(epstopdf)                    size: 51766 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/l
+j_ucell_prim-eps-converted-to.pdf /home/jason/thesis/thesis/lj_ucell_prim.eps>
+(epstopdf)             \includegraphics on input line 429.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/table3-unitcell1-eps-converted-to.pdf, id=4043, 144.
-54pt x 136.51pt>
-File: /home/jason/thesis/thesis/table3-unitcell1-eps-converted-to.pdf Graphic f
-ile (type pdf)
+</home/jason/thesis/thesis/lj_ucell_prim-eps-converted-to.pdf, id=3997, 531.987
+5pt x 483.8075pt>
+File: /home/jason/thesis/thesis/lj_ucell_prim-eps-converted-to.pdf Graphic file
+ (type pdf)
 
-<use /home/jason/thesis/thesis/table3-unitcell1-eps-converted-to.pdf>
-Package pdftex.def Info: /home/jason/thesis/thesis/table3-unitcell1-eps-convert
-ed-to.pdf used on input line 408.
-(pdftex.def)             Requested size: 144.53963pt x 136.50966pt.
-Package epstopdf Info: Source file: </home/jason/thesis/thesis/table3-unitcell4
-.eps>
-(epstopdf)                    date: 2013-08-14 14:52:37
-(epstopdf)                    size: 705850 bytes
-(epstopdf)             Output file: </home/jason/thesis/thesis/table3-unitcell4
--eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:06
-(epstopdf)                    size: 56093 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/t
-able3-unitcell4-eps-converted-to.pdf /home/jason/thesis/thesis/table3-unitcell4
-.eps>
-(epstopdf)             \includegraphics on input line 410.
+<use /home/jason/thesis/thesis/lj_ucell_prim-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/thesis/thesis/lj_ucell_prim-eps-converted-
+to.pdf used on input line 429.
+(pdftex.def)             Requested size: 106.39561pt x 96.75978pt.
+Package epstopdf Info: Source file: </home/jason/thesis/thesis/lj_ucell_conv.ep
+s>
+(epstopdf)                    date: 2013-08-27 18:59:39
+(epstopdf)                    size: 1506329 bytes
+(epstopdf)             Output file: </home/jason/thesis/thesis/lj_ucell_conv-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-08-27 19:00:49
+(epstopdf)                    size: 48794 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/l
+j_ucell_conv-eps-converted-to.pdf /home/jason/thesis/thesis/lj_ucell_conv.eps>
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/table3-unitcell4-eps-converted-to.pdf, id=4044, 144.
-54pt x 136.51pt>
-File: /home/jason/thesis/thesis/table3-unitcell4-eps-converted-to.pdf Graphic f
-ile (type pdf)
+</home/jason/thesis/thesis/lj_ucell_conv-eps-converted-to.pdf, id=3999, 507.897
+5pt x 489.83pt>
+File: /home/jason/thesis/thesis/lj_ucell_conv-eps-converted-to.pdf Graphic file
+ (type pdf)
 
-<use /home/jason/thesis/thesis/table3-unitcell4-eps-converted-to.pdf>
-Package pdftex.def Info: /home/jason/thesis/thesis/table3-unitcell4-eps-convert
-ed-to.pdf used on input line 410.
-(pdftex.def)             Requested size: 144.53963pt x 136.50966pt.
-Package epstopdf Info: Source file: </home/jason/thesis/thesis/table3-bz1.eps>
-(epstopdf)                    date: 2013-08-14 14:52:21
-(epstopdf)                    size: 411578 bytes
-(epstopdf)             Output file: </home/jason/thesis/thesis/table3-bz1-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:07
-(epstopdf)                    size: 17005 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/t
-able3-bz1-eps-converted-to.pdf /home/jason/thesis/thesis/table3-bz1.eps>
-(epstopdf)             \includegraphics on input line 417.
+<use /home/jason/thesis/thesis/lj_ucell_conv-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/thesis/thesis/lj_ucell_conv-eps-converted-
+to.pdf used on input line 432.
+(pdftex.def)             Requested size: 101.5777pt x 97.96426pt.
+Package epstopdf Info: Source file: </home/jason/thesis/thesis/lj_sucell_conv.e
+ps>
+(epstopdf)                    date: 2013-08-27 19:03:04
+(epstopdf)                    size: 1769023 bytes
+(epstopdf)             Output file: </home/jason/thesis/thesis/lj_sucell_conv-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-27 19:04:37
+(epstopdf)                    size: 122647 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/l
+j_sucell_conv-eps-converted-to.pdf /home/jason/thesis/thesis/lj_sucell_conv.eps
+>
+(epstopdf)             \includegraphics on input line 435.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/table3-bz1-eps-converted-to.pdf, id=4045, 137.51375p
-t x 103.38625pt>
-File: /home/jason/thesis/thesis/table3-bz1-eps-converted-to.pdf Graphic file (t
-ype pdf)
+</home/jason/thesis/thesis/lj_sucell_conv-eps-converted-to.pdf, id=4001, 580.16
+75pt x 503.8825pt>
+File: /home/jason/thesis/thesis/lj_sucell_conv-eps-converted-to.pdf Graphic fil
+e (type pdf)
 
-<use /home/jason/thesis/thesis/table3-bz1-eps-converted-to.pdf>
-Package pdftex.def Info: /home/jason/thesis/thesis/table3-bz1-eps-converted-to.
-pdf used on input line 417.
-(pdftex.def)             Requested size: 137.51341pt x 103.38599pt.
-Package epstopdf Info: Source file: </home/jason/thesis/thesis/table3-bz4.eps>
-(epstopdf)                    date: 2013-08-14 14:52:26
-(epstopdf)                    size: 406248 bytes
-(epstopdf)             Output file: </home/jason/thesis/thesis/table3-bz4-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:08
-(epstopdf)                    size: 12231 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/t
-able3-bz4-eps-converted-to.pdf /home/jason/thesis/thesis/table3-bz4.eps>
-(epstopdf)             \includegraphics on input line 418.
+<use /home/jason/thesis/thesis/lj_sucell_conv-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/thesis/thesis/lj_sucell_conv-eps-converted
+-to.pdf used on input line 435.
+(pdftex.def)             Requested size: 116.03143pt x 100.7747pt.
+
+Overfull \hbox (7.62643pt too wide) in paragraph at lines 434--436
+[]| 
+ []
+
+Package epstopdf Info: Source file: </home/jason/thesis/thesis/lj_octahedron.ep
+s>
+(epstopdf)                    date: 2013-08-27 19:18:46
+(epstopdf)                    size: 1822627 bytes
+(epstopdf)             Output file: </home/jason/thesis/thesis/lj_octahedron-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-08-27 19:25:22
+(epstopdf)                    size: 61067 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/l
+j_octahedron-eps-converted-to.pdf /home/jason/thesis/thesis/lj_octahedron.eps>
+(epstopdf)             \includegraphics on input line 450.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/thesis/thesis/table3-bz4-eps-converted-to.pdf, id=4046, 144.54pt x
- 108.405pt>
-File: /home/jason/thesis/thesis/table3-bz4-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use /home/jason/thesis/thesis/table3-bz4-eps-converted-to.pdf>
-Package pdftex.def Info: /home/jason/thesis/thesis/table3-bz4-eps-converted-to.
-pdf used on input line 418.
-(pdftex.def)             Requested size: 144.53963pt x 108.40472pt.
+</home/jason/thesis/thesis/lj_octahedron-eps-converted-to.pdf, id=4002, 621.321
+24pt x 484.81125pt>
+File: /home/jason/thesis/thesis/lj_octahedron-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use /home/jason/thesis/thesis/lj_octahedron-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/thesis/thesis/lj_octahedron-eps-converted-
+to.pdf used on input line 450.
+(pdftex.def)             Requested size: 111.833pt x 87.26225pt.
+
+Overfull \hbox (3.428pt too wide) in paragraph at lines 449--451
+[]| 
+ []
+
+Package epstopdf Info: Source file: </home/jason/thesis/thesis/lj_cubic.eps>
+(epstopdf)                    date: 2013-08-27 21:01:22
+(epstopdf)                    size: 816769 bytes
+(epstopdf)             Output file: </home/jason/thesis/thesis/lj_cubic-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2013-08-27 21:01:30
+(epstopdf)                    size: 38046 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/l
+j_cubic-eps-converted-to.pdf /home/jason/thesis/thesis/lj_cubic.eps>
+(epstopdf)             \includegraphics on input line 452.
+Package epstopdf Info: Output file is already uptodate.
+
+</home/jason/thesis/thesis/lj_cubic-eps-converted-to.pdf, id=4003, 422.57875pt 
+x 318.18875pt>
+File: /home/jason/thesis/thesis/lj_cubic-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use /home/jason/thesis/thesis/lj_cubic-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/thesis/thesis/lj_cubic-eps-converted-to.pd
+f used on input line 452.
+(pdftex.def)             Requested size: 76.06088pt x 57.2715pt.
+Package epstopdf Info: Source file: </home/jason/thesis/thesis/lj_cubic_super.e
+ps>
+(epstopdf)                    date: 2013-08-27 19:30:13
+(epstopdf)                    size: 272909 bytes
+(epstopdf)             Output file: </home/jason/thesis/thesis/lj_cubic_super-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-27 19:30:26
+(epstopdf)                    size: 14453 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/thesis/thesis/l
+j_cubic_super-eps-converted-to.pdf /home/jason/thesis/thesis/lj_cubic_super.eps
+>
+(epstopdf)             \includegraphics on input line 454.
+Package epstopdf Info: Output file is already uptodate.
+
+</home/jason/thesis/thesis/lj_cubic_super-eps-converted-to.pdf, id=4004, 315.17
+75pt x 140.525pt>
+File: /home/jason/thesis/thesis/lj_cubic_super-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use /home/jason/thesis/thesis/lj_cubic_super-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/thesis/thesis/lj_cubic_super-eps-converted
+-to.pdf used on input line 454.
+(pdftex.def)             Requested size: 56.72949pt x 25.2934pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[126] [127 </home/jason/thesis/thesis/table3-unitcell1-eps-converted-to.pdf> </
-home/jason/thesis/thesis/table3-unitcell4-eps-converted-to.pdf> </home/jason/th
-esis/thesis/table3-bz1-eps-converted-to.pdf> </home/jason/thesis/thesis/table3-
-bz4-eps-converted-to.pdf>]
-Underfull \vbox (badness 1603) has occurred while \output is active []
-
- [128
-
-]
-
-LaTeX Warning: Reference `S-NMDformulation' on page 129 undefined on input line
- 510.
-
-
-LaTeX Warning: Reference `S-workflow' on page 129 undefined on input line 511.
-
-
-Overfull \hbox (9.75847pt too wide) in paragraph at lines 509--521
-\OT1/ptm/m/n/12 Having de-scribed the nor-mal mode de-com-po-si-tion the-o-ret-
-i-cal ap-proach and com-pu-ta-tional method-
- []
-
-[129]
+[122] [123 </home/jason/thesis/thesis/lj_ucell_prim-eps-converted-to.pdf> </hom
+e/jason/thesis/thesis/lj_ucell_conv-eps-converted-to.pdf> </home/jason/thesis/t
+hesis/lj_sucell_conv-eps-converted-to.pdf> </home/jason/thesis/thesis/lj_octahe
+dron-eps-converted-to.pdf> </home/jason/thesis/thesis/lj_cubic-eps-converted-to
+.pdf> </home/jason/thesis/thesis/lj_cubic_super-eps-converted-to.pdf>] [124]
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_disp_do
 s_vg_prim_novg-2.eps>
 (epstopdf)                    date: 2013-02-23 10:56:49
@@ -2025,18 +1825,18 @@ s_vg_prim_novg-2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 book_lj_disp_dos_vg_prim_novg-2-eps-converted-to.pdf /home/jason/Dropbox/book/m
 _book_lj_disp_dos_vg_prim_novg-2.eps>
-(epstopdf)             \includegraphics on input line 559.
+(epstopdf)             \includegraphics on input line 593.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2-eps-converted-to.pd
-f, id=4118, 465.74pt x 244.915pt>
+f, id=4061, 465.74pt x 244.915pt>
 File: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2-eps-converted-t
 o.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_no
-vg-2-eps-converted-to.pdf used on input line 559.
+vg-2-eps-converted-to.pdf used on input line 593.
 (pdftex.def)             Requested size: 465.73886pt x 244.91438pt.
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_disp_do
 s_vg_conv_novg-2.eps>
@@ -2049,32 +1849,29 @@ s_vg_conv_novg-2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 book_lj_disp_dos_vg_conv_novg-2-eps-converted-to.pdf /home/jason/Dropbox/book/m
 _book_lj_disp_dos_vg_conv_novg-2.eps>
-(epstopdf)             \includegraphics on input line 561.
+(epstopdf)             \includegraphics on input line 595.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2-eps-converted-to.pd
-f, id=4119, 465.74pt x 253.94875pt>
+f, id=4062, 465.74pt x 253.94875pt>
 File: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2-eps-converted-t
 o.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_no
-vg-2-eps-converted-to.pdf used on input line 561.
+vg-2-eps-converted-to.pdf used on input line 595.
 (pdftex.def)             Requested size: 465.73886pt x 253.94812pt.
 
-Overfull \hbox (5.01762pt too wide) in paragraph at lines 559--570
+Overfull \hbox (5.01762pt too wide) in paragraph at lines 593--604
  [] 
  []
 
 
-Overfull \hbox (5.01762pt too wide) in paragraph at lines 559--570
+Overfull \hbox (5.01762pt too wide) in paragraph at lines 593--604
  [] 
  []
 
-[130] [131 </home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2-eps-conv
-erted-to.pdf> </home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2-eps-c
-onverted-to.pdf>]
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_nmd_pri
 m_conv_compare-2.eps>
 (epstopdf)                    date: 2013-02-23 11:06:43
@@ -2086,92 +1883,25 @@ m_conv_compare-2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 book_lj_nmd_prim_conv_compare-2-eps-converted-to.pdf /home/jason/Dropbox/book/m
 _book_lj_nmd_prim_conv_compare-2.eps>
-(epstopdf)             \includegraphics on input line 601.
+(epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/Dropbox/book/m_book_lj_nmd_prim_conv_compare-2-eps-converted-to.pd
-f, id=4158, 417.56pt x 244.915pt>
+f, id=4065, 417.56pt x 244.915pt>
 File: /home/jason/Dropbox/book/m_book_lj_nmd_prim_conv_compare-2-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_book_lj_nmd_prim_conv_compare-2-eps-converted-t
 o.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_nmd_prim_conv_compa
-re-2-eps-converted-to.pdf used on input line 601.
+re-2-eps-converted-to.pdf used on input line 614.
 (pdftex.def)             Requested size: 417.55896pt x 244.91438pt.
- [132
+ [125] [126] [127 </home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2-e
+ps-converted-to.pdf> </home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-
+2-eps-converted-to.pdf>] [128 </home/jason/Dropbox/book/m_book_lj_nmd_prim_conv
+_compare-2-eps-converted-to.pdf>] [129
 
-] [133 </home/jason/Dropbox/book/m_book_lj_nmd_prim_conv_compare-2-eps-converte
-d-to.pdf>]
-
-LaTeX Warning: Reference `S-alloy' on page 134 undefined on input line 614.
-
-
-LaTeX Warning: Reference `S-amorphous' on page 134 undefined on input line 614.
-
-
-
-LaTeX Warning: Reference `E-kBTE' on page 134 undefined on input line 628.
-
-
-LaTeX Warning: Reference `F-bulksizeeffect' on page 134 undefined on input line
- 648.
-
-[134
-
-] [135]
-Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_disp_do
-s_vg_prim_novg-2.eps>
-(epstopdf)                    date: 2013-02-23 10:56:49
-(epstopdf)                    size: 282612 bytes
-(epstopdf)             Output file: </home/jason/Dropbox/book/m_book_lj_disp_do
-s_vg_prim_novg-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-22 16:29:51
-(epstopdf)                    size: 14219 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
-book_lj_disp_dos_vg_prim_novg-2-eps-converted-to.pdf /home/jason/Dropbox/book/m
-_book_lj_disp_dos_vg_prim_novg-2.eps>
-(epstopdf)             \includegraphics on input line 795.
-Package epstopdf Info: Output file is already uptodate.
-File: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2-eps-converted-
-to.pdf Graphic file (type pdf)
-
-<use /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_novg-2-eps-converted-t
-o.pdf>
-Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_prim_no
-vg-2-eps-converted-to.pdf used on input line 795.
-(pdftex.def)             Requested size: 465.73886pt x 244.91438pt.
-Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_disp_do
-s_vg_conv_novg-2.eps>
-(epstopdf)                    date: 2013-02-23 10:55:19
-(epstopdf)                    size: 284638 bytes
-(epstopdf)             Output file: </home/jason/Dropbox/book/m_book_lj_disp_do
-s_vg_conv_novg-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-22 16:29:52
-(epstopdf)                    size: 15020 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
-book_lj_disp_dos_vg_conv_novg-2-eps-converted-to.pdf /home/jason/Dropbox/book/m
-_book_lj_disp_dos_vg_conv_novg-2.eps>
-(epstopdf)             \includegraphics on input line 797.
-Package epstopdf Info: Output file is already uptodate.
-File: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2-eps-converted-
-to.pdf Graphic file (type pdf)
-
-<use /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_novg-2-eps-converted-t
-o.pdf>
-Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_disp_dos_vg_conv_no
-vg-2-eps-converted-to.pdf used on input line 797.
-(pdftex.def)             Requested size: 465.73886pt x 253.94812pt.
-
-Overfull \hbox (5.01762pt too wide) in paragraph at lines 795--806
- [] 
- []
-
-
-Overfull \hbox (5.01762pt too wide) in paragraph at lines 795--806
- [] 
- []
-
+]
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_nmd_xco
 rr_compare_c0_c05_c5_sed.eps>
 (epstopdf)                    date: 2013-02-23 11:08:34
@@ -2183,18 +1913,18 @@ rr_compare_c0_c05_c5_sed-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 book_lj_nmd_xcorr_compare_c0_c05_c5_sed-eps-converted-to.pdf /home/jason/Dropbo
 x/book/m_book_lj_nmd_xcorr_compare_c0_c05_c5_sed.eps>
-(epstopdf)             \includegraphics on input line 816.
+(epstopdf)             \includegraphics on input line 791.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_c05_c5_sed-eps-convert
-ed-to.pdf, id=4221, 245.91875pt x 237.88875pt>
+ed-to.pdf, id=4143, 245.91875pt x 237.88875pt>
 File: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_c05_c5_sed-eps-co
 nverted-to.pdf Graphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_c05_c5_sed-eps-con
 verted-to.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c
-0_c05_c5_sed-eps-converted-to.pdf used on input line 816.
+0_c05_c5_sed-eps-converted-to.pdf used on input line 791.
 (pdftex.def)             Requested size: 245.91814pt x 237.88815pt.
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_book_lj_nmd_xco
 rr_compare_c5_xcorr.eps>
@@ -2207,22 +1937,22 @@ rr_compare_c5_xcorr-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 book_lj_nmd_xcorr_compare_c5_xcorr-eps-converted-to.pdf /home/jason/Dropbox/boo
 k/m_book_lj_nmd_xcorr_compare_c5_xcorr.eps>
-(epstopdf)             \includegraphics on input line 818.
+(epstopdf)             \includegraphics on input line 793.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c5_xcorr-eps-converted-to
-.pdf, id=4222, 245.91875pt x 237.88875pt>
+.pdf, id=4144, 245.91875pt x 237.88875pt>
 File: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c5_xcorr-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c5_xcorr-eps-converte
 d-to.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c
-5_xcorr-eps-converted-to.pdf used on input line 818.
+5_xcorr-eps-converted-to.pdf used on input line 793.
 (pdftex.def)             Requested size: 245.91814pt x 237.88815pt.
- [136] [137] [138 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_c05_
-c5_sed-eps-converted-to.pdf> </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_comp
-are_c5_xcorr-eps-converted-to.pdf>]
+ [130] [131 </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c0_c05_c5_sed
+-eps-converted-to.pdf> </home/jason/Dropbox/book/m_book_lj_nmd_xcorr_compare_c5
+_xcorr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_nmd_xcorr_fit_l
 j_plot-2.eps>
 (epstopdf)                    date: 2013-02-23 11:24:17
@@ -2234,24 +1964,18 @@ j_plot-2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 nmd_xcorr_fit_lj_plot-2-eps-converted-to.pdf /home/jason/Dropbox/book/m_nmd_xco
 rr_fit_lj_plot-2.eps>
-(epstopdf)             \includegraphics on input line 886.
+(epstopdf)             \includegraphics on input line 861.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2-eps-converted-to.pdf, id=42
-75, 470.75874pt x 225.84375pt>
+</home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2-eps-converted-to.pdf, id=41
+92, 470.75874pt x 225.84375pt>
 File: /home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2-eps
--converted-to.pdf used on input line 886.
+-converted-to.pdf used on input line 861.
 (pdftex.def)             Requested size: 400.14682pt x 191.96808pt.
-
-Underfull \vbox (badness 5592) has occurred while \output is active []
-
- [139
-
-]
 Package epstopdf Info: Source file: </home/jason/Dropbox/book/m_lj_nmd_c0_amor_
 life.eps>
 (epstopdf)                    date: 2013-02-23 11:52:53
@@ -2263,234 +1987,262 @@ life-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/Dropbox/book/m_
 lj_nmd_c0_amor_life-eps-converted-to.pdf /home/jason/Dropbox/book/m_lj_nmd_c0_a
 mor_life.eps>
-(epstopdf)             \includegraphics on input line 897.
+(epstopdf)             \includegraphics on input line 872.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/Dropbox/book/m_lj_nmd_c0_amor_life-eps-converted-to.pdf, id=4281, 
+</home/jason/Dropbox/book/m_lj_nmd_c0_amor_life-eps-converted-to.pdf, id=4193, 
 273.02pt x 237.88875pt>
 File: /home/jason/Dropbox/book/m_lj_nmd_c0_amor_life-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use /home/jason/Dropbox/book/m_lj_nmd_c0_amor_life-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/Dropbox/book/m_lj_nmd_c0_amor_life-eps-con
-verted-to.pdf used on input line 897.
+verted-to.pdf used on input line 872.
 (pdftex.def)             Requested size: 232.06808pt x 202.20638pt.
 
-[140 </home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2-eps-converted-to.pdf> 
-</home/jason/Dropbox/book/m_lj_nmd_c0_amor_life-eps-converted-to.pdf>] [141
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[132] [133 </home/jason/Dropbox/book/m_nmd_xcorr_fit_lj_plot-2-eps-converted-to
+.pdf> </home/jason/Dropbox/book/m_lj_nmd_c0_amor_life-eps-converted-to.pdf>]
+[134
 
 ]
+Package epstopdf Info: Source file: </home/jason/disorder/si/alloy/m_ald_taud_s
+i_cond_N0_ald_gk_nmd.eps>
+(epstopdf)                    date: 2013-08-28 00:57:18
+(epstopdf)                    size: 125480 bytes
+(epstopdf)             Output file: </home/jason/disorder/si/alloy/m_ald_taud_s
+i_cond_N0_ald_gk_nmd-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-28 00:57:28
+(epstopdf)                    size: 11331 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/all
+oy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-converted-to.pdf /home/jason/disorder/s
+i/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps>
+(epstopdf)             \includegraphics on input line 989.
+Package epstopdf Info: Output file is already uptodate.
+
+</home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-converted-t
+o.pdf, id=4255, 247.92625pt x 247.92625pt>
+File: /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_al
+d_gk_nmd-eps-converted-to.pdf used on input line 989.
+(pdftex.def)             Requested size: 247.92564pt x 247.92564pt.
+Package epstopdf Info: Source file: </home/jason/disorder/si/alloy/a_ald_taud_s
+i_tau_kw.eps>
+(epstopdf)                    date: 2013-09-03 21:23:21
+(epstopdf)                    size: 2203683 bytes
+(epstopdf)             Output file: </home/jason/disorder/si/alloy/a_ald_taud_s
+i_tau_kw-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-09-03 21:23:27
+(epstopdf)                    size: 21131 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/all
+oy/a_ald_taud_si_tau_kw-eps-converted-to.pdf /home/jason/disorder/si/alloy/a_al
+d_taud_si_tau_kw.eps>
+(epstopdf)             \includegraphics on input line 1004.
+Package epstopdf Info: Output file is already uptodate.
+
+</home/jason/disorder/si/alloy/a_ald_taud_si_tau_kw-eps-converted-to.pdf, id=42
+56, 242.9075pt x 348.30125pt>
+File: /home/jason/disorder/si/alloy/a_ald_taud_si_tau_kw-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use /home/jason/disorder/si/alloy/a_ald_taud_si_tau_kw-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/disorder/si/alloy/a_ald_taud_si_tau_kw-eps
+-converted-to.pdf used on input line 1004.
+(pdftex.def)             Requested size: 242.90689pt x 348.3004pt.
+
+[135] [136 </home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-
+converted-to.pdf>] [137 </home/jason/disorder/si/alloy/a_ald_taud_si_tau_kw-eps
+-converted-to.pdf>]
 Package epstopdf Info: Source file: </home/jason/disorder/lj/alloy/m_eig_3d_plo
 t_lj_alloy_c5_mode11999_12000.eps>
-(epstopdf)                    date: 2013-04-24 01:19:40
-(epstopdf)                    size: 472202 bytes
+(epstopdf)                    date: 2013-09-03 21:30:34
+(epstopdf)                    size: 219519 bytes
 (epstopdf)             Output file: </home/jason/disorder/lj/alloy/m_eig_3d_plo
 t_lj_alloy_c5_mode11999_12000-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:10
-(epstopdf)                    size: 31424 bytes
+(epstopdf)                    date: 2013-09-03 21:30:41
+(epstopdf)                    size: 29257 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/lj/all
 oy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000-eps-converted-to.pdf /home/jason/d
 isorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000.eps>
-(epstopdf)             \includegraphics on input line 1013.
+(epstopdf)             \includegraphics on input line 1044.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000-eps-co
-nverted-to.pdf, id=4327, 299.1175pt x 319.1925pt>
+nverted-to.pdf, id=4293, 299.1175pt x 306.14375pt>
 File: /home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000-e
 ps-converted-to.pdf Graphic file (type pdf)
 
 <use /home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000-ep
 s-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c
-5_mode11999_12000-eps-converted-to.pdf used on input line 1013.
-(pdftex.def)             Requested size: 299.11676pt x 319.19171pt.
- [142] [143 </home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_
-12000-eps-converted-to.pdf>]
-Overfull \hbox (34.96823pt too wide) in paragraph at lines 1167--1167
-[][]\OT1/ptm/b/n/17.28 Size-effects for Low-frequency Dom-i-nated Ma-te-ri-als 
-(WORK) 
- []
-
-Package epstopdf Info: Source file: </home/jason/disorder/si/alloy/m_ald_taud_s
-i_cond_N0_ald_gk_nmd.eps>
-(epstopdf)                    date: 2013-04-24 01:19:49
-(epstopdf)                    size: 283303 bytes
-(epstopdf)             Output file: </home/jason/disorder/si/alloy/m_ald_taud_s
-i_cond_N0_ald_gk_nmd-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:11
-(epstopdf)                    size: 12091 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/all
-oy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-converted-to.pdf /home/jason/disorder/s
-i/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps>
-(epstopdf)             \includegraphics on input line 1174.
+5_mode11999_12000-eps-converted-to.pdf used on input line 1044.
+(pdftex.def)             Requested size: 299.11676pt x 306.14299pt.
+Package epstopdf Info: Source file: </home/jason/disorder/lj/alloy/af_di_delta_
+omega.eps>
+(epstopdf)                    date: 2013-09-03 22:19:56
+(epstopdf)                    size: 817202 bytes
+(epstopdf)             Output file: </home/jason/disorder/lj/alloy/af_di_delta_
+omega-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-09-03 22:20:09
+(epstopdf)                    size: 263517 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/lj/all
+oy/af_di_delta_omega-eps-converted-to.pdf /home/jason/disorder/lj/alloy/af_di_d
+elta_omega.eps>
+(epstopdf)             \includegraphics on input line 1086.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-converted-t
-o.pdf, id=4351, 247.92625pt x 247.92625pt>
-File: /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-conver
-ted-to.pdf Graphic file (type pdf)
+</home/jason/disorder/lj/alloy/af_di_delta_omega-eps-converted-to.pdf, id=4302,
+ 269.005pt x 409.53pt>
+File: /home/jason/disorder/lj/alloy/af_di_delta_omega-eps-converted-to.pdf Grap
+hic file (type pdf)
 
-<use /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-convert
-ed-to.pdf>
-Package pdftex.def Info: /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_al
-d_gk_nmd-eps-converted-to.pdf used on input line 1174.
-(pdftex.def)             Requested size: 247.92564pt x 247.92564pt.
- [144
+<use /home/jason/disorder/lj/alloy/af_di_delta_omega-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/disorder/lj/alloy/af_di_delta_omega-eps-co
+nverted-to.pdf used on input line 1086.
+(pdftex.def)             Requested size: 269.00433pt x 409.52899pt.
+Package epstopdf Info: Source file: </home/jason/disorder/lj/alloy/af_di_kappa_
+broaden.eps>
+(epstopdf)                    date: 2013-09-03 22:23:04
+(epstopdf)                    size: 146672 bytes
+(epstopdf)             Output file: </home/jason/disorder/lj/alloy/af_di_kappa_
+broaden-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-09-03 22:23:07
+(epstopdf)                    size: 11790 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/lj/all
+oy/af_di_kappa_broaden-eps-converted-to.pdf /home/jason/disorder/lj/alloy/af_di
+_kappa_broaden.eps>
+(epstopdf)             \includegraphics on input line 1103.
+Package epstopdf Info: Output file is already uptodate.
 
- </home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-converted-
-to.pdf>]
+</home/jason/disorder/lj/alloy/af_di_kappa_broaden-eps-converted-to.pdf, id=430
+3, 269.005pt x 273.02pt>
+File: /home/jason/disorder/lj/alloy/af_di_kappa_broaden-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use /home/jason/disorder/lj/alloy/af_di_kappa_broaden-eps-converted-to.pdf>
+Package pdftex.def Info: /home/jason/disorder/lj/alloy/af_di_kappa_broaden-eps-
+converted-to.pdf used on input line 1103.
+(pdftex.def)             Requested size: 269.00433pt x 273.01933pt.
+
+[138
+
+] [139 </home/jason/disorder/lj/alloy/m_eig_3d_plot_lj_alloy_c5_mode11999_12000
+-eps-converted-to.pdf>] [140 </home/jason/disorder/lj/alloy/af_di_delta_omega-e
+ps-converted-to.pdf>] [141 </home/jason/disorder/lj/alloy/af_di_kappa_broaden-e
+ps-converted-to.pdf>]
+Package epstopdf Info: Source file: </home/jason/disorder/lj/alloy/dsf_alloy_05
+_mode100-4000.eps>
+(epstopdf)                    date: 2013-08-28 13:45:33
+(epstopdf)                    size: 231045 bytes
+(epstopdf)             Output file: </home/jason/disorder/lj/alloy/dsf_alloy_05
+_mode100-4000-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-28 13:45:37
+(epstopdf)                    size: 27148 bytes
+(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/lj/all
+oy/dsf_alloy_05_mode100-4000-eps-converted-to.pdf /home/jason/disorder/lj/alloy
+/dsf_alloy_05_mode100-4000.eps>
+(epstopdf)             \includegraphics on input line 1258.
+Package epstopdf Info: Output file is already uptodate.
+
+</home/jason/disorder/lj/alloy/dsf_alloy_05_mode100-4000-eps-converted-to.pdf, 
+id=4412, 262.9825pt x 370.38374pt>
+File: /home/jason/disorder/lj/alloy/dsf_alloy_05_mode100-4000-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use /home/jason/disorder/lj/alloy/dsf_alloy_05_mode100-4000-eps-converted-to.p
+df>
+Package pdftex.def Info: /home/jason/disorder/lj/alloy/dsf_alloy_05_mode100-400
+0-eps-converted-to.pdf used on input line 1258.
+(pdftex.def)             Requested size: 262.98184pt x 370.38283pt.
+ [142
+
+] [143 </home/jason/disorder/lj/alloy/dsf_alloy_05_mode100-4000-eps-converted-t
+o.pdf>]
 Package epstopdf Info: Source file: </home/jason/disorder/lj/alloy/m_ald_taud_l
 j_kaccum.eps>
-(epstopdf)                    date: 2013-04-24 01:19:39
-(epstopdf)                    size: 114832 bytes
+(epstopdf)                    date: 2013-09-03 22:31:36
+(epstopdf)                    size: 165708 bytes
 (epstopdf)             Output file: </home/jason/disorder/lj/alloy/m_ald_taud_l
 j_kaccum-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:11
-(epstopdf)                    size: 9388 bytes
+(epstopdf)                    date: 2013-09-03 22:31:39
+(epstopdf)                    size: 13309 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/lj/all
 oy/m_ald_taud_lj_kaccum-eps-converted-to.pdf /home/jason/disorder/lj/alloy/m_al
 d_taud_lj_kaccum.eps>
-(epstopdf)             \includegraphics on input line 1194.
+(epstopdf)             \includegraphics on input line 1295.
 Package epstopdf Info: Output file is already uptodate.
 
-</home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum-eps-converted-to.pdf, id=43
-68, 245.91875pt x 203.76125pt>
+</home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum-eps-converted-to.pdf, id=44
+57, 245.91875pt x 230.8625pt>
 File: /home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use /home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum-eps
--converted-to.pdf used on input line 1194.
-(pdftex.def)             Requested size: 245.91814pt x 203.76074pt.
-
-[145
-
- </home/jason/disorder/lj/alloy/m_ald_taud_lj_kaccum-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: </home/jason/disorder/lj/alloy/xcorr_alloy_
-cum_cond.eps>
-(epstopdf)                    date: 2013-04-24 01:19:40
-(epstopdf)                    size: 119950 bytes
-(epstopdf)             Output file: </home/jason/disorder/lj/alloy/xcorr_alloy_
-cum_cond-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:11
-(epstopdf)                    size: 10842 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/lj/all
-oy/xcorr_alloy_cum_cond-eps-converted-to.pdf /home/jason/disorder/lj/alloy/xcor
-r_alloy_cum_cond.eps>
-(epstopdf)             \includegraphics on input line 1208.
-Package epstopdf Info: Output file is already uptodate.
-
-</home/jason/disorder/lj/alloy/xcorr_alloy_cum_cond-eps-converted-to.pdf, id=43
-81, 385.44pt x 306.14375pt>
-File: /home/jason/disorder/lj/alloy/xcorr_alloy_cum_cond-eps-converted-to.pdf G
-raphic file (type pdf)
-
-<use /home/jason/disorder/lj/alloy/xcorr_alloy_cum_cond-eps-converted-to.pdf>
-Package pdftex.def Info: /home/jason/disorder/lj/alloy/xcorr_alloy_cum_cond-eps
--converted-to.pdf used on input line 1208.
-(pdftex.def)             Requested size: 385.43906pt x 306.14299pt.
-
-[146 </home/jason/disorder/lj/alloy/xcorr_alloy_cum_cond-eps-converted-to.pdf>]
+-converted-to.pdf used on input line 1295.
+(pdftex.def)             Requested size: 245.91814pt x 230.86192pt.
 Package epstopdf Info: Source file: </home/jason/disorder/si/alloy/m_ald_taud_s
 i_klambda.eps>
-(epstopdf)                    date: 2013-04-24 01:19:49
-(epstopdf)                    size: 125488 bytes
+(epstopdf)                    date: 2013-09-03 22:38:18
+(epstopdf)                    size: 176644 bytes
 (epstopdf)             Output file: </home/jason/disorder/si/alloy/m_ald_taud_s
 i_klambda-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:12
-(epstopdf)                    size: 12663 bytes
+(epstopdf)                    date: 2013-09-03 22:38:30
+(epstopdf)                    size: 16833 bytes
 (epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/all
 oy/m_ald_taud_si_klambda-eps-converted-to.pdf /home/jason/disorder/si/alloy/m_a
 ld_taud_si_klambda.eps>
-(epstopdf)             \includegraphics on input line 1222.
+(epstopdf)             \includegraphics on input line 1308.
 Package epstopdf Info: Output file is already uptodate.
 
 </home/jason/disorder/si/alloy/m_ald_taud_si_klambda-eps-converted-to.pdf, id=4
-393, 240.9pt x 234.8775pt>
+458, 240.9pt x 234.8775pt>
 File: /home/jason/disorder/si/alloy/m_ald_taud_si_klambda-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use /home/jason/disorder/si/alloy/m_ald_taud_si_klambda-eps-converted-to.pdf>
 Package pdftex.def Info: /home/jason/disorder/si/alloy/m_ald_taud_si_klambda-ep
-s-converted-to.pdf used on input line 1222.
+s-converted-to.pdf used on input line 1308.
 (pdftex.def)             Requested size: 240.8994pt x 234.87692pt.
+) (/home/jason/thesis/thesis/appendix/appendix_computing.tex [144] [145 </home/
+jason/disorder/lj/alloy/m_ald_taud_lj_kaccum-eps-converted-to.pdf> </home/jason
+/disorder/si/alloy/m_ald_taud_si_klambda-eps-converted-to.pdf>] [146
 
-[147 </home/jason/disorder/si/alloy/m_ald_taud_si_klambda-eps-converted-to.pdf>
 ]
-Package epstopdf Info: Source file: </home/jason/disorder/si/alloy/m_ald_taud_s
-i_cond_N0_ald_gk_nmd.eps>
-(epstopdf)                    date: 2013-04-24 01:19:49
-(epstopdf)                    size: 283303 bytes
-(epstopdf)             Output file: </home/jason/disorder/si/alloy/m_ald_taud_s
-i_cond_N0_ald_gk_nmd-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 11:34:11
-(epstopdf)                    size: 12091 bytes
-(epstopdf)             Command: <epstopdf --outfile=/home/jason/disorder/si/all
-oy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-converted-to.pdf /home/jason/disorder/s
-i/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd.eps>
-(epstopdf)             \includegraphics on input line 1236.
-Package epstopdf Info: Output file is already uptodate.
-File: /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-conver
-ted-to.pdf Graphic file (type pdf)
-
-<use /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_ald_gk_nmd-eps-convert
-ed-to.pdf>
-Package pdftex.def Info: /home/jason/disorder/si/alloy/m_ald_taud_si_cond_N0_al
-d_gk_nmd-eps-converted-to.pdf used on input line 1236.
-(pdftex.def)             Requested size: 247.92564pt x 247.92564pt.
- [148]) (/home/jason/thesis/thesis/appendix/appendix_computing.tex
 Appendix B.
 
-Overfull \hbox (63.6717pt too wide) in paragraph at lines 76--94
+Overfull \hbox (0.10828pt too wide) in paragraph at lines 83--102
 []\OT1/ptm/m/n/12 There are many op-tions for in-stalling Ubuntu and the in-str
-uc-tions can be found on []http://www.ubuntu.com/[].
+uc-tions can be found at []ubuntu.com[].
  []
 
-[149
-
-
-
-
-
-] [150]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [151]
-[152] [153] [154]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 409.
+[147]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+ [148] [149]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 226.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 409.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 226.
 
-[155]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 471.
- [156] [157]
+[150] [151] [152] [153] [154] [155]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 531.
- [158] [159]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 520.
+ [156] [157] [158] [159] [160]) [161]
+[162
 
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 762.
-
-[160] [161]
-Overfull \hbox (89.6864pt too wide) in paragraph at lines 836--874
-[][]\OT1/ptm/m/n/12 Alan Mc-Gaughey[], []Jon Malen[], []Ju-lian Gale[] [](GULP 
-au-thor)[], []Keivan Es-far-jani[], nor-mand.mousseau@umontreal.ca,
- []
-
-
-Overfull \hbox (6.50656pt too wide) in paragraph at lines 836--874
-\OT1/ptm/m/n/12 guido.raos@polimi.it, []Joseph Feld-man[], []Junchiro Sh-iomi[]
-, []Da-vide Dona-dio[], []Craig Mal-oney[], []Jivtesh
- []
-
-) [162] (./cmuthesis_jlarkin.bbl (./cmuthesis_jlarkin.brf)
-\tf@brf=\write7
-\openout7 = `cmuthesis_jlarkin.brf'.
+] (./cmuthesis_jlarkin.bbl (./cmuthesis_jlarkin.brf)
+\tf@brf=\write8
+\openout8 = `cmuthesis_jlarkin.brf'.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -2513,19 +2265,12 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [163
-
 
 ]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [164]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -2533,9 +2278,6 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [165]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -2547,9 +2289,7 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [166]
+[166]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
@@ -2567,15 +2307,6 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 258.
 Missing character: There is no Å in font ptmr7t!
 Missing character: There is no „ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [167]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -2589,19 +2320,13 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
  [168]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [169]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -2609,27 +2334,6 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [170]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -2637,10 +2341,32 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
  [171]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [172]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2653,16 +2379,13 @@ Underfull \hbox (badness 1389) in paragraph at lines 539--539
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+[173]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [172]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2677,48 +2400,40 @@ Underfull \hbox (badness 1097) in paragraph at lines 617--617
  Jrg Behler, and Marco
  []
 
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [173]
+[174]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [174]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [175]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [176]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
 Underfull \hbox (badness 2005) in paragraph at lines 763--763
 []\OT1/ptm/m/n/12 Bo Qiu, Hua Bao, Gengqiang Zhang, Yue Wub, and Xi-ulin Ruan. 
  Molec-u-
@@ -2733,6 +2448,7 @@ Underfull \hbox (badness 1400) in paragraph at lines 763--763
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+[177]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2742,10 +2458,6 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [176]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2755,6 +2467,7 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+ [178]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2793,10 +2506,6 @@ kslashtextbackslashtextbackslashrule0.3em0ex\OMS/cmsy/m/n/12 n\OT1/ptm/m/n/12 t
 extbackslashtextbackslashtextbackslashmathrmK$.
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [177]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2809,16 +2518,7 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [178]
+[179]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2828,52 +2528,13 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [179]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [180]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [181]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -2884,26 +2545,57 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [182]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
-Missing character: There is no ” in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
  [183]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [184]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+ [185]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2927,10 +2619,7 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [184]
+ [186]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -2952,92 +2641,74 @@ Underfull \hbox (badness 1661) in paragraph at lines 1304--1304
 maso Nicol-ini, Ste-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [185]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [186])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
-
 [187]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [188]) AED: lastpage setting LastPage [189]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 676.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 676.
  (./cmuthesis_jlarkin.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 676.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 676.
 Package rerunfilecheck Info: File `cmuthesis_jlarkin.out' has not changed.
-(rerunfilecheck)             Checksum: 08EB89018B0F5B8F1E1045C1CB0FE9CC;9747.
-
-
-Package rerunfilecheck Warning: File `cmuthesis_jlarkin.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `cmuthesis_jlarkin.brf':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  EDD21F034C90B09224A43F4746C4D1B2;81792.
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 65A007130A46BF01B6E692ECCF51086A;8741.
+Package rerunfilecheck Info: File `cmuthesis_jlarkin.brf' has not changed.
+(rerunfilecheck)             Checksum: 44FB111E19B95F32ED9FDEBA61FAAB13;84090.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 590.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 676.
  )
 (\end occurred when \ifcase on line 111 was incomplete)
 (\end occurred when \ifx on line 111 was incomplete)
 (\end occurred when \ifx on line 111 was incomplete) 
 Here is how much of TeX's memory you used:
- 12158 strings out of 495059
- 201090 string characters out of 3182030
- 420173 words of memory out of 3000000
- 14277 multiletter control sequences out of 15000+200000
+ 12330 strings out of 495059
+ 204215 string characters out of 3182030
+ 453052 words of memory out of 3000000
+ 14414 multiletter control sequences out of 15000+200000
  44419 words of font info for 114 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,27n,97p,1407b,1702s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name
-{UNDEFINED} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cmuthesis_jlarkin.pdf (217 pages, 12638002 bytes).
+{/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on cmuthesis_jlarkin.pdf (219 pages, 13250793 bytes).
 PDF statistics:
- 5024 PDF objects out of 5155 (max. 8388607)
- 4522 compressed objects within 46 object streams
- 795 named destinations out of 1000 (max. 500000)
- 1101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6285 PDF objects out of 7423 (max. 8388607)
+ 5744 compressed objects within 58 object streams
+ 813 named destinations out of 1000 (max. 500000)
+ 1070 words of extra memory for PDF output out of 10000 (max. 10000000)
 

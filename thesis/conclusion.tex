@@ -2,6 +2,26 @@
 \chapter{\label{Conclusion}Conclusion}
 %--------------------------------------------------------------------------
 
+The vision for the remainder of this thesis is to incorporate 
+as much linked information as necessary, wherever possible. 
+The content contained on the Internet it is growing at an 
+\href{http://www.huffingtonpost.com/brett-king/too-much-content-a-world-_b_809677.html}
+{exponential pace}. 
+Despite such a rapid rate of progress, the accuracy and quality of 
+the content has managed to remain high on resources such as 
+\href{http://en.wikipedia.org/wiki/Reliability_of_Wikipedia}{Wikipedia} and 
+\href{http://en.wikipedia.org/wiki/Google_Scholar}{Google Scholar}. 
+This content is typically 
+\href{http://en.wikipedia.org/wiki/Internet_censorship_in_the_People's_Republic_of_China}
+{available to anyone}, 
+\href{http://en.wikipedia.org/wiki/Global_Internet_usage}{anywhere on the planet}, 
+making the Internet the ideal platform to present and exchange research. 
+From this point on, hyperlinks to external references and documents will be 
+used with the 
+\href{http://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{Latex/hyperlinks} 
+package. Printed versions of this document will not contain these 
+hyperlinks, so please refer to the digital version whenever possible. 
+
 %--------------------------------------------------------------------------
 \section{\label{Overview}Overview and Contributions}
 %--------------------------------------------------------------------------
@@ -355,6 +375,7 @@ One key advantage of LUC materials is that they are still ordered
 from the standpoint of electrons, which results in good thermoelectric 
 performance 
 \cite{he_thermoelectric_2006,yang_effect_2006,wang_thermoelectric_2007}. 
+\nomenclature[A]{LUC}{large unit cell}
 
 Some LUC materials, such as SiO$_2$-based zeolites, have been 
 well-studied \cite{mcgaughey_thermal_2004}. 
@@ -366,10 +387,12 @@ While experimental measurements of PCBM demonstrates that propagating
 modes contribute negligibly, the mechanisms for 
 its exceptionally-low conductivity are still not understood. Modeling 
 could provide the necessary insights. 
+\nomenclature[A]{PCBM}{Phenyl-C61-butyric acid methyl ester}
 
 From a modeling perspective, LUC materials pose a number of challenges,
 theoretically and computationally, as compared to small unit cell 
 (SUC) materials:
+\nomenclature[A]{SUC}{small unit cell}
 
 \begin{itemize}
 \item Predicting model-level properties  
@@ -457,8 +480,7 @@ Exact Normal Modes}
 The NMD method used throughout this work is limited by its computational 
 demands, which require a larger number ($\sim$ 100) of parallel processors 
 to perform the analysis in a reasonable amount of time 
-(less than 24 hours).  
-%, see Appendix \ref{A:coding_lang:Execute:Scaling}). 
+(less than 24 hours, see Appendix \ref{A:coding_lang:Execute:Scaling}). 
 While the NMD method is trivially-parallelizable over the normal 
 modes, the eigenvalue solution of the normal modes themselves 
 is more computationally demanding. 

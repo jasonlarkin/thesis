@@ -43,7 +43,9 @@ Klemens \cite{klemens_scattering_1955},
 and Slack \cite{slack_thermal_1979}. Their theory derived and/or 
 postulated analytical models for the phonon dispersion and lifetimes 
 (typically based on low-frequency limits) to be used in a solution 
-of the BTE for predicting thermal conductivity. By fitting the
+of the Boltzmann transport equation (BTE) for predicting thermal conductivity. 
+\nomenclature[A]{BTE}{Boltzmann transport equation}
+By fitting the
 BTE solution to experimental bulk thermal conductivity data, expressions 
 for the lifetimes are obtained. While good fits to the experimental 
 data can be found, this agreement may be due to the numerous fitting 
@@ -51,8 +53,10 @@ parameters and not due to the correctness of the phonon lifetime models
 \cite{chung_role_2004}. 
 Atomistic techniques, which can predict the properties of individual phonon
 modes without any assumptions about the dispersion or scattering, 
-are thus required. Newly-developed computational methods based on density 
-functional theory (DFT) calcualtions can make experimentally-accurate 
+are thus required. Newly-developed computational methods based on 
+density functional theory (DFT) 
+\nomenclature[A]{DFT}{Density Functional Theory}
+calcualtions can make experimentally-accurate 
 predcitions of the phonon properties and thermal conductivity of bulk 
 crystals, whose structures are based on a unit cell with a small number of 
 atoms \cite{broido_intrinsic_2007,ward_ab_2009,ward_intrinsic_2010,
@@ -172,7 +176,8 @@ spectrum \cite{allen_thermal_1993,allen_diffusons_1999}.
 The spectrum of vibrons is depcited in Fig. 
 \ref{F:allen_diffuson_1999_fig1} for a model of amorphous silicon
 \cite{allen_diffusons_1999}. The propagons exist at low frequencies below 
-the Ioffe-Regel (IR) limit \cite{taraskin_determination_1999}, 
+the Ioffe-Regel (IR) limit \cite{taraskin_determination_1999},
+\nomenclature[A]{IR}{Ioffe-Regel}
 which is the proposed transition between 
 propagating and non-propagating modes. The IR limit is discussed in 
 Sections \ref{S:Phonon Lifetimes} and \ref{S:Life}. 
@@ -256,18 +261,16 @@ System-level Prediction}
 
 There are several atomistic methods for predicting the thermal 
 conductivity at the system level. The molecular dynamics (MD)-based 
-\href{http://lammps.sandia.gov/doc/fix_thermal_conductivity.html}
-{direct method} predicts the thermal conductivity by a direct 
+direct method predicts the thermal conductivity by a direct 
 application of the 
-\href{http://en.wikipedia.org/wiki/Thermal_conduction#Fourier.27s_law}
-{Fourier law} for heat conduction 
+Fourier law for heat conduction 
 \cite{skye_thermal_2008,landry_complex_2008,
 landry_effect_2009,landry_thermal_2009,
 turney_predicting_2009,thomas_thermal_2010}. 
 While the direct method 
 is conceptually simple, it can be difficult to account for finite-size 
-effects. The 
-\href{http://lammps.sandia.gov/doc/compute_heat_flux.html}{Green-Kubo}
+effects. The Green-Kubo (GK) 
+\nomenclature[A]{GK}{Green-Kubo}
 method can predict the thermal conductivity from equilibrium MD 
 simulations. These equilibrium simulations are often simpler 
 to setup and account for finite-size effects 
@@ -313,6 +316,7 @@ between predictions for alloys in Chapter \ref{chapter:vc}
 and amorphous materials in Chapter \ref{chapter:mfp}. 
 
 The Callaway-Holland (CH) theory, which is based on the work of 
+\nomenclature[A]{CH}{Callaway-Holland}
 Callaway \cite{callaway_model_1959}, Holland \cite{holland_analysis_1963},
 Klemens \cite{klemens_scattering_1955}, 
 and Slack \cite{slack_thermal_1979}, uses analytical models for phonon 
@@ -325,6 +329,7 @@ are.\cite{chung_role_2004}
 There are several methods that can predict the mode-level vibrational 
 properties. 
 Anharmonic lattice dynamics (ALD) calculations 
+\nomenclature[A]{ALD}{anharmonic lattice dynamics}
 \cite{turney_predicting_2009,esfarjani_heat_2011}, 
 based on perturbation theory 
 \cite{maradudin_dynamical_1974,srivastava_physics_1990},
@@ -377,6 +382,7 @@ performed on a large number of atoms, up to $10^5-10^6$
 \cite{he_heat_2011,he_thermal_2011,he_morphology_2011,
 he_lattice_2012}. 
 The Allen-Feldman (AF) theory computes 
+\nomenclature[A]{AF}{Allen-Feldman}
 the contribution of diffusons 
 to thermal conductivity from large disordered supercells 
 \cite{allen_thermal_1993}. 
@@ -397,6 +403,7 @@ small for disordered solids such as amorphous silicon
 \cite{feldman_thermal_1993}.
 
 The normal mode decomposition (NMD) method can be used to predict the 
+\nomenclature[A]{NMD}{normal mode decomposition}
 lifetime of all vibrons from MD simulations 
 \cite{bickham_calculation_1998,
 bickham_numerical_1999,fabian_numerical_2003,
@@ -509,12 +516,16 @@ In most cases, the
 computational cost of a method is known $\emph{a priori}$ and should 
 be considered before any analysis is performed. The computational 
 costs for these methods can be represented by the total number of 
-atoms, $N_a$, that are being simulated. For ordered and disordered 
+atoms, $N_a$, that are being simulated. 
+\nomenclature[V]{$N_a$}{total number of atoms}
+For ordered and disordered 
 systems, the total 
 number of atoms can be related to the number of atoms in the unit 
 cell, $n$, and the 
+\nomenclature[V]{$n$}{number of atoms in the unit cell}
 number of unit cells, $N$ ($N$ = 1 for a disordered system), 
 which gives $N_a = N n$ (see Section \ref{Subsection_Comp_Details_1}).
+\nomenclature[V]{$N$}{number of unit cells}
 
 One of the goals 
 of this work is to thoroughly asses the predictive 
@@ -539,8 +550,8 @@ eigenvalue solution of the dynamical matrix
 (see Sections \ref{S:VC Gamma DOS} and \ref{S:Simulation}), which scales 
 poorly in both CPU and memory costs. 
 For ALD, $N_a$ determines the resolution of the 
-\href{https://en.wikipedia.org/wiki/Brillouin_zone}
-{Brillouin zone} sampling (see Section \ref{Subsection_Comp_Details_1} 
+Brillouin zone (BZ) sampling (see Section \ref{Subsection_Comp_Details_1} 
+\nomenclature[A]{BZ}{Brillouin zone}
 and Ref. \citenum{turney_predicting_2009-1}). Some systems (such as 
 the silicon alloys studied in Section \ref{S:SW}) 
 require a fine sampling 
@@ -548,7 +559,9 @@ of the BZ, which increases the ALD computational costs. Using large
 systems can be avoided by following the extrapolation procedure 
 which is discussed in Appendix \ref{Appendix_A:Finite}.
 Efficient MD 
-codes like LAMMPS scale linearly with the number of atoms in 
+codes like LAMMPS
+\nomenclature[A]{LAMMPS}{Large-scale Atomic/Molecular Massively Parallel Simulator}
+scale linearly with the number of atoms in 
 the system which makes the GK method (see Section 
 \ref{S:Thermal Conductivity}) 
 computationally-inexpensive.
@@ -561,7 +574,8 @@ coefficients of the computational
 scalings. For example, to perform NMD on a system 
 of 6912 atoms in less 
 than 24 hours may take 100 central processing 
-units (CPUs).  
+units (CPUs).
+\nomenclature[A]{CPU}{central processing unit}
 %(see Appendix \ref{A:unitcell}). 
 The same number of 
 CPUs are required 

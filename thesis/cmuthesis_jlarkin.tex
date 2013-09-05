@@ -1,6 +1,7 @@
 %for a more compact document, add the option openany to avoid
 %starting all chapters on odd numbered pages
 % compile with: pdflatex -shell-escape cmuthesis_jlarkin.tex
+% makeindex cmuthesis_jlarkin.glo -s nomencl.ist -o cmuthesis_jlarkin.gls
 % unstructions from: 
 % http://macosx-tex.576846.n2.nabble.com/epstopdf-problem-restricted-mode-td6008485.html
 %--------------------------------------------------------------------------
@@ -8,6 +9,26 @@
 %\usepackage{doublespacing}
 \usepackage{setspace}
 \setcounter{secnumdepth}{3}\setcounter{tocdepth}{3}
+\usepackage[prefix]{nomencl}
+%\makenomenclature
+\makeglossary
+
+\RequirePackage{ifthen}
+\renewcommand{\nomgroup}[1]{%
+\ifthenelse{\equal{#1}{C}}{\item[\textbf{Constants}]}{%
+\ifthenelse{\equal{#1}{V}}{\item[\textbf{Variables}]}{%
+\ifthenelse{\equal{#1}{B}}{\item[\textbf{Subscripts}]}{%
+\ifthenelse{\equal{#1}{P}}{\item[\textbf{Superscripts}]}{%
+\ifthenelse{\equal{#1}{A}}{\item[\textbf{Abbreviations}]}{%
+\ifthenelse{\equal{#1}{G}}{\item[\textbf{Greek Symbols}]}{}}}}}}}
+
+\usepackage[section]{placeins}
+
+\raggedbottom
+
+\usepackage{lastpage}
+
+
 %--------------------------------------------------------------------------
 % This is a template for a CMU thesis.  It is 18 pages without any content :-)
 % The source for this is pulled from a variety of sources and people.
@@ -61,6 +82,8 @@ pdfborder=0 0 0,  %removes outlines around hyper links in online display
 \usepackage{color}
 \usepackage{xcolor}
 \usepackage{listings}
+\lstdefinestyle{tt}
+{basicstyle=\footnotesize,keywordstyle=\bfseries,language=bash}
 \lstset{ %
 language=bash,                % choose the language of the code
 basicstyle=\footnotesize,       % the size of the fonts that are used for the code
@@ -79,6 +102,15 @@ breaklines=true,        % sets automatic line breaking
 breakatwhitespace=false,    % sets if automatic breaks should only happen at whitespace
 escapeinside={\%*}{*)}          % if you want to add a comment within your code
 }
+
+% \usepackage[ascii]{inputenc}
+% \usepackage[T1]{fontenc}
+% \usepackage[english]{babel}
+% \usepackage{amsmath}
+% \usepackage{amssymb,amsfonts,textcomp}
+% \usepackage{color}
+% \usepackage{array}
+% \usepackage{hhline}
 
 
 % Save LaTeX kernel version of \@xfloat
@@ -342,43 +374,64 @@ hmarginratio=1:1]{geometry}
 %\draftstamp{\today}%{DRAFT}
 
 %need to have doublespace:
-% http://www.cit.cmu.edu/current_students/graduates/
-% thesis_dissertation_policies.html
+% http://www.cit.cmu.edu/current_students/graduates/thesis_dissertation_policies.html
 %
 % http://albertskblog.blogspot.com/2007/11/
 % to-doublespace-latex-document-you.html
+
+\makeatletter
+\let\ps@empty\ps@plain
+\makeatother
+
 \doublespacing
 \begin{document} 
+
+\pagestyle{plain} % for toc, was empty
+\setcounter{page}{1}
+
+%\input{/home/jason/thesis/thesis/signature}
+
 \frontmatter
 
 \clearpage
 
 %initialize page style, so contents come out right (see bot) -mjz
-\pagestyle{empty}
+%\pagestyle{empty}
 
 
 \title{ %% {\it \huge Thesis Proposal}\\
-{\bf Vibrational mode properties of disordered solids from 
-high-performance atomistic simulations and calculations}}
+{\bf Vibrational Mode Properties of Disordered Solids from 
+High-Performance Atomistic Simulations and Calculations}}
 \author{Jason M. Larkin}
-\date{August 2013}
+\date{
+August 2013}
 \Year{2013}
 \trnumber{}
 %B) Title Page – see Section 4
 
+% B.S., Mechanical Engineering, University of Pittsburgh \\
+% M.S., Mechanical Engineering, University of Pittsburgh
 
 \committee{
 \href{http://www.cmu.edu/me/people/alan-j-h-mcgaughey.html}
-{Alan J. H. McGaughey, Chair} \\
+{Alan J. H. McGaughey (Chair)}, Mechanical Engineering \\
 \href{http://www.cmu.edu/me/people/jonathan-a-malen.html}
-{Jonathan A. Malen} \\
+{Jonathan A. Malen}, Mechanical Engineering \\
 \href{http://www.ce.cmu.edu/people/faculty/maloney.html}
-{Craig Maloney} \\
+{Craig E. Maloney}, Civil and Environmental Engineering \\
 \href{http://www.cmu.edu/physics/people/faculty/widom.html}
-{Michael Widom}
+{Michael Widom}, Physics
 }
 
-\disclaimer{}
+% \topskip20pt
+% \vspace*{\fill}
+\permission{}
+% \vspace*{\fill}
+
+\maketitle
+
+%\clearpage
+
 %C) Copyright Notice – should follow the title page, on a separate page, 
 % if statutory copyright in the dissertation has been or is to be claimed
 
@@ -387,45 +440,39 @@ high-performance atomistic simulations and calculations}}
 % copyright notice generated automatically from Year and author.
 % permission added if \permission{} given.
 
-\keywords{Phonons, disorder, thermal, transport, nanoscale, atomistic}
+%\keywords{Phonons, disorder, thermal, transport, nanoscale, atomistic}
 
-\maketitle
 
-\begin{dedication}
+
+%\begin{dedication}
 %For my mom...
-\end{dedication}
+%\end{dedication}
 
-\pagestyle{plain} % for toc, was empty
+
 
 %% Obviously, it's probably a good idea to break the various sections of 
 % your thesis
 %% into different files and input them into this file...
 
-\begin{acknowledgments}
-I would like to thank 
-\href{http://www.ices.cmu.edu/home.asp}{ICES} 
-for financial assistance through the 
-\href{http://www.ices.cmu.edu/northrop-grumman.asp}
-{Northrop-Grumman fellowship} during the 2011-2012 year. 
-I would like to thank the Carnegie Mellon 
-\href{http://www.cmu.edu/stugov/gsa/}{Graduate Student Assembly} and the 
-\href{http://www.cmu.edu/graduate/professional-development/conference-funding/}
-{conference travel fund} for funding during the 2012 year.
-
-This work was supported by AFOSR award FA95501010098 and by a grant 
-of computer time from the DOD 
-High Performance Computing Modernization Program at the US Army Engineer 
-Research and Development Center. 
-
-For technical advice and discussion, I would like to thank  
-Davide Donadio, Joseph Feldman, Jivtesh Garg, Asad Hasan, 
-Ankit Jain, Jonathan Malen, Craig Maloney, Normand Mousseau,  
-Keith Regner, John A. Thomas, Zhiting Tian, and Michael Widom. 
-\end{acknowledgments}
-
 %\clearpage
 
+%\addcontentsline{toc}{chapter}{}
 \begin{abstract}
+% \begin{abstract}
+% \phantomsection
+
+\begin{center}
+{\bf Vibrational Mode Properties of Disordered Solids from 
+High-Performance Atomistic Simulations and Calculations}
+
+by
+
+Jason Michael Larkin
+\end{center}
+
+Chair: Alan McGaughey
+
+
 The vibrational mode properties of crystalline, alloyed, and amorphous
 materials are predicted using methods based in molecular dynamics
 simulations and lattice dynamics calculations. The mode properties allow for
@@ -460,22 +507,64 @@ The results provide a theoretical and computational framework for the study
 of emerging disordered and nanostructured materials.
 \end{abstract}
 
+%\addcontentsline{toc}{section}{}
+
+\begin{acknowledgments}
+% \phantomsection
+% \addcontentsline{toc}{section}{Acknowledgments}
+
+I would like to thank 
+\href{http://www.ices.cmu.edu/home.asp}{ICES} 
+for financial assistance through the 
+\href{http://www.ices.cmu.edu/northrop-grumman.asp}
+{Northrop-Grumman fellowship} during the 2011-2012 year. 
+I would like to thank the Carnegie Mellon 
+\href{http://www.cmu.edu/stugov/gsa/}{Graduate Student Assembly} and the 
+\href{http://www.cmu.edu/graduate/professional-development/conference-funding/}
+{conference travel fund} for funding during the 2012 year.
+
+This work was supported by AFOSR award FA95501010098 and by a grant 
+of computer time from the DOD 
+High Performance Computing Modernization Program at the US Army Engineer 
+Research and Development Center. 
+
+For technical advice and discussion, I would like to thank  
+Davide Donadio, Joseph Feldman, Jivtesh Garg, Asad Hasan, 
+Ankit Jain, Jonathan Malen, Craig Maloney, Normand Mousseau,  
+Keith Regner, John A. Thomas, Zhiting Tian, and Michael Widom. 
+
+And special thanks to all my girls: Jodi, Charlotte, Fiona, 
+Jamie, and especially my mom...
+\end{acknowledgments}
+%\cleardoublepage
+%\phantomsection
+
 %\cfoot{\hyperlink{contents}{TOC}}% links the TOC at the center of the page footer
 
-\cleardoublepage
-\phantomsection
-\hypertarget{contents}{}
+
+
+
+
+% \hypertarget{contents}{}
+% \addcontentsline{toc}{section}{Table of Contents}
+\clearpage
 \tableofcontents
-\hyperlink{contents}{Contents}
+% \hyperlink{contents}{Contents}
 %F) Table of Contents – with page references
 %--------------------------------------------------------------------------
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
 %G) List of Tables – with titles and page references
+\clearpage
+% \phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
 %H) List of Figures and Illustrations – with titles and page references.
 %--------------------------------------------------------------------------
-\clearpage
-
+%\clearpage
+\phantomsection
 \input{nomenclature}
 
 %--------------------------------------------------------------------------
@@ -565,17 +654,14 @@ of emerging disordered and nanostructured materials.
 
 %F) Table of Contents – with page references
 % %--------------------------------------------------------------------------
-% \listoffigures
+%\listoffigures
 % %G) List of Tables – with titles and page references
-% \listoftables
+%\listoftables
 % %H) List of Figures and Illustrations – with titles and page references.
 % %--------------------------------------------------------------------------
 
 
 \backmatter
-
-
-
 
 %\renewcommand{\baselinestretch}{1.0}\normalsize
 
